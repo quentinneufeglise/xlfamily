@@ -1,0 +1,110 @@
+/*=== PLACEHOLDERS FROM THE PREVIOUS WEBSITE. TO BE REVISED AND ORGANIZED===*/
+
+%big-header_light-font {
+  font-family: $raleway;
+  color: $primary-color_white;
+  font-weight: $font-light;
+  font-size: $font-ultra_big;
+
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  display: block;
+}
+
+%big-header_bold-font {
+  font-family: $raleway;
+  color: $primary-color_white;
+  font-weight: $font-ultra_bold;
+  font-size: $font-ultra_big;
+
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  display: block;
+}
+
+%basic-header_light-font {
+  font-family: $raleway;
+  color: $primary-color_white;
+  font-weight: $font-light;
+  font-size: $font-extra_big;
+
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  display: block;
+}
+
+%basic-header_bold-font {
+  font-family: $raleway;
+  color: $primary-color_white;
+  font-weight: $font-ultra_bold;
+  font-size: $font-bigger;
+
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  display: block;
+}
+
+%small-basic-header_light-font {
+  font-family: $raleway;
+  color: $primary-color_white;
+  font-weight: $font-light;
+  font-size: $font-semi_big;
+
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  display: block;
+}
+
+%small-basic-header_bold-font {
+  font-family: $raleway;
+  color: $primary-color_white;
+  font-weight: $font-bold;
+  font-size: $font-semi_big;
+
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  display: block;
+}
+
+%medium-basic-header_bold-font {
+  font-family: $raleway;
+  color: $primary-color_white;
+  font-weight: $font-bold;
+  font-size: $font-big;
+
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  display: block;
+}
+%product-page-main-header {
+  width: 100%;
+  position: relative;
+}
