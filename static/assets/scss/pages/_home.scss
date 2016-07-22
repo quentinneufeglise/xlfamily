@@ -1,0 +1,49 @@
+/*===CLIENT-NEEDS-OVERVIEW===*/
+
+
+
+/*===CASES-AND-STORIES===*/
+
+.story_horizontal {
+  position: relative;
+  display: block;
+  padding-bottom: 0;
+
+}
+
+.story_vertical {
+  position: relative;
+  display: block;
+  padding-bottom: 0;
+
+}
+
+.story_horizontal-content {
+  min-height: 200px;
+  max-height: 200px;
+  background: lightblue;
+  position: relative;
+  display: block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+.story_vertical-content {
+  background: lightgreen;
+  min-height: 440px;
+  max-height: 440px;
+  position: relative;
+  display: block;
+  padding-bottom: 0;
+}
+
+.special-top_margin {
+  margin-top: -220px;
+
+
+}
+
+.story-content {
+
+}
