@@ -31,64 +31,174 @@
 </head>
 <body>
 
+<style>
+    .story_horizontal {
+        position: relative;
+        display: block;
+        padding-bottom: 0;
+
+    }
+
+    .story_vertical {
+        position: relative;
+        display: block;
+        padding-bottom: 0;
+
+    }
+
+    .story_horizontal-content {
+        min-height: 200px;
+        max-height: 200px;
+        background: lightblue;
+        position: relative;
+        display: block;
+        margin-bottom: 0;
+        padding-bottom: 0;
+
+    }
+
+    .story_vertical-content {
+        background: lightgreen;
+        min-height: 440px;
+        max-height: 440px;
+        position: relative;
+        display: block;
+        padding-bottom: 0;
+    }
+
+    .special-top_margin {
+        margin-top: -220px;
+
+
+    }
+
+    .story-content {
+
+    }
+</style>
+
 <!----------- HEADER -------------->
-
-<section id="optin">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-sm-8">
-                <p class="lead"><strong>Subscribe to our mailing list.</strong> We'll send something special as a thank you.</p>
-
-            </div><!----col-sm-8-->
-            <div class="col-sm-4">
-                <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
-                    Click here to subscribe
-                </button>
-            </div><!----col-sm-4-->
-
-
-        </div><!---row--->
-    </div><!---container--->
-</section><!--optin--->
-
-
+<header>
 
     <!----------- NAVBAR -------------->
+    <nav>
 
+    </nav>
 
+</header>
 
-<!----------- HERO -------------->
+<main>
 
+<!----------- HERO-VIDEO-------------->
 
+    <section id="hero-video" class="container-fluid">
+
+    </section><!----hero-video----->
 
 <!-------- CLIENT NEEDS OVERVIEW --------->
 
+    <section id="needs-overview" class="container-fluid">
+
+    </section><!----needs-overview----->
 
 
 <!----- CASES AND STORIES ------>
+
+    <section id="cases-stories" class="container-fluid" style="margin-top: 6.250rem;">
+
+        <div class="row">
+
+            <div class="col-sm-8 story_horizontal">
+
+                <div class="story_horizontal-content">
+                    <div class="story-content">
+                        <span>#story</span>
+                        <h3>Dit is de titel van een storie</h3>
+                    </div><!---story-content--->
+                </div><!----story_horizontal-content---->
+
+            </div><!----col--story_horizontal----->
+
+            <div class="col-sm-4 story_vertical">
+
+                <div class="story_vertical-content">
+                    <div class="story-content">
+                        <span>#story</span>
+                        <h3>Dit is de titel van een storie</h3>
+                    </div><!---story-content--->
+                </div><!----story_vertical-content---->
+
+            </div><!----col--story_vertical----->
+
+            <div class="col-sm-4 story_vertical special-top_margin">
+
+                <div class="story_vertical-content">
+                    <div class="story-content">
+                        <span>#story</span>
+                        <h3>Dit is de titel van een storie</h3>
+                    </div><!---story-content--->
+                </div><!----story_vertical-content---->
+
+            </div><!----col--story_vertical--special-top_margin--->
+
+            <div class="col-sm-4 story_horizontal special-top_margin">
+
+                <div class="story_horizontal-content">
+                    <div class="story-content">
+                        <span>#story</span>
+                        <h3>Dit is de titel van een storie</h3>
+                    </div><!---story-content--->
+                </div><!----story_horizontal-content---->
+
+            </div><!----col--story_horizontal--special-top_margin--->
+
+            <div class="col-sm-8 story_horizontal">
+
+                <div class="story_horizontal-content">
+                    <div class="story-content">
+                        <span>#story</span>
+                        <h3>Dit is de titel van een storie</h3>
+                    </div><!---story-content--->
+                </div><!----story_horizontal-content---->
+
+            </div><!----col--story_horizontal----->
+
+        </div><!---row---->
+
+    </section><!-----cases-stories----->
+
 
 
 
 <!------- WHAT WE ALSO DO -------->
 
+    <section id="we-also-do" class="container-fluid">
 
+    </section><!-----we-also-do----->
 
 <!------- CLIENTS -------->
+    <section id="clients" class="container-fluid">
 
+    </section><!----clients---->
 
 
 <!------- EXPERT -------->
 
+    <section id="expert" class="container-fluid">
+
+    </section><!----expert---->
 
 
+</main>
 <!----------- FOOTER -------------->
 
+<footer>
 
+
+</footer>
 
 <!----- BOOTSTRAP 3.3.6 CORE JAVASCRIPT ---->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="assets/js/jquery-3.1.0.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 
