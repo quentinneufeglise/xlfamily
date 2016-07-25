@@ -8813,23 +8813,31 @@ button.close {
 }
 /*=== Components ===*/
 /*=== PAGES ===*/
+/*=== SCSS FOR THE HOMEPAGE ===*/
+/*===HERO-VIDEO===*/
+/* line 6, ../scss/pages/_home.scss */
+#hero-video {
+  background: lightsteelblue;
+  min-height: 440px;
+}
+
 /*===CLIENT-NEEDS-OVERVIEW===*/
 /*===CASES-AND-STORIES===*/
-/* line 7, ../scss/pages/_home.scss */
+/* line 18, ../scss/pages/_home.scss */
 .story_horizontal {
   position: relative;
   display: block;
   padding-bottom: 0;
 }
 
-/* line 14, ../scss/pages/_home.scss */
+/* line 25, ../scss/pages/_home.scss */
 .story_vertical {
   position: relative;
   display: block;
   padding-bottom: 0;
 }
 
-/* line 21, ../scss/pages/_home.scss */
+/* line 32, ../scss/pages/_home.scss */
 .story_horizontal-content {
   min-height: 200px;
   max-height: 200px;
@@ -8840,7 +8848,7 @@ button.close {
   padding-bottom: 0;
 }
 
-/* line 32, ../scss/pages/_home.scss */
+/* line 43, ../scss/pages/_home.scss */
 .story_vertical-content {
   background: lightgreen;
   min-height: 440px;
@@ -8850,7 +8858,7 @@ button.close {
   padding-bottom: 0;
 }
 
-/* line 41, ../scss/pages/_home.scss */
+/* line 52, ../scss/pages/_home.scss */
 .special-top_margin {
   margin-top: -220px;
 }
