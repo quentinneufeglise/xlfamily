@@ -1,0 +1,4 @@
+web/src/main/webapp/css/
+web/src/main/webapp/node_modules
+.idea
+*.iml
