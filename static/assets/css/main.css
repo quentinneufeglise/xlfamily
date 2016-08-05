@@ -6,6 +6,11 @@ body, html {
   font-size: 16px;
 }
 
+/* line 4, ../scss/base/_config.scss */
+body {
+  overflow-x: hidden;
+}
+
 /*=== Font families ===*/
 /*=== Font weights ===*/
 /*=== Font sizes ===*/
@@ -8905,8 +8910,8 @@ button.close {
 .title_wrapper h1 {
   display: block;
   position: relative;
-  font-family: Raleway;
-  font-size: 4.1rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 5.313rem;
   color: #FFFFFF;
   letter-spacing: 0px;
   font-weight: 900;
@@ -8925,6 +8930,7 @@ button.close {
   display: block;
   left: 0;
   right: 0;
+  margin-top: -3.9px;
   margin-left: auto;
   margin-right: auto;
   -webkit-transform: rotate(90deg);
@@ -8935,7 +8941,7 @@ button.close {
   background-position: center;
 }
 
-/* line 119, ../scss/pages/_home.scss */
+/* line 120, ../scss/pages/_home.scss */
 #pijl-links {
   width: 15.125rem;
   position: absolute;
@@ -8948,7 +8954,7 @@ button.close {
   left: 0;
 }
 
-/* line 130, ../scss/pages/_home.scss */
+/* line 131, ../scss/pages/_home.scss */
 #pijl-rechts {
   width: 15.125rem;
   position: absolute;
@@ -8958,7 +8964,6 @@ button.close {
   z-index: 10;
   display: block;
   right: 0;
-  margin-right: 1px;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -8978,6 +8983,7 @@ button.close {
   display: block;
   left: 0;
   right: 0;
+  margin-bottom: -4.2px;
   margin-left: auto;
   margin-right: auto;
   -webkit-transform: rotate(270deg);
@@ -8988,63 +8994,63 @@ button.close {
   background-position: center;
 }
 
-/* line 169, ../scss/pages/_home.scss */
+/* line 170, ../scss/pages/_home.scss */
 .discover-title {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 900;
   color: black;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
 }
 
-/* line 176, ../scss/pages/_home.scss */
+/* line 177, ../scss/pages/_home.scss */
 .discover-text {
-  font-family: Raleway;
-  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.875rem;
 }
 
-/* line 181, ../scss/pages/_home.scss */
+/* line 182, ../scss/pages/_home.scss */
 .start {
-  font-size: 1.7rem;
+  font-size: 1.875rem;
   text-decoration: underline;
   color: #d02e6d;
   font-weight: 900;
   cursor: pointer;
 }
-/* line 187, ../scss/pages/_home.scss */
+/* line 188, ../scss/pages/_home.scss */
 .start:hover, .start:focus {
-  font-size: 1.7rem;
+  font-size: 1.875rem;
   text-decoration: underline;
   color: #d02e6d;
   font-weight: 900;
 }
 
-/* line 195, ../scss/pages/_home.scss */
+/* line 196, ../scss/pages/_home.scss */
 #discover1 {
   text-align: center;
 }
 
-/* line 199, ../scss/pages/_home.scss */
+/* line 200, ../scss/pages/_home.scss */
 #discover2 {
   text-align: center;
 }
 
-/* line 205, ../scss/pages/_home.scss */
+/* line 206, ../scss/pages/_home.scss */
 #discover3 {
   text-align: center;
 }
 
-/* line 209, ../scss/pages/_home.scss */
+/* line 210, ../scss/pages/_home.scss */
 #discover4 {
   text-align: center;
 }
 
 /*===CASES-AND-STORIES===*/
-/* line 216, ../scss/pages/_home.scss */
+/* line 217, ../scss/pages/_home.scss */
 .horizontal-story {
   height: 50vh;
   border: white solid 1px;
 }
-/* line 220, ../scss/pages/_home.scss */
+/* line 221, ../scss/pages/_home.scss */
 .horizontal-story .content-wrapper {
   background-color: red;
   position: absolute;
@@ -9056,12 +9062,12 @@ button.close {
   top: 0;
 }
 
-/* line 233, ../scss/pages/_home.scss */
+/* line 234, ../scss/pages/_home.scss */
 .vertical-story {
   height: 100vh;
   border: white solid 1px;
 }
-/* line 236, ../scss/pages/_home.scss */
+/* line 237, ../scss/pages/_home.scss */
 .vertical-story .content-wrapper {
   background-color: blue;
   position: absolute;
@@ -9073,73 +9079,663 @@ button.close {
   top: 0;
 }
 
-/* line 247, ../scss/pages/_home.scss */
+/* line 248, ../scss/pages/_home.scss */
 .test {
   margin-top: -50vh;
 }
 
-/* line 251, ../scss/pages/_home.scss */
+/* line 252, ../scss/pages/_home.scss */
 #story1 {
-  background-image: url("../images/xl_blog_1.png");
-  background-size: 100% 100%;
+  background: url("../images/xl_blog_1.png");
+  background-size: cover;
 }
-
-/* line 256, ../scss/pages/_home.scss */
-#story2 {
-  background-image: url("../images/etos.png");
-  background-size: 100% 100%;
+/* line 255, ../scss/pages/_home.scss */
+#story1 #story1-hover {
+  display: none;
 }
-
-/* line 261, ../scss/pages/_home.scss */
-#story3 {
-  background-image: url("../images/broshuis.jpeg");
-  background-size: 100% 100%;
-}
-/* line 264, ../scss/pages/_home.scss */
-#story3:hover #story3 {
-  background: #1abc9c;
-}
-/* line 267, ../scss/pages/_home.scss */
-#story3:hover #story3:hover #story3 img {
-  opacity: 1;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+/* line 260, ../scss/pages/_home.scss */
+#story1:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
 }
 /* line 272, ../scss/pages/_home.scss */
-#story3:hover #story3:hover #story3 img:hover figure:hover img {
-  opacity: .5;
+#story1:hover .background_gradient-wrapper1 {
+  display: none;
+}
+/* line 275, ../scss/pages/_home.scss */
+#story1:hover #story1-hover {
+  display: block;
+  margin-top: 8rem;
 }
 
-/* line 280, ../scss/pages/_home.scss */
+/* line 282, ../scss/pages/_home.scss */
+#story2 {
+  background: url("../images/etos.png");
+  background-size: cover;
+}
+/* line 285, ../scss/pages/_home.scss */
+#story2 #story2-hover {
+  display: none;
+}
+/* line 290, ../scss/pages/_home.scss */
+#story2:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+/* line 302, ../scss/pages/_home.scss */
+#story2:hover .background_gradient-wrapper2 {
+  display: none;
+}
+/* line 305, ../scss/pages/_home.scss */
+#story2:hover #story2-hover {
+  display: block;
+  margin-top: 8rem;
+}
+
+/* line 315, ../scss/pages/_home.scss */
+#story3 {
+  background: url(" ../images/broshuis.jpeg");
+  background-size: cover;
+}
+/* line 318, ../scss/pages/_home.scss */
+#story3 #story3-hover {
+  display: none;
+}
+/* line 323, ../scss/pages/_home.scss */
+#story3:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+/* line 335, ../scss/pages/_home.scss */
+#story3:hover .background_gradient-wrapper3 {
+  display: none;
+}
+/* line 338, ../scss/pages/_home.scss */
+#story3:hover #story3-hover {
+  display: block;
+  margin-top: 8rem;
+}
+
+/* line 345, ../scss/pages/_home.scss */
+#story4 {
+  background: url("../images/xl_blog_2.png");
+  background-size: cover;
+}
+/* line 348, ../scss/pages/_home.scss */
+#story4 #story4-hover {
+  display: none;
+}
+/* line 353, ../scss/pages/_home.scss */
+#story4:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+/* line 365, ../scss/pages/_home.scss */
+#story4:hover .background_gradient-wrapper4 {
+  display: none;
+}
+/* line 368, ../scss/pages/_home.scss */
+#story4:hover #story4-hover {
+  display: block;
+  margin-top: 8rem;
+}
+
+/* line 375, ../scss/pages/_home.scss */
+#story5 {
+  background: url("../images/xl_blog_3.png");
+  background-size: cover;
+}
+/* line 378, ../scss/pages/_home.scss */
+#story5 #story5-hover {
+  display: none;
+}
+/* line 383, ../scss/pages/_home.scss */
+#story5:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+/* line 395, ../scss/pages/_home.scss */
+#story5:hover .background_gradient-wrapper5 {
+  display: none;
+}
+/* line 398, ../scss/pages/_home.scss */
+#story5:hover #story5-hover {
+  display: block;
+  margin-top: 8rem;
+}
+
+/* line 405, ../scss/pages/_home.scss */
+.background-wrapper {
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+
+/* line 416, ../scss/pages/_home.scss */
+.background_gradient-wrapper1 {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&1+0,0+100 */
+  background: -moz-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 433, ../scss/pages/_home.scss */
+.background_gradient-wrapper2 {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&1+0,0+100 */
+  background: -moz-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 450, ../scss/pages/_home.scss */
+.background_gradient-wrapper3 {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&1+0,0+100 */
+  background: -moz-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 467, ../scss/pages/_home.scss */
+.background_gradient-wrapper4 {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&1+0,0+100 */
+  background: -moz-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 484, ../scss/pages/_home.scss */
+.background_gradient-wrapper5 {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&1+0,0+100 */
+  background: -moz-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 501, ../scss/pages/_home.scss */
 #story4 {
   background-image: url("../images/xl_blog_2.jpeg");
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
-/* line 285, ../scss/pages/_home.scss */
+/* line 506, ../scss/pages/_home.scss */
 #story5 {
   background-image: url("../images/xl_blog_3.png");
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
-/* line 290, ../scss/pages/_home.scss */
+/* line 511, ../scss/pages/_home.scss */
 .storyht {
   color: whitesmoke;
-  font-family: Raleway;
-  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.875rem;
+  display: inline;
+  z-index: 5;
 }
 
-/* line 297, ../scss/pages/_home.scss */
+/* line 520, ../scss/pages/_home.scss */
 .storytitle {
   color: whitesmoke;
-  font-family: Raleway;
-  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
   font-weight: 900;
+  display: block;
+  position: relative;
+  z-index: 5;
 }
 
-/* line 304, ../scss/pages/_home.scss */
+/* line 530, ../scss/pages/_home.scss */
 .story-text {
+  font-family: "Raleway", sans-serif;
   position: absolute;
   margin-left: 4rem;
   margin-top: 2rem;
+  display: block;
+  z-index: 500;
+}
+
+/* line 538, ../scss/pages/_home.scss */
+.hover-text {
+  font-size: 3.5rem;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+/* line 544, ../scss/pages/_home.scss */
+.hover-link {
+  font-size: 1.875rem;
+  text-decoration: underline;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
+/* line 551, ../scss/pages/_home.scss */
+.hover-link:hover {
+  font-size: 1.875rem;
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline;
+  color: white;
+  font-weight: 900;
+}
+
+/*===cases==*/
+/* line 561, ../scss/pages/_home.scss */
+#pijl-blauw-links {
+  width: 14.125rem;
+  position: absolute;
+  height: 14.125rem;
+  background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  background-position: center;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  left: 0;
+  margin-top: 80%;
+}
+
+/* line 582, ../scss/pages/_home.scss */
+#pijl-blauw-rechts {
+  width: 14.125rem;
+  position: absolute;
+  height: 14.125rem;
+  background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  background-position: center;
+  right: 0%;
+  margin-top: 80%;
+}
+
+/* line 596, ../scss/pages/_home.scss */
+.cases-wrapper {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+/* line 601, ../scss/pages/_home.scss */
+#caseht {
+  font-size: 1.875rem;
+  color: gray;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 607, ../scss/pages/_home.scss */
+#case-text {
+  font-size: 2.5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 612, ../scss/pages/_home.scss */
+#case-logo {
+  width: 4.125rem;
+  position: absolute;
+  height: 4.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/eq_logo_fc-u_100.eps") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+}
+
+/* line 625, ../scss/pages/_home.scss */
+.case-person {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: black;
+  margin-left: 2rem;
+}
+
+/* line 633, ../scss/pages/_home.scss */
+.case-person-desc {
+  font-size: 1.875rem;
+  color: gray;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 639, ../scss/pages/_home.scss */
+.case-link {
+  font-size: 1.875rem;
+  text-decoration: underline;
+  color: #00acec;
+  font-weight: 900;
+  cursor: pointer;
+}
+/* line 645, ../scss/pages/_home.scss */
+.case-link:hover, .case-link:focus {
+  font-size: 1.875rem;
+  text-decoration: underline;
+  color: #00acec;
+  font-weight: 900;
+}
+
+/* line 653, ../scss/pages/_home.scss */
+.case-link-wrapper {
+  margin-top: 12rem;
+}
+
+/*===experiments===*/
+/* line 660, ../scss/pages/_home.scss */
+#experiments {
+  margin-top: 10rem;
+}
+
+/* line 664, ../scss/pages/_home.scss */
+.vertical-experiment {
+  height: 100vh;
+  border: white solid 1px;
+}
+/* line 667, ../scss/pages/_home.scss */
+.vertical-experiment .content-wrapper {
+  background-color: blue;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+  left: 0;
+  top: 0;
+}
+
+/* line 679, ../scss/pages/_home.scss */
+#experiments1 {
+  background: url("../images/xl_lab.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 683, ../scss/pages/_home.scss */
+#experiments1 #experiments1-hover {
+  display: none;
+}
+/* line 688, ../scss/pages/_home.scss */
+#experiments1:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+/* line 700, ../scss/pages/_home.scss */
+#experiments1:hover .background_gradient-wrapper6 {
+  display: none;
+}
+/* line 703, ../scss/pages/_home.scss */
+#experiments1:hover #experiments1-hover {
+  display: block;
+  margin-top: 8rem;
+}
+
+/* line 710, ../scss/pages/_home.scss */
+#experiments2 {
+  background: url("../images/xl_ventures.png");
+  background-size: cover;
+  background-position: center;
+}
+/* line 714, ../scss/pages/_home.scss */
+#experiments2 #experiments2-hover {
+  display: none;
+}
+/* line 719, ../scss/pages/_home.scss */
+#experiments2:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+/* line 731, ../scss/pages/_home.scss */
+#experiments2:hover .background_gradient-wrapper7 {
+  display: none;
+}
+/* line 734, ../scss/pages/_home.scss */
+#experiments2:hover #experiments2-hover {
+  display: block;
+  margin-top: 8rem;
+}
+
+/* line 741, ../scss/pages/_home.scss */
+#experiments3 {
+  background: url("../images/xl_events.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 745, ../scss/pages/_home.scss */
+#experiments3 #experiments3-hover {
+  display: none;
+}
+/* line 750, ../scss/pages/_home.scss */
+#experiments3:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+/* line 762, ../scss/pages/_home.scss */
+#experiments3:hover .background_gradient-wrapper8 {
+  display: none;
+}
+/* line 765, ../scss/pages/_home.scss */
+#experiments3:hover #experiments3-hover {
+  display: block;
+  margin-top: 8rem;
+}
+
+/* line 773, ../scss/pages/_home.scss */
+.experiment-tag {
+  color: whitesmoke;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.875rem;
+}
+
+/* line 780, ../scss/pages/_home.scss */
+.experiments-title {
+  color: whitesmoke;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+/* line 787, ../scss/pages/_home.scss */
+.experiments-text {
+  position: absolute;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+/* line 793, ../scss/pages/_home.scss */
+.background_gradient-wrapper6 {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&1+0,0+100 */
+  background: -moz-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 810, ../scss/pages/_home.scss */
+.background_gradient-wrapper7 {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&1+0,0+100 */
+  background: -moz-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 827, ../scss/pages/_home.scss */
+.background_gradient-wrapper8 {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&1+0,0+100 */
+  background: -moz-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, black 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+/*===Projects===*/
+/* line 846, ../scss/pages/_home.scss */
+.project-text {
+  display: block;
+  font-size: 1.875rem;
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 852, ../scss/pages/_home.scss */
+.project-link {
+  display: block;
+  font-size: 1.875rem;
+  font-family: "Raleway", sans-serif;
+  margin-top: 1rem;
+  color: #7eb241;
+  text-decoration: underline;
+  margin-bottom: 10rem;
+}
+/* line 860, ../scss/pages/_home.scss */
+.project-link:hover {
+  display: block;
+  font-size: 1.875rem;
+  font-family: "Raleway", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+  color: #7eb241;
+  text-decoration: underline;
+}
+
+/*===Team===*/
+/* line 874, ../scss/pages/_home.scss */
+#team {
+  background: url("../images/Ben10.jpg") no-repeat;
+  background-size: 100vw;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
 }
