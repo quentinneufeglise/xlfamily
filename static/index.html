@@ -11,10 +11,14 @@
     <title>XL family | Home</title>
 
 
+
     <!--- FONT AWESOME ICONS 4.6.3-->
 
     <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!---OWL-->
 
+    <link rel="stylesheet" href="owl%20carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl%20carousel/owl-carousel/owl.theme.css">
     <!---MAIN CSS-->
     <link href="assets/css/main.css" rel="stylesheet">
 
@@ -85,6 +89,8 @@
 
             <div class="row">
                 <div class="col-xs-12">
+
+
 
                     <div class="title_wrapper">
 
@@ -303,23 +309,56 @@
     <!----------- Cases -------------->
 
     <section id="cases">
-
         <div class="container-fluid">
+
+
             <div class="row">
                 <div class="col-xs-1">
-                <span id="pijl-blauw-links"></span>
+
+                <div class="arrow-center-wrapper">
+                <a id="pijl-blauw-links" class="prev"></a>
+                </div>
+
                 </div>
                 <div class="col-xs-10">
+                <div class="owl-carousel owl-cases">
+
+                    <div class="item">
+
                     <div class="cases-wrapper">
-                        <span id="case-logo"><br></span>
-                        <span id="caseht">#innovationBootcamp<br><br></span>
-                        <p id="case-text">¨In less than a month, we figure out our new peoduct. It only took<br>us 4
+                        <span class="case-logo"><br></span>
+                        <span class="caseht">#innovationBootcamp<br><br></span>
+                        <p class="case-text">"In less than a month, we figure out our new peoduct. It only took<br>us 4
                             workshops when xl family made the right questions and push<br>us to give correct answer.
-                            Real validation process.¨</p>
+                            Real validation process."</p>
                     </div>
                 </div>
+                    <div class="item">
+
+                        <div class="cases-wrapper">
+                            <span class="case-logo"><br></span>
+                            <span class="caseht">#innovationBootcamp<br><br></span>
+                            <p class="case-text">"In less than a month, we figure out our new peoduct. It only took<br>us 4
+                                workshops when xl family made the right questions and push<br>us to give correct answer.
+                                Real validation process."</p>
+                        </div>
+                    </div>
+                    <div class="item">
+
+                        <div class="cases-wrapper">
+                            <span class="case-logo"><br></span>
+                            <span class="caseht">#innovationBootcamp<br><br></span>
+                            <p class="case-text">"In less than a month, we figure out our new peoduct. It only took<br>us 4
+                                workshops when xl family made the right questions and push<br>us to give correct answer.
+                                Real validation process."</p>
+                        </div>
+                    </div>
+</div>
+                    </div>
                 <div class="col-xs-1">
-                    <span id="pijl-blauw-rechts"></span>
+                    <div class="arrow-center-wrapper">
+                    <a id="pijl-blauw-rechts" class="next"></a>
+                        </div>
                 </div>
             </div>
             <div class="row">
@@ -336,7 +375,11 @@
             </div>
         </div>
 
+    </div>
 
+
+
+</div>
     </section>
 
 
@@ -466,7 +509,7 @@
                         <span class="project-text">Get out of<br>the building<br></span>
                         <a class="project-link" href="#">Tell me more</a>
                     </div>
-                </div>v
+                </div>
             </div>
         </div>
 
@@ -479,17 +522,43 @@
     <!----------- Team -------------->
 
     <section id="team">
-
+        <div class="background_gradient-wrapper9">
+        </div>
         <div class="container-fluid">
 
             <div class="row">
-                <div class="col-xs-12">
 
 
 
-                        <h1>We bring Future to your Business</h1>
+                <div class="col-xs-1">
+                    <div class="arrow-center-wrapper">
+                    <a id="pijl-wit-links" class="prev"></a>
+                        </div>
+                </div>
 
+                 <div class="col-xs-4">
+                     <div class="person-wrapper">
+                <h1 class="name-team">Ben van Ruyssevelt</h1>
+                 <span class="role-team">Scrum master<br></span>
 
+                     <div class="person-logo-wrapper">
+                         <span class="linkdin-logo"></span>
+                         <span class="email-logo"></span>
+                     </div>
+
+                     </div>
+                 </div>
+
+                <div class="col-xs-3">
+
+                </div>
+
+                <div class="col-xs-3">
+
+                </div>
+
+                <div class="col-xs-1">
+                    <a id="pijl-wit-rechts" class="prev"></a>
                 </div>
 
             </div>
@@ -514,13 +583,75 @@
 
     <footer>
 
+        <section id="footer">
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+
+                    <div class="col-xs-4 footer contact">
+                        <div class="contact-wrapper">
+                        <a id="update-link">keep updated with us<br></a>
+                        <span id="call">Call the family!<strong>+31 (0) 12345678</strong></span>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-xs-4 footer">
+
+                    </div>
+
+                    <div class="col-xs-4 footer">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
     </footer>
+
+
+
 
     <!----- BOOTSTRAP 3.3.6 CORE JAVASCRIPT ---->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <!---- <script src="assets/js/jquery-3.1.0.min.js"></script> ---->
     <script src="assets/js/bootstrap.min.js"></script>
+    <!---OWL-->
+    <script src="owl%20carousel/owl-carousel/owl.carousel.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            var owl = $('.owl-cases');
+
+            owl.owlCarousel({
+                navigation: false, // Show next and prev buttons
+                slideSpeed: 300,
+                pagination: false,
+                paginationSpeed: 400,
+                singleItem: true
+            });
+
+            owl.owlCarousel();
+            $(".next").click(function(){
+                owl.trigger('owl.next');
+            })
+
+            $(".prev").click(function(){
+                owl.trigger('owl.prev');
+            })
+
+        });
+
+
+    </script>
 
 
 </main>

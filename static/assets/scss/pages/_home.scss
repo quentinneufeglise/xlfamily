@@ -95,6 +95,7 @@
   }
 }
 
+
 /*===CLIENT-NEEDS-OVERVIEW===*/
 
 #pijl-boven {
@@ -598,18 +599,18 @@
   margin-top: 10rem;
 }
 
-#caseht {
+.caseht {
   font-size: $font-semi_big;
   color:gray;
   font-family: $raleway
 }
 
-#case-text {
+.case-text {
   font-size: $font-big;
   font-family: $raleway
 }
 
-#case-logo {
+.case-logo {
   width: 4.125rem;
   position: absolute;
   height: 4.125rem;
@@ -873,9 +874,140 @@
 
 #team {
   background: url('../images/Ben10.jpg') no-repeat;
-  background-size: 100vw;
+  background-size:100vw;
   background-position: center;
   height: 100vh;
-  text-align: center;
 
+  margin-top: -8rem;
+
+}
+
+
+
+
+.person-wrapper {
+  height: 100vh;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  margin-top: -6rem;
+
+
+}
+
+.name-team {
+  position: relative;
+  display: block;
+  color: white;
+  font-family: $raleway;
+  font-size: $font-bigger;
+  font-weight: 700;
+  left: 0;
+
+}
+.role-team {
+  position: relative;
+  display: block;
+  color: white;
+  font-family: $raleway;
+  font-size: $font-bigger;
+  font-weight: 400;
+  left: 0;
+  margin-top: -2rem;
+}
+
+
+.linkdin-logo {
+  width: 4.125rem;
+  height: 4.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_Linkedin.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+}
+
+
+
+.email-logo {
+  width: 4.125rem;
+  height: 4.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_email.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  margin-left: 2rem;
+}
+
+
+.person-logo-wrapper {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  text-align: left;
+}
+
+#pijl-wit-links {
+  width: 14.125rem;
+  position: absolute;
+  background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  background-position: center;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  height: 100vh;
+  left: 0;
+  margin-top: -7rem;
+;
+}
+
+
+#pijl-wit-rechts {
+  width: 14.125rem;
+  position: absolute;
+  background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  background-position: center;
+  height: 100vh;
+  right: 0;
+  margin-top: -7rem;
+;
+}
+
+.arrow-center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 16rem;
+  background: black;
+}
+
+.content-wrapper {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  text-align: left;
+}
+
+.contact {
+  text-align: center;
+}
+
+#update-link {
+  margin-left: -7rem;
 }
