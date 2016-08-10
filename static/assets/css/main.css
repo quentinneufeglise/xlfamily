@@ -8819,16 +8819,17 @@ button.close {
 /*=== Components ===*/
 /*=== PAGES ===*/
 /*=== SCSS FOR THE HOMEPAGE ===*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
 /*===NAVBAR===*/
-/* line 5, ../scss/pages/_home.scss */
+/* line 28, ../scss/pages/_home.scss */
 .navbar {
-  height: 6rem;
-  background-color: transparent;
   background: transparent;
   border-color: transparent;
 }
 
-/* line 13, ../scss/pages/_home.scss */
+/* line 34, ../scss/pages/_home.scss */
 #s-family-logo {
   width: 4.125rem;
   position: absolute;
@@ -8842,7 +8843,7 @@ button.close {
   display: block;
 }
 
-/* line 26, ../scss/pages/_home.scss */
+/* line 47, ../scss/pages/_home.scss */
 #hamburger {
   width: 4.125rem;
   position: absolute;
@@ -8857,17 +8858,36 @@ button.close {
 }
 
 /*===HERO-VIDEO===*/
-/* line 41, ../scss/pages/_home.scss */
-#hero-video {
-  background: url("../images/video.png") no-repeat;
-  background-size: 100vw;
-  background-position: center;
-  height: 100vh;
-  text-align: center;
-  margin-top: -8rem;
+@media only screen and (max-device-width: 767px) {
+  /* line 62, ../scss/pages/_home.scss */
+  #hero-video {
+    background-size: cover;
+    background: url("../images/video.png") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    margin-top: -8rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 62, ../scss/pages/_home.scss */
+  #hero-video {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/video.png") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 101vh;
+    text-align: center;
+    margin-top: -8rem;
+  }
 }
 
-/* line 50, ../scss/pages/_home.scss */
+/* line 90, ../scss/pages/_home.scss */
 #playbutton {
   width: 8.125rem;
   height: 8.125rem;
@@ -8878,11 +8898,13 @@ button.close {
   display: block;
 }
 
-/* line 60, ../scss/pages/_home.scss */
+/* line 100, ../scss/pages/_home.scss */
 .mouse-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/* line 63, ../scss/pages/_home.scss */
+/* line 106, ../scss/pages/_home.scss */
 .mouse-wrapper #mousebutton {
   width: 4.125rem;
   height: 4.125rem;
@@ -8898,35 +8920,39 @@ button.close {
   margin-right: auto;
 }
 
-/* line 79, ../scss/pages/_home.scss */
+/* line 122, ../scss/pages/_home.scss */
 .title_wrapper {
   height: 100vh;
   display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
 }
-/* line 86, ../scss/pages/_home.scss */
+/* line 134, ../scss/pages/_home.scss */
 .title_wrapper h1 {
   display: block;
   position: relative;
   font-family: "Raleway", sans-serif;
   font-size: 5.313rem;
   color: #FFFFFF;
-  letter-spacing: 0px;
   font-weight: 900;
   width: 100%;
 }
 
 /*===CLIENT-NEEDS-OVERVIEW===*/
-/* line 101, ../scss/pages/_home.scss */
+/* line 153, ../scss/pages/_home.scss */
 #pijl-boven {
   width: 15.125rem;
   position: relative;
   height: 15.125rem;
   background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
   background-size: 100% auto;
-  z-index: 10;
+  z-index: -1;
   display: block;
   left: 0;
   right: 0;
@@ -8941,7 +8967,7 @@ button.close {
   background-position: center;
 }
 
-/* line 121, ../scss/pages/_home.scss */
+/* line 173, ../scss/pages/_home.scss */
 #pijl-links {
   width: 15.125rem;
   position: absolute;
@@ -8954,7 +8980,7 @@ button.close {
   left: 0;
 }
 
-/* line 132, ../scss/pages/_home.scss */
+/* line 184, ../scss/pages/_home.scss */
 #pijl-rechts {
   width: 15.125rem;
   position: absolute;
@@ -8972,14 +8998,14 @@ button.close {
   background-position: center;
 }
 
-/* line 148, ../scss/pages/_home.scss */
+/* line 200, ../scss/pages/_home.scss */
 #pijl-onder {
   width: 15.125rem;
   position: relative;
   height: 15.125rem;
   background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
   background-size: 100% auto;
-  z-index: 10;
+  z-index: 0;
   display: block;
   left: 0;
   right: 0;
@@ -8994,7 +9020,7 @@ button.close {
   background-position: center;
 }
 
-/* line 171, ../scss/pages/_home.scss */
+/* line 223, ../scss/pages/_home.scss */
 .discover-title {
   font-size: 2.5rem;
   font-weight: 900;
@@ -9002,13 +9028,19 @@ button.close {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 178, ../scss/pages/_home.scss */
+/* line 230, ../scss/pages/_home.scss */
 .discover-text {
   font-family: "Raleway", sans-serif;
   font-size: 1.875rem;
+  width: 30rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 1px;
 }
 
-/* line 183, ../scss/pages/_home.scss */
+/* line 241, ../scss/pages/_home.scss */
 .start {
   font-size: 1.875rem;
   text-decoration: underline;
@@ -9016,7 +9048,7 @@ button.close {
   font-weight: 900;
   cursor: pointer;
 }
-/* line 189, ../scss/pages/_home.scss */
+/* line 247, ../scss/pages/_home.scss */
 .start:hover, .start:focus {
   font-size: 1.875rem;
   text-decoration: underline;
@@ -9024,35 +9056,59 @@ button.close {
   font-weight: 900;
 }
 
-/* line 197, ../scss/pages/_home.scss */
+/* line 255, ../scss/pages/_home.scss */
 #discover1 {
   text-align: center;
 }
 
-/* line 201, ../scss/pages/_home.scss */
+/* line 259, ../scss/pages/_home.scss */
 #discover2 {
   text-align: center;
 }
 
-/* line 207, ../scss/pages/_home.scss */
+/* line 265, ../scss/pages/_home.scss */
 #discover3 {
   text-align: center;
 }
 
-/* line 211, ../scss/pages/_home.scss */
+/* line 269, ../scss/pages/_home.scss */
 #discover4 {
   text-align: center;
 }
 
+@media only screen and (max-device-width: 767px) {
+  /* line 275, ../scss/pages/_home.scss */
+  .mobile-divider1 {
+    display: block;
+    left: 0;
+    right: 0;
+    width: 90%;
+    position: relative;
+    margin-top: 1rem;
+    height: 1.125rem;
+    background: url("../icons/mb_divider_client logo.png") no-repeat;
+    background-size: 100% 20%;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 275, ../scss/pages/_home.scss */
+  .mobile-divider1 {
+    display: none;
+  }
+}
+
 /*===CASES-AND-STORIES===*/
-/* line 218, ../scss/pages/_home.scss */
+/* line 308, ../scss/pages/_home.scss */
 .horizontal-story {
   height: 50vh;
   border: white solid 1px;
 }
-/* line 222, ../scss/pages/_home.scss */
+/* line 312, ../scss/pages/_home.scss */
 .horizontal-story .content-wrapper {
-  background-color: red;
   position: absolute;
   display: block;
   width: 100%;
@@ -9062,12 +9118,12 @@ button.close {
   top: 0;
 }
 
-/* line 235, ../scss/pages/_home.scss */
+/* line 327, ../scss/pages/_home.scss */
 .vertical-story {
   height: 100vh;
   border: white solid 1px;
 }
-/* line 238, ../scss/pages/_home.scss */
+/* line 330, ../scss/pages/_home.scss */
 .vertical-story .content-wrapper {
   background-color: blue;
   position: absolute;
@@ -9079,21 +9135,48 @@ button.close {
   top: 0;
 }
 
-/* line 249, ../scss/pages/_home.scss */
+/* line 341, ../scss/pages/_home.scss */
 .test {
   margin-top: -50vh;
 }
 
-/* line 253, ../scss/pages/_home.scss */
+/* line 345, ../scss/pages/_home.scss */
 #story1 {
   background: url("../images/xl_blog_1.png");
   background-size: cover;
+  background-position: center;
 }
-/* line 256, ../scss/pages/_home.scss */
+/* line 349, ../scss/pages/_home.scss */
 #story1 #story1-hover {
   display: none;
 }
-/* line 261, ../scss/pages/_home.scss */
+/* line 352, ../scss/pages/_home.scss */
+#story1 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 366, ../scss/pages/_home.scss */
+#story1:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 381, ../scss/pages/_home.scss */
 #story1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9101,28 +9184,58 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: red;
+  background: url("../images/xl_blog_1.png");
+  background-position: center;
+  background-size: cover;
+  background-position: center;
 }
-/* line 273, ../scss/pages/_home.scss */
+/* line 395, ../scss/pages/_home.scss */
 #story1:hover .background_gradient-wrapper1 {
   display: none;
 }
-/* line 276, ../scss/pages/_home.scss */
+/* line 398, ../scss/pages/_home.scss */
 #story1:hover #story1-hover {
   display: block;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
-/* line 283, ../scss/pages/_home.scss */
+/* line 405, ../scss/pages/_home.scss */
 #story2 {
   background: url("../images/etos.png");
   background-size: cover;
+  background-position: center;
 }
-/* line 286, ../scss/pages/_home.scss */
+/* line 409, ../scss/pages/_home.scss */
 #story2 #story2-hover {
   display: none;
 }
-/* line 291, ../scss/pages/_home.scss */
+/* line 412, ../scss/pages/_home.scss */
+#story2 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 426, ../scss/pages/_home.scss */
+#story2:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/etos.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 441, ../scss/pages/_home.scss */
 #story2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9130,28 +9243,57 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: red;
+  background: url("../images/etos.png");
+  background-position: center;
+  background-size: cover;
 }
-/* line 303, ../scss/pages/_home.scss */
+/* line 455, ../scss/pages/_home.scss */
 #story2:hover .background_gradient-wrapper2 {
   display: none;
 }
-/* line 306, ../scss/pages/_home.scss */
+/* line 458, ../scss/pages/_home.scss */
 #story2:hover #story2-hover {
   display: block;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
-/* line 316, ../scss/pages/_home.scss */
+/* line 468, ../scss/pages/_home.scss */
 #story3 {
-  background: url(" ../images/broshuis.jpeg");
+  background: url("../images/broshuis.jpeg");
   background-size: cover;
+  background-position: center;
 }
-/* line 319, ../scss/pages/_home.scss */
+/* line 472, ../scss/pages/_home.scss */
 #story3 #story3-hover {
   display: none;
 }
-/* line 324, ../scss/pages/_home.scss */
+/* line 475, ../scss/pages/_home.scss */
+#story3 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 489, ../scss/pages/_home.scss */
+#story3:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/broshuis.jpeg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 504, ../scss/pages/_home.scss */
 #story3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9159,28 +9301,57 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: red;
-}
-/* line 336, ../scss/pages/_home.scss */
-#story3:hover .background_gradient-wrapper3 {
-  display: none;
-}
-/* line 339, ../scss/pages/_home.scss */
-#story3:hover #story3-hover {
-  display: block;
-  margin-top: 8rem;
-}
-
-/* line 346, ../scss/pages/_home.scss */
-#story4 {
-  background: url("../images/xl_blog_2.png");
+  background: url("../images/broshuis.jpeg");
+  background-position: center;
   background-size: cover;
 }
-/* line 349, ../scss/pages/_home.scss */
+/* line 518, ../scss/pages/_home.scss */
+#story3:hover .background_gradient-wrapper3 {
+  display: block;
+}
+/* line 521, ../scss/pages/_home.scss */
+#story3:hover #story3-hover {
+  display: block;
+  margin-top: 4rem;
+}
+
+/* line 528, ../scss/pages/_home.scss */
+#story4 {
+  background: url("../images/xl_blog_2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 532, ../scss/pages/_home.scss */
 #story4 #story4-hover {
   display: none;
 }
-/* line 354, ../scss/pages/_home.scss */
+/* line 535, ../scss/pages/_home.scss */
+#story4 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 549, ../scss/pages/_home.scss */
+#story4:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/xl_blog_2.jpeg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 564, ../scss/pages/_home.scss */
 #story4:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9188,28 +9359,57 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: red;
+  background: url("../images/xl_blog_2.jpeg");
+  background-position: center;
+  background-size: cover;
 }
-/* line 366, ../scss/pages/_home.scss */
+/* line 578, ../scss/pages/_home.scss */
 #story4:hover .background_gradient-wrapper4 {
   display: none;
 }
-/* line 369, ../scss/pages/_home.scss */
+/* line 581, ../scss/pages/_home.scss */
 #story4:hover #story4-hover {
   display: block;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
-/* line 376, ../scss/pages/_home.scss */
+/* line 588, ../scss/pages/_home.scss */
 #story5 {
   background: url("../images/xl_blog_3.png");
   background-size: cover;
+  background-position: center;
 }
-/* line 379, ../scss/pages/_home.scss */
+/* line 592, ../scss/pages/_home.scss */
 #story5 #story5-hover {
   display: none;
 }
-/* line 384, ../scss/pages/_home.scss */
+/* line 595, ../scss/pages/_home.scss */
+#story5 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 609, ../scss/pages/_home.scss */
+#story5:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/xl_blog_3.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 624, ../scss/pages/_home.scss */
 #story5:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9217,19 +9417,21 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: red;
+  background: url("../images/xl_blog_3.png");
+  background-position: center;
+  background-size: cover;
 }
-/* line 396, ../scss/pages/_home.scss */
+/* line 638, ../scss/pages/_home.scss */
 #story5:hover .background_gradient-wrapper5 {
   display: none;
 }
-/* line 399, ../scss/pages/_home.scss */
+/* line 641, ../scss/pages/_home.scss */
 #story5:hover #story5-hover {
   display: block;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
-/* line 406, ../scss/pages/_home.scss */
+/* line 648, ../scss/pages/_home.scss */
 .background-wrapper {
   position: absolute;
   display: none;
@@ -9240,7 +9442,7 @@ button.close {
   background: red;
 }
 
-/* line 417, ../scss/pages/_home.scss */
+/* line 659, ../scss/pages/_home.scss */
 .background_gradient-wrapper1 {
   position: absolute;
   display: block;
@@ -9259,7 +9461,7 @@ button.close {
   /* IE6-9 */
 }
 
-/* line 434, ../scss/pages/_home.scss */
+/* line 676, ../scss/pages/_home.scss */
 .background_gradient-wrapper2 {
   position: absolute;
   display: block;
@@ -9278,11 +9480,12 @@ button.close {
   /* IE6-9 */
 }
 
-/* line 451, ../scss/pages/_home.scss */
+/* line 693, ../scss/pages/_home.scss */
 .background_gradient-wrapper3 {
   position: absolute;
   display: block;
   left: 0;
+  opacity: 0.5;
   top: 0;
   width: 100%;
   height: 100%;
@@ -9297,7 +9500,7 @@ button.close {
   /* IE6-9 */
 }
 
-/* line 468, ../scss/pages/_home.scss */
+/* line 711, ../scss/pages/_home.scss */
 .background_gradient-wrapper4 {
   position: absolute;
   display: block;
@@ -9316,7 +9519,7 @@ button.close {
   /* IE6-9 */
 }
 
-/* line 485, ../scss/pages/_home.scss */
+/* line 728, ../scss/pages/_home.scss */
 .background_gradient-wrapper5 {
   position: absolute;
   display: block;
@@ -9335,19 +9538,7 @@ button.close {
   /* IE6-9 */
 }
 
-/* line 502, ../scss/pages/_home.scss */
-#story4 {
-  background-image: url("../images/xl_blog_2.jpeg");
-  background-size: cover;
-}
-
-/* line 507, ../scss/pages/_home.scss */
-#story5 {
-  background-image: url("../images/xl_blog_3.png");
-  background-size: cover;
-}
-
-/* line 512, ../scss/pages/_home.scss */
+/* line 746, ../scss/pages/_home.scss */
 .storyht {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
@@ -9356,7 +9547,7 @@ button.close {
   z-index: 5;
 }
 
-/* line 521, ../scss/pages/_home.scss */
+/* line 755, ../scss/pages/_home.scss */
 .storytitle {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
@@ -9367,7 +9558,7 @@ button.close {
   z-index: 5;
 }
 
-/* line 531, ../scss/pages/_home.scss */
+/* line 765, ../scss/pages/_home.scss */
 .story-text {
   font-family: "Raleway", sans-serif;
   position: absolute;
@@ -9377,7 +9568,7 @@ button.close {
   z-index: 500;
 }
 
-/* line 539, ../scss/pages/_home.scss */
+/* line 773, ../scss/pages/_home.scss */
 .hover-text {
   font-size: 3.5rem;
   font-family: "Raleway", sans-serif;
@@ -9385,7 +9576,7 @@ button.close {
   cursor: pointer;
 }
 
-/* line 545, ../scss/pages/_home.scss */
+/* line 779, ../scss/pages/_home.scss */
 .hover-link {
   font-size: 1.875rem;
   text-decoration: underline;
@@ -9394,7 +9585,7 @@ button.close {
   font-weight: 900;
   cursor: pointer;
 }
-/* line 552, ../scss/pages/_home.scss */
+/* line 786, ../scss/pages/_home.scss */
 .hover-link:hover {
   font-size: 1.875rem;
   font-family: "Raleway", sans-serif;
@@ -9404,61 +9595,141 @@ button.close {
 }
 
 /*===cases==*/
-/* line 562, ../scss/pages/_home.scss */
-#pijl-blauw-links {
-  width: 14.125rem;
-  position: absolute;
-  height: 14.125rem;
-  background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
-  background-size: 100% auto;
-  cursor: pointer;
-  z-index: 10;
-  display: block;
-  background-position: center;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-  left: 0;
-  margin-top: 80%;
+/* line 796, ../scss/pages/_home.scss */
+.cases-height {
+  margin-top: 10rem;
+  margin-bottom: 18rem;
 }
 
-/* line 583, ../scss/pages/_home.scss */
-#pijl-blauw-rechts {
-  width: 14.125rem;
-  position: absolute;
-  height: 14.125rem;
-  background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
-  background-size: 100% auto;
-  cursor: pointer;
-  z-index: 10;
-  display: block;
-  background-position: center;
-  right: 0%;
-  margin-top: 80%;
+@media only screen and (max-device-width: 767px) {
+  /* line 801, ../scss/pages/_home.scss */
+  #pijl-blauw-links {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 801, ../scss/pages/_home.scss */
+  #pijl-blauw-links {
+    width: 14.125rem;
+    position: absolute;
+    height: 14.125rem;
+    background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    left: 0;
+    margin-top: 90%;
+  }
 }
 
-/* line 597, ../scss/pages/_home.scss */
+@media only screen and (max-device-width: 767px) {
+  /* line 828, ../scss/pages/_home.scss */
+  #pijl-blauw-rechts {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 828, ../scss/pages/_home.scss */
+  #pijl-blauw-rechts {
+    width: 14.125rem;
+    position: absolute;
+    height: 14.125rem;
+    background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    right: 0;
+    margin-top: 90%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 850, ../scss/pages/_home.scss */
+  .pijl-blauw-links-mb {
+    width: 8.125rem;
+    position: absolute;
+    height: 8.125rem;
+    background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    left: 0;
+    margin-top: 7rem;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 875, ../scss/pages/_home.scss */
+  .pijl-blauw-rechts-mb {
+    width: 8.125rem;
+    position: absolute;
+    height: 8.125rem;
+    background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    right: 0;
+    margin-top: 7rem;
+  }
+}
+
+/* line 896, ../scss/pages/_home.scss */
 .cases-wrapper {
   text-align: center;
   margin-top: 10rem;
 }
 
-/* line 602, ../scss/pages/_home.scss */
+/* line 901, ../scss/pages/_home.scss */
 .caseht {
   font-size: 1.875rem;
   color: gray;
   font-family: "Raleway", sans-serif;
 }
 
-/* line 608, ../scss/pages/_home.scss */
-.case-text {
-  font-size: 2.5rem;
-  font-family: "Raleway", sans-serif;
+@media only screen and (max-device-width: 767px) {
+  /* line 907, ../scss/pages/_home.scss */
+  .case-text {
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 907, ../scss/pages/_home.scss */
+  .case-text {
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
 }
 
-/* line 613, ../scss/pages/_home.scss */
+/* line 931, ../scss/pages/_home.scss */
 .case-logo {
   width: 4.125rem;
   position: absolute;
@@ -9472,55 +9743,124 @@ button.close {
   display: block;
 }
 
-/* line 626, ../scss/pages/_home.scss */
+/* line 944, ../scss/pages/_home.scss */
 .case-person {
   font-family: "Raleway", sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
   color: black;
-  margin-left: 2rem;
 }
 
-/* line 634, ../scss/pages/_home.scss */
+/* line 952, ../scss/pages/_home.scss */
+.person-picture1 {
+  width: 4.525rem;
+  position: relative;
+  height: 4.525rem;
+  background: url("../images/Jelke, BH.png") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 964, ../scss/pages/_home.scss */
+  .list-person {
+    text-align: center;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 964, ../scss/pages/_home.scss */
+  .list-person {
+    text-align: left;
+  }
+}
+
+/* line 977, ../scss/pages/_home.scss */
 .case-person-desc {
   font-size: 1.875rem;
   color: gray;
   font-family: "Raleway", sans-serif;
 }
 
-/* line 640, ../scss/pages/_home.scss */
-.case-link {
+/* line 985, ../scss/pages/_home.scss */
+.list-by {
   font-size: 1.875rem;
-  text-decoration: underline;
-  color: #00acec;
-  font-weight: 900;
-  cursor: pointer;
-}
-/* line 646, ../scss/pages/_home.scss */
-.case-link:hover, .case-link:focus {
-  font-size: 1.875rem;
-  text-decoration: underline;
-  color: #00acec;
-  font-weight: 900;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
-/* line 654, ../scss/pages/_home.scss */
-.case-link-wrapper {
-  margin-top: 12rem;
+@media only screen and (max-device-width: 767px) {
+  /* line 993, ../scss/pages/_home.scss */
+  .case-link {
+    font-size: 1.875rem;
+    text-decoration: underline;
+    color: #00acec;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  /* line 1001, ../scss/pages/_home.scss */
+  .case-link:hover, .case-link:focus {
+    font-size: 1.875rem;
+    text-decoration: underline;
+    color: #00acec;
+    font-weight: 900;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 993, ../scss/pages/_home.scss */
+  .case-link {
+    font-size: 1.875rem;
+    text-decoration: underline;
+    margin-left: 50%;
+    color: #00acec;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  /* line 1016, ../scss/pages/_home.scss */
+  .case-link:hover, .case-link:focus {
+    font-size: 1.875rem;
+    text-decoration: underline;
+    color: #00acec;
+    font-weight: 900;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1028, ../scss/pages/_home.scss */
+  .person-link-wrapper {
+    margin-top: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1028, ../scss/pages/_home.scss */
+  .person-link-wrapper {
+    margin-top: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*===experiments===*/
-/* line 661, ../scss/pages/_home.scss */
+/* line 1048, ../scss/pages/_home.scss */
 #experiments {
   margin-top: 10rem;
 }
 
-/* line 665, ../scss/pages/_home.scss */
+/* line 1052, ../scss/pages/_home.scss */
 .vertical-experiment {
   height: 100vh;
   border: white solid 1px;
 }
-/* line 668, ../scss/pages/_home.scss */
+/* line 1055, ../scss/pages/_home.scss */
 .vertical-experiment .content-wrapper {
   background-color: blue;
   position: absolute;
@@ -9532,17 +9872,43 @@ button.close {
   top: 0;
 }
 
-/* line 680, ../scss/pages/_home.scss */
+/* line 1067, ../scss/pages/_home.scss */
 #experiments1 {
   background: url("../images/xl_lab.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 684, ../scss/pages/_home.scss */
+/* line 1071, ../scss/pages/_home.scss */
 #experiments1 #experiments1-hover {
   display: none;
 }
-/* line 689, ../scss/pages/_home.scss */
+/* line 1074, ../scss/pages/_home.scss */
+#experiments1 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1088, ../scss/pages/_home.scss */
+#experiments1:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/xl_lab.jpg"), url("../patterns/XLF_Hover_green_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1103, ../scss/pages/_home.scss */
 #experiments1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9550,29 +9916,57 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: red;
+  background: url("../images/xl_lab.jpg");
+  background-position: center;
+  background-size: cover;
 }
-/* line 701, ../scss/pages/_home.scss */
+/* line 1117, ../scss/pages/_home.scss */
 #experiments1:hover .background_gradient-wrapper6 {
   display: none;
 }
-/* line 704, ../scss/pages/_home.scss */
+/* line 1120, ../scss/pages/_home.scss */
 #experiments1:hover #experiments1-hover {
   display: block;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
-/* line 711, ../scss/pages/_home.scss */
+/* line 1127, ../scss/pages/_home.scss */
 #experiments2 {
   background: url("../images/xl_ventures.png");
   background-size: cover;
   background-position: center;
 }
-/* line 715, ../scss/pages/_home.scss */
+/* line 1131, ../scss/pages/_home.scss */
 #experiments2 #experiments2-hover {
   display: none;
 }
-/* line 720, ../scss/pages/_home.scss */
+/* line 1134, ../scss/pages/_home.scss */
+#experiments2 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1148, ../scss/pages/_home.scss */
+#experiments2:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/xl_ventures.png"), url("../patterns/XLF_Hover_green_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1163, ../scss/pages/_home.scss */
 #experiments2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9580,29 +9974,57 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: red;
+  background: url("../images/xl_ventures.png");
+  background-position: center;
+  background-size: cover;
 }
-/* line 732, ../scss/pages/_home.scss */
+/* line 1177, ../scss/pages/_home.scss */
 #experiments2:hover .background_gradient-wrapper7 {
   display: none;
 }
-/* line 735, ../scss/pages/_home.scss */
+/* line 1180, ../scss/pages/_home.scss */
 #experiments2:hover #experiments2-hover {
   display: block;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
-/* line 742, ../scss/pages/_home.scss */
+/* line 1187, ../scss/pages/_home.scss */
 #experiments3 {
   background: url("../images/xl_events.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 746, ../scss/pages/_home.scss */
+/* line 1191, ../scss/pages/_home.scss */
 #experiments3 #experiments3-hover {
   display: none;
 }
-/* line 751, ../scss/pages/_home.scss */
+/* line 1194, ../scss/pages/_home.scss */
+#experiments3 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1208, ../scss/pages/_home.scss */
+#experiments3:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/xl_events.jpg"), url("../patterns/XLF_Hover_green_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1223, ../scss/pages/_home.scss */
 #experiments3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9610,26 +10032,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: red;
+  background: url("../images/xl_events.jpg");
+  background-position: center;
+  background-size: cover;
 }
-/* line 763, ../scss/pages/_home.scss */
+/* line 1237, ../scss/pages/_home.scss */
 #experiments3:hover .background_gradient-wrapper8 {
   display: none;
 }
-/* line 766, ../scss/pages/_home.scss */
+/* line 1240, ../scss/pages/_home.scss */
 #experiments3:hover #experiments3-hover {
   display: block;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
-/* line 774, ../scss/pages/_home.scss */
+/* line 1249, ../scss/pages/_home.scss */
 .experiment-tag {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
   font-size: 1.875rem;
 }
 
-/* line 781, ../scss/pages/_home.scss */
+/* line 1256, ../scss/pages/_home.scss */
 .experiments-title {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
@@ -9637,14 +10061,14 @@ button.close {
   font-weight: 900;
 }
 
-/* line 788, ../scss/pages/_home.scss */
+/* line 1263, ../scss/pages/_home.scss */
 .experiments-text {
   position: absolute;
   margin-left: 4rem;
   margin-top: 2rem;
 }
 
-/* line 794, ../scss/pages/_home.scss */
+/* line 1269, ../scss/pages/_home.scss */
 .background_gradient-wrapper6 {
   position: absolute;
   display: block;
@@ -9663,7 +10087,7 @@ button.close {
   /* IE6-9 */
 }
 
-/* line 811, ../scss/pages/_home.scss */
+/* line 1286, ../scss/pages/_home.scss */
 .background_gradient-wrapper7 {
   position: absolute;
   display: block;
@@ -9682,7 +10106,7 @@ button.close {
   /* IE6-9 */
 }
 
-/* line 828, ../scss/pages/_home.scss */
+/* line 1303, ../scss/pages/_home.scss */
 .background_gradient-wrapper8 {
   position: absolute;
   display: block;
@@ -9702,54 +10126,254 @@ button.close {
 }
 
 /*===Projects===*/
-/* line 847, ../scss/pages/_home.scss */
-.project-text {
-  display: block;
-  font-size: 1.875rem;
-  font-family: "Raleway", sans-serif;
+/* line 1321, ../scss/pages/_home.scss */
+#projects {
+  overflow: hidden;
 }
 
-/* line 853, ../scss/pages/_home.scss */
-.project-link {
-  display: block;
-  font-size: 1.875rem;
-  font-family: "Raleway", sans-serif;
-  margin-top: 1rem;
-  color: #7eb241;
-  text-decoration: underline;
-  margin-bottom: 10rem;
+@media only screen and (max-device-width: 767px) {
+  /* line 1324, ../scss/pages/_home.scss */
+  .project-wrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
 }
-/* line 861, ../scss/pages/_home.scss */
-.project-link:hover {
+@media only screen and (min-device-width: 768px) {
+  /* line 1324, ../scss/pages/_home.scss */
+  .project-wrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/* line 1344, ../scss/pages/_home.scss */
+.divider-projects {
+  width: 16.125rem;
+  height: 16.125rem;
+  position: relative;
+  background: url("../icons/d_divider_client logo.png") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  background-position: center;
+}
+
+/* line 1357, ../scss/pages/_home.scss */
+.ing-logo {
+  margin-top: 6rem;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/ing.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+/* line 1381, ../scss/pages/_home.scss */
+.equeens-logo {
+  margin-top: 6rem;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/eq_logo_fc-u_100 [Converted].svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+/* line 1405, ../scss/pages/_home.scss */
+.broshuis-logo {
+  margin-top: 6rem;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/broshuis_logo.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+/* line 1429, ../scss/pages/_home.scss */
+.delta-logo {
+  margin-top: 6rem;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/Delta_Lloyd.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+/* line 1453, ../scss/pages/_home.scss */
+.project-text {
+  margin-top: -4rem;
   display: block;
   font-size: 1.875rem;
   font-family: "Raleway", sans-serif;
-  margin-top: 1rem;
-  margin-bottom: 10rem;
-  color: #7eb241;
-  text-decoration: underline;
+  text-align: center;
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1461, ../scss/pages/_home.scss */
+  .project-link {
+    display: block;
+    font-size: 1.875rem;
+    font-family: "Raleway", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 13rem;
+    color: #7eb241;
+    text-decoration: underline;
+  }
+  /* line 1471, ../scss/pages/_home.scss */
+  .project-link:hover {
+    display: block;
+    font-size: 1.875rem;
+    font-family: "Raleway", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 13rem;
+    color: #7eb241;
+    text-decoration: underline;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1461, ../scss/pages/_home.scss */
+  .project-link {
+    display: block;
+    font-size: 1.875rem;
+    font-family: "Raleway", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    color: #7eb241;
+    text-decoration: underline;
+  }
+  /* line 1489, ../scss/pages/_home.scss */
+  .project-link:hover {
+    display: block;
+    font-size: 1.875rem;
+    font-family: "Raleway", sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    color: #7eb241;
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1504, ../scss/pages/_home.scss */
+  .pijl-groen-links {
+    left: 0;
+    position: absolute;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    height: 41.5rem;
+    width: 8.125rem;
+    background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    background-position: center;
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1540, ../scss/pages/_home.scss */
+  .pijl-groen-rechts {
+    position: absolute;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    height: 41.5rem;
+    width: 8.125rem;
+    background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    background-position: center;
+    right: 0;
+  }
 }
 
 /*===Team===*/
-/* line 875, ../scss/pages/_home.scss */
-#team {
+/* line 1575, ../scss/pages/_home.scss */
+.hans-picture {
+  background: url("../images/Hans6.jpg") no-repeat;
+  background-size: 100vw;
+  background-position: center;
+  height: 100vh;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+/* line 1590, ../scss/pages/_home.scss */
+.ben-picture {
   background: url("../images/Ben10.jpg") no-repeat;
   background-size: 100vw;
   background-position: center;
   height: 100vh;
-  margin-top: -8rem;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
-/* line 888, ../scss/pages/_home.scss */
+/* line 1604, ../scss/pages/_home.scss */
+.background-overlay {
+  z-index: -1;
+}
+
+/* line 1609, ../scss/pages/_home.scss */
 .person-wrapper {
   height: 100vh;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-pack: center;
-  margin-top: -6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-/* line 898, ../scss/pages/_home.scss */
+/* line 1618, ../scss/pages/_home.scss */
 .name-team {
   position: relative;
   display: block;
@@ -9760,7 +10384,7 @@ button.close {
   left: 0;
 }
 
-/* line 908, ../scss/pages/_home.scss */
+/* line 1628, ../scss/pages/_home.scss */
 .role-team {
   position: relative;
   display: block;
@@ -9772,8 +10396,8 @@ button.close {
   margin-top: -2rem;
 }
 
-/* line 920, ../scss/pages/_home.scss */
-.linkdin-logo {
+/* line 1640, ../scss/pages/_home.scss */
+.linkdin-logo1 {
   width: 4.125rem;
   height: 4.125rem;
   top: 2.250rem;
@@ -9785,7 +10409,7 @@ button.close {
   display: block;
 }
 
-/* line 934, ../scss/pages/_home.scss */
+/* line 1654, ../scss/pages/_home.scss */
 .email-logo {
   width: 4.125rem;
   height: 4.125rem;
@@ -9799,67 +10423,532 @@ button.close {
   margin-left: 2rem;
 }
 
-/* line 948, ../scss/pages/_home.scss */
+/* line 1668, ../scss/pages/_home.scss */
 .person-logo-wrapper {
   display: flex;
   -webkit-box-orient: horizontal;
   text-align: left;
 }
 
-/* line 954, ../scss/pages/_home.scss */
+/* line 1674, ../scss/pages/_home.scss */
 #pijl-wit-links {
-  width: 14.125rem;
+  width: 12.125rem;
   position: absolute;
   background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
   background-size: 100% auto;
   cursor: pointer;
-  z-index: 10;
-  display: block;
+  z-index: 1000;
+  height: 2rem;
   background-position: center;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-  height: 100vh;
   left: 0;
-  margin-top: -7rem;
 }
 
-/* line 975, ../scss/pages/_home.scss */
+/* line 1691, ../scss/pages/_home.scss */
+.arrow-team-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -1rem;
+}
+
+/* line 1699, ../scss/pages/_home.scss */
 #pijl-wit-rechts {
-  width: 14.125rem;
+  width: 12.125rem;
   position: absolute;
   background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
   background-size: 100% auto;
   cursor: pointer;
-  z-index: 10;
-  display: block;
+  z-index: 1000;
+  height: 2rem;
   background-position: center;
-  height: 100vh;
   right: 0;
-  margin-top: -7rem;
+  display: block;
 }
 
-/* line 990, ../scss/pages/_home.scss */
+/* line 1712, ../scss/pages/_home.scss */
+.get-in-touch {
+  position: relative;
+  display: block;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  left: 0;
+  border: solid white 2px;
+  width: 20rem;
+  height: 5rem;
+  text-align: center;
+  z-index: 1000;
+  background: none;
+}
+/* line 1727, ../scss/pages/_home.scss */
+.get-in-touch:hover {
+  position: relative;
+  display: block;
+  color: white;
+  border: solid white 2px;
+  width: 20rem;
+  height: 5rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  left: 0;
+  text-decoration: none;
+  z-index: 1000;
+  text-align: center;
+  background: none;
+}
+
+/* line 1745, ../scss/pages/_home.scss */
+.touch-box {
+  height: 100vh;
+  right: 0;
+  position: relative;
+}
+
+/* line 1751, ../scss/pages/_home.scss */
+.get-in-touch-wrapper {
+  display: flex;
+  height: 100vh;
+  float: right;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 1760, ../scss/pages/_home.scss */
 .arrow-center-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 996, ../scss/pages/_home.scss */
+/* line 1766, ../scss/pages/_home.scss */
+.team-overlay {
+  height: 100vh;
+  margin-top: -100vh;
+  position: relative;
+}
+
+/*===Footer===*/
+/* line 1776, ../scss/pages/_home.scss */
 .footer {
+  height: 16rem;
+  background: black;
+  margin-top: -1px;
+}
+
+/* line 1784, ../scss/pages/_home.scss */
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 1792, ../scss/pages/_home.scss */
+.contact-wrapper {
+  height: 16rem;
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1800, ../scss/pages/_home.scss */
+  #update-link {
+    color: white;
+    font-size: 500;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    display: inline-block;
+    float: left;
+    position: relative;
+    font-weight: 700;
+    margin-right: 30%;
+    margin-bottom: 0.625rem;
+    left: 0;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1800, ../scss/pages/_home.scss */
+  #update-link {
+    text-decoration: underline;
+    color: white;
+    font-size: 1.875rem;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-right: 1.250rem;
+    margin-bottom: 0.625rem;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1833, ../scss/pages/_home.scss */
+  .call {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    display: block;
+    font-size: 1.875rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1833, ../scss/pages/_home.scss */
+  .call {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1858, ../scss/pages/_home.scss */
+  .footer-pijl-rechts {
+    width: 7.125rem;
+    position: absolute;
+    background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    right: 2rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1858, ../scss/pages/_home.scss */
+  .footer-pijl-rechts {
+    width: 10.125rem;
+    position: relative;
+    background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    background-position: center;
+    margin-top: 0.5rem;
+  }
+}
+
+/* line 1888, ../scss/pages/_home.scss */
+.footer-xl-logo {
+  width: 8.125rem;
+  background: url("../icons/xlflogo_klein_wite.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  background-position: center;
+  height: 16rem;
+}
+
+/* line 1899, ../scss/pages/_home.scss */
+.xl-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16rem;
+  margin-top: -1rem;
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1907, ../scss/pages/_home.scss */
+  .footer-logo-wrapper {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1.5rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1907, ../scss/pages/_home.scss */
+  .footer-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16rem;
+    margin-top: -1rem;
+  }
+}
+
+/* line 1929, ../scss/pages/_home.scss */
+.linkdin-logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_Linkedin.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+}
+
+/* line 1941, ../scss/pages/_home.scss */
+.twitter-logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_twitter.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  margin-left: 2rem;
+  z-index: 10;
+  display: block;
+}
+
+/* line 1953, ../scss/pages/_home.scss */
+.youtube-logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_youtube.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  margin-left: 2rem;
+  display: block;
+}
+
+/* line 1965, ../scss/pages/_home.scss */
+.facebook-logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_Fb.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  margin-left: 2rem;
+  z-index: 10;
+  display: block;
+}
+
+/* line 1977, ../scss/pages/_home.scss */
+.insta-logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_Instagram.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  margin-left: 2rem;
+  display: block;
+}
+
+/* line 1990, ../scss/pages/_home.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 1994, ../scss/pages/_home.scss */
+.mobile-footer {
   height: 16rem;
   background: black;
 }
 
-/* line 1001, ../scss/pages/_home.scss */
-.contact {
-  text-align: center;
+/*===Menu===*/
+/* line 2001, ../scss/pages/_home.scss */
+.menu-wrapper {
+  height: 100vh;
+  width: 35rem;
+  background: black;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  right: -35rem;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
 }
 
-/* line 1005, ../scss/pages/_home.scss */
-#update-link {
-  margin-left: -7rem;
+/* line 2016, ../scss/pages/_home.scss */
+.menu-open {
+  right: 0rem !important;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+/* line 2025, ../scss/pages/_home.scss */
+.menu-items {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  display: inline-block;
+  float: left;
+  font-size: 1.875rem;
+  text-align: left;
+  line-height: 7.5rem;
+}
+
+/* line 2036, ../scss/pages/_home.scss */
+.first-menu-item {
+  margin-top: 7rem;
+}
+
+/* line 2039, ../scss/pages/_home.scss */
+.arrow-menu {
+  width: 12.125rem;
+  height: 2rem;
+  position: relative;
+  background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  margin-left: 9rem;
+  background-position: center;
+}
+
+/* line 2052, ../scss/pages/_home.scss */
+.arrow-menu2 {
+  width: 12.125rem;
+  height: 2rem;
+  position: relative;
+  background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  margin-left: 3.5rem;
+  background-position: center;
+}
+
+/* line 2065, ../scss/pages/_home.scss */
+.menu-arrow-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* line 2072, ../scss/pages/_home.scss */
+.menu-cross {
+  right: 0rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+/* line 2086, ../scss/pages/_home.scss */
+.menu-cross2 {
+  right: 1rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+/* line 2100, ../scss/pages/_home.scss */
+.contact-menu-wrapper {
+  height: 100vh;
+  width: 35rem;
+  background: black;
+  line-height: 4rem;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  right: -35rem;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+/* line 2116, ../scss/pages/_home.scss */
+.contact-menu-items {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+/* line 2123, ../scss/pages/_home.scss */
+.contact-fat {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+/* line 2130, ../scss/pages/_home.scss */
+.contact-number {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.875rem;
+}
+
+/* line 2136, ../scss/pages/_home.scss */
+.secondpart-menu {
+  margin-top: 4rem;
+}
+
+/* line 2140, ../scss/pages/_home.scss */
+.input-field-black {
+  width: 85%;
+  background: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+}
+
+/* line 2151, ../scss/pages/_home.scss */
+.input-field-black-big {
+  width: 85%;
+  background: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  height: 10rem;
+}
+
+/* line 2163, ../scss/pages/_home.scss */
+.send-button {
+  border: solid 3px white;
+  width: 85%;
+  height: 6rem;
+  margin-top: 2rem;
+  text-align: center;
+  background: none;
 }

@@ -1,10 +1,31 @@
 /*=== SCSS FOR THE HOMEPAGE ===*/
 
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-device-width: 767px) {
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+
+
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+
+
+}
+
+@media only screen and (min-device-width: 1200px) {
+
+
+}
+
 /*===NAVBAR===*/
 
 .navbar {
-  height: 6rem;
-  background-color: transparent;
   background: transparent;
   border-color: transparent;
 
@@ -39,12 +60,31 @@
   /*===HERO-VIDEO===*/
 
 #hero-video {
-  background: url('../images/video.png') no-repeat;
-  background-size:100vw;
-  background-position: center;
-  height: 100vh;
-  text-align: center;
-  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background: url('../images/video.png') no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    margin-top: -8rem;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url('../images/video.png') no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 101vh;
+    text-align: center;
+    margin-top: -8rem;
+  }
 }
 
 #playbutton {
@@ -58,7 +98,10 @@
 }
 
 .mouse-wrapper{
-  display: flex;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
 
   #mousebutton {
     width: 4.125rem;
@@ -79,9 +122,14 @@
 .title_wrapper {
   height: 100vh;
   display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
 
   h1 {
     display: block;
@@ -89,10 +137,14 @@
     font-family: $raleway;
     font-size:$font-ultra_big;
     color: #FFFFFF;
-    letter-spacing: 0px;
     font-weight: 900;
     width: 100%;
   }
+}
+
+
+.title_wrapper2 {
+
 }
 
 
@@ -104,7 +156,7 @@
   height: 15.125rem;
   background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
   background-size:100% auto ;
-  z-index: 10;
+  z-index: -1;
   display: block;
   left:0;
   right: 0;
@@ -119,53 +171,53 @@
   background-position: center;
 
 }#pijl-links {
-  width: 15.125rem;
-  position: absolute;
-  height: 15.125rem;
-  background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
-  background-size:100% auto ;
-  z-index: 10;
-  display: block;
-  background-position: center;
-  left: 0;
+   width: 15.125rem;
+   position: absolute;
+   height: 15.125rem;
+   background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
+   background-size:100% auto ;
+   z-index: 10;
+   display: block;
+   background-position: center;
+   left: 0;
 
-}#pijl-rechts {
-  width: 15.125rem;
-  position: absolute;
-  height: 15.125rem;
-  background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
-  background-size:100% auto ;
-  z-index: 10;
-  display: block;
-  right: 0;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-  background-position: center;
+ }#pijl-rechts {
+    width: 15.125rem;
+    position: absolute;
+    height: 15.125rem;
+    background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
+    background-size:100% auto ;
+    z-index: 10;
+    display: block;
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-position: center;
 
-}#pijl-onder {
-  width: 15.125rem;
-  position: relative;
-  height: 15.125rem;
-  background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
-  background-size:100% auto ;
-  z-index: 10;
-  display: block;
-  left:0;
-  right: 0;
+  }#pijl-onder {
+     width: 15.125rem;
+     position: relative;
+     height: 15.125rem;
+     background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
+     background-size:100% auto ;
+     z-index: 0;
+     display: block;
+     left:0;
+     right: 0;
      margin-bottom: -4.2px;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-  transform: rotate(270deg);
-  background-position: center;
+     margin-left: auto;
+     margin-right: auto;
+     -webkit-transform: rotate(270deg);
+     -moz-transform: rotate(270deg);
+     -ms-transform: rotate(270deg);
+     -o-transform: rotate(270deg);
+     transform: rotate(270deg);
+     background-position: center;
 
-}
+   }
 
 
 .discover-title {
@@ -178,6 +230,12 @@
 .discover-text {
   font-family: $raleway;
   font-size: $font-semi_big;
+  width: 30rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 1px;
 }
 
 .start{
@@ -213,6 +271,38 @@
 }
 
 
+
+.mobile-divider1{
+  @media only screen and (max-device-width: 767px) {
+display: block;
+    left: 0;
+    right: 0;
+    width: 90%;
+    position: relative;
+    margin-top: 1rem;
+    height: 1.125rem;
+    background: url("../icons/mb_divider_client logo.png") no-repeat;
+    background-size:100% 20% ;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+display: none;
+
+  }
+
+}
+
+
+
+
+
+
+
 /*===CASES-AND-STORIES===*/
 
 .horizontal-story {
@@ -220,7 +310,6 @@
   border: white solid 1px;
 
   .content-wrapper{
-    background-color: red;
     position: absolute;
     display: block;
     width: 100%;
@@ -232,6 +321,9 @@
 
   }
 }
+
+
+
 .vertical-story {
   height: 100vh;
   border: white solid 1px;
@@ -253,11 +345,39 @@
 #story1 {
   background: url("../images/xl_blog_1.png");
   background-size: cover;
+  background-position:center;
   #story1-hover {
     display: none;
   }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center;
+  }
 
   &:hover {
+ .overlay-wrapper {
+      display: block;
+      background:url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
     .background-wrapper {
 
       position: absolute;
@@ -266,8 +386,10 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: red;
-
+      background: url("../images/xl_blog_1.png");
+      background-position:center;
+      background-size: cover;
+      background-position:center;
     }
 
     .background_gradient-wrapper1 {
@@ -275,7 +397,7 @@
     }
     #story1-hover {
       display: block;
-      margin-top: 8rem;
+      margin-top: $story-hover;
     }
   }
 }
@@ -283,11 +405,39 @@
 #story2 {
   background: url("../images/etos.png");
   background-size: cover;
+  background-position:center;
   #story2-hover {
     display: none;
   }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center;
+  }
 
   &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/etos.png"), url("../patterns/XLF_hover_cyan_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
     .background-wrapper {
 
       position: absolute;
@@ -296,7 +446,9 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: red;
+      background: url("../images/etos.png");
+      background-position:center;
+      background-size: cover;
 
     }
 
@@ -305,7 +457,7 @@
     }
     #story2-hover {
       display: block;
-      margin-top: 8rem;
+      margin-top: $story-hover;
     }
   }
 }
@@ -314,13 +466,41 @@
 
 
 #story3 {
-  background: url(" ../images/broshuis.jpeg");
+  background: url("../images/broshuis.jpeg");
   background-size: cover;
+  background-position:center;
   #story3-hover {
     display: none;
   }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center;
+  }
 
   &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/broshuis.jpeg"), url("../patterns/XLF_hover_cyan_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
     .background-wrapper {
 
       position: absolute;
@@ -329,28 +509,58 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: red;
+      background: url("../images/broshuis.jpeg");
+      background-position:center;
+      background-size: cover;
 
     }
 
     .background_gradient-wrapper3 {
-      display: none;
+      display: block;
     }
     #story3-hover {
       display: block;
-      margin-top: 8rem;
+      margin-top: $story-hover;
     }
   }
 }
 
 #story4 {
-  background: url("../images/xl_blog_2.png");
+  background: url("../images/xl_blog_2.jpeg");
   background-size: cover;
+  background-position:center;
   #story4-hover {
     display: none;
   }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center;
+  }
 
   &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/xl_blog_2.jpeg"), url("../patterns/XLF_hover_cyan_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
     .background-wrapper {
 
       position: absolute;
@@ -359,7 +569,9 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: red;
+      background: url("../images/xl_blog_2.jpeg");
+      background-position:center;
+      background-size: cover;
 
     }
 
@@ -368,7 +580,7 @@
     }
     #story4-hover {
       display: block;
-      margin-top: 8rem;
+      margin-top: $story-hover;
     }
   }
 }
@@ -376,11 +588,39 @@
 #story5 {
   background: url("../images/xl_blog_3.png");
   background-size: cover;
+  background-position:center;
   #story5-hover {
     display: none;
   }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center;
+  }
 
   &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/xl_blog_3.png"), url("../patterns/XLF_hover_cyan_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
     .background-wrapper {
 
       position: absolute;
@@ -389,7 +629,9 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: red;
+      background: url("../images/xl_blog_3.png");
+      background-position:center;
+      background-size: cover;
 
     }
 
@@ -398,7 +640,7 @@
     }
     #story5-hover {
       display: block;
-      margin-top: 8rem;
+      margin-top: $story-hover;
     }
   }
 }
@@ -453,6 +695,7 @@
   position: absolute;
   display: block;
   left: 0;
+  opacity: 0.5;
   top:0;
   width: 100%;
   height: 100%;
@@ -499,15 +742,6 @@
 
 }
 
-#story4 {
-  background-image: url("../images/xl_blog_2.jpeg");
-  background-size: cover;
-}
-
-#story5 {
-  background-image: url("../images/xl_blog_3.png");
-  background-size: cover;
-}
 
 .storyht {
   color: whitesmoke;
@@ -559,40 +793,105 @@
 }
 /*===cases==*/
 
+.cases-height {
+  margin-top: 10rem;
+  margin-bottom: 18rem;
+}
+
 #pijl-blauw-links {
-  width: 14.125rem;
-  position: absolute;
-  height: 14.125rem;
-  background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
-  background-size:100% auto ;
-  cursor: pointer;
-  z-index: 10;
-  display: block;
-  background-position: center;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-  left: 0;
-  margin-top: 80%;
-;
+  @media only screen and (max-device-width: 767px) {
+display: none;
+  }
+
+  @media only screen and (min-device-width: 768px) {
+    width: 14.125rem;
+    position: absolute;
+    height: 14.125rem;
+    background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    left: 0;
+    margin-top: 90%;
+
+  }
 }
 
 
 #pijl-blauw-rechts {
-  width: 14.125rem;
-  position: absolute;
-  height: 14.125rem;
-  background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
-  background-size:100% auto ;
-  cursor: pointer;
-  z-index: 10;
-  display: block;
-  background-position: center;
-  right: 0%;
-  margin-top: 80%;
+
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+  @media only screen and (min-device-width: 768px) {
+    width: 14.125rem;
+    position: absolute;
+    height: 14.125rem;
+    background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    right: 0;
+    margin-top: 90%;
+
+  }
 }
+
+.pijl-blauw-links-mb {
+  @media only screen and (max-device-width: 767px) {
+    width: 8.125rem;
+    position: absolute;
+    height: 8.125rem;
+    background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    left: 0;
+    margin-top: 7rem;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  @media only screen and (min-device-width: 768px)   {
+
+  }
+}
+
+.pijl-blauw-rechts-mb {
+  @media only screen and (max-device-width: 767px) {
+    width: 8.125rem;
+    position: absolute;
+    height: 8.125rem;
+    background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    right:  0;
+    margin-top: 7rem;
+  }
+
+  @media only screen and (min-device-width: 768px)   {
+
+  }
+}
+
 
 .cases-wrapper {
   text-align: center;
@@ -606,9 +905,28 @@
 }
 
 .case-text {
-  font-size: $font-big;
-  font-family: $raleway
+  @media only screen and (max-device-width: 767px) {
+    font-size: $font-big;
+    font-family: $raleway;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  @media only screen and (min-device-width: 768px)   {
+    font-size: $font-big;
+    font-family: $raleway;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
 }
+
+
 
 .case-logo {
   width: 4.125rem;
@@ -628,16 +946,53 @@
   font-size: $font-big;
   font-weight: 800;
   color: black;
-  margin-left: 2rem;
+
 }
+
+.person-picture1 {
+  width: 4.525rem;
+  position: relative;
+  height: 4.525rem;
+  background: url("../images/Jelke, BH.png") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.list-person{
+  @media only screen and (max-device-width: 767px) {
+    text-align: center;
+  }
+
+  @media only screen and (min-device-width: 768px)  {
+    text-align: left;
+
+  }
+
+}
+
 
 .case-person-desc {
   font-size: $font-semi_big;
   color:gray;
-  font-family: $raleway
+  font-family: $raleway;
+
+
+}
+
+.list-by {
+  font-size: $font-semi_big;
+  color:black;
+  font-family: $raleway;
+  font-weight: 400;
+
 }
 
 .case-link {
+
+  @media only screen and (max-device-width: 767px) {
     font-size: $font-semi_big;
     text-decoration: underline;
     color: $brand-color-blue;
@@ -651,10 +1006,42 @@
     }
   }
 
-.case-link-wrapper {
-  margin-top: 12rem;
-}
+  @media only screen and (min-device-width: 768px)  {
+    font-size: $font-semi_big;
+    text-decoration: underline;
+    margin-left: 50%;
+    color: $brand-color-blue;
+    font-weight:900;
+    cursor: pointer;
+    &:hover, &:focus{
+      font-size: $font-semi_big;
+      text-decoration: underline;
+      color: $brand-color-blue;
+      font-weight:900;
+    }
 
+  }
+
+
+  }
+
+.person-link-wrapper {
+  @media only screen and (max-device-width: 767px)   {
+    margin-top: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  @media only screen and (min-device-width: 768px)   {
+    margin-top: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+}
 
 /*===experiments===*/
 
@@ -680,12 +1067,39 @@
 #experiments1 {
   background: url("../images/xl_lab.jpg");
   background-size: cover;
-  background-position: center;
+  background-position:center ;
   #experiments1-hover {
     display: none;
   }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center
+  }
 
   &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/xl_lab.jpg"), url("../patterns/XLF_Hover_green_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center
+    }
+
+
+
     .background-wrapper {
 
       position: absolute;
@@ -694,7 +1108,9 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: red;
+      background: url("../images/xl_lab.jpg");
+      background-position:center;
+      background-size: cover;
 
     }
 
@@ -703,7 +1119,7 @@
     }
     #experiments1-hover {
       display: block;
-      margin-top: 8rem;
+      margin-top: $story-hover;
     }
   }
 }
@@ -711,12 +1127,39 @@
 #experiments2 {
   background: url("../images/xl_ventures.png");
   background-size: cover;
-  background-position: center;
+  background-position:center ;
   #experiments2-hover {
     display: none;
   }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center
+  }
 
   &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/xl_ventures.png"), url("../patterns/XLF_Hover_green_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center
+    }
+
+
+
     .background-wrapper {
 
       position: absolute;
@@ -725,7 +1168,9 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: red;
+      background: url("../images/xl_ventures.png");
+      background-position:center;
+      background-size: cover;
 
     }
 
@@ -734,7 +1179,7 @@
     }
     #experiments2-hover {
       display: block;
-      margin-top: 8rem;
+      margin-top: $story-hover;
     }
   }
 }
@@ -742,12 +1187,39 @@
 #experiments3 {
   background: url("../images/xl_events.jpg");
   background-size: cover;
-  background-position: center;
+  background-position:center ;
   #experiments3-hover {
     display: none;
   }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center
+  }
 
   &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/xl_events.jpg"), url("../patterns/XLF_Hover_green_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center
+    }
+
+
+
     .background-wrapper {
 
       position: absolute;
@@ -756,7 +1228,9 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: red;
+      background: url("../images/xl_events.jpg");
+      background-position:center;
+      background-size: cover;
 
     }
 
@@ -765,10 +1239,11 @@
     }
     #experiments3-hover {
       display: block;
-      margin-top: 8rem;
+      margin-top: $story-hover;
     }
   }
 }
+
 
 
 .experiment-tag {
@@ -843,54 +1318,299 @@
 }
 
 /*===Projects===*/
+#projects{
+  overflow: hidden;
+}
+.project-wrapper {
+  @media only screen and (max-device-width: 767px) {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  @media only screen and (min-device-width: 768px) {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+
+}
+
+
+.divider-projects {
+  width: 16.125rem;
+  height: 16.125rem;
+  position: relative;
+  background: url("../icons/d_divider_client logo.png") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  background-position: center;
+
+}
+
+.ing-logo {
+
+  @media only screen and (max-device-width: 767px) {
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+
+  }
+
+  margin-top: 6rem;
+  margin-bottom: -6rem;
+   width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/ing.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+.equeens-logo {
+
+  @media only screen and (max-device-width: 767px) {
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+
+  }
+
+  margin-top: 6rem;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/eq_logo_fc-u_100 [Converted].svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+.broshuis-logo {
+
+  @media only screen and (max-device-width: 767px) {
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+
+  }
+
+  margin-top: 6rem;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/broshuis_logo.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+.delta-logo {
+
+  @media only screen and (max-device-width: 767px) {
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+
+  }
+
+  margin-top: 6rem;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/Delta_Lloyd.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
 
 .project-text {
+  margin-top: -4rem;
   display: block;
   font-size: $font-semi_big;
   font-family: $raleway;
+  text-align: center;
 }
 
 .project-link {
-  display: block;
-  font-size: $font-semi_big;
-  font-family: $raleway;
-  margin-top: 1rem;
-  color: $brand-color-green;
-  text-decoration: underline;
-  margin-bottom: 10rem;
-  &:hover {
+
+  @media only screen and (max-device-width: 767px) {
     display: block;
     font-size: $font-semi_big;
     font-family: $raleway;
-    margin-top: 1rem;
-    margin-bottom: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 13rem;
     color: $brand-color-green;
     text-decoration: underline;
+    &:hover {
+      display: block;
+      font-size: $font-semi_big;
+      font-family: $raleway;
+      margin-top: 3rem;
+      margin-bottom: 13rem;
+      color: $brand-color-green;
+      text-decoration: underline;
+    }
+  }
+  @media only screen and (min-device-width: 768px) {
+    display: block;
+    font-size: $font-semi_big;
+    font-family: $raleway;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    color: $brand-color-green;
+    text-decoration: underline;
+    &:hover {
+      display: block;
+      font-size: $font-semi_big;
+      font-family: $raleway;
+      margin-top: 3rem;
+      margin-bottom: 8rem;
+      color: $brand-color-green;
+      text-decoration: underline;
+
+  }
+
+
   }
 }
+
+.pijl-groen-links {
+  @media only screen and (max-device-width: 767px) {
+    left: 0;
+    position: absolute;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    height: 41.5rem;
+    width: 8.125rem;
+    background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    background-position: center;
+    right:  0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+
+  }
+
+
+}
+
+.pijl-groen-rechts {
+  @media only screen and (max-device-width: 767px) {
+    position: absolute;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    height: 41.5rem;
+    width: 8.125rem;
+    background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    background-position: center;
+    right: 0;
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+
+  }
+
+
+
+}
+
 
 /*===Team===*/
 
 
-#team {
-  background: url('../images/Ben10.jpg') no-repeat;
+.hans-picture {
+  background: url('../images/Hans6.jpg') no-repeat;
   background-size:100vw;
   background-position: center;
   height: 100vh;
-
-  margin-top: -8rem;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100%;
 
 }
 
 
+.ben-picture {
+  background: url('../images/Ben10.jpg') no-repeat;
+  background-size:100vw;
+  background-position: center;
+  height: 100vh;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100%;
+
+}
+
+.background-overlay {
+  z-index: -1;
+}
 
 
 .person-wrapper {
   height: 100vh;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-pack: center;
-  margin-top: -6rem;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
 
 
 }
@@ -917,7 +1637,7 @@
 }
 
 
-.linkdin-logo {
+.linkdin-logo1 {
   width: 4.125rem;
   height: 4.125rem;
   top: 2.250rem;
@@ -952,39 +1672,89 @@
 }
 
 #pijl-wit-links {
-  width: 14.125rem;
+  width: 12.125rem;
   position: absolute;
   background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
   background-size:100% auto ;
   cursor: pointer;
-  z-index: 10;
-  display: block;
+  z-index: 1000;
+  height: 2rem;
   background-position: center;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-  height: 100vh;
   left: 0;
-  margin-top: -7rem;
-;
 }
 
+.arrow-team-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -1rem;
+}
 
 #pijl-wit-rechts {
-  width: 14.125rem;
+  width: 12.125rem;
   position: absolute;
   background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
   background-size:100% auto ;
   cursor: pointer;
-  z-index: 10;
-  display: block;
+  z-index: 1000;
+  height: 2rem;
   background-position: center;
+  right: 0;
+  display: block;
+}
+
+.get-in-touch {
+  position: relative;
+  display: block;
+  color: white;
+  font-family: $raleway;
+  font-size: $font-semi_big;
+  font-weight: 700;
+  text-decoration: none;
+  left: 0;
+  border: solid white 2px;
+  width: 20rem;
+  height: 5rem;
+  text-align: center;
+  z-index: 1000;
+  background: none;
+  &:hover {
+    position: relative;
+    display: block;
+    color: white;
+    border: solid white 2px;
+    width: 20rem;
+    height: 5rem;
+    font-family: $raleway;
+    font-size: $font-semi_big;
+    font-weight: 700;
+    left: 0;
+    text-decoration: none;
+    z-index: 1000;
+    text-align: center;
+    background: none;
+  }
+}
+
+.touch-box {
   height: 100vh;
   right: 0;
-  margin-top: -7rem;
-;
+  position: relative;
+}
+
+.get-in-touch-wrapper {
+
+  display: flex;
+  height: 100vh;
+  float: right;
+  justify-content: center;
+  align-items: center;
 }
 
 .arrow-center-wrapper {
@@ -993,21 +1763,408 @@
   align-items: center;
 }
 
+.team-overlay {
+  height: 100vh;
+  margin-top: -100vh;
+  position:relative;
+}
+
+
+/*===Footer===*/
+
+
 .footer {
+  height: 16rem;
+  background: black;
+  margin-top: -1px;
+}
+
+
+
+.contact {
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+  align-items: center;
+
+
+}
+.contact-wrapper {
+
+  height: 16rem;
+}
+
+
+
+
+#update-link {
+  @media only screen and (max-device-width: 767px) {
+    color: white;
+    font-size: $font-medium;
+    font-family: $raleway;
+    line-height: 1.5;
+    display: inline-block;
+    float: left;
+    position: relative;
+    font-weight: 700;
+    margin-right: 30%;
+    margin-bottom: 0.625rem;
+    left: 0;
+  }
+
+  @media only screen and (min-device-width: 768px) {
+    text-decoration: underline;
+    color: white;
+    font-size: 1.875rem;
+    font-family: $raleway;
+    line-height: 1.5;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-right: 1.250rem;
+    margin-bottom: 0.625rem;
+
+  }
+
+
+
+}
+
+.call {
+  @media only screen and (max-device-width: 767px) {
+    color: white;
+    font-family: $raleway;
+    display: block;
+    font-size: $font-semi_big;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    color: white;
+    font-family: $raleway;
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+
+
+
+
+}
+
+.footer-pijl-rechts {
+  @media only screen and (max-device-width: 767px) {
+    width: 7.125rem;
+    position: absolute;
+    background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    right: 2rem;
+  }
+
+  @media only screen and (min-device-width: 768px) {
+    width: 10.125rem;
+    position: relative;
+    background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    background-position: center;
+    margin-top: 0.5rem;
+
+  }
+
+
+
+}
+
+.footer-xl-logo {
+  width: 8.125rem;
+  background: url("../icons/xlflogo_klein_wite.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  background-position: center;
+  height: 16rem;
+}
+
+.xl-logo-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 16rem;
+  margin-top: -1rem;
+}
+
+.footer-logo-wrapper {
+  @media only screen and (max-device-width: 767px) {
+    display:flex;
+   justify-items: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1.5rem;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 16rem;
+    margin-top: -1rem;
+
+  }
+
+
+}
+
+.linkdin-logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_Linkedin.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+
+  display: block;
+}
+.twitter-logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_twitter.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  margin-left: 2rem;
+  z-index: 10;
+  display: block;
+}
+.youtube-logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_youtube.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  margin-left: 2rem;
+  display: block;
+}
+.facebook-logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_Fb.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  margin-left: 2rem;
+  z-index: 10;
+  display: block;
+}
+.insta-logo {
+  width: 3.125rem;
+  height: 3.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/SM icons_Instagram.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  margin-left: 2rem;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.mobile-footer {
   height: 16rem;
   background: black;
 }
 
-.content-wrapper {
-  display: flex;
-  -webkit-box-orient: horizontal;
+/*===Menu===*/
+
+.menu-wrapper {
+  height: 100vh;
+  width:35rem;
+  background: black;
+  position: fixed;
+  top:0;
+  z-index: 1000;
+  right: -35rem;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.menu-open {
+   right:  0rem !important;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.menu-items {
+  color: white;
+  font-family: $raleway;
+  position: relative;
+  display: inline-block;
+  float: left;
+  font-size: $font-semi_big ;
   text-align: left;
+  line-height: 7.5rem;
+
+}
+.first-menu-item{
+  margin-top: 7rem;
+}
+.arrow-menu {
+  width: 12.125rem;
+  height: 2rem;
+  position: relative;
+  background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  margin-left: 9rem;
+  background-position: center;
 }
 
-.contact {
+.arrow-menu2 {
+  width: 12.125rem;
+  height: 2rem;
+  position: relative;
+  background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  margin-left: 3.5rem;
+  background-position: center;
+}
+
+.menu-arrow-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.menu-cross {
+  right: 0rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+.menu-cross2 {
+  right: 1rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+.contact-menu-wrapper {
+  height: 100vh;
+  width:35rem;
+  background: black;
+  line-height: 4rem;
+  position: fixed;
+  top:0;
+  z-index: 1000;
+  right: -35rem;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.contact-menu-items {
+  font-family: $raleway;
+  color: white;
+  font-size: $font-semi_big;
+  font-weight: 700;
+}
+
+.contact-fat {
+  font-family: $raleway;
+  color: white;
+  font-size: $font-big;
+  font-weight: 800;
+}
+
+.contact-number {
+  color: white;
+  font-family: $raleway;
+  font-size: $font-semi_big;
+}
+
+.secondpart-menu {
+  margin-top: 4rem;
+}
+
+.input-field-black {
+  width: 85%;
+  background: black;
+  color: white;
+  font-family: $raleway;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white ;
+}
+
+.input-field-black-big {
+  width: 85%;
+  background: black;
+  color: white;
+  font-family: $raleway;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white ;
+  height: 10rem;
+}
+
+.send-button {
+  border: solid 3px white;
+  width: 85%;
+  height: 6rem;
+  margin-top: 2rem;
   text-align: center;
-}
-
-#update-link {
-  margin-left: -7rem;
+  background: none;
 }
