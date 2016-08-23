@@ -9,6 +9,8 @@
 /*=== Components ===*/
 @import "components/header";
 @import "components/footer";
+@import "components/blocks";
+@import "components/team_pictures";
 
 /*=== PAGES ===*/
 @import "pages/404";
@@ -16,6 +18,8 @@
 @import "pages/client-need";
 @import "pages/home";
 @import "pages/overview-articles";
+@import "pages/about";
+@import "pages/cases";
 
 
 

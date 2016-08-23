@@ -561,350 +561,7 @@ display: none;
 
 /*===CASES-AND-STORIES===*/
 
-.horizontal-story {
-  height: 50vh;
-  border: white solid 1px;
 
-  .content-wrapper{
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding-left: 15px;
-    left: 0;
-    top: 0;
-
-
-  }
-}
-
-
-
-.vertical-story {
-  height: 100vh;
-  border: white solid 1px;
-  .content-wrapper{
-    background-color:blue ;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding-left: 15px;
-    left: 0;
-    top: 0;
-  }
-}
-.test{
-  margin-top: -50vh;
-}
-
-#story1 {
-  background: url("../images/xl_blog_1.png");
-  background-size: cover;
-  background-position:center;
-  #story1-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
- .overlay-wrapper {
-      display: block;
-      background:url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/xl_blog_1.png");
-      background-position:center;
-      background-size: cover;
-      background-position:center;
-    }
-
-    .background_gradient-wrapper1 {
-      display: block;
-    }
-    #story1-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
-
-#story2 {
-  background: url("../images/etos.png");
-  background-size: cover;
-  background-position:center;
-  #story2-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/etos.png"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/etos.png");
-      background-position:center;
-      background-size: cover;
-
-    }
-
-    .background_gradient-wrapper2 {
-      display: block;
-    }
-    #story2-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
-
-
-
-
-#story3 {
-  background: url("../images/broshuis.jpeg");
-  background-size: cover;
-  background-position:center;
-  #story3-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/broshuis.jpeg"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/broshuis.jpeg");
-      background-position:center;
-      background-size: cover;
-
-    }
-
-    .background_gradient-wrapper3 {
-      display: block;
-    }
-    #story3-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
-
-#story4 {
-  background: url("../images/xl_blog_2.jpeg");
-  background-size: cover;
-  background-position:center;
-  #story4-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/xl_blog_2.jpeg"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/xl_blog_2.jpeg");
-      background-position:center;
-      background-size: cover;
-
-    }
-
-    .background_gradient-wrapper4 {
-      display: block;
-    }
-    #story4-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
-
-#story5 {
-  background: url("../images/xl_blog_3.png");
-  background-size: cover;
-  background-position:center;
-  #story5-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/xl_blog_3.png"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/xl_blog_3.png");
-      background-position:center;
-      background-size: cover;
-
-    }
-
-    .background_gradient-wrapper5 {
-      display: block;
-    }
-    #story5-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
 
 .background-wrapper {
 
@@ -1015,14 +672,31 @@ display: none;
 }
 
 .storytitle {
-  color: whitesmoke;
-  font-family: $raleway;
-  font-size: $font-block-text;
-  font-weight: 900;
-  display: block;
-  position: relative;
-  z-index: 5;
-  margin-top: 2px
+
+  @media only screen and (min-device-width: 768px) {
+    color: whitesmoke;
+    font-family: $raleway;
+    font-size: $font-block-text;
+    font-weight: 900;
+    display: block;
+    position: relative;
+    z-index: 5;
+    margin-top: 2px
+
+  }
+
+  @media only screen and (max-device-width: 767px) {
+    color: whitesmoke;
+    font-family: $raleway;
+    font-size: $font-block-text;
+    font-weight: 900;
+    display: block;
+    position: relative;
+    z-index: 5;
+    margin-top: 2px;
+    width:80%;
+  }
+
 }
 
 .story-text {
@@ -1291,15 +965,15 @@ display: none;
   @media only screen and (min-device-width: 768px) {
 
     margin-right: 1rem;
-    width: 5.525rem;
+    width: 6.525rem;
     position: relative;
-    height: 5.525rem;
+    height: 6.525rem;
     background: url("../images/Jelke, BH.png") no-repeat;
     background-size:100% auto ;
     cursor: pointer;
     z-index: 10;
     display: inline-block;
-    margin-top: 0.5rem;
+
   }
 
 
@@ -1663,6 +1337,8 @@ display: none;
 
 }
 
+
+
 .background_gradient-wrapper7 {
 
   position: absolute;
@@ -1690,6 +1366,25 @@ display: none;
   opacity: 0.5;
   width: 100%;
   height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&1+0,0+100 */
+  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+
+.background_gradient-wrapper500 {
+
+  position: absolute;
+  display: block;
+  left: 0;
+  top:0;
+  opacity: 0.5;
+  width: 100%;
+  height: 500px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&1+0,0+100 */
   background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -1954,71 +1649,6 @@ display: none;
 /*===Team===*/
 
 
-.hans-picture {
-  @media only screen and (max-device-width: 767px) {
-    background: url('../images/Hans6.jpg') no-repeat;
-    background-size:cover;
-    background-position: center;
-    height: 500px;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top:0;
-    width: 100%;
-  }
-
-
-  @media only screen and (min-device-width: 768px) {
-
-    background: url('../images/Hans6.jpg') no-repeat;
-    background-size:100vw;
-    background-position: center;
-    height: 100vh;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top:0;
-    width: 100%;
-  }
-
-
-
-}
-
-
-.ben-picture {
-  @media only screen and (max-device-width: 767px) {
-    background: url('../images/Ben10.jpg') no-repeat;
-    background-size:cover;
-    background-position: center;
-    height: 500px;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top:0;
-    width: 100%;
-  }
-
-
-  @media only screen and (min-device-width: 768px){
-
-    background: url('../images/Ben10.jpg') repeat;
-    background-size:100vw;
-    background-position: center;
-    height: 100vh;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top:0;
-    width: 100%;
-  }
-
-
-}
 
 .background-overlay {
   z-index: -1;
@@ -2059,7 +1689,6 @@ display: none;
     font-weight: 700;
     left: 0;
     margin-bottom: 2rem;
-    margin-top: -30rem;
   }
 
   @media only screen and (min-device-width: 768px) {
@@ -2470,25 +2099,8 @@ display: none;
 .arrow-center-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.team-overlay {
-  @media only screen and (max-device-width: 767px) {
-    height: 500px;
-    margin-top: -500px;
-    position:relative;
-  }
-
-
-  @media only screen and (min-device-width: 768px) {
-
-    height: 100vh;
-    margin-top: -100vh;
-    position:relative;
-  }
-
-}
 
 
 /*===Footer===*/
@@ -2781,10 +2393,10 @@ ul {
 .menu-wrapper {
   @media only screen and (min-device-width: 768px) {
     height: 100vh;
-    width:35rem;
+    width: 35rem;
     background: black;
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 1000;
     right: -35rem;
     -webkit-transition: 0.6s ease;
@@ -2797,10 +2409,10 @@ ul {
 
   @media only screen and (max-device-width: 767px) {
     height: 100vh;
-    width:29rem;
+    width: 29rem;
     background: black;
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 1000;
     right: -29rem;
     -webkit-transition: 0.6s ease;
@@ -2809,9 +2421,41 @@ ul {
     -o-transition: 0.6s ease;
     transition: 0.6s ease;
   }
+}
 
+  .menu-wrapper2 {
+    @media only screen and (min-device-width: 768px) {
+      height: 100vh;
+      width:35rem;
+      background: black;
+      position: fixed;
+      top:0;
+      display: none;
+      z-index: 1000;
+      right: -35rem;
+      -webkit-transition: 0.6s ease;
+      -moz-transition: 0.6s ease;
+      -ms-transition: 0.6s ease;
+      -o-transition: 0.6s ease;
+      transition: 0.6s ease;
 
+    }
 
+    @media only screen and (max-device-width: 767px) {
+      height: 100vh;
+      width:29rem;
+      background: black;
+      position: fixed;
+      top:0;
+      display: none;
+      z-index: 1000;
+      right: -29rem;
+      -webkit-transition: 0.6s ease;
+      -moz-transition: 0.6s ease;
+      -ms-transition: 0.6s ease;
+      -o-transition: 0.6s ease;
+      transition: 0.6s ease;
+    }
 }
 
 .menu-open {
@@ -2834,7 +2478,7 @@ ul {
     font-size: $font-ht ;
     text-align: left;
     line-height: 7.5rem;
-
+    width: 100%;
   }
 
   @media only screen and (max-device-width: 767px) {
@@ -2847,16 +2491,89 @@ ul {
     font-size: 16px ;
     text-align: left;
     line-height: 6.5rem;
+    width: 100%;
   }
 
 
 }
+
+.menu-items2 {
+  @media only screen and (min-device-width: 768px) {
+
+    color: white;
+    font-family: $raleway;
+    position: relative;
+    display: none;
+    float: left;
+    font-size: $font-ht ;
+    text-align: left;
+    line-height: 7.5rem;
+    width: 100%;
+  }
+
+  @media only screen and (max-device-width: 767px) {
+
+    color: white;
+    font-family: $raleway;
+    position: relative;
+    display: none;
+    float: left;
+    font-size: 16px ;
+    text-align: left;
+    line-height: 6.5rem;
+    width: 100%;
+  }
+
+
+}
+
+.menu-items3 {
+  @media only screen and (min-device-width: 768px) {
+
+    color: white;
+    font-family: $raleway;
+    position: relative;
+    display: none;
+    float: left;
+    font-size: $font-ht ;
+    text-align: left;
+    line-height: 7.5rem;
+    width: 100%;
+  }
+
+  @media only screen and (max-device-width: 767px) {
+
+    color: white;
+    font-family: $raleway;
+    position: relative;
+    display: none;
+    float: left;
+    font-size: 16px ;
+    text-align: left;
+    line-height: 6.5rem;
+    width: 100%;
+  }
+
+
+}
+
+.menu-link {
+  color: white;
+  font-family: $raleway;
+  text-decoration: none;
+  &:hover {
+    color: white;
+    font-family: $raleway;
+    text-decoration: none;
+  }
+}
+
 .first-menu-item{
   margin-top: 7rem;
 }
 .arrow-menu {
   @media only screen and (min-device-width: 768px){
-    width: 12.125rem;
+    width: 100px;
     height: 2rem;
     position: relative;
     background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
@@ -2888,14 +2605,14 @@ ul {
 
 .arrow-menu2 {
   @media only screen and (min-device-width: 768px){
-    width: 12.125rem;
+    width: 100px;
     height: 2rem;
     position: relative;
     background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
     background-size:100% auto ;
     cursor: pointer;
     z-index: 10;
-    display: block;
+    display: inline-block;
     margin-left: 3.1rem;
     background-position: center;
 
@@ -2921,9 +2638,8 @@ ul {
 .menu-arrow-wrapper {
   @media only screen and (min-device-width: 768px) {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+
     position: relative;
   }
 
@@ -2970,6 +2686,21 @@ ul {
 }
 
 .menu-cross2 {
+  right: 1rem;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+.menu-cross3 {
+
   right: 1rem;
   width: 30px;
   height: 30px;
@@ -3033,6 +2764,7 @@ ul {
     color: white;
     font-size: $font-text;
     font-weight: 700;
+
   }
 
   @media only screen and (max-device-width: 767px) {
@@ -3040,6 +2772,7 @@ ul {
     color: white;
     font-size: $font-text;
     font-weight: 700;
+
   }
 
 }
@@ -3164,16 +2897,16 @@ ul {
 
   @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
 
-  border: solid 3px white;
-  width: 85%;
-  height: 4rem;
-  text-align: center;
-  background: none;
+    border: solid 3px white;
+    width: 85%;
+    height: 4rem;
+    text-align: center;
+    background: none;
     margin-top: 2rem;
 
-
-    @media only screen and (max-device-width: 320px) {
   }
+    @media only screen and (max-device-width: 320px) {
+
   border: solid 3px white;
   width: 85%;
   height: 4rem;
@@ -3183,3 +2916,41 @@ ul {
 }}
 
 
+.arrow-back{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  margin-top: -1rem;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.team-overlay {
+  @media only screen and (max-device-width: 767px) {
+    height: 500px;
+    margin-top: -500px;
+    position:relative;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+
+    margin-top: -100vh;
+    position:relative;
+  }
+
+}
+
+.team-image-height {
+  height: 100vh;
+}

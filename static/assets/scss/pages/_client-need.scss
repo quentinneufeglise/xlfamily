@@ -1,0 +1,447 @@
+#opportunities {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background: url('../images/xlf_clientneed_1.jpeg') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url('../images/xlf_clientneed_1.jpeg') no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+}
+
+#accelerate {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background: url('../images/client_need_2.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url('../images/client_need_2.png') no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+}
+
+#build {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background: url('../images/client need 3.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url('../images/client need 3.png') no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+}
+
+
+#innovate {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background: url('../images/client need 4.png') no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    margin-top: -8rem;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url('../images/client need 4.png') no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+}
+
+
+
+
+.title_wrapper_client {
+
+    @media only screen and (max-device-width: 767px) {
+      height: 500px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      vertical-align: middle;
+      text-align: center;
+
+      h1 {
+        display: block;
+        position: relative;
+        font-family: $raleway;
+        font-size:$font-block-text;
+        color: #FFFFFF;
+        font-weight: 900;
+        letter-spacing: 1.26px;
+        width: 100%;
+      }
+
+
+      p {
+        display: block;
+        position: relative;
+        font-family: $raleway;
+        font-size: $font-text;
+        color: #FFFFFF;
+        font-weight: 400;
+        letter-spacing: 1.26px;
+        width: 25rem;
+
+      }
+
+    }
+
+    @media only screen and (min-device-width: 768px)  {
+      height: 500px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      vertical-align: middle;
+      margin-top: -5rem;
+
+
+
+
+
+
+      h1 {
+        display: block;
+        position: relative;
+        font-family: $raleway;
+        font-size:$font-title;
+        color: #FFFFFF;
+        font-weight: 900;
+        letter-spacing: 1.26px;
+        width: 100%;
+        margin-bottom: 5rem;
+      }
+      p {
+        display: block;
+        position: relative;
+        font-family: $raleway;
+        font-size: $font-text;
+        color: #FFFFFF;
+        font-weight: 400;
+        letter-spacing: 1.26px;
+        width: 80rem;
+      }
+
+    }}
+//*client needs*//
+
+#pijl-groen-boven-client {
+  @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    width: 8.125rem;
+    position: relative;
+    height: 8.125rem;
+    background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+    background-size: 100% auto;
+    z-index: -1;
+    display: block;
+    left: 0;
+    right: 0;
+    margin-top: -3.9px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-position: center;
+
+  }
+
+  @media only screen and (min-device-width: 1200px) {
+    width: 15.125rem;
+    position: relative;
+    height: 15.125rem;
+    background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+    background-size: 100% auto;
+    z-index: -1;
+    display: block;
+    left: 0;
+    right: 0;
+    margin-top: -3.9px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-position: center;
+  }
+}
+
+#pijl-groen-links-client {
+  @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    width: 10.125rem;
+    position: absolute;
+    height: 100%;
+    background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+    background-size:100% auto ;
+    z-index: 10;
+    display: flex;
+    align-content: center;
+    background-position: center;
+    left: 0;
+
+  }
+
+  @media only screen and (min-device-width: 1200px) {
+
+    width: 15.125rem;
+    position: absolute;
+    height: 100%;
+    background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+    background-size:100% auto ;
+    z-index: 10;
+    display: flex;
+    align-content: center;
+    background-position: center;
+    left: 0;
+
+
+  }
+
+
+
+}#pijl-groen-rechts-client {
+
+   @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+     width: 10.125rem;
+     position: absolute;
+     height: 100%;
+     background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+     background-size:100% auto ;
+     z-index: 10;
+     display: flex;
+     align-content: center;
+     right: 0;
+     -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+     -o-transform: rotate(180deg);
+     transform: rotate(180deg);
+     background-position: center;
+
+   }
+
+   @media only screen and (min-device-width: 1200px) {
+     width: 15.125rem;
+     position: absolute;
+     height: 100%;
+     background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+     background-size:100% auto ;
+     z-index: 10;
+     display: flex;
+     align-content: center;
+     right: 0;
+     -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+     -o-transform: rotate(180deg);
+     transform: rotate(180deg);
+     background-position: center;
+
+   }
+
+
+ }#pijl-groen-onder-client {
+    @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+      width: 8.125rem;
+      position: relative;
+      height: 8.125rem;
+      background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+      background-size: 100% auto;
+      z-index: 0;
+      display: block;
+      left: 0;
+      right: 0;
+      margin-bottom: -4.2px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      transform: rotate(270deg);
+      background-position: center;
+    }
+
+    @media only screen and (min-device-width: 1200px) {
+      width: 15.125rem;
+      position: relative;
+      height: 15.125rem;
+      background: url("../icons/MB_ Pijl_GROEN.svg") no-repeat;
+      background-size: 100% auto;
+      z-index: 0;
+      display: block;
+      left: 0;
+      right: 0;
+      margin-bottom: -4.2px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      -webkit-transform: rotate(270deg);
+      -moz-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      -o-transform: rotate(270deg);
+      transform: rotate(270deg);
+      background-position: center;
+    }
+  }
+
+  .solutions {
+    background: #7eb241;
+    font-family: $raleway;
+    font-size: 17px;
+    font-weight: 800;
+    display: flex;
+    text-align: center;
+    height: 6rem;
+    width: 20rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+  }
+
+  .solutions-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 16rem;
+
+  }
+
+.discover-title-client {
+  font-size: $font-ht;
+  font-weight: 900;
+  color: black;
+  display: block;
+  font-family: $raleway;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 1.25px;
+  line-height: 2.5rem;
+  text-align: center;
+  margin-top: 50px;
+}
+.discover-title-client1 {
+  font-size: $font-ht;
+  font-weight: 900;
+  color: black;
+  display: block;
+  font-family: $raleway;
+  max-width: 300px;
+  margin-left: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: auto;
+  letter-spacing: 1.25px;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.discover-title-client2 {
+  font-size: $font-ht;
+  font-weight: 900;
+  color: black;
+  display: block;
+  font-family: $raleway;
+  max-width: 300px;
+  margin-left: auto;
+  margin-bottom: 50px;
+  margin-right: auto;
+  letter-spacing: 1.25px;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+
+.arrow-wrapper-client {
+  position: absolute;
+  left: 0; top: 0; display: block; height: 100%; width: 100%
+}
+
+
+//*mozaiek//*
+

@@ -1,0 +1,180 @@
+.main-special {
+  overflow-x: hidden;
+}
+
+#s-family-logo2 {
+  width: 4.125rem;
+  position: absolute;
+  height: 4.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/XL logo KLEIN.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+}
+
+
+.hamburger2 {
+  @media only screen and (max-device-width: 767px) {
+    width: 4.125rem;
+    position: absolute;
+    height: 4.125rem;
+    top: 2.250rem;
+    right: 3.250rem;
+    background: url("../icons/hamburger_pink.svg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+  }
+
+
+
+
+
+  @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    width: 4.125rem;
+    position: absolute;
+    height: 4.125rem;
+    top: 2.250rem;
+    right: 3.250rem;
+    background: url("../icons/hamburger_pink.svg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+
+  }
+
+  @media only screen and (min-device-width: 1200px) {
+    width: 4.125rem;
+    position: absolute;
+    height: 4.125rem;
+    top: 2.250rem;
+    right: 3.250rem;
+    background: url("../icons/hamburger_pink.svg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+
+  }
+
+
+}
+
+#blog_overview {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background: white;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: white;
+    background-size: 100vw;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+}
+
+
+
+.title_wrapper_blog {
+
+  @media only screen and (max-device-width: 767px) {
+    height: 500px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    text-align: center;
+
+    h1 {
+      display: block;
+      position: relative;
+      font-family: $raleway;
+      font-size:$font-block-text;
+      color: black;
+      font-weight: 900;
+      letter-spacing: 1.26px;
+      width: 100%;
+    }
+
+
+    p {
+      display: block;
+      position: relative;
+      font-family: $raleway;
+      font-size: $font-text;
+      color: black;
+      font-weight: 400;
+      letter-spacing: 1.26px;
+      width: 25rem;
+
+    }
+
+  }
+
+  @media only screen and (min-device-width: 768px)  {
+    height: 500px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    margin-top: -5rem;
+
+
+
+
+
+
+    h1 {
+      display: block;
+      position: relative;
+      font-family: $raleway;
+      font-size:$font-title;
+      color: black;
+      font-weight: 900;
+      letter-spacing: 1.26px;
+      width: 100%;
+      margin-bottom: 5rem;
+    }
+    p {
+      display: block;
+      position: relative;
+      font-family: $raleway;
+      font-size: $font-text;
+      color: black;
+      font-weight: 400;
+      letter-spacing: 1.26px;
+      width: 80rem;
+    }
+
+  }}
+
