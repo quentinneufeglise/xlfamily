@@ -1,0 +1,122 @@
+@media only screen and (max-device-width: 767px) {
+  /* line 6, ../../scss/components/team_pictures.scss */
+  .hans-picture {
+    background: url("../images/Responsive portraits/Mobile_portrait /hans.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 6, ../../scss/components/team_pictures.scss */
+  .hans-picture {
+    background: url("../images/Responsive portraits/Tablet_landscape /hans.png") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 100vh;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 6, ../../scss/components/team_pictures.scss */
+  .hans-picture {
+    background: url("../images/Responsive portraits/Desktop /hans.png") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 100vh;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 47, ../../scss/components/team_pictures.scss */
+  .ben-picture {
+    background: url("../images/Ben10.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 47, ../../scss/components/team_pictures.scss */
+  .ben-picture {
+    background: url("../images/Ben10.jpg") repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 100vh;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 80, ../../scss/components/team_pictures.scss */
+  .aneliya-picture {
+    background: url("../images/Ben10.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 80, ../../scss/components/team_pictures.scss */
+  .aneliya-picture {
+    background: url("../images/Ben10.jpg") repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 100vh;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 80, ../../scss/components/team_pictures.scss */
+  .aneliya-picture {
+    background: url("../images/aneliya.png") repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 100vh;
+    display: block;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
