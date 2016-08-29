@@ -4,10 +4,9 @@
 /* line 1, ../scss/base/_config.scss */
 body, html {
   font-size: 16px;
-  height: 100%;
 }
 
-/* line 5, ../scss/base/_config.scss */
+/* line 4, ../scss/base/_config.scss */
 body {
   overflow-x: hidden;
 }
@@ -10170,125 +10169,1318 @@ button.close {
   max-width: 400px;
 }
 
+/* line 1418, ../scss/components/blocks.scss */
+#location1 {
+  background: url("../images/amsteradm.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 1422, ../scss/components/blocks.scss */
+#location1 #location1-hover {
+  display: none;
+}
+/* line 1425, ../scss/components/blocks.scss */
+#location1 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1439, ../scss/components/blocks.scss */
+#location1:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/amsteradm.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1454, ../scss/components/blocks.scss */
+#location1:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/amsteradm.jpg");
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1468, ../scss/components/blocks.scss */
+#location1:hover #location1-hover {
+  display: block;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+/* line 1477, ../scss/components/blocks.scss */
+#location2 {
+  background: url("../images/leiden.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 1481, ../scss/components/blocks.scss */
+#location2 #location2-hover {
+  display: none;
+}
+/* line 1484, ../scss/components/blocks.scss */
+#location2 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1498, ../scss/components/blocks.scss */
+#location2:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/leiden.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1513, ../scss/components/blocks.scss */
+#location2:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/leiden.jpg");
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1527, ../scss/components/blocks.scss */
+#location2:hover #location2-hover {
+  display: block;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+/* line 1536, ../scss/components/blocks.scss */
+#location3 {
+  background: url("../images/bucharest.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 1540, ../scss/components/blocks.scss */
+#location3 #location3-hover {
+  display: none;
+}
+/* line 1543, ../scss/components/blocks.scss */
+#location3 .overlay-wrapper {
+  display: block;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1557, ../scss/components/blocks.scss */
+#location3:hover .overlay-wrapper {
+  display: block;
+  background: url("../images/bucharest.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1572, ../scss/components/blocks.scss */
+#location3:hover .background-wrapper {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/bucharest.jpg");
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+}
+/* line 1586, ../scss/components/blocks.scss */
+#location3:hover #location3-hover {
+  display: block;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
 @media only screen and (max-device-width: 767px) {
   /* line 6, ../scss/components/team_pictures.scss */
   .hans-picture {
-    background: url("../images/Responsive portraits/Mobile_portrait /hans.png") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /hans.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
     width: 100%;
   }
 }
 @media only screen and (min-device-width: 768px) {
   /* line 6, ../scss/components/team_pictures.scss */
   .hans-picture {
-    background: url("../images/Responsive portraits/Tablet_landscape /hans.png") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /hans.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
-    height: 100vh;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
+    height: 85vh;
     width: 100%;
   }
 }
 @media only screen and (min-device-width: 1200px) {
   /* line 6, ../scss/components/team_pictures.scss */
   .hans-picture {
-    background: url("../images/Responsive portraits/Desktop /hans.png") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Desktop/hans.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
-    height: 100vh;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 6, ../scss/components/team_pictures.scss */
+  .hans-picture {
+    background: url("../images/Responsive portraits JPEG/HD /hans.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
     width: 100%;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 47, ../scss/components/team_pictures.scss */
-  .ben-picture {
-    background: url("../images/Ben10.jpg") no-repeat;
+  /* line 40, ../scss/components/team_pictures.scss */
+  .aneliya-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /aneliya.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
     width: 100%;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 47, ../scss/components/team_pictures.scss */
-  .ben-picture {
-    background: url("../images/Ben10.jpg") repeat;
+  /* line 40, ../scss/components/team_pictures.scss */
+  .aneliya-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /aneliya.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
-    height: 100vh;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-  }
-}
-
-@media only screen and (max-device-width: 767px) {
-  /* line 80, ../scss/components/team_pictures.scss */
-  .aneliya-picture {
-    background: url("../images/Ben10.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-  }
-}
-@media only screen and (min-device-width: 768px) {
-  /* line 80, ../scss/components/team_pictures.scss */
-  .aneliya-picture {
-    background: url("../images/Ben10.jpg") repeat;
-    background-size: 100vw;
-    background-position: center;
-    height: 100vh;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
+    height: 85vh;
     width: 100%;
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 80, ../scss/components/team_pictures.scss */
+  /* line 40, ../scss/components/team_pictures.scss */
   .aneliya-picture {
-    background: url("../images/aneliya.png") repeat;
+    background: url("../images/Responsive portraits JPEG/Desktop/aneliya.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
-    height: 100vh;
-    display: block;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 40, ../scss/components/team_pictures.scss */
+  .aneliya-picture {
+    background: url("../images/Responsive portraits JPEG/HD /aneliya.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 72, ../scss/components/team_pictures.scss */
+  .anne-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /anne.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 72, ../scss/components/team_pictures.scss */
+  .anne-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /anne.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 72, ../scss/components/team_pictures.scss */
+  .anne-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/anne.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 72, ../scss/components/team_pictures.scss */
+  .anne-picture {
+    background: url("../images/Responsive portraits JPEG/HD /anne.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 104, ../scss/components/team_pictures.scss */
+  .beatriz-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /beatriz.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 104, ../scss/components/team_pictures.scss */
+  .beatriz-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /beatriz.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 104, ../scss/components/team_pictures.scss */
+  .beatriz-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/beatriz.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 104, ../scss/components/team_pictures.scss */
+  .beatriz-picture {
+    background: url("../images/Responsive portraits JPEG/HD /beatriz.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 136, ../scss/components/team_pictures.scss */
+  .ben-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /ben.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 136, ../scss/components/team_pictures.scss */
+  .ben-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /ben.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 136, ../scss/components/team_pictures.scss */
+  .ben-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/ben.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 136, ../scss/components/team_pictures.scss */
+  .ben-picture {
+    background: url("../images/Responsive portraits JPEG/HD /ben.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 168, ../scss/components/team_pictures.scss */
+  .brendan-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /brendan.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 168, ../scss/components/team_pictures.scss */
+  .brendan-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /brendan.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 168, ../scss/components/team_pictures.scss */
+  .brendan-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/brendan.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 168, ../scss/components/team_pictures.scss */
+  .brendan-picture {
+    background: url("../images/Responsive portraits JPEG/HD /brendan.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 200, ../scss/components/team_pictures.scss */
+  .dimitris-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /dimitris.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 200, ../scss/components/team_pictures.scss */
+  .dimitris-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /dimitris.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 200, ../scss/components/team_pictures.scss */
+  .dimitris-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/dimitris.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 200, ../scss/components/team_pictures.scss */
+  .dimitris-picture {
+    background: url("../images/Responsive portraits JPEG/HD /dimitris.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 232, ../scss/components/team_pictures.scss */
+  .filip-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /filip.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 232, ../scss/components/team_pictures.scss */
+  .filip-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /filip.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 232, ../scss/components/team_pictures.scss */
+  .filip-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/filip.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 232, ../scss/components/team_pictures.scss */
+  .filip-picture {
+    background: url("../images/Responsive portraits JPEG/HD /filip.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 264, ../scss/components/team_pictures.scss */
+  .jaap-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /jaap.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 264, ../scss/components/team_pictures.scss */
+  .jaap-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /jaap.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 264, ../scss/components/team_pictures.scss */
+  .jaap-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/jaap.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 264, ../scss/components/team_pictures.scss */
+  .jaap-picture {
+    background: url("../images/Responsive portraits JPEG/HD /jaap.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 296, ../scss/components/team_pictures.scss */
+  .jaspar-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /jaspar.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 296, ../scss/components/team_pictures.scss */
+  .jaspar-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /jaspar.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 296, ../scss/components/team_pictures.scss */
+  .jaspar-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/jaspar.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 296, ../scss/components/team_pictures.scss */
+  .jaspar-picture {
+    background: url("../images/Responsive portraits JPEG/HD /jaspar.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 328, ../scss/components/team_pictures.scss */
+  .jeroen-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /jeroen.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 328, ../scss/components/team_pictures.scss */
+  .jeroen-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /jeroen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 328, ../scss/components/team_pictures.scss */
+  .jeroen-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/jeroen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 328, ../scss/components/team_pictures.scss */
+  .jeroen-picture {
+    background: url("../images/Responsive portraits JPEG/HD /jeroen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 360, ../scss/components/team_pictures.scss */
+  .jeske-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /jeske.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 360, ../scss/components/team_pictures.scss */
+  .jeske-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /jeske.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 360, ../scss/components/team_pictures.scss */
+  .jeske-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/jeske.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 360, ../scss/components/team_pictures.scss */
+  .jeske-picture {
+    background: url("../images/Responsive portraits JPEG/HD /jeske.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 392, ../scss/components/team_pictures.scss */
+  .leslie-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /leslie.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 392, ../scss/components/team_pictures.scss */
+  .leslie-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /leslie.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 392, ../scss/components/team_pictures.scss */
+  .leslie-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/leslie.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 392, ../scss/components/team_pictures.scss */
+  .leslie-picture {
+    background: url("../images/Responsive portraits JPEG/HD /leslie.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 424, ../scss/components/team_pictures.scss */
+  .lucien-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /lucien.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 424, ../scss/components/team_pictures.scss */
+  .lucien-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /lucien.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 424, ../scss/components/team_pictures.scss */
+  .lucien-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/lucien.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 424, ../scss/components/team_pictures.scss */
+  .lucien-picture {
+    background: url("../images/Responsive portraits JPEG/HD /lucien.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 456, ../scss/components/team_pictures.scss */
+  .maarten-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /maarten.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 456, ../scss/components/team_pictures.scss */
+  .maarten-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /maarten.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 456, ../scss/components/team_pictures.scss */
+  .maarten-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/maarten.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 456, ../scss/components/team_pictures.scss */
+  .maarten-picture {
+    background: url("../images/Responsive portraits JPEG/HD /maarten.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 488, ../scss/components/team_pictures.scss */
+  .marc-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /marc.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 488, ../scss/components/team_pictures.scss */
+  .marc-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /marc.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 488, ../scss/components/team_pictures.scss */
+  .marc-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/marc.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 488, ../scss/components/team_pictures.scss */
+  .marc-picture {
+    background: url("../images/Responsive portraits JPEG/HD /marc.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 520, ../scss/components/team_pictures.scss */
+  .matthijs-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /matthijs.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 520, ../scss/components/team_pictures.scss */
+  .matthijs-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /matthijs.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 520, ../scss/components/team_pictures.scss */
+  .matthijs-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/matthijs.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 520, ../scss/components/team_pictures.scss */
+  .matthijs-picture {
+    background: url("../images/Responsive portraits JPEG/HD /matthijs.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 553, ../scss/components/team_pictures.scss */
+  .mihaela-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /mihaela.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 553, ../scss/components/team_pictures.scss */
+  .mihaela-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /mihaela.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 553, ../scss/components/team_pictures.scss */
+  .mihaela-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/mihaela.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 553, ../scss/components/team_pictures.scss */
+  .mihaela-picture {
+    background: url("../images/Responsive portraits JPEG/HD /mihaela.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 586, ../scss/components/team_pictures.scss */
+  .nils-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /nils.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 586, ../scss/components/team_pictures.scss */
+  .nils-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /nils.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 586, ../scss/components/team_pictures.scss */
+  .nils-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/nils.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 586, ../scss/components/team_pictures.scss */
+  .nils-picture {
+    background: url("../images/Responsive portraits JPEG/HD /nils.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 620, ../scss/components/team_pictures.scss */
+  .pascal-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /pascal.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 620, ../scss/components/team_pictures.scss */
+  .pascal-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /pascal.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 620, ../scss/components/team_pictures.scss */
+  .pascal-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/pascal.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 620, ../scss/components/team_pictures.scss */
+  .pascal-picture {
+    background: url("../images/Responsive portraits JPEG/HD /pascal.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 652, ../scss/components/team_pictures.scss */
+  .paul-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /paul.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 652, ../scss/components/team_pictures.scss */
+  .paul-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /paul.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 652, ../scss/components/team_pictures.scss */
+  .paul-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/paul.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 652, ../scss/components/team_pictures.scss */
+  .paul-picture {
+    background: url("../images/Responsive portraits JPEG/HD /paul.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 685, ../scss/components/team_pictures.scss */
+  .ragna-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /ragna.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 685, ../scss/components/team_pictures.scss */
+  .ragna-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /ragna.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 685, ../scss/components/team_pictures.scss */
+  .ragna-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/ragna.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 685, ../scss/components/team_pictures.scss */
+  .ragna-picture {
+    background: url("../images/Responsive portraits JPEG/HD /ragna.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 718, ../scss/components/team_pictures.scss */
+  .romen-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /romen.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 718, ../scss/components/team_pictures.scss */
+  .romen-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /romen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 718, ../scss/components/team_pictures.scss */
+  .romen-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/romen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 718, ../scss/components/team_pictures.scss */
+  .romen-picture {
+    background: url("../images/Responsive portraits JPEG/HD /romen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 750, ../scss/components/team_pictures.scss */
+  .saskia-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /saskia.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 750, ../scss/components/team_pictures.scss */
+  .saskia-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /saskia.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 750, ../scss/components/team_pictures.scss */
+  .saskia-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/saskia.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 750, ../scss/components/team_pictures.scss */
+  .saskia-picture {
+    background: url("../images/Responsive portraits JPEG/HD /saskia.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 782, ../scss/components/team_pictures.scss */
+  .silvio-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /silvio.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 782, ../scss/components/team_pictures.scss */
+  .silvio-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /silvio.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 782, ../scss/components/team_pictures.scss */
+  .silvio-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/silvio.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 782, ../scss/components/team_pictures.scss */
+  .silvio-picture {
+    background: url("../images/Responsive portraits JPEG/HD /silvio.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 814, ../scss/components/team_pictures.scss */
+  .tudor-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /tudor.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 814, ../scss/components/team_pictures.scss */
+  .tudor-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /tudor.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 814, ../scss/components/team_pictures.scss */
+  .tudor-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/tudor.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 814, ../scss/components/team_pictures.scss */
+  .tudor-picture {
+    background: url("../images/Responsive portraits JPEG/HD /tudor.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 846, ../scss/components/team_pictures.scss */
+  .wouter-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /wouter.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 846, ../scss/components/team_pictures.scss */
+  .wouter-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /wouter.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 846, ../scss/components/team_pictures.scss */
+  .wouter-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/wouter.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 846, ../scss/components/team_pictures.scss */
+  .wouter-picture {
+    background: url("../images/Responsive portraits JPEG/HD /wouter.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 878, ../scss/components/team_pictures.scss */
+  .xander-picture {
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait /xander.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 878, ../scss/components/team_pictures.scss */
+  .xander-picture {
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape /xander.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 878, ../scss/components/team_pictures.scss */
+  .xander-picture {
+    background: url("../images/Responsive portraits JPEG/Desktop/xander.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 878, ../scss/components/team_pictures.scss */
+  .xander-picture {
+    background: url("../images/Responsive portraits JPEG/HD /xander.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
     width: 100%;
   }
 }
@@ -10296,9 +11488,9 @@ button.close {
 /*=== PAGES ===*/
 @media only screen and (max-device-width: 767px) {
   /* line 1, ../scss/pages/_article.scss */
-  #article1 {
+  #adventure1 {
     background-size: cover;
-    background: url("../images/xl_blog_1.png") no-repeat;
+    background: no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -10308,7 +11500,7 @@ button.close {
 }
 @media only screen and (min-device-width: 768px) {
   /* line 1, ../scss/pages/_article.scss */
-  #article1 {
+  #adventure1 {
     display: block;
     margin: auto;
     max-height: 100%;
@@ -10325,27 +11517,58 @@ button.close {
 
 @media only screen and (max-device-width: 767px) {
   /* line 29, ../scss/pages/_article.scss */
+  #article1 {
+    background-size: cover;
+    background: url("../images/xl_blog_1.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 29, ../scss/pages/_article.scss */
+  #article1 {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/xl_blog_1.png") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 58, ../scss/pages/_article.scss */
   .article-person {
     display: flex;
     flex-direction: column;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 29, ../scss/pages/_article.scss */
+  /* line 58, ../scss/pages/_article.scss */
   .article-person {
+    padding: 0;
     display: flex;
     flex-direction: row;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 48, ../scss/pages/_article.scss */
+  /* line 77, ../scss/pages/_article.scss */
   .article-picture1 {
     display: none;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 48, ../scss/pages/_article.scss */
+  /* line 77, ../scss/pages/_article.scss */
   .article-picture1 {
     margin-right: 1rem;
     width: 5.525rem;
@@ -10362,7 +11585,7 @@ button.close {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 72, ../scss/pages/_article.scss */
+  /* line 101, ../scss/pages/_article.scss */
   .article-picture1-mb {
     width: 5.525rem;
     position: relative;
@@ -10378,14 +11601,14 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 72, ../scss/pages/_article.scss */
+  /* line 101, ../scss/pages/_article.scss */
   .article-picture1-mb {
     display: none;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 98, ../scss/pages/_article.scss */
+  /* line 127, ../scss/pages/_article.scss */
   .article-person {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
@@ -10396,7 +11619,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 98, ../scss/pages/_article.scss */
+  /* line 127, ../scss/pages/_article.scss */
   .article-person {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
@@ -10408,7 +11631,7 @@ button.close {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 122, ../scss/pages/_article.scss */
+  /* line 151, ../scss/pages/_article.scss */
   .article-person-desc {
     font-size: 15px;
     color: gray;
@@ -10416,7 +11639,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 122, ../scss/pages/_article.scss */
+  /* line 151, ../scss/pages/_article.scss */
   .article-person-desc {
     font-size: 15px;
     color: gray;
@@ -10424,7 +11647,7 @@ button.close {
   }
 }
 
-/* line 142, ../scss/pages/_article.scss */
+/* line 171, ../scss/pages/_article.scss */
 .article-text {
   font-size: 15px;
   color: grey;
@@ -10433,7 +11656,16 @@ button.close {
   margin-bottom: 2rem;
 }
 
-/* line 152, ../scss/pages/_article.scss */
+/* line 179, ../scss/pages/_article.scss */
+.article-text-title {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+/* line 190, ../scss/pages/_article.scss */
 .twitter-link {
   color: #00aeef;
   text-align: center;
@@ -10449,7 +11681,7 @@ button.close {
   -o-transition: 0.1s ease;
   transition: 0.1s ease;
 }
-/* line 167, ../scss/pages/_article.scss */
+/* line 205, ../scss/pages/_article.scss */
 .twitter-link .twitter-logo-blue {
   -webkit-transition: 0.1s ease;
   -moz-transition: 0.1s ease;
@@ -10466,7 +11698,7 @@ button.close {
   margin-right: auto;
   margin-top: 2rem;
 }
-/* line 183, ../scss/pages/_article.scss */
+/* line 221, ../scss/pages/_article.scss */
 .twitter-link:hover {
   color: #ff0066;
   text-align: center;
@@ -10483,7 +11715,7 @@ button.close {
   transition: 0.1s ease;
   margin-top: 3rem;
 }
-/* line 184, ../scss/pages/_article.scss */
+/* line 222, ../scss/pages/_article.scss */
 .twitter-link:hover .twitter-logo-blue {
   -webkit-transition: 0.1s ease;
   -moz-transition: 0.1s ease;
@@ -10501,18 +11733,52 @@ button.close {
   margin-top: 2rem;
 }
 
-/* line 220, ../scss/pages/_article.scss */
+/* line 258, ../scss/pages/_article.scss */
 .black-title {
   color: black;
 }
 
-/* line 224, ../scss/pages/_article.scss */
+/* line 262, ../scss/pages/_article.scss */
 .blue-icon-wrapper {
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+/* line 268, ../scss/pages/_article.scss */
+.blue-icon-wrapper ul {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+  padding: 0;
+}
+/* line 274, ../scss/pages/_article.scss */
+.blue-icon-wrapper li {
+  display: inline-block;
 }
 
-/* line 229, ../scss/pages/_article.scss */
+/* line 279, ../scss/pages/_article.scss */
+.blue-icon-wrapper2 {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+/* line 285, ../scss/pages/_article.scss */
+.blue-icon-wrapper2 ul {
+  display: inline-block;
+  margin-top: 4rem;
+  margin-bottom: -1rem;
+  padding: 0;
+}
+/* line 291, ../scss/pages/_article.scss */
+.blue-icon-wrapper2 li {
+  display: inline-block;
+}
+
+/* line 297, ../scss/pages/_article.scss */
 .linkdin-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -10523,7 +11789,7 @@ button.close {
   display: block;
 }
 
-/* line 239, ../scss/pages/_article.scss */
+/* line 307, ../scss/pages/_article.scss */
 .twitter-logo-blue2 {
   width: 3.125rem;
   height: 3.125rem;
@@ -10535,7 +11801,7 @@ button.close {
   display: block;
 }
 
-/* line 249, ../scss/pages/_article.scss */
+/* line 317, ../scss/pages/_article.scss */
 .facebook-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -10547,7 +11813,7 @@ button.close {
   display: block;
 }
 
-/* line 260, ../scss/pages/_article.scss */
+/* line 328, ../scss/pages/_article.scss */
 .email-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -10559,7 +11825,7 @@ button.close {
   display: block;
 }
 
-/* line 271, ../scss/pages/_article.scss */
+/* line 339, ../scss/pages/_article.scss */
 .blue-line {
   background: #00aeef;
   width: 100%;
@@ -10568,7 +11834,7 @@ button.close {
   margin-top: 4rem;
 }
 
-/* line 279, ../scss/pages/_article.scss */
+/* line 347, ../scss/pages/_article.scss */
 .pijl-article-onder {
   width: 13.125rem;
   position: relative;
@@ -10589,7 +11855,7 @@ button.close {
   background-position: center;
 }
 
-/* line 299, ../scss/pages/_article.scss */
+/* line 367, ../scss/pages/_article.scss */
 .article-more {
   text-align: center;
   display: flex;
@@ -10601,6 +11867,36 @@ button.close {
   color: black;
   font-size: 20px;
   font-weight: 900;
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 380, ../scss/pages/_article.scss */
+  .jeske-icon {
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../icons/jeske-icon.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 380, ../scss/pages/_article.scss */
+  .jeske-icon {
+    margin-right: 1rem;
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../icons/jeske-icon.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-bottom: -1rem;
+  }
 }
 
 @media only screen and (max-device-width: 767px) {
@@ -11166,15 +12462,17 @@ body {
   cursor: pointer;
   z-index: 10;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 139, ../scss/pages/_home.scss */
+/* line 141, ../scss/pages/_home.scss */
 .mouse-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* line 145, ../scss/pages/_home.scss */
+/* line 147, ../scss/pages/_home.scss */
 .mouse-wrapper #mousebutton {
   width: 4.125rem;
   height: 4.125rem;
@@ -11191,7 +12489,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 161, ../scss/pages/_home.scss */
+  /* line 163, ../scss/pages/_home.scss */
   .title_wrapper {
     height: 500px;
     display: -webkit-box;
@@ -11205,7 +12503,7 @@ body {
     vertical-align: middle;
     text-align: center;
   }
-  /* line 176, ../scss/pages/_home.scss */
+  /* line 179, ../scss/pages/_home.scss */
   .title_wrapper h1 {
     display: block;
     position: relative;
@@ -11216,7 +12514,7 @@ body {
     letter-spacing: 1.26px;
     width: 100%;
   }
-  /* line 188, ../scss/pages/_home.scss */
+  /* line 191, ../scss/pages/_home.scss */
   .title_wrapper p {
     display: block;
     position: relative;
@@ -11226,23 +12524,18 @@ body {
     font-weight: 500;
     letter-spacing: 1.26px;
     width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 161, ../scss/pages/_home.scss */
+  /* line 163, ../scss/pages/_home.scss */
   .title_wrapper {
     height: 100vh;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    vertical-align: middle;
+    position: relative;
+    text-align: center;
   }
-  /* line 219, ../scss/pages/_home.scss */
+  /* line 220, ../scss/pages/_home.scss */
   .title_wrapper h1 {
     display: block;
     position: relative;
@@ -11253,7 +12546,7 @@ body {
     letter-spacing: 1.26px;
     width: 100%;
   }
-  /* line 229, ../scss/pages/_home.scss */
+  /* line 230, ../scss/pages/_home.scss */
   .title_wrapper p {
     display: block;
     position: relative;
@@ -11262,14 +12555,30 @@ body {
     color: #FFFFFF;
     font-weight: 500;
     letter-spacing: 1.26px;
-    width: 100%;
     width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
+
+/* line 247, ../scss/pages/_home.scss */
+.title_wrapper2 {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /*===CLIENT-NEEDS-OVERVIEW===*/
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 251, ../scss/pages/_home.scss */
+  /* line 264, ../scss/pages/_home.scss */
   #pijl-boven {
     width: 8.125rem;
     position: relative;
@@ -11293,7 +12602,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 251, ../scss/pages/_home.scss */
+  /* line 264, ../scss/pages/_home.scss */
   #pijl-boven {
     width: 15.125rem;
     position: relative;
@@ -11318,7 +12627,7 @@ body {
 }
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 299, ../scss/pages/_home.scss */
+  /* line 312, ../scss/pages/_home.scss */
   #pijl-links {
     width: 8.125rem;
     position: absolute;
@@ -11333,7 +12642,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 299, ../scss/pages/_home.scss */
+  /* line 312, ../scss/pages/_home.scss */
   #pijl-links {
     width: 15.125rem;
     position: absolute;
@@ -11348,7 +12657,7 @@ body {
 }
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 331, ../scss/pages/_home.scss */
+  /* line 344, ../scss/pages/_home.scss */
   #pijl-rechts {
     width: 8.125rem;
     position: absolute;
@@ -11368,7 +12677,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 331, ../scss/pages/_home.scss */
+  /* line 344, ../scss/pages/_home.scss */
   #pijl-rechts {
     width: 15.125rem;
     position: absolute;
@@ -11388,7 +12697,7 @@ body {
 }
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 371, ../scss/pages/_home.scss */
+  /* line 384, ../scss/pages/_home.scss */
   #pijl-onder {
     width: 8.125rem;
     position: relative;
@@ -11412,7 +12721,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 371, ../scss/pages/_home.scss */
+  /* line 384, ../scss/pages/_home.scss */
   #pijl-onder {
     width: 15.125rem;
     position: relative;
@@ -11436,7 +12745,7 @@ body {
   }
 }
 
-/* line 419, ../scss/pages/_home.scss */
+/* line 432, ../scss/pages/_home.scss */
 .discover-title {
   font-size: 25px;
   font-weight: 900;
@@ -11445,7 +12754,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 426, ../scss/pages/_home.scss */
+  /* line 439, ../scss/pages/_home.scss */
   .discover-text {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
@@ -11458,7 +12767,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 426, ../scss/pages/_home.scss */
+  /* line 439, ../scss/pages/_home.scss */
   .discover-text {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
@@ -11470,7 +12779,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 426, ../scss/pages/_home.scss */
+  /* line 439, ../scss/pages/_home.scss */
   .discover-text {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
@@ -11483,7 +12792,7 @@ body {
   }
 }
 
-/* line 465, ../scss/pages/_home.scss */
+/* line 478, ../scss/pages/_home.scss */
 .start {
   font-size: 15px;
   text-decoration: underline;
@@ -11491,7 +12800,7 @@ body {
   font-weight: 900;
   cursor: pointer;
 }
-/* line 471, ../scss/pages/_home.scss */
+/* line 484, ../scss/pages/_home.scss */
 .start:hover, .start:focus {
   font-size: 15px;
   text-decoration: underline;
@@ -11500,59 +12809,59 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 479, ../scss/pages/_home.scss */
+  /* line 492, ../scss/pages/_home.scss */
   #discover1 {
     margin-top: 50px;
     text-align: center;
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 479, ../scss/pages/_home.scss */
+  /* line 492, ../scss/pages/_home.scss */
   #discover1 {
     text-align: center;
     margin-bottom: -6rem;
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 479, ../scss/pages/_home.scss */
+  /* line 492, ../scss/pages/_home.scss */
   #discover1 {
     text-align: center;
   }
 }
 
-/* line 498, ../scss/pages/_home.scss */
+/* line 511, ../scss/pages/_home.scss */
 #discover2 {
   text-align: center;
 }
 
-/* line 504, ../scss/pages/_home.scss */
+/* line 517, ../scss/pages/_home.scss */
 #discover3 {
   text-align: center;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 508, ../scss/pages/_home.scss */
+  /* line 521, ../scss/pages/_home.scss */
   #discover4 {
     margin-bottom: 50px;
     text-align: center;
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 508, ../scss/pages/_home.scss */
+  /* line 521, ../scss/pages/_home.scss */
   #discover4 {
     text-align: center;
     margin-top: -5rem;
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 508, ../scss/pages/_home.scss */
+  /* line 521, ../scss/pages/_home.scss */
   #discover4 {
     text-align: center;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 530, ../scss/pages/_home.scss */
+  /* line 543, ../scss/pages/_home.scss */
   .mobile-divider1 {
     display: block;
     left: 0;
@@ -11571,14 +12880,14 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 530, ../scss/pages/_home.scss */
+  /* line 543, ../scss/pages/_home.scss */
   .mobile-divider1 {
     display: none;
   }
 }
 
 /*===CASES-AND-STORIES===*/
-/* line 566, ../scss/pages/_home.scss */
+/* line 579, ../scss/pages/_home.scss */
 .background-wrapper {
   position: absolute;
   display: none;
@@ -11589,7 +12898,7 @@ body {
   background: red;
 }
 
-/* line 577, ../scss/pages/_home.scss */
+/* line 590, ../scss/pages/_home.scss */
 .background_gradient-wrapper1 {
   position: absolute;
   display: block;
@@ -11609,7 +12918,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 595, ../scss/pages/_home.scss */
+/* line 608, ../scss/pages/_home.scss */
 .background_gradient-wrapper2 {
   position: absolute;
   display: block;
@@ -11629,7 +12938,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 613, ../scss/pages/_home.scss */
+/* line 626, ../scss/pages/_home.scss */
 .background_gradient-wrapper3 {
   position: absolute;
   display: block;
@@ -11649,7 +12958,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 631, ../scss/pages/_home.scss */
+/* line 644, ../scss/pages/_home.scss */
 .background_gradient-wrapper4 {
   position: absolute;
   display: block;
@@ -11669,7 +12978,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 649, ../scss/pages/_home.scss */
+/* line 662, ../scss/pages/_home.scss */
 .background_gradient-wrapper5 {
   position: absolute;
   display: block;
@@ -11689,7 +12998,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 666, ../scss/pages/_home.scss */
+/* line 679, ../scss/pages/_home.scss */
 .storyht {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
@@ -11699,7 +13008,7 @@ body {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 674, ../scss/pages/_home.scss */
+  /* line 687, ../scss/pages/_home.scss */
   .storytitle {
     color: whitesmoke;
     font-family: "Raleway", sans-serif;
@@ -11712,7 +13021,7 @@ body {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 674, ../scss/pages/_home.scss */
+  /* line 687, ../scss/pages/_home.scss */
   .storytitle {
     color: whitesmoke;
     font-family: "Raleway", sans-serif;
@@ -11726,7 +13035,7 @@ body {
   }
 }
 
-/* line 702, ../scss/pages/_home.scss */
+/* line 715, ../scss/pages/_home.scss */
 .story-text {
   font-family: "Raleway", sans-serif;
   position: relative;
@@ -11736,7 +13045,7 @@ body {
   z-index: 500;
 }
 
-/* line 711, ../scss/pages/_home.scss */
+/* line 724, ../scss/pages/_home.scss */
 .hover-text {
   font-size: 25px;
   font-family: "Raleway", sans-serif;
@@ -11744,7 +13053,7 @@ body {
   cursor: pointer;
 }
 
-/* line 718, ../scss/pages/_home.scss */
+/* line 731, ../scss/pages/_home.scss */
 .hover-link {
   font-size: 20px;
   text-decoration: underline;
@@ -11754,7 +13063,7 @@ body {
   line-height: 2.5;
   cursor: pointer;
 }
-/* line 726, ../scss/pages/_home.scss */
+/* line 739, ../scss/pages/_home.scss */
 .hover-link:hover {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
@@ -11766,13 +13075,13 @@ body {
 
 /*===cases==*/
 @media only screen and (max-device-width: 767px) {
-  /* line 737, ../scss/pages/_home.scss */
+  /* line 750, ../scss/pages/_home.scss */
   .cases-height {
     margin-bottom: 4rem;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 737, ../scss/pages/_home.scss */
+  /* line 750, ../scss/pages/_home.scss */
   .cases-height {
     margin-top: 10rem;
     margin-bottom: 18rem;
@@ -11780,13 +13089,13 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 751, ../scss/pages/_home.scss */
+  /* line 764, ../scss/pages/_home.scss */
   #pijl-blauw-links {
     display: none;
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 751, ../scss/pages/_home.scss */
+  /* line 764, ../scss/pages/_home.scss */
   #pijl-blauw-links {
     width: 14.125rem;
     position: absolute;
@@ -11807,7 +13116,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 751, ../scss/pages/_home.scss */
+  /* line 764, ../scss/pages/_home.scss */
   #pijl-blauw-links {
     width: 14.125rem;
     position: absolute;
@@ -11829,13 +13138,13 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 796, ../scss/pages/_home.scss */
+  /* line 809, ../scss/pages/_home.scss */
   #pijl-blauw-rechts {
     display: none;
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 796, ../scss/pages/_home.scss */
+  /* line 809, ../scss/pages/_home.scss */
   #pijl-blauw-rechts {
     width: 14.125rem;
     position: absolute;
@@ -11851,7 +13160,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 796, ../scss/pages/_home.scss */
+  /* line 809, ../scss/pages/_home.scss */
   #pijl-blauw-rechts {
     width: 14.125rem;
     position: absolute;
@@ -11868,7 +13177,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 830, ../scss/pages/_home.scss */
+  /* line 843, ../scss/pages/_home.scss */
   .pijl-blauw-links-mb {
     width: 7.125rem;
     position: absolute;
@@ -11890,7 +13199,7 @@ body {
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 857, ../scss/pages/_home.scss */
+  /* line 870, ../scss/pages/_home.scss */
   .pijl-blauw-rechts-mb {
     width: 7.125rem;
     position: absolute;
@@ -11902,11 +13211,11 @@ body {
     display: block;
     background-position: center;
     right: -29rem;
-    margin-top: -63.6rem;
+    margin-top: -71.2rem;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 857, ../scss/pages/_home.scss */
+  /* line 870, ../scss/pages/_home.scss */
   .pijl-blauw-rechts-mb {
     width: 7.125rem;
     position: absolute;
@@ -11922,45 +13231,20 @@ body {
   }
 }
 
-/* line 895, ../scss/pages/_home.scss */
+/* line 908, ../scss/pages/_home.scss */
 .cases-wrapper {
   text-align: center;
   margin-top: 5rem;
 }
 
-/* line 900, ../scss/pages/_home.scss */
+/* line 913, ../scss/pages/_home.scss */
 .caseht {
   font-size: 20px;
   color: gray;
   font-family: "Raleway", sans-serif;
 }
 
-@media only screen and (max-device-width: 767px) {
-  /* line 906, ../scss/pages/_home.scss */
-  .case-text {
-    font-size: 20px;
-    font-family: "Raleway", sans-serif;
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-  }
-}
-@media only screen and (min-device-width: 768px) {
-  /* line 906, ../scss/pages/_home.scss */
-  .case-text {
-    font-size: 30px;
-    font-family: "Raleway", sans-serif;
-    width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-  }
-}
-
-/* line 930, ../scss/pages/_home.scss */
+/* line 922, ../scss/pages/_home.scss */
 .case-logo {
   width: 4.125rem;
   position: absolute;
@@ -11974,7 +13258,7 @@ body {
   display: block;
 }
 
-/* line 943, ../scss/pages/_home.scss */
+/* line 935, ../scss/pages/_home.scss */
 .case-person {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
@@ -11982,12 +13266,17 @@ body {
   color: black;
 }
 
+/* line 943, ../scss/pages/_home.scss */
+.case-person2 {
+  width: 20rem;
+}
+
 @media only screen and (max-device-width: 767px) {
-  /* line 951, ../scss/pages/_home.scss */
+  /* line 948, ../scss/pages/_home.scss */
   .person-picture1 {
-    width: 7.525rem;
+    width: 6.525rem;
     position: relative;
-    height: 7.525rem;
+    height: 6.525rem;
     background: url("../images/Jelke, BH.png") no-repeat;
     background-size: 100% auto;
     cursor: pointer;
@@ -11997,7 +13286,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 951, ../scss/pages/_home.scss */
+  /* line 948, ../scss/pages/_home.scss */
   .person-picture1 {
     margin-right: 1rem;
     width: 6.525rem;
@@ -12008,11 +13297,12 @@ body {
     cursor: pointer;
     z-index: 10;
     display: inline-block;
+    margin-bottom: -1rem;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 982, ../scss/pages/_home.scss */
+  /* line 980, ../scss/pages/_home.scss */
   .case-logo1 {
     width: 8.525rem;
     position: relative;
@@ -12029,7 +13319,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 982, ../scss/pages/_home.scss */
+  /* line 980, ../scss/pages/_home.scss */
   .case-logo1 {
     width: 12.525rem;
     position: relative;
@@ -12046,26 +13336,191 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1014, ../scss/pages/_home.scss */
-  .list-person {
-    text-align: center;
+  /* line 1013, ../scss/pages/_home.scss */
+  .case-bdo-logo {
+    width: 8.525rem;
+    position: relative;
+    height: 8.525rem;
+    background: url("../icons/BDO.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1014, ../scss/pages/_home.scss */
-  .list-person {
-    text-align: left;
+  /* line 1013, ../scss/pages/_home.scss */
+  .case-bdo-logo {
+    width: 12.525rem;
+    position: relative;
+    height: 12.525rem;
+    background: url("../icons/BDO.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-/* line 1027, ../scss/pages/_home.scss */
+@media only screen and (max-device-width: 767px) {
+  /* line 1046, ../scss/pages/_home.scss */
+  .case-broshuis-logo {
+    width: 8.525rem;
+    position: relative;
+    height: 8.525rem;
+    background: url("../icons/broshuis_logo.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1046, ../scss/pages/_home.scss */
+  .case-broshuis-logo {
+    width: 12.525rem;
+    position: relative;
+    height: 12.525rem;
+    background: url("../icons/broshuis_logo.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1079, ../scss/pages/_home.scss */
+  .case-veh-logo {
+    width: 8.525rem;
+    position: relative;
+    height: 8.525rem;
+    background: url("../icons/broshuis_logo.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1079, ../scss/pages/_home.scss */
+  .case-veh-logo {
+    width: 12.525rem;
+    position: relative;
+    height: 12.525rem;
+    background: url("../icons/broshuis_logo.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1112, ../scss/pages/_home.scss */
+  .case-delta-logo {
+    width: 8.525rem;
+    position: relative;
+    height: 8.525rem;
+    background: url("../icons/Delta_Lloyd.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1112, ../scss/pages/_home.scss */
+  .case-delta-logo {
+    width: 12.525rem;
+    position: relative;
+    height: 12.525rem;
+    background: url("../icons/Delta_Lloyd.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1145, ../scss/pages/_home.scss */
+  .list-person {
+    text-align: center;
+  }
+  /* line 1148, ../scss/pages/_home.scss */
+  .list-person ul {
+    padding: 0;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1145, ../scss/pages/_home.scss */
+  .list-person {
+    text-align: left;
+  }
+  /* line 1155, ../scss/pages/_home.scss */
+  .list-person ul {
+    padding: 0;
+  }
+  /* line 1158, ../scss/pages/_home.scss */
+  .list-person li {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 1169, ../scss/pages/_home.scss */
+  .list-extend {
+    text-align: center;
+  }
+  /* line 1173, ../scss/pages/_home.scss */
+  .list-extend ul {
+    padding: 0;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 1169, ../scss/pages/_home.scss */
+  .list-extend {
+    width: 20rem;
+  }
+}
+
+/* line 1183, ../scss/pages/_home.scss */
 .case-person-desc {
   font-size: 20px;
   color: gray;
   font-family: "Raleway", sans-serif;
 }
 
-/* line 1035, ../scss/pages/_home.scss */
+/* line 1191, ../scss/pages/_home.scss */
 .list-by {
   font-size: 20px;
   color: black;
@@ -12074,7 +13529,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1042, ../scss/pages/_home.scss */
+  /* line 1199, ../scss/pages/_home.scss */
   .case-link {
     font-size: 20px;
     text-decoration: underline;
@@ -12082,7 +13537,7 @@ body {
     font-weight: 900;
     cursor: pointer;
   }
-  /* line 1050, ../scss/pages/_home.scss */
+  /* line 1207, ../scss/pages/_home.scss */
   .case-link:hover, .case-link:focus {
     font-size: 20px;
     text-decoration: underline;
@@ -12091,57 +13546,55 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1042, ../scss/pages/_home.scss */
+  /* line 1199, ../scss/pages/_home.scss */
   .case-link {
     font-size: 20px;
     text-decoration: underline;
-    margin-left: 40%;
     color: #00aeef;
+    position: relative;
     font-weight: 900;
     cursor: pointer;
+    float: right;
   }
-  /* line 1065, ../scss/pages/_home.scss */
+  /* line 1223, ../scss/pages/_home.scss */
   .case-link:hover, .case-link:focus {
     font-size: 20px;
     text-decoration: underline;
     color: #00aeef;
+    position: relative;
     font-weight: 900;
+    cursor: pointer;
+    float: right;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1077, ../scss/pages/_home.scss */
+  /* line 1238, ../scss/pages/_home.scss */
   .person-link-wrapper {
     margin-top: 50px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1077, ../scss/pages/_home.scss */
+  /* line 1238, ../scss/pages/_home.scss */
   .person-link-wrapper {
-    margin-top: 4rem;
     text-align: center;
-    display: flex;
-    justify-content: center;
   }
 }
 
 /*===experiments===*/
-/* line 1097, ../scss/pages/_home.scss */
+/* line 1252, ../scss/pages/_home.scss */
 #experiments {
   margin-top: 10rem;
 }
 
-/* line 1101, ../scss/pages/_home.scss */
+/* line 1256, ../scss/pages/_home.scss */
 .vertical-experiment {
   height: 100vh;
   border: white solid 1px;
 }
-/* line 1104, ../scss/pages/_home.scss */
+/* line 1259, ../scss/pages/_home.scss */
 .vertical-experiment .content-wrapper {
   background-color: blue;
   position: absolute;
@@ -12153,17 +13606,17 @@ body {
   top: 0;
 }
 
-/* line 1116, ../scss/pages/_home.scss */
+/* line 1271, ../scss/pages/_home.scss */
 #experiments1 {
   background: url("../images/xl_lab.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1120, ../scss/pages/_home.scss */
+/* line 1275, ../scss/pages/_home.scss */
 #experiments1 #experiments1-hover {
   display: none;
 }
-/* line 1123, ../scss/pages/_home.scss */
+/* line 1278, ../scss/pages/_home.scss */
 #experiments1 .overlay-wrapper {
   display: block;
   background: none;
@@ -12176,7 +13629,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1137, ../scss/pages/_home.scss */
+/* line 1292, ../scss/pages/_home.scss */
 #experiments1:hover .overlay-wrapper {
   display: block;
   background: url("../images/xl_lab.jpg"), url("../patterns/XLF_Hover_green_S.png");
@@ -12189,7 +13642,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1152, ../scss/pages/_home.scss */
+/* line 1307, ../scss/pages/_home.scss */
 #experiments1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -12201,28 +13654,28 @@ body {
   background-position: center;
   background-size: cover;
 }
-/* line 1166, ../scss/pages/_home.scss */
+/* line 1321, ../scss/pages/_home.scss */
 #experiments1:hover .background_gradient-wrapper6 {
   display: block;
 }
-/* line 1169, ../scss/pages/_home.scss */
+/* line 1324, ../scss/pages/_home.scss */
 #experiments1:hover #experiments1-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1177, ../scss/pages/_home.scss */
+/* line 1332, ../scss/pages/_home.scss */
 #experiments2 {
   background: url("../images/xl_ventures.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1181, ../scss/pages/_home.scss */
+/* line 1336, ../scss/pages/_home.scss */
 #experiments2 #experiments2-hover {
   display: none;
 }
-/* line 1184, ../scss/pages/_home.scss */
+/* line 1339, ../scss/pages/_home.scss */
 #experiments2 .overlay-wrapper {
   display: block;
   background: none;
@@ -12235,7 +13688,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1198, ../scss/pages/_home.scss */
+/* line 1353, ../scss/pages/_home.scss */
 #experiments2:hover .overlay-wrapper {
   display: block;
   background: url("../images/xl_ventures.png"), url("../patterns/XLF_Hover_green_S.png");
@@ -12248,7 +13701,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1213, ../scss/pages/_home.scss */
+/* line 1368, ../scss/pages/_home.scss */
 #experiments2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -12260,28 +13713,28 @@ body {
   background-position: center;
   background-size: cover;
 }
-/* line 1227, ../scss/pages/_home.scss */
+/* line 1382, ../scss/pages/_home.scss */
 #experiments2:hover .background_gradient-wrapper7 {
   display: block;
 }
-/* line 1230, ../scss/pages/_home.scss */
+/* line 1385, ../scss/pages/_home.scss */
 #experiments2:hover #experiments2-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1238, ../scss/pages/_home.scss */
+/* line 1393, ../scss/pages/_home.scss */
 #experiments3 {
   background: url("../images/xl_events.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1242, ../scss/pages/_home.scss */
+/* line 1397, ../scss/pages/_home.scss */
 #experiments3 #experiments3-hover {
   display: none;
 }
-/* line 1245, ../scss/pages/_home.scss */
+/* line 1400, ../scss/pages/_home.scss */
 #experiments3 .overlay-wrapper {
   display: block;
   background: none;
@@ -12294,7 +13747,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1259, ../scss/pages/_home.scss */
+/* line 1414, ../scss/pages/_home.scss */
 #experiments3:hover .overlay-wrapper {
   display: block;
   background: url("../images/xl_events.jpg"), url("../patterns/XLF_Hover_green_S.png");
@@ -12307,7 +13760,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1274, ../scss/pages/_home.scss */
+/* line 1429, ../scss/pages/_home.scss */
 #experiments3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -12319,25 +13772,25 @@ body {
   background-position: center;
   background-size: cover;
 }
-/* line 1288, ../scss/pages/_home.scss */
+/* line 1443, ../scss/pages/_home.scss */
 #experiments3:hover .background_gradient-wrapper8 {
   display: block;
 }
-/* line 1291, ../scss/pages/_home.scss */
+/* line 1446, ../scss/pages/_home.scss */
 #experiments3:hover #experiments3-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1301, ../scss/pages/_home.scss */
+/* line 1456, ../scss/pages/_home.scss */
 .experiment-tag {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 
-/* line 1308, ../scss/pages/_home.scss */
+/* line 1463, ../scss/pages/_home.scss */
 .experiments-title {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
@@ -12346,13 +13799,13 @@ body {
   margin-top: 2px;
 }
 
-/* line 1316, ../scss/pages/_home.scss */
+/* line 1471, ../scss/pages/_home.scss */
 .experiments-text {
   position: absolute;
   margin-left: 4rem;
 }
 
-/* line 1322, ../scss/pages/_home.scss */
+/* line 1477, ../scss/pages/_home.scss */
 .background_gradient-wrapper6 {
   position: absolute;
   display: block;
@@ -12372,7 +13825,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 1342, ../scss/pages/_home.scss */
+/* line 1497, ../scss/pages/_home.scss */
 .background_gradient-wrapper7 {
   position: absolute;
   display: block;
@@ -12392,7 +13845,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 1360, ../scss/pages/_home.scss */
+/* line 1515, ../scss/pages/_home.scss */
 .background_gradient-wrapper8 {
   position: absolute;
   display: block;
@@ -12412,7 +13865,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 1379, ../scss/pages/_home.scss */
+/* line 1534, ../scss/pages/_home.scss */
 .background_gradient-wrapper500 {
   position: absolute;
   display: block;
@@ -12433,13 +13886,13 @@ body {
 }
 
 /*===Projects===*/
-/* line 1398, ../scss/pages/_home.scss */
+/* line 1553, ../scss/pages/_home.scss */
 #projects {
   overflow: hidden;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1401, ../scss/pages/_home.scss */
+  /* line 1556, ../scss/pages/_home.scss */
   .project-wrapper {
     display: flex;
     position: relative;
@@ -12448,16 +13901,13 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1401, ../scss/pages/_home.scss */
-  .project-wrapper {
-    display: flex;
-    position: relative;
-    align-items: center;
-    flex-direction: column;
+  /* line 1565, ../scss/pages/_home.scss */
+  .project-wrapper ul {
+    text-align: center;
   }
 }
 
-/* line 1421, ../scss/pages/_home.scss */
+/* line 1574, ../scss/pages/_home.scss */
 .divider-projects {
   width: 16.125rem;
   height: 16.125rem;
@@ -12467,10 +13917,12 @@ body {
   cursor: pointer;
   z-index: 10;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-position: center;
 }
 
-/* line 1434, ../scss/pages/_home.scss */
+/* line 1589, ../scss/pages/_home.scss */
 .ing-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -12485,7 +13937,7 @@ body {
   background-position: center;
 }
 
-/* line 1458, ../scss/pages/_home.scss */
+/* line 1613, ../scss/pages/_home.scss */
 .equeens-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -12500,7 +13952,7 @@ body {
   background-position: center;
 }
 
-/* line 1482, ../scss/pages/_home.scss */
+/* line 1637, ../scss/pages/_home.scss */
 .broshuis-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -12515,7 +13967,7 @@ body {
   background-position: center;
 }
 
-/* line 1506, ../scss/pages/_home.scss */
+/* line 1661, ../scss/pages/_home.scss */
 .delta-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -12530,7 +13982,7 @@ body {
   background-position: center;
 }
 
-/* line 1530, ../scss/pages/_home.scss */
+/* line 1685, ../scss/pages/_home.scss */
 .project-text {
   margin-top: -4rem;
   display: block;
@@ -12540,7 +13992,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1538, ../scss/pages/_home.scss */
+  /* line 1693, ../scss/pages/_home.scss */
   .project-link {
     display: block;
     font-size: 15px;
@@ -12550,7 +14002,7 @@ body {
     color: #66ba4a;
     text-decoration: underline;
   }
-  /* line 1548, ../scss/pages/_home.scss */
+  /* line 1703, ../scss/pages/_home.scss */
   .project-link:hover {
     display: block;
     font-size: 15px;
@@ -12562,7 +14014,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1538, ../scss/pages/_home.scss */
+  /* line 1693, ../scss/pages/_home.scss */
   .project-link {
     display: block;
     font-size: 15px;
@@ -12572,7 +14024,7 @@ body {
     color: #66ba4a;
     text-decoration: underline;
   }
-  /* line 1566, ../scss/pages/_home.scss */
+  /* line 1721, ../scss/pages/_home.scss */
   .project-link:hover {
     display: block;
     font-size: 15px;
@@ -12585,7 +14037,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1581, ../scss/pages/_home.scss */
+  /* line 1736, ../scss/pages/_home.scss */
   .pijl-groen-links {
     left: 0;
     position: absolute;
@@ -12615,7 +14067,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1617, ../scss/pages/_home.scss */
+  /* line 1772, ../scss/pages/_home.scss */
   .pijl-groen-rechts {
     position: absolute;
     display: -webkit-box;
@@ -12638,27 +14090,26 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1617, ../scss/pages/_home.scss */
+  /* line 1772, ../scss/pages/_home.scss */
   .pijl-groen-rechts {
     display: none;
   }
 }
 
 /*===Team===*/
-/* line 1653, ../scss/pages/_home.scss */
+/* line 1808, ../scss/pages/_home.scss */
 .background-overlay {
   z-index: -1;
 }
 
-/* line 1658, ../scss/pages/_home.scss */
+/* line 1813, ../scss/pages/_home.scss */
 .person-wrapper {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  height: 80vh;
+  display: block;
+  vertical-align: middle;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 1658, ../scss/pages/_home.scss */
+  /* line 1813, ../scss/pages/_home.scss */
   .person-wrapper {
     text-align: center;
     height: 500px;
@@ -12666,20 +14117,62 @@ body {
     justify-content: center;
     flex-direction: column;
   }
+  /* line 1821, ../scss/pages/_home.scss */
+  .person-wrapper ul {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    padding: 0;
+  }
+}
+/* line 1841, ../scss/pages/_home.scss */
+.person-wrapper ul {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
 }
 
-/* line 1681, ../scss/pages/_home.scss */
+/* line 1849, ../scss/pages/_home.scss */
+.person-wrapper2 {
+  height: 80vh;
+  display: block;
+  vertical-align: middle;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 1849, ../scss/pages/_home.scss */
+  .person-wrapper2 {
+    text-align: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+/* line 1867, ../scss/pages/_home.scss */
+.person-wrapper2 ul {
+  top: 100%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+/* line 1875, ../scss/pages/_home.scss */
 .name-team {
   position: relative;
-  display: block;
+  display: inline-block;
+  vertical-align: middle;
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 20px;
   left: 0;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 1681, ../scss/pages/_home.scss */
+  /* line 1875, ../scss/pages/_home.scss */
   .name-team {
     position: relative;
     display: block;
@@ -12689,10 +14182,11 @@ body {
     font-weight: 700;
     left: 0;
     margin-bottom: 2rem;
+    margin-top: auto;
   }
 }
 
-/* line 1708, ../scss/pages/_home.scss */
+/* line 1905, ../scss/pages/_home.scss */
 .role-team {
   position: relative;
   display: block;
@@ -12704,7 +14198,7 @@ body {
   margin-top: -2rem;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 1708, ../scss/pages/_home.scss */
+  /* line 1905, ../scss/pages/_home.scss */
   .role-team {
     position: relative;
     display: block;
@@ -12716,8 +14210,14 @@ body {
     margin-top: -2rem;
   }
 }
+@media only screen and (min-device-width: 768px) {
+  /* line 1905, ../scss/pages/_home.scss */
+  .role-team {
+    margin-bottom: 20px;
+  }
+}
 
-/* line 1737, ../scss/pages/_home.scss */
+/* line 1934, ../scss/pages/_home.scss */
 .linkdin-logo1 {
   width: 4.125rem;
   height: 4.125rem;
@@ -12730,7 +14230,7 @@ body {
   display: block;
 }
 
-/* line 1751, ../scss/pages/_home.scss */
+/* line 1948, ../scss/pages/_home.scss */
 .email-logo {
   width: 4.125rem;
   height: 4.125rem;
@@ -12744,14 +14244,14 @@ body {
   margin-left: 2rem;
 }
 
-/* line 1765, ../scss/pages/_home.scss */
+/* line 1962, ../scss/pages/_home.scss */
 .person-logo-wrapper {
   display: flex;
   -webkit-box-orient: horizontal;
   text-align: left;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 1765, ../scss/pages/_home.scss */
+  /* line 1962, ../scss/pages/_home.scss */
   .person-logo-wrapper {
     display: flex;
     justify-content: center;
@@ -12761,7 +14261,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1784, ../scss/pages/_home.scss */
+  /* line 1981, ../scss/pages/_home.scss */
   .arrow-team-wrapper {
     display: flex;
     justify-content: center;
@@ -12771,7 +14271,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1784, ../scss/pages/_home.scss */
+  /* line 1981, ../scss/pages/_home.scss */
   .arrow-team-wrapper {
     display: flex;
     justify-content: center;
@@ -12782,7 +14282,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1807, ../scss/pages/_home.scss */
+  /* line 2004, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 7.125rem;
     position: absolute;
@@ -12803,7 +14303,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 1807, ../scss/pages/_home.scss */
+  /* line 2004, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 7.125rem;
     position: absolute;
@@ -12824,26 +14324,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1366px) {
-  /* line 1807, ../scss/pages/_home.scss */
-  #pijl-wit-links {
-    width: 8.125rem;
-    position: absolute;
-    background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
-    background-size: 100% auto;
-    cursor: pointer;
-    z-index: 1000;
-    height: 2rem;
-    background-position: center;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-    left: 0;
-  }
-}
-@media only screen and (min-device-width: 1367px) {
-  /* line 1807, ../scss/pages/_home.scss */
+  /* line 2004, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 12.125rem;
     position: absolute;
@@ -12856,14 +14337,37 @@ body {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
+    margin-top: -2rem;
     -o-transform: rotate(180deg);
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateY(-50%);
     left: 0;
+    top: 50%;
+  }
+}
+@media only screen and (min-device-width: 1367px) {
+  /* line 2004, ../scss/pages/_home.scss */
+  #pijl-wit-links {
+    width: 12.125rem;
+    position: absolute;
+    background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 1000;
+    height: 2rem;
+    background-position: center;
+    -webkit-transform: rotate(180deg);
+    margin-top: -2rem;
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg) translateY(-50%);
+    left: 0;
+    top: 50%;
   }
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 1888, ../scss/pages/_home.scss */
+  /* line 2089, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 7.125rem;
     position: absolute;
@@ -12874,14 +14378,14 @@ body {
     height: 2rem;
     margin-top: -500px;
     background-position: center;
-    right: 0;
+    right: 29rem;
     display: block;
     bottom: 30rem;
     margin-right: -90vw;
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 1888, ../scss/pages/_home.scss */
+  /* line 2089, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 7.125rem;
     position: absolute;
@@ -12898,22 +14402,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1366px) {
-  /* line 1888, ../scss/pages/_home.scss */
-  #pijl-wit-rechts {
-    width: 8.125rem;
-    position: absolute;
-    background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
-    background-size: 100% auto;
-    cursor: pointer;
-    z-index: 1000;
-    height: 2rem;
-    background-position: center;
-    right: 0;
-    display: block;
-  }
-}
-@media only screen and (min-device-width: 1367px) {
-  /* line 1888, ../scss/pages/_home.scss */
+  /* line 2089, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 12.125rem;
     position: absolute;
@@ -12923,51 +14412,30 @@ body {
     z-index: 1000;
     height: 2rem;
     background-position: center;
+    transform: translateY(-50%);
     right: 0;
-    display: block;
+    top: 50%;
+  }
+}
+@media only screen and (min-device-width: 1367px) {
+  /* line 2089, ../scss/pages/_home.scss */
+  #pijl-wit-rechts {
+    width: 12.125rem;
+    position: absolute;
+    background: url("../icons/MB_ Pijl_wite.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 1000;
+    height: 2rem;
+    background-position: center;
+    transform: translateY(-50%);
+    right: 0;
+    top: 50%;
   }
 }
 
-@media only screen and (max-device-width: 767px) {
-  /* line 1953, ../scss/pages/_home.scss */
-  .get-in-touch {
-    position: absolute;
-    display: block;
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    border: solid white 2px;
-    width: 100%;
-    height: 5rem;
-    text-align: center;
-    z-index: 1000;
-    background: none;
-    bottom: 10rem;
-    left: 0;
-  }
-  /* line 1970, ../scss/pages/_home.scss */
-  .get-in-touch:hover {
-    position: absolute;
-    display: block;
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    border: solid white 2px;
-    width: 100%;
-    height: 5rem;
-    text-align: center;
-    z-index: 1000;
-    background: none;
-    bottom: 10rem;
-    left: 0;
-  }
-}
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 1953, ../scss/pages/_home.scss */
+  /* line 2160, ../scss/pages/_home.scss */
   .get-in-touch {
     position: relative;
     display: block;
@@ -12984,7 +14452,7 @@ body {
     z-index: 1000;
     background: none;
   }
-  /* line 2006, ../scss/pages/_home.scss */
+  /* line 2181, ../scss/pages/_home.scss */
   .get-in-touch:hover {
     position: relative;
     display: block;
@@ -13003,7 +14471,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 1953, ../scss/pages/_home.scss */
+  /* line 2160, ../scss/pages/_home.scss */
   .get-in-touch {
     position: relative;
     display: block;
@@ -13020,7 +14488,7 @@ body {
     z-index: 1000;
     background: none;
   }
-  /* line 2042, ../scss/pages/_home.scss */
+  /* line 2216, ../scss/pages/_home.scss */
   .get-in-touch:hover {
     position: relative;
     display: block;
@@ -13040,7 +14508,74 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2063, ../scss/pages/_home.scss */
+  /* line 2235, ../scss/pages/_home.scss */
+  .get-in-touch2 {
+    position: absolute;
+    display: block;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border: solid white 2px;
+    width: 80%;
+    height: 5rem;
+    text-align: center;
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    right: 0;
+    bottom: 10rem;
+    left: 0;
+  }
+  /* line 2255, ../scss/pages/_home.scss */
+  .get-in-touch2:hover {
+    position: relative;
+    display: block;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border: solid white 2px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 5rem;
+    text-align: center;
+    right: 0;
+    z-index: 1000;
+    background: none;
+    bottom: 10rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 2235, ../scss/pages/_home.scss */
+  .get-in-touch2 {
+    background: transparent;
+    position: absolute;
+    right: 150px;
+    padding: 10px 40px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: block;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border: solid white 2px;
+    width: 20rem;
+    height: 5rem;
+    background: none;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 2301, ../scss/pages/_home.scss */
   .touch-box {
     height: 500px;
     right: 0;
@@ -13048,7 +14583,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2063, ../scss/pages/_home.scss */
+  /* line 2301, ../scss/pages/_home.scss */
   .touch-box {
     height: 100vh;
     right: 0;
@@ -13057,7 +14592,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2080, ../scss/pages/_home.scss */
+  /* line 2318, ../scss/pages/_home.scss */
   .get-in-touch-wrapper {
     display: flex;
     height: 500px;
@@ -13067,7 +14602,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2080, ../scss/pages/_home.scss */
+  /* line 2318, ../scss/pages/_home.scss */
   .get-in-touch-wrapper {
     display: flex;
     height: 100vh;
@@ -13077,37 +14612,30 @@ body {
   }
 }
 
-/* line 2099, ../scss/pages/_home.scss */
+/* line 2337, ../scss/pages/_home.scss */
 .arrow-center-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /*===Footer===*/
-/* line 2109, ../scss/pages/_home.scss */
+/* line 2348, ../scss/pages/_home.scss */
 footer {
-  height: auto;
   padding-bottom: 0.938rem;
   background: black;
   margin-top: -1px;
   overflow-x: hidden;
 }
 
-/* line 2119, ../scss/pages/_home.scss */
+/* line 2358, ../scss/pages/_home.scss */
 .contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-/* line 2127, ../scss/pages/_home.scss */
-.contact-wrapper {
-  height: 16rem;
+  display: inline-block;
+  padding: 40px 0px;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2135, ../scss/pages/_home.scss */
+  /* line 2370, ../scss/pages/_home.scss */
   #update-link {
     color: white;
     font-size: 15px;
@@ -13123,7 +14651,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2135, ../scss/pages/_home.scss */
+  /* line 2370, ../scss/pages/_home.scss */
   #update-link {
     text-decoration: underline;
     color: white;
@@ -13135,12 +14663,11 @@ footer {
     position: relative;
     margin-right: 1.250rem;
     margin-bottom: 0.625rem;
-    margin-top: 1rem;
   }
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2169, ../scss/pages/_home.scss */
+  /* line 2403, ../scss/pages/_home.scss */
   .call {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13151,7 +14678,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2169, ../scss/pages/_home.scss */
+  /* line 2403, ../scss/pages/_home.scss */
   .call {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13162,7 +14689,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2169, ../scss/pages/_home.scss */
+  /* line 2403, ../scss/pages/_home.scss */
   .call {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13170,19 +14697,19 @@ footer {
     display: inline-block;
     float: left;
     margin-bottom: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2206, ../scss/pages/_home.scss */
+  /* line 2440, ../scss/pages/_home.scss */
   .arrow-placer {
     margin-top: -500px;
   }
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2216, ../scss/pages/_home.scss */
+  /* line 2450, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 7.125rem;
     position: absolute;
@@ -13192,12 +14719,12 @@ footer {
     z-index: 10;
     display: block;
     background-position: center;
-    right: 1rem;
+    right: 30rem;
     margin-right: -90vw;
   }
 }
-@media only screen and (max-device-width: 767px) {
-  /* line 2216, ../scss/pages/_home.scss */
+@media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
+  /* line 2450, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 7.125rem;
     position: absolute;
@@ -13211,7 +14738,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 2216, ../scss/pages/_home.scss */
+  /* line 2450, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 8.125rem;
     position: absolute;
@@ -13220,13 +14747,13 @@ footer {
     cursor: pointer;
     z-index: 10;
     display: block;
+    margin-top: 6rem;
     background-position: center;
     margin-left: 20rem;
-    margin-top: 2.6rem;
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 2216, ../scss/pages/_home.scss */
+  /* line 2450, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 10.125rem;
     position: relative;
@@ -13236,11 +14763,11 @@ footer {
     z-index: 10;
     display: inline-block;
     background-position: center;
-    margin-top: 1.3rem;
+    margin-top: 6rem;
   }
 }
 
-/* line 2276, ../scss/pages/_home.scss */
+/* line 2510, ../scss/pages/_home.scss */
 .footer-xl-logo {
   width: 8.125rem;
   background: url("../icons/xlflogo_klein_wite.svg") no-repeat;
@@ -13250,19 +14777,18 @@ footer {
   display: block;
   background-position: center;
   height: 16rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 2287, ../scss/pages/_home.scss */
+/* line 2523, ../scss/pages/_home.scss */
 .xl-logo-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 16rem;
-  margin-top: -1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2295, ../scss/pages/_home.scss */
+  /* line 2528, ../scss/pages/_home.scss */
   .footer-logo-wrapper {
     display: flex;
     justify-items: center;
@@ -13270,23 +14796,30 @@ footer {
     position: relative;
     margin-top: -1rem;
   }
-  /* line 2302, ../scss/pages/_home.scss */
+  /* line 2535, ../scss/pages/_home.scss */
   .footer-logo-wrapper li {
     display: inline-block;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2295, ../scss/pages/_home.scss */
+  /* line 2528, ../scss/pages/_home.scss */
   .footer-logo-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 16rem;
-    margin-top: -1rem;
+  }
+  /* line 2543, ../scss/pages/_home.scss */
+  .footer-logo-wrapper ul {
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+  }
+  /* line 2548, ../scss/pages/_home.scss */
+  .footer-logo-wrapper ul li {
+    display: inline-block;
   }
 }
 
-/* line 2319, ../scss/pages/_home.scss */
+/* line 2558, ../scss/pages/_home.scss */
 .linkdin-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -13299,7 +14832,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2330, ../scss/pages/_home.scss */
+/* line 2570, ../scss/pages/_home.scss */
 .twitter-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -13313,7 +14846,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2342, ../scss/pages/_home.scss */
+/* line 2582, ../scss/pages/_home.scss */
 .youtube-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -13327,7 +14860,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2354, ../scss/pages/_home.scss */
+/* line 2594, ../scss/pages/_home.scss */
 .facebook-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -13341,7 +14874,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2366, ../scss/pages/_home.scss */
+/* line 2606, ../scss/pages/_home.scss */
 .insta-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -13355,12 +14888,12 @@ footer {
   display: inline-block;
 }
 
-/* line 2379, ../scss/pages/_home.scss */
+/* line 2619, ../scss/pages/_home.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 2383, ../scss/pages/_home.scss */
+/* line 2623, ../scss/pages/_home.scss */
 .mobile-footer {
   height: 16rem;
   background: black;
@@ -13368,7 +14901,7 @@ ul {
 
 /*===Menu===*/
 @media only screen and (min-device-width: 768px) {
-  /* line 2393, ../scss/pages/_home.scss */
+  /* line 2633, ../scss/pages/_home.scss */
   .menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -13385,7 +14918,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2393, ../scss/pages/_home.scss */
+  /* line 2633, ../scss/pages/_home.scss */
   .menu-wrapper {
     height: 100vh;
     width: 29rem;
@@ -13403,7 +14936,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2426, ../scss/pages/_home.scss */
+  /* line 2666, ../scss/pages/_home.scss */
   .menu-wrapper2 {
     height: 100vh;
     width: 35rem;
@@ -13421,7 +14954,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2426, ../scss/pages/_home.scss */
+  /* line 2666, ../scss/pages/_home.scss */
   .menu-wrapper2 {
     height: 100vh;
     width: 29rem;
@@ -13439,7 +14972,7 @@ ul {
   }
 }
 
-/* line 2461, ../scss/pages/_home.scss */
+/* line 2701, ../scss/pages/_home.scss */
 .menu-open {
   right: 0rem !important;
   -webkit-transition: 0.6s ease;
@@ -13450,7 +14983,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2470, ../scss/pages/_home.scss */
+  /* line 2710, ../scss/pages/_home.scss */
   .menu-items {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13464,7 +14997,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2470, ../scss/pages/_home.scss */
+  /* line 2710, ../scss/pages/_home.scss */
   .menu-items {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13479,7 +15012,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2500, ../scss/pages/_home.scss */
+  /* line 2740, ../scss/pages/_home.scss */
   .menu-items2 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13493,7 +15026,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2500, ../scss/pages/_home.scss */
+  /* line 2740, ../scss/pages/_home.scss */
   .menu-items2 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13508,7 +15041,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2530, ../scss/pages/_home.scss */
+  /* line 2770, ../scss/pages/_home.scss */
   .menu-items3 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13522,7 +15055,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2530, ../scss/pages/_home.scss */
+  /* line 2770, ../scss/pages/_home.scss */
   .menu-items3 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13536,26 +15069,26 @@ ul {
   }
 }
 
-/* line 2560, ../scss/pages/_home.scss */
+/* line 2800, ../scss/pages/_home.scss */
 .menu-link {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
-/* line 2564, ../scss/pages/_home.scss */
+/* line 2804, ../scss/pages/_home.scss */
 .menu-link:hover {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
-/* line 2571, ../scss/pages/_home.scss */
+/* line 2811, ../scss/pages/_home.scss */
 .first-menu-item {
   margin-top: 7rem;
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2574, ../scss/pages/_home.scss */
+  /* line 2814, ../scss/pages/_home.scss */
   .arrow-menu {
     width: 100px;
     height: 2rem;
@@ -13570,7 +15103,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2574, ../scss/pages/_home.scss */
+  /* line 2814, ../scss/pages/_home.scss */
   .arrow-menu {
     width: 7.125rem;
     margin-bottom: -1rem;
@@ -13587,7 +15120,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2606, ../scss/pages/_home.scss */
+  /* line 2846, ../scss/pages/_home.scss */
   .arrow-menu2 {
     width: 100px;
     height: 2rem;
@@ -13602,7 +15135,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2606, ../scss/pages/_home.scss */
+  /* line 2846, ../scss/pages/_home.scss */
   .arrow-menu2 {
     width: 7.125rem;
     margin-bottom: -1rem;
@@ -13619,14 +15152,14 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2638, ../scss/pages/_home.scss */
+  /* line 2878, ../scss/pages/_home.scss */
   .menu-arrow-wrapper {
     display: block;
     position: relative;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2638, ../scss/pages/_home.scss */
+  /* line 2878, ../scss/pages/_home.scss */
   .menu-arrow-wrapper {
     display: block;
     position: relative;
@@ -13634,7 +15167,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2654, ../scss/pages/_home.scss */
+  /* line 2894, ../scss/pages/_home.scss */
   .menu-cross {
     right: 1rem;
     width: 30px;
@@ -13650,7 +15183,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2654, ../scss/pages/_home.scss */
+  /* line 2894, ../scss/pages/_home.scss */
   .menu-cross {
     right: 0rem;
     width: 30px;
@@ -13666,7 +15199,7 @@ ul {
   }
 }
 
-/* line 2688, ../scss/pages/_home.scss */
+/* line 2928, ../scss/pages/_home.scss */
 .menu-cross2 {
   right: 1rem;
   width: 30px;
@@ -13681,7 +15214,7 @@ ul {
   margin-top: 2rem;
 }
 
-/* line 2702, ../scss/pages/_home.scss */
+/* line 2942, ../scss/pages/_home.scss */
 .menu-cross3 {
   right: 1rem;
   width: 30px;
@@ -13696,14 +15229,14 @@ ul {
   margin-top: 2rem;
 }
 
-/* line 2717, ../scss/pages/_home.scss */
+/* line 2957, ../scss/pages/_home.scss */
 .menu-cross-height {
   width: 35rem;
   height: 60px;
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2722, ../scss/pages/_home.scss */
+  /* line 2962, ../scss/pages/_home.scss */
   .contact-menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -13721,7 +15254,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2722, ../scss/pages/_home.scss */
+  /* line 2962, ../scss/pages/_home.scss */
   .contact-menu-wrapper {
     height: 100vh;
     width: 25rem;
@@ -13740,7 +15273,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2760, ../scss/pages/_home.scss */
+  /* line 3000, ../scss/pages/_home.scss */
   .contact-menu-items {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -13749,7 +15282,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2760, ../scss/pages/_home.scss */
+  /* line 3000, ../scss/pages/_home.scss */
   .contact-menu-items {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -13759,7 +15292,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2780, ../scss/pages/_home.scss */
+  /* line 3020, ../scss/pages/_home.scss */
   .contact-fat {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -13769,7 +15302,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2780, ../scss/pages/_home.scss */
+  /* line 3020, ../scss/pages/_home.scss */
   .contact-fat {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -13781,7 +15314,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2802, ../scss/pages/_home.scss */
+  /* line 3042, ../scss/pages/_home.scss */
   .contact-number {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13790,7 +15323,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2802, ../scss/pages/_home.scss */
+  /* line 3042, ../scss/pages/_home.scss */
   .contact-number {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -13801,14 +15334,14 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2822, ../scss/pages/_home.scss */
+  /* line 3062, ../scss/pages/_home.scss */
   .secondpart-menu {
     margin-top: 4rem;
   }
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2832, ../scss/pages/_home.scss */
+  /* line 3072, ../scss/pages/_home.scss */
   .input-field-black {
     width: 85%;
     background: black;
@@ -13822,7 +15355,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2832, ../scss/pages/_home.scss */
+  /* line 3072, ../scss/pages/_home.scss */
   .input-field-black {
     width: 85%;
     background: black;
@@ -13838,7 +15371,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2860, ../scss/pages/_home.scss */
+  /* line 3100, ../scss/pages/_home.scss */
   .input-field-black-big {
     width: 85%;
     background: black;
@@ -13852,7 +15385,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2860, ../scss/pages/_home.scss */
+  /* line 3100, ../scss/pages/_home.scss */
   .input-field-black-big {
     width: 85%;
     background: black;
@@ -13867,7 +15400,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2887, ../scss/pages/_home.scss */
+  /* line 3127, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -13878,7 +15411,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2887, ../scss/pages/_home.scss */
+  /* line 3127, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -13889,7 +15422,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 320px) {
-  /* line 2887, ../scss/pages/_home.scss */
+  /* line 3127, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -13900,7 +15433,7 @@ ul {
   }
 }
 
-/* line 2919, ../scss/pages/_home.scss */
+/* line 3159, ../scss/pages/_home.scss */
 .arrow-back {
   width: 100px;
   height: 100px;
@@ -13920,7 +15453,7 @@ ul {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2937, ../scss/pages/_home.scss */
+  /* line 3177, ../scss/pages/_home.scss */
   .team-overlay {
     height: 500px;
     margin-top: -500px;
@@ -13928,16 +15461,44 @@ ul {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2937, ../scss/pages/_home.scss */
+  /* line 3177, ../scss/pages/_home.scss */
   .team-overlay {
+    height: 100vh;
     margin-top: -100vh;
     position: relative;
   }
 }
 
-/* line 2954, ../scss/pages/_home.scss */
-.team-image-height {
-  height: 100vh;
+@media only screen and (min-device-width: 768px) {
+  /* line 3195, ../scss/pages/_home.scss */
+  #test-carousel {
+    height: 85vh;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 3195, ../scss/pages/_home.scss */
+  #test-carousel {
+    height: 500px;
+  }
+}
+
+/* line 3207, ../scss/pages/_home.scss */
+#team {
+  overflow: hidden;
+}
+
+@media only screen and (min-device-width: 768px) {
+  /* line 3211, ../scss/pages/_home.scss */
+  footer {
+    overflow: hidden;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 3211, ../scss/pages/_home.scss */
+  footer {
+    height: auto;
+    overflow: auto;
+  }
 }
 
 /* line 1, ../scss/pages/_overview-articles.scss */
@@ -14142,7 +15703,7 @@ ul {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1, ../scss/pages/cases.scss */
+  /* line 3, ../scss/pages/cases.scss */
   #case1 {
     background-size: cover;
     background: url("../images/broshuis.jpeg") no-repeat;
@@ -14154,7 +15715,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1, ../scss/pages/cases.scss */
+  /* line 3, ../scss/pages/cases.scss */
   #case1 {
     display: block;
     margin: auto;
@@ -14171,7 +15732,7 @@ ul {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 29, ../scss/pages/cases.scss */
+  /* line 31, ../scss/pages/cases.scss */
   .broshuis-logo2 {
     width: 12.525rem;
     position: relative;
@@ -14188,7 +15749,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 29, ../scss/pages/cases.scss */
+  /* line 31, ../scss/pages/cases.scss */
   .broshuis-logo2 {
     width: 12.525rem;
     position: relative;
@@ -14205,7 +15766,77 @@ ul {
   }
 }
 
-/* line 66, ../scss/pages/cases.scss */
+@media only screen and (max-device-width: 767px) {
+  /* line 66, ../scss/pages/cases.scss */
+  .bdo-logo {
+    width: 22.525rem;
+    position: relative;
+    height: 22.525rem;
+    background: url("../icons/BDO.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: -10rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 66, ../scss/pages/cases.scss */
+  .bdo-logo {
+    width: 12.525rem;
+    position: relative;
+    height: 12.525rem;
+    background: url("../icons/BDO.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: -7rem;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 104, ../scss/pages/cases.scss */
+  .delta-logo-case {
+    width: 22.525rem;
+    position: relative;
+    height: 22.525rem;
+    background: url("../icons/Delta_Lloyd.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: -17rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 104, ../scss/pages/cases.scss */
+  .delta-logo-case {
+    width: 12.525rem;
+    position: relative;
+    height: 12.525rem;
+    background: url("../icons/Delta_Lloyd.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: -7rem;
+  }
+}
+
+/* line 142, ../scss/pages/cases.scss */
 .case-list-items {
   margin-top: 4rem;
   font-size: 15px;
@@ -14216,7 +15847,7 @@ ul {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 75, ../scss/pages/cases.scss */
+/* line 151, ../scss/pages/cases.scss */
 .case-list-text {
   margin-top: 4rem;
   font-size: 15px;
@@ -14226,7 +15857,7 @@ ul {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 84, ../scss/pages/cases.scss */
+/* line 160, ../scss/pages/cases.scss */
 .case-text-link {
   margin-top: 4rem;
   font-size: 15px;
@@ -14237,28 +15868,19 @@ ul {
   text-decoration: underline;
 }
 
-/* line 94, ../scss/pages/cases.scss */
+/* line 170, ../scss/pages/cases.scss */
 .spacing {
   height: 1rem;
 }
 
-/* line 98, ../scss/pages/cases.scss */
+/* line 174, ../scss/pages/cases.scss */
 table {
   margin-top: 4rem;
   display: flex;
   align-items: flex-end;
 }
 
-/* line 104, ../scss/pages/cases.scss */
-.blue-icon-wrapper2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 8rem;
-}
-
-/* line 112, ../scss/pages/cases.scss */
+/* line 179, ../scss/pages/cases.scss */
 .caseht2 {
   font-size: 20px;
   color: gray;
@@ -14269,7 +15891,33 @@ table {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 121, ../scss/pages/cases.scss */
+  /* line 188, ../scss/pages/cases.scss */
+  .case-text {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 188, ../scss/pages/cases.scss */
+  .case-text {
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 212, ../scss/pages/cases.scss */
   .case-text2 {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -14281,11 +15929,11 @@ table {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 121, ../scss/pages/cases.scss */
+  /* line 212, ../scss/pages/cases.scss */
   .case-text2 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Raleway", sans-serif;
-    width: 100%;
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -14294,8 +15942,64 @@ table {
   }
 }
 
-/* line 144, ../scss/pages/cases.scss */
+/* line 235, ../scss/pages/cases.scss */
 .cases-special1 {
   margin-bottom: 2rem;
   margin-top: 4rem;
+}
+
+/* line 240, ../scss/pages/cases.scss */
+.article-list {
+  padding-left: 16px;
+}
+/* line 242, ../scss/pages/cases.scss */
+.article-list ul {
+  padding-left: 16px;
+  list-style-type: circle;
+}
+/* line 247, ../scss/pages/cases.scss */
+.article-list li {
+  padding: 0;
+  list-style-type: circle;
+}
+
+/* line 253, ../scss/pages/cases.scss */
+.person-link-wrapper-case {
+  width: 30rem;
+  left: auto;
+  right: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 261, ../scss/pages/cases.scss */
+.person-link-wrapper-case2 {
+  width: 40rem;
+  left: auto;
+  right: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 270, ../scss/pages/cases.scss */
+.pijl-article-onder2 {
+  width: 13.125rem;
+  position: relative;
+  height: 12.35rem;
+  background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+  background-size: 100% auto;
+  z-index: -1;
+  margin-top: 3rem;
+  margin-bottom: -2rem;
+  display: block;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-position: center;
 }

@@ -4,7 +4,7 @@ Error: Undefined variable: "$story-hover".
 
 87:       background-position:center;
 88:     }
-89:
+89: 
 90:     #story1-hover {
 91:       display: block;
 92:       margin-top: $story-hover;
@@ -12,7 +12,7 @@ Error: Undefined variable: "$story-hover".
 94:     }
 95:   }
 96: }
-97:
+97: 
 
 Backtrace:
 C:/Users/Quentin/Documents/xl/assets/scss/components/blocks.scss:92

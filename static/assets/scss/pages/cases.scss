@@ -1,3 +1,5 @@
+
+
 #case1 {
 
   @media only screen and (max-device-width: 767px) {
@@ -33,7 +35,7 @@
     position: relative;
     height: 12.525rem;
     background: url("../icons/broshuis_logo.svg") no-repeat;
-    background-size:100% auto ;
+    background-size: 100% auto;
     cursor: pointer;
     z-index: 10;
     display: block;
@@ -45,12 +47,11 @@
 
   @media only screen and (min-device-width: 768px) {
 
-
     width: 12.525rem;
     position: relative;
     height: 12.525rem;
     background: url("../icons/broshuis_logo.svg") no-repeat;
-    background-size:100% auto ;
+    background-size: 100% auto;
     cursor: pointer;
     z-index: 10;
     display: block;
@@ -60,6 +61,81 @@
     margin-bottom: -7rem;
 
   }
+}
+
+  .bdo-logo {
+
+    @media only screen and (max-device-width: 767px) {
+      width: 22.525rem;
+      position: relative;
+      height: 22.525rem;
+      background: url("../icons/BDO.svg") no-repeat;
+      background-size:100% auto ;
+      cursor: pointer;
+      z-index: 10;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      margin-bottom: -10rem;
+    }
+
+    @media only screen and (min-device-width: 768px) {
+
+
+      width: 12.525rem;
+      position: relative;
+      height: 12.525rem;
+      background: url("../icons/BDO.svg") no-repeat;
+      background-size:100% auto ;
+      cursor: pointer;
+      z-index: 10;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5rem;
+      margin-bottom: -7rem;
+
+    }
+
+
+}
+
+.delta-logo-case{
+
+@media only screen and (max-device-width: 767px) {
+  width: 22.525rem;
+  position: relative;
+  height: 22.525rem;
+  background: url("../icons/Delta_Lloyd.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: -17rem;;
+}
+
+@media only screen and (min-device-width: 768px) {
+
+
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/Delta_Lloyd.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: -7rem;
+
+}
+
 
 }
 
@@ -100,15 +176,6 @@ table {
   display: flex;
   align-items: flex-end;
 }
-
-.blue-icon-wrapper2{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-top: 8rem;
-}
-
 .caseht2 {
   font-size: $font-ht;
   color:gray;
@@ -117,6 +184,30 @@ table {
   align-items: center;
   justify-content: center;
 }
+
+.case-text {
+  @media only screen and (max-device-width: 767px) {
+    font-size: $font-ht;
+    font-family: $raleway;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  @media only screen and (min-device-width: 768px)   {
+    font-size: 30px;
+    font-family: $raleway;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+  }
+}
+
 
 .case-text2 {
   @media only screen and (max-device-width: 767px) {
@@ -130,9 +221,9 @@ table {
   }
 
   @media only screen and (min-device-width: 768px)   {
-    font-size: $font-big-text;
+    font-size: 20px;
     font-family: $raleway;
-    width: 100%;
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -144,4 +235,56 @@ table {
 .cases-special1 {
   margin-bottom: 2rem;
   margin-top: 4rem;
+}
+
+.article-list {
+  padding-left: 16px;
+  ul {
+    padding-left: 16px;
+    list-style-type: circle;
+  }
+
+  li {
+    padding: 0;
+    list-style-type: circle;
+  }
+}
+
+.person-link-wrapper-case {
+ width: 30rem;
+  left: auto;
+  right:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.person-link-wrapper-case2 {
+  width: 40rem;
+  left: auto;
+  right:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.pijl-article-onder2 {
+  width: 13.125rem;
+  position: relative;
+  height: 12.35rem;
+  background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+  background-size: 100% auto;
+  z-index: -1;
+  margin-top: 3rem;
+  margin-bottom: -2rem;
+  display: block;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-position: center;
 }

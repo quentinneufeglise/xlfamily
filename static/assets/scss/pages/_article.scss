@@ -1,3 +1,31 @@
+#adventure1 {
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: $blog1 no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+}
+
+
 #article1 {
 
   @media only screen and (max-device-width: 767px) {
@@ -23,6 +51,7 @@
     height: 500px;
     text-align: center;
     margin-top: -8rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -36,7 +65,7 @@
 
   @media only screen and (min-device-width: 768px){
 
-
+    padding: 0;
     display: flex;
     flex-direction: row;
   }
@@ -147,6 +176,15 @@ display: none;
   margin-bottom: 2rem;
 }
 
+.article-text-title {
+  font-size: $font-text;
+  font-family: $raleway;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+
 
 
 .twitter-link {
@@ -222,9 +260,39 @@ display: none;
 }
 
 .blue-icon-wrapper{
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  ul {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+  }
 }
+
+.blue-icon-wrapper2{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  ul {
+    display: inline-block;
+    margin-top: 4rem;
+    margin-bottom: -1rem;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+  }
+}
+
 
 .linkdin-logo-blue {
   width: 3.125rem;
@@ -307,4 +375,36 @@ display: none;
   color: black;
   font-size: $font-ht;
   font-weight: 900;
+}
+
+.jeske-icon {
+  @media only screen and (max-device-width: 767px) {
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../icons/jeske-icon.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-top: 0.5rem;
+
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../icons/jeske-icon.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-bottom: -1rem;
+  }
+
+
 }

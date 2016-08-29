@@ -1406,3 +1406,187 @@
   }
 }
 
+
+
+
+
+
+
+
+
+
+#location1 {
+  background: url("../images/amsteradm.jpg");
+  background-size: cover;
+  background-position:center;
+  #location1-hover {
+    display: none;
+  }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center;
+  }
+
+  &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/amsteradm.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
+    .background-wrapper {
+
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../images/amsteradm.jpg");
+      background-position:center;
+      background-size: cover;
+      background-position:center;
+    }
+
+    #location1-hover {
+      display: block;
+      margin-top: $story-hover;
+      max-width: 400px;
+    }
+  }
+}
+
+
+#location2 {
+  background: url("../images/leiden.jpg");
+  background-size: cover;
+  background-position:center;
+  #location2-hover {
+    display: none;
+  }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center;
+  }
+
+  &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/leiden.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
+    .background-wrapper {
+
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../images/leiden.jpg");
+      background-position:center;
+      background-size: cover;
+      background-position:center;
+    }
+
+    #location2-hover {
+      display: block;
+      margin-top: $story-hover;
+      max-width: 400px;
+    }
+  }
+}
+
+
+#location3 {
+  background: url("../images/bucharest.jpg");
+  background-size: cover;
+  background-position:center;
+  #location3-hover {
+    display: none;
+  }
+  .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position:center;
+  }
+
+  &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/bucharest.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
+    .background-wrapper {
+
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../images/bucharest.jpg");
+      background-position:center;
+      background-size: cover;
+      background-position:center;
+    }
+
+    #location3-hover {
+      display: block;
+      margin-top: $story-hover;
+      max-width: 400px;
+    }
+  }
+}

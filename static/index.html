@@ -26,7 +26,57 @@
     <!--[if IE]>
     <link href="assets/css/ie_overide.css">
     <![endif]-->
+    <script type="text/javascript">
 
+        function detectIE() {
+            var ua = window.navigator.userAgent;
+
+            // Test values; Uncomment to check result …
+
+            // IE 10
+            // ua = 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)';
+
+            // IE 11
+            // ua = 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko';
+
+            // Edge 12 (Spartan)
+            // ua = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0';
+
+            // Edge 13
+            // ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586';
+
+            var msie = ua.indexOf('MSIE ');
+            if (msie > 0) {
+                // IE 10 or older => return version number
+                return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+            }
+
+            var trident = ua.indexOf('Trident/');
+            if (trident > 0) {
+                // IE 11 => return version number
+                var rv = ua.indexOf('rv:');
+                return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+            }
+
+            var edge = ua.indexOf('Edge/');
+            if (edge > 0) {
+                // Edge (IE 12+) => return version number
+                return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+            }
+
+            // other browser
+            return false;
+        }
+
+        var version = detectIE();
+
+
+        if (version >= 8){ //test for MSIE x.x;
+            document.write('<link href="assets/css/ie_overide.css" rel="stylesheet">');
+
+        }
+
+    </script>
     <!----GOOGLE FONTS - RALEWAY ---->
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,800,700,900,100' rel='stylesheet' type='text/css'>
@@ -102,20 +152,35 @@
 
                     <div class="title_wrapper">
 
+                        <div class="title_wrapper2">
 
-                        <h1>We bring Future to your Business</h1>
-                        <p>We activate companies for innovation and co-create new business with them. We partner with corporates, learn with startups and invest in adventure</p>
+                            <h1>We bring Future to your Business</h1>
+                            <p>We activate companies for innovation and co-create new business with them. We partner with corporates, learn with startups and invest in adventure</p>
 
-                        <div>
                             <a href="#" id="playbutton"></a>
 
                         </div>
 
-                        <div class="mouse-wrapper hidden-xs">
-                            <a href="#" id="mousebutton"></a>
+                    </div>
+
+
+
+                    <!--<div class="title_wrapper">
+                        <div>
+
+                        <h1>We bring Future to your Business</h1>
+                        <p>We activate companies for innovation and co-create new business with them. We partner with corporates, learn with startups and invest in adventure</p>
+
+                        <div class="title_wrapper2">
+                            <a href="#" id="playbutton"></a>
+                        </div>
                         </div>
 
+                    </div>-->
 
+
+                    <div class="mouse-wrapper hidden-xs">
+                        <a href="#" id="mousebutton"></a>
                     </div>
 
 
@@ -141,8 +206,7 @@
                 <div id="discover1" class="col-xs-12">
                     <span id="pijl-boven"></span>
                     <h1 class="discover-title">Discover new<br>oportunities<br></h1>
-                    <p class="discover-text">You are looking for inspiration, market insights and new business opportunities?
-                        Let´s get started!</p>
+                    <p class="discover-text">Source inspiration from startups and arising trends in customer behavior.</p>
                     <a href="client-need1.html" class="start">Start it</a>
                     <span class="mobile-divider1"></span>
                 </div>
@@ -155,7 +219,7 @@
                     <span id="pijl-links"></span>
                 </div>
                 <div id="discover2" class="col-md-3 col-xs-12">
-                    <h1 class="discover-title">Innovate as an<br>organization</h1>
+                    <h1 class="discover-title">Innovate as a<br>company</h1>
                     <p class="discover-text">You want to ensure your long-term organizational health? Let´s get
                         your innovation stragety and culture set!</p>
                     <a href="client-need4.html" class="start">Keep it up</a>
@@ -168,8 +232,7 @@
 
                 <div id="discover3" class="col-md-3 col-xs-12">
                     <h1 class="discover-title">Accelerate<br>ideas</h1>
-                    <p class="discover-text">You have ideas you want to pursue further? Let´s turn them into
-                        actionable and validated business concepts!</p>
+                    <p class="discover-text">Let's turn the ideas you are passionate about into actionable and validated business concepts.</p>
                     <a href="client-need2.html" class="start">Speed it up</a>
                     <span class="mobile-divider1"></span>
                 </div>
@@ -182,8 +245,7 @@
 
                 <div id="discover4" class="col-xs-12">
                     <h1 class="discover-title">Build digital<br>solutions</h1>
-                    <p class="discover-text">You have a clear vision of what your next product would be like? Let´s
-                        bring it to digital life!</p>
+                    <p class="discover-text">Bring your next product from vision to digital life.</p>
                     <a href="client-need3.html" class="start">Build it</a>
                     <span id="pijl-onder"></span>
                 </div>
@@ -340,133 +402,185 @@
 
     <!----------- Cases -------------->
 
-    <section id="cases">
-        <div class="container-fluid cases-height">
+        <section id="cases">
+            <div class="container-fluid cases-height">
 
 
-            <div class="row">
-                <div class="col-xs-1">
+                <div class="row">
+                    <div class="col-xs-1">
 
-                <div class="arrow-center-wrapper">
-                <a id="pijl-blauw-links" class="prev"></a>
-                    <a class="pijl-blauw-links-mb prev"></a>
-                </div>
-
-                </div>
-                <div class="col-xs-10">
-                <div class="owl-carousel owl-cases">
-
-                    <div class="item">
-
-                    <div class="cases-wrapper">
-                        <span class="case-logo1"><br></span>
-
-                        <span class="caseht">#innovationBootcamp<br><br></span>
-                        <p class="case-text">"In less than a month, we figure out our new peoduct. It only took us 4
-                            workshops when xl family made the right questions and push us to give correct answer.
-                            Real validation process."</p>
-
-
-
-
-
-
-                        <div class="person-link-wrapper">
-
-
-
-                            <span class="person-picture1"></span>
-                    <div class="list-person">
-
-                            <span class="case-person"><span class="list-by">by </span>Jelke de Jong<br></span>
-                            <span class="case-person-desc">Marketing & Communication Manager</span>
-</div>
-                                    <a class="case-link" href="#"><br>Show me the case</a>
-
-
-                    </div>
-                </div>
-                        </div>
-
-
-                    <div class="item">
-
-                        <div class="cases-wrapper">
-                            <span class="case-logo1"><br></span>
-                            <span class="caseht">#innovationBootcamp<br><br></span>
-                            <p class="case-text">"In less than a month, we figure out our new peoduct. It only took us 4
-                                workshops when xl family made the right questions and push us to give correct answer.
-                                Real validation process."</p>
-
-
-
-
-
-
-                            <div class="person-link-wrapper">
-
-
-
-                                <span class="person-picture1"></span>
-                                <div class="list-person">
-
-                                    <span class="case-person"><span class="list-by">by </span>Jelke de Jong<br></span>
-                                    <span class="case-person-desc">Marketing & Communication Manager</span>
-                                </div>
-                                <a class="case-link" href="#"><br>Show me the case</a>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-
-                        <div class="cases-wrapper">
-                            <span class="case-logo1"><br></span>
-                            <span class="caseht">#innovationBootcamp<br><br></span>
-                            <p class="case-text">"In less than a month, we figure out our new peoduct. It only took us 4
-                                workshops when xl family made the right questions and push us to give correct answer.
-                                Real validation process."</p>
-
-
-
-
-
-
-                            <div class="person-link-wrapper">
-
-
-
-                                <span class="person-picture1"></span>
-                                <div class="list-person">
-
-                                    <span class="case-person"><span class="list-by">by </span>Jelke de Jong<br></span>
-                                    <span class="case-person-desc">Marketing & Communication Manager</span>
-                                </div>
-                                <a class="case-link" href="#"><br>Show me the case</a>
-
-
-                            </div>
-                        </div>
-                    </div>
-</div>
-                    </div>
-                <div class="col-xs-1">
                     <div class="arrow-center-wrapper">
-                    <a id="pijl-blauw-rechts" class="next"></a>
-                        <a class="pijl-blauw-rechts-mb next"></a>
-                        </div>
-                </div>
-            </div>
-        </div>
+                    <a id="pijl-blauw-links" class="prev"></a>
+                        <a class="pijl-blauw-links-mb prev"></a>
+                    </div>
 
+                    </div>
+                    <div class="col-xs-10">
+                    <div class="owl-carousel owl-cases">
+
+                        <div class="item">
+
+                        <div class="cases-wrapper">
+                            <span class="case-broshuis-logo"><br></span>
+
+                            <span class="caseht">#innovationBootcamp<br><br></span>
+                            <p class="case-text">"XL family was our partner in building our new platform and enhancing our customers’ digital experience. The scrum sessions provided structure and agility in every step of the process."</p>
+
+
+
+
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                            <div class="person-link-wrapper">
+
+                        <div class="list-person">
+                        <ul>
+
+                            <li><span class="person-picture1"></span></li>
+                            <li class="list-extend">
+                                <span class="case-person"><span class="list-by">by </span>Sjoerd Dekker<br></span>
+                                <span class="case-person-desc">CFO Broshuis</span>
+                            </li>
+                        </ul>
+    </div>
+    </div>
+                                </div>
+        <div class="col-sm-6">
+                                        <a class="case-link" href="broshuis.html"><br>Show me the case</a>
+            </div>
+                            </div>
+    </div>
     </div>
 
 
+                        <div class="item">
 
-</div>
-    </section>
+                            <div class="cases-wrapper">
+                                <span class="case-veh-logo"><br></span>
+
+                                <span class="caseht">#innovationBootcamp<br><br></span>
+                                <p class="case-text">
+                                    "We worked together with XL Family to create concepts that help our members to reduce household’s costs. XL Family facilitated the project from the ideation phase to the prototyping & testing phase. Working with XL Family's flexible, agile and customer-oriented team was a pleasurable experience."</p>
+
+
+
+
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="person-link-wrapper">
+
+                                            <div class="list-person">
+                                                <ul>
+
+                                                    <li><span class="person-picture1"></span></li>
+                                                    <li>
+                                                        <span class="case-person"><span class="list-by">by </span>Massoud Banbersta<br></span>
+                                                        <span class="case-person-desc">Sr. Marketeer</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="case-link" href="veh.html"><br>Show me the case</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+
+                            <div class="cases-wrapper">
+                                <span class="case-bdo-logo"><br></span>
+
+                                <span class="caseht">#innovationBootcamp<br><br></span>
+                                <p class="case-text">
+                                    "By providing appealing, recent themes and examples, XL family redirected our often internal focused view of the outside world. This fired up the discussion about our marketopportunities in a positively creative way."</p>
+
+
+
+
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="person-link-wrapper">
+
+                                            <div class="list-person">
+                                                <ul>
+
+                                                    <li><span class="person-picture1"></span></li>
+                                                    <li>
+                                                        <span class="case-person"><span class="list-by">by </span>José van Delzen<br></span>
+                                                        <span class="case-person-desc">Manager Bedrijfsvoering BDO</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="case-link" href="bdo.html"><br>Show me the case</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+
+                            <div class="cases-wrapper">
+                                <span class="case-delta-logo"><br></span>
+
+                                <span class="caseht">#innovationBootcamp<br><br></span>
+                                <p class="case-text">"During the XL family Innovation Academy sessions, we were "learning innovation by doing innovation”. We actively put various inspiring innovation methods into practice, that resulted in more innovation knowledge within the company."
+                                </p>
+
+
+
+
+
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="person-link-wrapper">
+
+                                            <div class="list-person">
+                                                <ul>
+
+                                                    <li><span class="person-picture1"></span></li>
+                                                    <li>
+                                                        <span class="case-person"><span class="list-by">by </span>Anne Hudepohl<br></span>
+                                                        <span class="case-person-desc">Strategic Consultant</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="case-link" href="delta.html"><br>Show me the case</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                        </div>
+                    <div class="col-xs-1">
+                        <div class="arrow-center-wrapper">
+                        <a id="pijl-blauw-rechts" class="next"></a>
+                            <a class="pijl-blauw-rechts-mb next"></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+        </section>
 
 
     <!----------- experiments -------------->
@@ -569,39 +683,83 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3 hidden-xs">
+                <div class="col-sm-3 hidden-xs">
                     <div class="project-wrapper">
+
+                        <ul>
+                            <li>
                       <span class="ing-logo"></span>
+                            </li>
+                            <li>
                         <span class="divider-projects"></span>
+                            </li>
+                            <li>
                         <span class="project-text">Get out of<br>the building<br></span>
+                            </li>
+                            <li>
                         <a class="project-link" href="#">Tell me more</a>
+                            </li>
+                            </ul>
+
                     </div>
                 </div>
 
-                <div class="col-md-3 hidden-xs">
+                <div class="col-sm-3 hidden-xs">
                     <div class="project-wrapper">
+                        <ul>
+
+                    <li>
                         <span class="equeens-logo"></span>
+                    </li>
+                            <li>
                         <span class="divider-projects"></span>
+                            </li>
+                            <li>
                         <span class="project-text">From idea<br>to concept<br></span>
+                            </li>
+                            <li>
                         <a class="project-link" href="#">Tell me more</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-md-3 hidden-xs">
+                <div class="col-sm-3 hidden-xs">
                     <div class="project-wrapper">
+                        <ul>
+                            <li>
                         <span class="broshuis-logo"></span>
+                            </li>
+                            <li>
                         <span class="divider-projects"></span>
+                            </li>
+                            <li>
                         <span class="project-text">Create digital<br>experiences<br></span>
+                            </li>
+                            <li>
                         <a class="project-link" href="#">Tell me more</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="col-md-3 hidden-xs">
+                <div class="col-sm-3 hidden-xs">
+
                     <div class="project-wrapper">
+                        <ul>
+                            <li>
                         <span class="delta-logo"></span>
+                            </li>
+                            <li>
                         <span class="divider-projects"></span>
+                            </li>
+                            <li>
                         <span class="project-text">Innovation<br>Playbook<br></span>
+                            </li>
+                            <li>
                         <a class="project-link" href="#">Tell me more</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -673,1107 +831,740 @@
 
     <!----------- Team -------------->
 
-    <section id="team">
 
+    <section id="team" class="container-fluid">
 
-        <div class="container-fluid">
-            <div class="row team-image-height">
-        <div class="owl-carousel owl-team" >
+        <div class="row">
 
-            <div class="item">
+            <div class="col-xs-12" style="padding: 0;">
 
+                <div id="pijl-wit-links"class="prev1"></div>
 
+                <button class="get-in-touch2">
 
+                    get in touch
 
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
+                </button>
 
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
+                <div class="owl-carousel owl-team" id="test-carousel">
 
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
 
-                    </div>
 
-                    <div class="col-sm-5 hidden-xs"></div>
 
-                </div>
 
+                    <div class="item hans-picture">
 
+                        <div class="row">
 
+                            <div class="col-sm-10 col-sm-offset-1">
 
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="aneliya-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Aneliya Evtimova</h1>
-                        <span class="role-team">Digital Analyst<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <a href="https://nl.linkedin.com/in/aneliyaevtimova" class="linkdin-logo1"></a>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-                <div class="hans-picture"></div>
-                <div class="col-xs-1"></div>
-
-                <div class="col-sm-5 col-xs-10">
-                    <div class="person-wrapper">
-                        <h1 class="name-team">Hans Neufeglise</h1>
-                        <span class="role-team">Lead developer<br></span>
-
-                        <div class="person-logo-wrapper">
-                            <span class="linkdin-logo1"></span>
-                            <span class="email-logo"></span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-5 hidden-xs"></div>
-
-                </div>
-
-
-
-
-                <div class="col-xs-1"></div>
-
-
-
-
-            </div>
-
-            <div class="item">
-
-
-
-
-
-
-                        <div class="ben-picture"></div>
-                        <div class="col-xs-1"></div>
-
-                        <div class="col-sm-5 col-xs-10">
-                            <div class="person-wrapper">
-                                <h1 class="name-team">Ben van Ruyssevelt</h1>
-                                <span class="role-team">Scrum master<br></span>
-
-                                <div class="person-logo-wrapper">
-                                    <span class="linkdin-logo1"></span>
-                                    <span class="email-logo"></span>
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Hans Neufeglise</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Lead developer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/hansneufeglise" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
-
-                            </div>
-
-                            <div class="col-sm-5 hidden-xs"></div>
-
-                        </div>
-
-
-
-
-                        <div class="col-xs-1"></div>
-
-
-
-                    </div>
-                </div>
-
-
-
-
-
-
-            </div>
-
-                <div class="row">
-                <div class=" team-overlay">
-                <div class="col-xs-1">
-                    <div class="arrow-team-wrapper">
-                    <div class="arrow-center-wrapper">
-                    <a id="pijl-wit-links" class="prev1"></a>
-                        </div>
-                        </div>
-                </div>
-
-                <div class="col-sm-5 hidden-xs"></div>
-                    <div class="col-xs-10 col-sm-5 touch-box">
-                        <div class="get-in-touch-wrapper">
-                            <button class="get-in-touch">get in touch</button>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-1 arrow-placer">
-                        <div class="arrow-team-wrapper">
-                            <div class="arrow-center-wrapper">
-                                <a id="pijl-wit-rechts" class="next1"></a>
                             </div>
                         </div>
                     </div>
+                    <div class="item aneliya-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Aneliya Evtimova</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Digital Analyst<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/aneliyaevtimova" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item anne-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Anne Twilt</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Innovation Consultant<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/annetwilt" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item beatriz-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Beatriz Garcia de Prado</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Visual Designer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/beatrizgarciadeprado/en" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ben-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Ben van Ruyssevelt</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Scrum Master<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/3pintegrators" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item brendan-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Brendan Schoneveld<Schoneveld></Schoneveld></h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Front End Developer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/brendan-schoneveld-89301343" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item dimitris-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Dimitris Kritsilis</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Art Director<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/dimkr" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item filip-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Filip Lacor</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Innovation Consultant<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/filip-lacor-49937a52/en" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item jaap-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Jaap Waaijenberg</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Managing Partner<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/jaapwaaijenberg" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item jaspar-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Jaspar Roos</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Chief Inspiration Officer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/jasparroos" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item jeroen-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Jeroen Lampe</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Managing Partner<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/lampejeroen" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item jeske-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Jeske Eenink</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Innovation Consultant<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/jeskeeenink" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item leslie-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Leslie Mejino</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Interaction Designer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/leslieannmejino" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item lucien-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Lucien Braat</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Investment Relations Manager<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/lucienbraat" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item maarten-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Maarten Vermeulen</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Creative Director<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/hlmvermeulen" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item marc-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Marc van Gent</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">CEO<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/marcvangent" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item matthijs-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Matthijs Jong</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Front End Developer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/matthijs-jong-91436140" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mihaela-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Mihaela Georgieva</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Innovation Consultant<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/mihaelageorgieva" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item nils-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Nils Kulk</h1>
+
+                                        <li>
+                                            <span class="role-team">Developer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/nilskulk" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item pascal-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Pascal Verloop</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Operations Manager<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/pascalverloop" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item paul-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Paul Pollack</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Chief Finance Officer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/paulpollack"  class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item ragna-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Ragna van Damme</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Innovation Consultant<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/ragna-van-damme-29706666/en" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item romen-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Romen Klaassen</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Virtual Reality Developer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/romen-klaassen-94a510b2/en" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item saskia-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Saskia Spiegeler</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Finance Officer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/saskia-spiegeler-62365478/en" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item silvio-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Silvio Cacace</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">productmanager<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a  href="https://es.linkedin.com/in/silviocacace" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item tudor-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Tudor Cobalas</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Chief Acceleration Officer<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/tudorcobalas" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item wouter-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Wouter Kracht</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Innovation Consultant<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="www.linkedin.com/in/wouter-kracht-b017ab8a" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item xander-picture">
+
+                        <div class="row">
+
+                            <div class="col-sm-10 col-sm-offset-1">
+
+                                <div class="person-wrapper">
+                                    <ul>
+                                        <li>
+                                            <h1 class="name-team">Xander van der Heijden</h1>
+                                        </li>
+                                        <li>
+                                            <span class="role-team">Director Ventures development<br></span>
+                                        </li>
+                                        <li>
+                                            <div class="person-logo-wrapper">
+                                                <a href="https://nl.linkedin.com/in/xander-van-der-heijden-14037112" class="linkdin-logo1"></a>
+                                                <span class="email-logo"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
-                </div>
+
+                <div id="pijl-wit-rechts" class="next1"></div>
+
             </div>
         </div>
-            </div>
-
     </section>
+
+
+
+
 
 </main>
 
@@ -1821,11 +1612,24 @@
 
                     <div class="hidden-xs col-sm-4 footer">
                     <div class="footer-logo-wrapper">
-                        <span class="linkdin-logo"></span>
+                        <ul>
+                            <li>
+                        <span class="linkdin-logo">
+                            </span>
+                            </li>
+                            <li>
                         <span class="twitter-logo"></span>
+                                </li>
+                            <li>
                         <span class="youtube-logo"></span>
+                            </li>
+                            <li>
                         <span class="facebook-logo"></span>
+                            </li>
+                            <li>
                         <span class="insta-logo"></span>
+                            </li>
+                            </ul>
                     </div>
                     </div>
 
@@ -1928,57 +1732,7 @@
     <script src="owl%20carousel/owl-carousel/owl.carousel.js"></script>
     <!---javascript--->
     <script src="assets/js/Javascript.js"></script>
-<script type="text/javascript">
 
-    function detectIE() {
-        var ua = window.navigator.userAgent;
-
-        // Test values; Uncomment to check result …
-
-        // IE 10
-        // ua = 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)';
-
-        // IE 11
-        // ua = 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko';
-
-        // Edge 12 (Spartan)
-        // ua = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0';
-
-        // Edge 13
-        // ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586';
-
-        var msie = ua.indexOf('MSIE ');
-        if (msie > 0) {
-            // IE 10 or older => return version number
-            return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
-        }
-
-        var trident = ua.indexOf('Trident/');
-        if (trident > 0) {
-            // IE 11 => return version number
-            var rv = ua.indexOf('rv:');
-            return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
-        }
-
-        var edge = ua.indexOf('Edge/');
-        if (edge > 0) {
-            // Edge (IE 12+) => return version number
-            return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
-        }
-
-        // other browser
-        return false;
-    }
-
-    var version = detectIE();
-
-
-    if (version >= 8){ //test for MSIE x.x;
-        document.write('<link href="assets/css/ie_overide.css" rel="stylesheet">');
-
-    }
-
-</script>
 
 </body>
 </html>

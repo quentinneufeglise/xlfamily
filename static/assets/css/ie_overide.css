@@ -15,8 +15,18 @@ footer {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 16, ../scss/ie_overide.scss */
+  /* line 17, ../scss/ie_overide.scss */
   #hero-video {
     height: 110vh;
   }
+}
+
+/* line 24, ../scss/ie_overide.scss */
+.linkdin-logo1 {
+  display: inline-block;
+}
+
+/* line 28, ../scss/ie_overide.scss */
+.email-logo {
+  display: inline-block;
 }
