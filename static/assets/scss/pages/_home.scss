@@ -1586,6 +1586,31 @@ display: none;
 
 }
 
+
+.bdo-logo {
+
+  @media only screen and (max-device-width: 767px) {
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+
+  }
+
+  margin-top: 85px;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/BDO.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
 .ing-logo {
 
   @media only screen and (max-device-width: 767px) {

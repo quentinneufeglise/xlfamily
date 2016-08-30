@@ -86,13 +86,14 @@ display: none;
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/Jelke, BH.png") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/marc.jpg") no-repeat;
     background-size:100% auto ;
     cursor: pointer;
     z-index: 10;
     left: 0;
     display: inline-block;
     margin-top: -1.5rem;
+    border-radius: 100%;
   }
 
 
@@ -104,7 +105,7 @@ display: none;
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/Jelke, BH.png") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/marc.jpg") no-repeat;
     background-size:100% auto ;
     margin-left: auto;
     margin-right: auto;
@@ -112,15 +113,64 @@ display: none;
     margin-bottom: -4rem;
     margin-top: 4rem;
     display: block;
+    border-radius: 100%;
 
   }
-
 
   @media only screen and (min-device-width: 768px) {
 
 display: none;
   }
 
+}
+
+.article-aboutus-marc {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/marc.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+
+
+}
+
+.article-aboutus-marc-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/marc.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
 
 }
 
@@ -174,7 +224,18 @@ display: none;
   font-family: $raleway;
   margin-top: 2rem;
   margin-bottom: 2rem;
+
 }
+
+.article-text-italic {
+  font-size: $font-text;
+  color: grey;
+  font-family: $raleway;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
 
 .article-text-title {
   font-size: $font-text;
@@ -375,6 +436,19 @@ display: none;
   color: black;
   font-size: $font-ht;
   font-weight: 900;
+}
+
+.article-more-p {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-family: $raleway;
+  color: black;
+  font-size: $font-ht;
+  font-weight: 500;
 }
 
 .jeske-icon {

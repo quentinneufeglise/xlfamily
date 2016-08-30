@@ -1,7 +1,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 6, ../../scss/components/team_pictures.scss */
   .hans-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /hans.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/hans.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -11,7 +11,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 6, ../../scss/components/team_pictures.scss */
   .hans-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /hans.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/hans.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -31,7 +31,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 6, ../../scss/components/team_pictures.scss */
   .hans-picture {
-    background: url("../images/Responsive portraits JPEG/HD /hans.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/hans.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -42,7 +42,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 40, ../../scss/components/team_pictures.scss */
   .aneliya-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /aneliya.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/aneliya.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -52,7 +52,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 40, ../../scss/components/team_pictures.scss */
   .aneliya-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /aneliya.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/aneliya.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -72,7 +72,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 40, ../../scss/components/team_pictures.scss */
   .aneliya-picture {
-    background: url("../images/Responsive portraits JPEG/HD /aneliya.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/aneliya.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -83,7 +83,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 72, ../../scss/components/team_pictures.scss */
   .anne-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /anne.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/anne.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -93,7 +93,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 72, ../../scss/components/team_pictures.scss */
   .anne-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /anne.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/anne.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -113,7 +113,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 72, ../../scss/components/team_pictures.scss */
   .anne-picture {
-    background: url("../images/Responsive portraits JPEG/HD /anne.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/anne.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -124,7 +124,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 104, ../../scss/components/team_pictures.scss */
   .beatriz-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /beatriz.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/beatriz.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -134,7 +134,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 104, ../../scss/components/team_pictures.scss */
   .beatriz-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /beatriz.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/beatriz.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -154,7 +154,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 104, ../../scss/components/team_pictures.scss */
   .beatriz-picture {
-    background: url("../images/Responsive portraits JPEG/HD /beatriz.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/beatriz.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -165,7 +165,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 136, ../../scss/components/team_pictures.scss */
   .ben-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /ben.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/ben.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -175,7 +175,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 136, ../../scss/components/team_pictures.scss */
   .ben-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /ben.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/ben.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -195,7 +195,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 136, ../../scss/components/team_pictures.scss */
   .ben-picture {
-    background: url("../images/Responsive portraits JPEG/HD /ben.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/ben.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -206,7 +206,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 168, ../../scss/components/team_pictures.scss */
   .brendan-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /brendan.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/brendan.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -216,7 +216,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 168, ../../scss/components/team_pictures.scss */
   .brendan-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /brendan.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/brendan.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -236,7 +236,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 168, ../../scss/components/team_pictures.scss */
   .brendan-picture {
-    background: url("../images/Responsive portraits JPEG/HD /brendan.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/brendan.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -247,7 +247,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 200, ../../scss/components/team_pictures.scss */
   .dimitris-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /dimitris.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/dimitris.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -257,7 +257,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 200, ../../scss/components/team_pictures.scss */
   .dimitris-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /dimitris.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/dimitris.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -277,7 +277,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 200, ../../scss/components/team_pictures.scss */
   .dimitris-picture {
-    background: url("../images/Responsive portraits JPEG/HD /dimitris.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/dimitris.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -288,7 +288,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 232, ../../scss/components/team_pictures.scss */
   .filip-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /filip.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/filip.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -298,7 +298,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 232, ../../scss/components/team_pictures.scss */
   .filip-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /filip.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/filip.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -318,7 +318,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 232, ../../scss/components/team_pictures.scss */
   .filip-picture {
-    background: url("../images/Responsive portraits JPEG/HD /filip.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/filip.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -329,7 +329,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 264, ../../scss/components/team_pictures.scss */
   .jaap-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /jaap.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/jaap.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -339,7 +339,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 264, ../../scss/components/team_pictures.scss */
   .jaap-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /jaap.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/jaap.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -359,7 +359,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 264, ../../scss/components/team_pictures.scss */
   .jaap-picture {
-    background: url("../images/Responsive portraits JPEG/HD /jaap.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/jaap.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -370,7 +370,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 296, ../../scss/components/team_pictures.scss */
   .jaspar-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /jaspar.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/jaspar.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -380,7 +380,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 296, ../../scss/components/team_pictures.scss */
   .jaspar-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /jaspar.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/jaspar.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -400,7 +400,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 296, ../../scss/components/team_pictures.scss */
   .jaspar-picture {
-    background: url("../images/Responsive portraits JPEG/HD /jaspar.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/jaspar.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -411,7 +411,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 328, ../../scss/components/team_pictures.scss */
   .jeroen-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /jeroen.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/jeroen.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -421,7 +421,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 328, ../../scss/components/team_pictures.scss */
   .jeroen-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /jeroen.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/jeroen.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -441,7 +441,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 328, ../../scss/components/team_pictures.scss */
   .jeroen-picture {
-    background: url("../images/Responsive portraits JPEG/HD /jeroen.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/jeroen.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -452,7 +452,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 360, ../../scss/components/team_pictures.scss */
   .jeske-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /jeske.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/jeske.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -462,7 +462,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 360, ../../scss/components/team_pictures.scss */
   .jeske-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /jeske.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/jeske.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -482,7 +482,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 360, ../../scss/components/team_pictures.scss */
   .jeske-picture {
-    background: url("../images/Responsive portraits JPEG/HD /jeske.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/jeske.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -493,7 +493,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 392, ../../scss/components/team_pictures.scss */
   .leslie-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /leslie.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/leslie.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -503,7 +503,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 392, ../../scss/components/team_pictures.scss */
   .leslie-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /leslie.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/leslie.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -523,7 +523,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 392, ../../scss/components/team_pictures.scss */
   .leslie-picture {
-    background: url("../images/Responsive portraits JPEG/HD /leslie.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/leslie.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -534,7 +534,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 424, ../../scss/components/team_pictures.scss */
   .lucien-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /lucien.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/lucien.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -544,7 +544,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 424, ../../scss/components/team_pictures.scss */
   .lucien-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /lucien.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/lucien.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -564,7 +564,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 424, ../../scss/components/team_pictures.scss */
   .lucien-picture {
-    background: url("../images/Responsive portraits JPEG/HD /lucien.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/lucien.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -575,7 +575,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 456, ../../scss/components/team_pictures.scss */
   .maarten-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /maarten.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/maarten.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -585,7 +585,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 456, ../../scss/components/team_pictures.scss */
   .maarten-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /maarten.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/maarten.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -605,7 +605,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 456, ../../scss/components/team_pictures.scss */
   .maarten-picture {
-    background: url("../images/Responsive portraits JPEG/HD /maarten.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/maarten.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -616,7 +616,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 488, ../../scss/components/team_pictures.scss */
   .marc-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /marc.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/marc.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -626,7 +626,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 488, ../../scss/components/team_pictures.scss */
   .marc-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /marc.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/marc.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -646,7 +646,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 488, ../../scss/components/team_pictures.scss */
   .marc-picture {
-    background: url("../images/Responsive portraits JPEG/HD /marc.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/marc.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -657,7 +657,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 520, ../../scss/components/team_pictures.scss */
   .matthijs-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /matthijs.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/matthijs.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -667,7 +667,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 520, ../../scss/components/team_pictures.scss */
   .matthijs-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /matthijs.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/matthijs.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -687,7 +687,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 520, ../../scss/components/team_pictures.scss */
   .matthijs-picture {
-    background: url("../images/Responsive portraits JPEG/HD /matthijs.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/matthijs.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -698,7 +698,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 553, ../../scss/components/team_pictures.scss */
   .mihaela-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /mihaela.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/mihaela.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -708,7 +708,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 553, ../../scss/components/team_pictures.scss */
   .mihaela-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /mihaela.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/mihaela.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -728,7 +728,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 553, ../../scss/components/team_pictures.scss */
   .mihaela-picture {
-    background: url("../images/Responsive portraits JPEG/HD /mihaela.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/mihaela.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -739,7 +739,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 586, ../../scss/components/team_pictures.scss */
   .nils-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /nils.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/nils.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -749,7 +749,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 586, ../../scss/components/team_pictures.scss */
   .nils-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /nils.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/nils.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -769,7 +769,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 586, ../../scss/components/team_pictures.scss */
   .nils-picture {
-    background: url("../images/Responsive portraits JPEG/HD /nils.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/nils.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -780,7 +780,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 620, ../../scss/components/team_pictures.scss */
   .pascal-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /pascal.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/pascal.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -790,7 +790,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 620, ../../scss/components/team_pictures.scss */
   .pascal-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /pascal.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/pascal.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -810,7 +810,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 620, ../../scss/components/team_pictures.scss */
   .pascal-picture {
-    background: url("../images/Responsive portraits JPEG/HD /pascal.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/pascal.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -821,7 +821,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 652, ../../scss/components/team_pictures.scss */
   .paul-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /paul.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/paul.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -831,7 +831,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 652, ../../scss/components/team_pictures.scss */
   .paul-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /paul.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/paul.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -851,7 +851,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 652, ../../scss/components/team_pictures.scss */
   .paul-picture {
-    background: url("../images/Responsive portraits JPEG/HD /paul.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/paul.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -862,7 +862,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 685, ../../scss/components/team_pictures.scss */
   .ragna-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /ragna.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/ragna.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -872,7 +872,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 685, ../../scss/components/team_pictures.scss */
   .ragna-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /ragna.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/ragna.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -892,7 +892,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 685, ../../scss/components/team_pictures.scss */
   .ragna-picture {
-    background: url("../images/Responsive portraits JPEG/HD /ragna.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/ragna.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -903,7 +903,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 718, ../../scss/components/team_pictures.scss */
   .romen-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /romen.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/romen.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -913,7 +913,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 718, ../../scss/components/team_pictures.scss */
   .romen-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /romen.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/romen.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -933,7 +933,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 718, ../../scss/components/team_pictures.scss */
   .romen-picture {
-    background: url("../images/Responsive portraits JPEG/HD /romen.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/romen.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -944,7 +944,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 750, ../../scss/components/team_pictures.scss */
   .saskia-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /saskia.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/saskia.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -954,7 +954,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 750, ../../scss/components/team_pictures.scss */
   .saskia-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /saskia.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/saskia.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -974,7 +974,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 750, ../../scss/components/team_pictures.scss */
   .saskia-picture {
-    background: url("../images/Responsive portraits JPEG/HD /saskia.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/saskia.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -985,7 +985,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 782, ../../scss/components/team_pictures.scss */
   .silvio-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /silvio.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/silvio.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -995,7 +995,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 782, ../../scss/components/team_pictures.scss */
   .silvio-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /silvio.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/silvio.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -1015,7 +1015,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 782, ../../scss/components/team_pictures.scss */
   .silvio-picture {
-    background: url("../images/Responsive portraits JPEG/HD /silvio.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/silvio.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -1026,7 +1026,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 814, ../../scss/components/team_pictures.scss */
   .tudor-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /tudor.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/tudor.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -1036,7 +1036,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 814, ../../scss/components/team_pictures.scss */
   .tudor-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /tudor.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/tudor.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -1056,7 +1056,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 814, ../../scss/components/team_pictures.scss */
   .tudor-picture {
-    background: url("../images/Responsive portraits JPEG/HD /tudor.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/tudor.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -1067,7 +1067,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 846, ../../scss/components/team_pictures.scss */
   .wouter-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /wouter.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/wouter.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -1077,7 +1077,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 846, ../../scss/components/team_pictures.scss */
   .wouter-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /wouter.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/wouter.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -1097,7 +1097,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 846, ../../scss/components/team_pictures.scss */
   .wouter-picture {
-    background: url("../images/Responsive portraits JPEG/HD /wouter.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/wouter.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -1108,7 +1108,7 @@
 @media only screen and (max-device-width: 767px) {
   /* line 878, ../../scss/components/team_pictures.scss */
   .xander-picture {
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait /xander.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Mobile_portrait/xander.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -1118,7 +1118,7 @@
 @media only screen and (min-device-width: 768px) {
   /* line 878, ../../scss/components/team_pictures.scss */
   .xander-picture {
-    background: url("../images/Responsive portraits JPEG/Tablet_landscape /xander.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/Tablet_landscape/xander.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
@@ -1138,7 +1138,7 @@
 @media only screen and (min-device-width: 1920px) {
   /* line 878, ../../scss/components/team_pictures.scss */
   .xander-picture {
-    background: url("../images/Responsive portraits JPEG/HD /xander.jpg") no-repeat;
+    background: url("../images/Responsive portraits JPEG/HD/xander.jpg") no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 85vh;
