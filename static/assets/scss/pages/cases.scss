@@ -1,0 +1,290 @@
+
+
+#case1 {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/broshuis.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/broshuis.jpeg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+}
+
+.broshuis-logo2 {
+
+  @media only screen and (max-device-width: 767px) {
+    width: 12.525rem;
+    position: relative;
+    height: 12.525rem;
+    background: url("../icons/broshuis_logo.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: -10rem;
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    width: 12.525rem;
+    position: relative;
+    height: 12.525rem;
+    background: url("../icons/broshuis_logo.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: -7rem;
+
+  }
+}
+
+  .bdo-logo {
+
+    @media only screen and (max-device-width: 767px) {
+      width: 22.525rem;
+      position: relative;
+      height: 22.525rem;
+      background: url("../icons/BDO.svg") no-repeat;
+      background-size:100% auto ;
+      cursor: pointer;
+      z-index: 10;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      margin-bottom: -10rem;
+    }
+
+    @media only screen and (min-device-width: 768px) {
+
+
+      width: 12.525rem;
+      position: relative;
+      height: 12.525rem;
+      background: url("../icons/BDO.svg") no-repeat;
+      background-size:100% auto ;
+      cursor: pointer;
+      z-index: 10;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5rem;
+      margin-bottom: -7rem;
+
+    }
+
+
+}
+
+.delta-logo-case{
+
+@media only screen and (max-device-width: 767px) {
+  width: 22.525rem;
+  position: relative;
+  height: 22.525rem;
+  background: url("../icons/Delta_Lloyd.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: -17rem;;
+}
+
+@media only screen and (min-device-width: 768px) {
+
+
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/Delta_Lloyd.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: -7rem;
+
+}
+
+
+}
+
+.case-list-items {
+  margin-top: 4rem;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  width: 30%;
+  vertical-align: text-top;
+  font-family: $raleway;
+}
+.case-list-text {
+  margin-top: 4rem;
+  font-size: 15px;
+  font-weight: 400;
+  vertical-align: text-top;
+  color: grey;
+  font-family: $raleway;
+}
+
+.case-text-link {
+  margin-top: 4rem;
+  font-size: 15px;
+  font-weight: 400;
+  vertical-align: text-top;
+  color: grey;
+  font-family: $raleway;
+  text-decoration: underline;
+}
+
+.spacing {
+  height: 1rem;
+}
+
+table {
+  margin-top: 4rem;
+  display: flex;
+  align-items: flex-end;
+}
+.caseht2 {
+  font-size: $font-ht;
+  color:gray;
+  font-family: $raleway;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case-text {
+  @media only screen and (max-device-width: 767px) {
+    font-size: $font-ht;
+    font-family: $raleway;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  @media only screen and (min-device-width: 768px)   {
+    font-size: 30px;
+    font-family: $raleway;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+  }
+}
+
+
+.case-text2 {
+  @media only screen and (max-device-width: 767px) {
+    font-size: $font-ht;
+    font-family: $raleway;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+  @media only screen and (min-device-width: 768px)   {
+    font-size: 20px;
+    font-family: $raleway;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+  }
+}
+
+.cases-special1 {
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.article-list {
+  padding-left: 16px;
+  ul {
+    padding-left: 16px;
+    list-style-type: circle;
+  }
+
+  li {
+    padding: 0;
+    list-style-type: circle;
+  }
+}
+
+.person-link-wrapper-case {
+ width: 30rem;
+  left: auto;
+  right:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.person-link-wrapper-case2 {
+  width: 40rem;
+  left: auto;
+  right:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.pijl-article-onder2 {
+  width: 13.125rem;
+  position: relative;
+  height: 12.35rem;
+  background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+  background-size: 100% auto;
+  z-index: -1;
+  margin-top: 3rem;
+  margin-bottom: -2rem;
+  display: block;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-position: center;
+}
