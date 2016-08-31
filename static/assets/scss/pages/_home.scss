@@ -3009,6 +3009,21 @@ ul {
   margin-top: 2rem;
 }
 
+.menu-cross4   {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 2000;
+  display: none;
+  background-position: center;
+  margin-top: 2rem;
+  top: 1rem;
+  right: 5.4rem;
+}
+
 .menu-cross-height{
   width: 35rem;
   height: 60px;
@@ -3338,4 +3353,15 @@ footer {
     overflow: auto;
   }
 
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 1000;
+  background: black;
 }

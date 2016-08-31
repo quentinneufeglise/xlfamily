@@ -86,7 +86,20 @@ $(document).ready(function() {
 
 
 
+$("#playbutton").click(function(){
+    $(".home-video").fadeIn(800);
+    $(".menu-cross4").fadeIn(800);
+    $("body").addClass("no-scroll");
 
+});
+
+
+$(".menu-cross4").click(function(){
+    $(".home-video").fadeOut(800);
+    $(".menu-cross4").fadeOut(800);
+    $("body").removeClass("no-scroll");
+
+});
 
 
 
