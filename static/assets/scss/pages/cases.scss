@@ -1,30 +1,28 @@
 
+/*==== BDO ====*/
 
-#case1 {
+#case-bdo-hero {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
 
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
-    background:url("../images/broshuis.jpeg") no-repeat;
+    background:url("../images/cases/mobile_portrait/bdo.jpg") no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
   }
 
   @media only screen and (min-device-width: 768px){
 
     display: block;
-    margin: auto;
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background:url("../images/broshuis.jpeg") no-repeat;
+    background:url("../images/cases/tablet_landscape/bdo.jpg") no-repeat;
     background-size: 100vw;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+
   }
 }
 
@@ -101,6 +99,87 @@
 
 }
 
+/*=== BROSHUIS ===*/
+
+#case-broshuis-hero {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/cases/mobile_portrait/broshuis.jpg") no-repeat;
+    background-size: cover;
+
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/tablet_landscape/broshuis.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+}
+
+/*=== DELTA LLOYD ===*/
+
+#case-deltalloyd-hero {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/cases/mobile_portrait/delta_lloyd.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/tablet_landscape/delta_lloyd.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+/*=== VEH ===*/
+
+#case-veh-hero {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/cases/mobile_portrait/veh.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/tablet_landscape/veh.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
 .delta-logo-case{
 
 @media only screen and (max-device-width: 767px) {
@@ -133,8 +212,7 @@
   margin-right: auto;
   margin-top: 5rem;
   margin-bottom: -7rem;
-
-}
+  }
 
 
 }

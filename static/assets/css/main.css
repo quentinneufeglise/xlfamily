@@ -11579,7 +11579,7 @@ button.close {
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait/marc.jpg") no-repeat;
+    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
     background-size: 100% auto;
     cursor: pointer;
     z-index: 10;
@@ -11596,7 +11596,7 @@ button.close {
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait/marc.jpg") no-repeat;
+    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
     background-size: 100% auto;
     margin-left: auto;
     margin-right: auto;
@@ -11627,7 +11627,7 @@ button.close {
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait/marc.jpg") no-repeat;
+    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
     background-size: 100% auto;
     cursor: pointer;
     z-index: 10;
@@ -11644,7 +11644,7 @@ button.close {
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/Responsive portraits JPEG/Mobile_portrait/marc.jpg") no-repeat;
+    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
     background-size: 100% auto;
     margin-left: auto;
     margin-right: auto;
@@ -13662,7 +13662,7 @@ body {
   }
 }
 
-/*===experiments===*/
+/*===ADVENTURES===*/
 /* line 1252, ../scss/pages/_home.scss */
 #experiments {
   margin-top: 10rem;
@@ -13738,7 +13738,7 @@ body {
   display: block;
 }
 /* line 1324, ../scss/pages/_home.scss */
-#experiments1:hover #experiments1-hover {
+#experiments1:hover #experiments-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
@@ -15914,37 +15914,36 @@ video {
   }
 }
 
+/*==== BDO ====*/
+/* line 4, ../scss/pages/cases.scss */
+#case-bdo-hero {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
 @media only screen and (max-device-width: 767px) {
-  /* line 3, ../scss/pages/cases.scss */
-  #case1 {
+  /* line 4, ../scss/pages/cases.scss */
+  #case-bdo-hero {
     background-size: cover;
-    background: url("../images/broshuis.jpeg") no-repeat;
+    background: url("../images/cases/mobile_portrait/bdo.jpg") no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 3, ../scss/pages/cases.scss */
-  #case1 {
+  /* line 4, ../scss/pages/cases.scss */
+  #case-bdo-hero {
     display: block;
-    margin: auto;
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/broshuis.jpeg") no-repeat;
+    background: url("../images/cases/tablet_landscape/bdo.jpg") no-repeat;
     background-size: 100vw;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 31, ../scss/pages/cases.scss */
+  /* line 29, ../scss/pages/cases.scss */
   .broshuis-logo2 {
     width: 12.525rem;
     position: relative;
@@ -15961,7 +15960,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 31, ../scss/pages/cases.scss */
+  /* line 29, ../scss/pages/cases.scss */
   .broshuis-logo2 {
     width: 12.525rem;
     position: relative;
@@ -15979,7 +15978,7 @@ video {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 66, ../scss/pages/cases.scss */
+  /* line 64, ../scss/pages/cases.scss */
   .bdo-logo {
     width: 22.525rem;
     position: relative;
@@ -15996,7 +15995,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 66, ../scss/pages/cases.scss */
+  /* line 64, ../scss/pages/cases.scss */
   .bdo-logo {
     width: 12.525rem;
     position: relative;
@@ -16013,8 +16012,92 @@ video {
   }
 }
 
+/*=== BROSHUIS ===*/
+/* line 104, ../scss/pages/cases.scss */
+#case-broshuis-hero {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
 @media only screen and (max-device-width: 767px) {
   /* line 104, ../scss/pages/cases.scss */
+  #case-broshuis-hero {
+    background-size: cover;
+    background: url("../images/cases/mobile_portrait/broshuis.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 104, ../scss/pages/cases.scss */
+  #case-broshuis-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/tablet_landscape/broshuis.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/*=== DELTA LLOYD ===*/
+/* line 132, ../scss/pages/cases.scss */
+#case-deltalloyd-hero {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 132, ../scss/pages/cases.scss */
+  #case-deltalloyd-hero {
+    background-size: cover;
+    background: url("../images/cases/mobile_portrait/delta_lloyd.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 132, ../scss/pages/cases.scss */
+  #case-deltalloyd-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/tablet_landscape/delta_lloyd.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/*=== VEH ===*/
+/* line 159, ../scss/pages/cases.scss */
+#case-veh-hero {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 159, ../scss/pages/cases.scss */
+  #case-veh-hero {
+    background-size: cover;
+    background: url("../images/cases/mobile_portrait/veh.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 159, ../scss/pages/cases.scss */
+  #case-veh-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/tablet_landscape/veh.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 183, ../scss/pages/cases.scss */
   .delta-logo-case {
     width: 22.525rem;
     position: relative;
@@ -16031,7 +16114,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 104, ../scss/pages/cases.scss */
+  /* line 183, ../scss/pages/cases.scss */
   .delta-logo-case {
     width: 12.525rem;
     position: relative;
@@ -16048,7 +16131,7 @@ video {
   }
 }
 
-/* line 142, ../scss/pages/cases.scss */
+/* line 220, ../scss/pages/cases.scss */
 .case-list-items {
   margin-top: 4rem;
   font-size: 15px;
@@ -16059,7 +16142,7 @@ video {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 151, ../scss/pages/cases.scss */
+/* line 229, ../scss/pages/cases.scss */
 .case-list-text {
   margin-top: 4rem;
   font-size: 15px;
@@ -16069,7 +16152,7 @@ video {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 160, ../scss/pages/cases.scss */
+/* line 238, ../scss/pages/cases.scss */
 .case-text-link {
   margin-top: 4rem;
   font-size: 15px;
@@ -16080,19 +16163,19 @@ video {
   text-decoration: underline;
 }
 
-/* line 170, ../scss/pages/cases.scss */
+/* line 248, ../scss/pages/cases.scss */
 .spacing {
   height: 1rem;
 }
 
-/* line 174, ../scss/pages/cases.scss */
+/* line 252, ../scss/pages/cases.scss */
 table {
   margin-top: 4rem;
   display: flex;
   align-items: flex-end;
 }
 
-/* line 179, ../scss/pages/cases.scss */
+/* line 257, ../scss/pages/cases.scss */
 .caseht2 {
   font-size: 20px;
   color: gray;
@@ -16103,7 +16186,7 @@ table {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 188, ../scss/pages/cases.scss */
+  /* line 266, ../scss/pages/cases.scss */
   .case-text {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -16115,7 +16198,7 @@ table {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 188, ../scss/pages/cases.scss */
+  /* line 266, ../scss/pages/cases.scss */
   .case-text {
     font-size: 30px;
     font-family: "Raleway", sans-serif;
@@ -16129,7 +16212,7 @@ table {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 212, ../scss/pages/cases.scss */
+  /* line 290, ../scss/pages/cases.scss */
   .case-text2 {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -16141,7 +16224,7 @@ table {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 212, ../scss/pages/cases.scss */
+  /* line 290, ../scss/pages/cases.scss */
   .case-text2 {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -16154,28 +16237,28 @@ table {
   }
 }
 
-/* line 235, ../scss/pages/cases.scss */
+/* line 313, ../scss/pages/cases.scss */
 .cases-special1 {
   margin-bottom: 2rem;
   margin-top: 4rem;
 }
 
-/* line 240, ../scss/pages/cases.scss */
+/* line 318, ../scss/pages/cases.scss */
 .article-list {
   padding-left: 16px;
 }
-/* line 242, ../scss/pages/cases.scss */
+/* line 320, ../scss/pages/cases.scss */
 .article-list ul {
   padding-left: 16px;
   list-style-type: circle;
 }
-/* line 247, ../scss/pages/cases.scss */
+/* line 325, ../scss/pages/cases.scss */
 .article-list li {
   padding: 0;
   list-style-type: circle;
 }
 
-/* line 253, ../scss/pages/cases.scss */
+/* line 331, ../scss/pages/cases.scss */
 .person-link-wrapper-case {
   width: 30rem;
   left: auto;
@@ -16184,7 +16267,7 @@ table {
   margin-right: auto;
 }
 
-/* line 261, ../scss/pages/cases.scss */
+/* line 339, ../scss/pages/cases.scss */
 .person-link-wrapper-case2 {
   width: 40rem;
   left: auto;
@@ -16193,7 +16276,7 @@ table {
   margin-right: auto;
 }
 
-/* line 270, ../scss/pages/cases.scss */
+/* line 348, ../scss/pages/cases.scss */
 .pijl-article-onder2 {
   width: 13.125rem;
   position: relative;
