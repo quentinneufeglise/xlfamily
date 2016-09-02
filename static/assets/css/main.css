@@ -28,6 +28,7 @@ body {
 /*85px*/
 /*50ox*/
 /*15px*/
+/*17px*/
 /*20px*/
 /*25px*/
 /*30px*/
@@ -9336,7 +9337,7 @@ button.close {
 
 /* line 535, ../scss/components/blocks.scss */
 #blog1 {
-  background: url("../images/blog/overview/innovation.jpg");
+  background: url("../images/blog/overview/corporate-acceleration.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -9360,7 +9361,7 @@ button.close {
 /* line 556, ../scss/components/blocks.scss */
 #blog1:hover .overlay-wrapper {
   display: block;
-  background: url("../images/blog/overview/innovation.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/corporate-acceleration.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9378,7 +9379,7 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/blog/overview/innovation.jpg");
+  background: url("../images/blog/overview/corporate-acceleration.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -11722,6 +11723,17 @@ button.close {
 }
 
 /* line 248, ../scss/pages/_blog-article.scss */
+.article-text-quote {
+  font-size: 17px;
+  color: grey;
+  font-family: "Raleway", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+/* line 258, ../scss/pages/_blog-article.scss */
 .article-text-italic {
   font-size: 15px;
   color: grey;
@@ -11731,7 +11743,7 @@ button.close {
   font-style: italic;
 }
 
-/* line 258, ../scss/pages/_blog-article.scss */
+/* line 268, ../scss/pages/_blog-article.scss */
 .article-text-title {
   font-size: 15px;
   font-family: "Raleway", sans-serif;
@@ -11740,7 +11752,28 @@ button.close {
   color: black;
 }
 
-/* line 269, ../scss/pages/_blog-article.scss */
+/* line 276, ../scss/pages/_blog-article.scss */
+.article-list {
+  padding-left: 16px;
+}
+/* line 279, ../scss/pages/_blog-article.scss */
+.article-list ul {
+  padding-left: 16px;
+  list-style-type: circle;
+}
+/* line 285, ../scss/pages/_blog-article.scss */
+.article-list ol {
+  list-style-type: decimal;
+}
+/* line 289, ../scss/pages/_blog-article.scss */
+.article-list li {
+  padding: 0;
+  list-style-type: circle;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+/* line 301, ../scss/pages/_blog-article.scss */
 .twitter-link {
   color: #00aeef;
   text-align: center;
@@ -11756,7 +11789,7 @@ button.close {
   -o-transition: 0.1s ease;
   transition: 0.1s ease;
 }
-/* line 284, ../scss/pages/_blog-article.scss */
+/* line 316, ../scss/pages/_blog-article.scss */
 .twitter-link .twitter-logo-blue {
   -webkit-transition: 0.1s ease;
   -moz-transition: 0.1s ease;
@@ -11773,7 +11806,7 @@ button.close {
   margin-right: auto;
   margin-top: 2rem;
 }
-/* line 300, ../scss/pages/_blog-article.scss */
+/* line 332, ../scss/pages/_blog-article.scss */
 .twitter-link:hover {
   color: #ff0066;
   text-align: center;
@@ -11790,7 +11823,7 @@ button.close {
   transition: 0.1s ease;
   margin-top: 3rem;
 }
-/* line 301, ../scss/pages/_blog-article.scss */
+/* line 333, ../scss/pages/_blog-article.scss */
 .twitter-link:hover .twitter-logo-blue {
   -webkit-transition: 0.1s ease;
   -moz-transition: 0.1s ease;
@@ -11808,12 +11841,12 @@ button.close {
   margin-top: 2rem;
 }
 
-/* line 337, ../scss/pages/_blog-article.scss */
+/* line 369, ../scss/pages/_blog-article.scss */
 .black-title {
   color: black;
 }
 
-/* line 341, ../scss/pages/_blog-article.scss */
+/* line 373, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper {
   display: inline-block;
   margin-left: auto;
@@ -11821,19 +11854,19 @@ button.close {
   left: 0;
   right: 0;
 }
-/* line 347, ../scss/pages/_blog-article.scss */
+/* line 379, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper ul {
   display: inline-block;
   margin-top: 2rem;
   margin-bottom: -1rem;
   padding: 0;
 }
-/* line 353, ../scss/pages/_blog-article.scss */
+/* line 385, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper li {
   display: inline-block;
 }
 
-/* line 358, ../scss/pages/_blog-article.scss */
+/* line 390, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper2 {
   display: table;
   margin-left: auto;
@@ -11841,19 +11874,19 @@ button.close {
   left: 0;
   right: 0;
 }
-/* line 364, ../scss/pages/_blog-article.scss */
+/* line 396, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper2 ul {
   display: inline-block;
   margin-top: 4rem;
   margin-bottom: -1rem;
   padding: 0;
 }
-/* line 370, ../scss/pages/_blog-article.scss */
+/* line 402, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper2 li {
   display: inline-block;
 }
 
-/* line 376, ../scss/pages/_blog-article.scss */
+/* line 408, ../scss/pages/_blog-article.scss */
 .linkdin-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -11864,7 +11897,7 @@ button.close {
   display: block;
 }
 
-/* line 386, ../scss/pages/_blog-article.scss */
+/* line 418, ../scss/pages/_blog-article.scss */
 .twitter-logo-blue2 {
   width: 3.125rem;
   height: 3.125rem;
@@ -11876,7 +11909,7 @@ button.close {
   display: block;
 }
 
-/* line 396, ../scss/pages/_blog-article.scss */
+/* line 428, ../scss/pages/_blog-article.scss */
 .facebook-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -11888,7 +11921,7 @@ button.close {
   display: block;
 }
 
-/* line 407, ../scss/pages/_blog-article.scss */
+/* line 439, ../scss/pages/_blog-article.scss */
 .email-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -11900,7 +11933,7 @@ button.close {
   display: block;
 }
 
-/* line 418, ../scss/pages/_blog-article.scss */
+/* line 450, ../scss/pages/_blog-article.scss */
 .blue-line {
   background: #00aeef;
   width: 100%;
@@ -11909,7 +11942,7 @@ button.close {
   margin-top: 4rem;
 }
 
-/* line 426, ../scss/pages/_blog-article.scss */
+/* line 458, ../scss/pages/_blog-article.scss */
 .pijl-article-onder {
   width: 13.125rem;
   position: relative;
@@ -11930,7 +11963,7 @@ button.close {
   background-position: center;
 }
 
-/* line 446, ../scss/pages/_blog-article.scss */
+/* line 478, ../scss/pages/_blog-article.scss */
 .article-more {
   text-align: center;
   display: flex;
@@ -11944,7 +11977,7 @@ button.close {
   font-weight: 900;
 }
 
-/* line 459, ../scss/pages/_blog-article.scss */
+/* line 491, ../scss/pages/_blog-article.scss */
 .article-more-p {
   text-align: center;
   display: flex;
@@ -11959,7 +11992,7 @@ button.close {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 472, ../scss/pages/_blog-article.scss */
+  /* line 504, ../scss/pages/_blog-article.scss */
   .jeske-icon {
     width: 6.525rem;
     position: relative;
@@ -11973,7 +12006,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 472, ../scss/pages/_blog-article.scss */
+  /* line 504, ../scss/pages/_blog-article.scss */
   .jeske-icon {
     margin-right: 1rem;
     width: 6.525rem;
@@ -16434,22 +16467,7 @@ table {
   margin-top: 4rem;
 }
 
-/* line 391, ../scss/pages/cases.scss */
-.article-list {
-  padding-left: 16px;
-}
 /* line 393, ../scss/pages/cases.scss */
-.article-list ul {
-  padding-left: 16px;
-  list-style-type: circle;
-}
-/* line 398, ../scss/pages/cases.scss */
-.article-list li {
-  padding: 0;
-  list-style-type: circle;
-}
-
-/* line 404, ../scss/pages/cases.scss */
 .person-link-wrapper-case {
   width: 30rem;
   left: auto;
@@ -16458,7 +16476,7 @@ table {
   margin-right: auto;
 }
 
-/* line 412, ../scss/pages/cases.scss */
+/* line 401, ../scss/pages/cases.scss */
 .person-link-wrapper-case2 {
   width: 40rem;
   left: auto;
@@ -16467,7 +16485,7 @@ table {
   margin-right: auto;
 }
 
-/* line 421, ../scss/pages/cases.scss */
+/* line 410, ../scss/pages/cases.scss */
 .pijl-article-onder2 {
   width: 13.125rem;
   position: relative;
