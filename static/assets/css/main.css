@@ -9336,7 +9336,7 @@ button.close {
 
 /* line 535, ../scss/components/blocks.scss */
 #blog1 {
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/innovation.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -9360,7 +9360,7 @@ button.close {
 /* line 556, ../scss/components/blocks.scss */
 #blog1:hover .overlay-wrapper {
   display: block;
-  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/innovation.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9370,7 +9370,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 571, ../scss/components/blocks.scss */
+/* line 570, ../scss/components/blocks.scss */
 #blog1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9378,29 +9378,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/innovation.jpg");
   background-position: center;
   background-size: cover;
-  background-position: center;
 }
-/* line 585, ../scss/components/blocks.scss */
+/* line 583, ../scss/components/blocks.scss */
 #blog1:hover #blog1-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 593, ../scss/components/blocks.scss */
+/* line 592, ../scss/components/blocks.scss */
 #blog2 {
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/corporate-blind.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 597, ../scss/components/blocks.scss */
+/* line 596, ../scss/components/blocks.scss */
 #blog2 #blog2-hover {
   display: none;
 }
-/* line 600, ../scss/components/blocks.scss */
+/* line 599, ../scss/components/blocks.scss */
 #blog2 .overlay-wrapper {
   display: block;
   background: none;
@@ -9413,10 +9412,10 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 614, ../scss/components/blocks.scss */
+/* line 613, ../scss/components/blocks.scss */
 #blog2:hover .overlay-wrapper {
   display: block;
-  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/corporate-blind.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9426,7 +9425,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 629, ../scss/components/blocks.scss */
+/* line 628, ../scss/components/blocks.scss */
 #blog2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9434,29 +9433,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/corporate-blind.jpg");
   background-position: center;
   background-size: cover;
-  background-position: center;
 }
-/* line 643, ../scss/components/blocks.scss */
+/* line 642, ../scss/components/blocks.scss */
 #blog2:hover #blog2-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 651, ../scss/components/blocks.scss */
+/* line 650, ../scss/components/blocks.scss */
 #blog3 {
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/business-sprint.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 655, ../scss/components/blocks.scss */
+/* line 654, ../scss/components/blocks.scss */
 #blog3 #blog3-hover {
   display: none;
 }
-/* line 658, ../scss/components/blocks.scss */
+/* line 657, ../scss/components/blocks.scss */
 #blog3 .overlay-wrapper {
   display: block;
   background: none;
@@ -9469,10 +9467,10 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 672, ../scss/components/blocks.scss */
+/* line 671, ../scss/components/blocks.scss */
 #blog3:hover .overlay-wrapper {
   display: block;
-  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/business-sprint.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9482,7 +9480,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 687, ../scss/components/blocks.scss */
+/* line 686, ../scss/components/blocks.scss */
 #blog3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9490,29 +9488,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/business-sprint.jpg");
   background-position: center;
   background-size: cover;
-  background-position: center;
 }
-/* line 701, ../scss/components/blocks.scss */
+/* line 699, ../scss/components/blocks.scss */
 #blog3:hover #blog3-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 709, ../scss/components/blocks.scss */
+/* line 707, ../scss/components/blocks.scss */
 #blog4 {
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/innovation-model.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 713, ../scss/components/blocks.scss */
+/* line 711, ../scss/components/blocks.scss */
 #blog4 #blog4-hover {
   display: none;
 }
-/* line 716, ../scss/components/blocks.scss */
+/* line 714, ../scss/components/blocks.scss */
 #blog4 .overlay-wrapper {
   display: block;
   background: none;
@@ -9525,10 +9522,10 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 730, ../scss/components/blocks.scss */
+/* line 728, ../scss/components/blocks.scss */
 #blog4:hover .overlay-wrapper {
   display: block;
-  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/innovation-model.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9538,7 +9535,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 745, ../scss/components/blocks.scss */
+/* line 743, ../scss/components/blocks.scss */
 #blog4:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9546,29 +9543,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/innovation-model.jpg");
   background-position: center;
   background-size: cover;
-  background-position: center;
 }
-/* line 759, ../scss/components/blocks.scss */
+/* line 756, ../scss/components/blocks.scss */
 #blog4:hover #blog4-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 767, ../scss/components/blocks.scss */
+/* line 764, ../scss/components/blocks.scss */
 #blog5 {
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/being-lean.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 771, ../scss/components/blocks.scss */
+/* line 768, ../scss/components/blocks.scss */
 #blog5 #blog5-hover {
   display: none;
 }
-/* line 774, ../scss/components/blocks.scss */
+/* line 771, ../scss/components/blocks.scss */
 #blog5 .overlay-wrapper {
   display: block;
   background: none;
@@ -9581,10 +9577,10 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 788, ../scss/components/blocks.scss */
+/* line 785, ../scss/components/blocks.scss */
 #blog5:hover .overlay-wrapper {
   display: block;
-  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/being-lean.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9594,7 +9590,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 803, ../scss/components/blocks.scss */
+/* line 800, ../scss/components/blocks.scss */
 #blog5:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9602,29 +9598,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/being-lean.jpg");
   background-position: center;
   background-size: cover;
-  background-position: center;
 }
-/* line 817, ../scss/components/blocks.scss */
+/* line 813, ../scss/components/blocks.scss */
 #blog5:hover #blog5-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 825, ../scss/components/blocks.scss */
+/* line 821, ../scss/components/blocks.scss */
 #blog6 {
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/copycatting.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 829, ../scss/components/blocks.scss */
+/* line 825, ../scss/components/blocks.scss */
 #blog6 #blog6-hover {
   display: none;
 }
-/* line 832, ../scss/components/blocks.scss */
+/* line 828, ../scss/components/blocks.scss */
 #blog6 .overlay-wrapper {
   display: block;
   background: none;
@@ -9637,10 +9632,10 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 846, ../scss/components/blocks.scss */
+/* line 842, ../scss/components/blocks.scss */
 #blog6:hover .overlay-wrapper {
   display: block;
-  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/copycatting.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9650,7 +9645,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 861, ../scss/components/blocks.scss */
+/* line 857, ../scss/components/blocks.scss */
 #blog6:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9658,29 +9653,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/copycatting.jpg");
   background-position: center;
   background-size: cover;
-  background-position: center;
 }
-/* line 875, ../scss/components/blocks.scss */
+/* line 870, ../scss/components/blocks.scss */
 #blog6:hover #blog6-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 883, ../scss/components/blocks.scss */
+/* line 878, ../scss/components/blocks.scss */
 #blog7 {
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/corporates-startups.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 887, ../scss/components/blocks.scss */
+/* line 882, ../scss/components/blocks.scss */
 #blog7 #blog7-hover {
   display: none;
 }
-/* line 890, ../scss/components/blocks.scss */
+/* line 885, ../scss/components/blocks.scss */
 #blog7 .overlay-wrapper {
   display: block;
   background: none;
@@ -9693,10 +9687,10 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 904, ../scss/components/blocks.scss */
+/* line 899, ../scss/components/blocks.scss */
 #blog7:hover .overlay-wrapper {
   display: block;
-  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/corporates-startups.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9706,7 +9700,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 919, ../scss/components/blocks.scss */
+/* line 914, ../scss/components/blocks.scss */
 #blog7:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9714,29 +9708,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/corporates-startups.jpg");
   background-position: center;
   background-size: cover;
-  background-position: center;
 }
-/* line 933, ../scss/components/blocks.scss */
+/* line 927, ../scss/components/blocks.scss */
 #blog7:hover #blog7-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 941, ../scss/components/blocks.scss */
+/* line 935, ../scss/components/blocks.scss */
 #blog8 {
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/landing-page-validation.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 945, ../scss/components/blocks.scss */
+/* line 939, ../scss/components/blocks.scss */
 #blog8 #blog8-hover {
   display: none;
 }
-/* line 948, ../scss/components/blocks.scss */
+/* line 942, ../scss/components/blocks.scss */
 #blog8 .overlay-wrapper {
   display: block;
   background: none;
@@ -9749,10 +9742,10 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 962, ../scss/components/blocks.scss */
+/* line 956, ../scss/components/blocks.scss */
 #blog8:hover .overlay-wrapper {
   display: block;
-  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/landing-page-validation.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9762,7 +9755,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 977, ../scss/components/blocks.scss */
+/* line 971, ../scss/components/blocks.scss */
 #blog8:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9770,29 +9763,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/landing-page-validation.jpg");
   background-position: center;
   background-size: cover;
-  background-position: center;
 }
-/* line 991, ../scss/components/blocks.scss */
+/* line 985, ../scss/components/blocks.scss */
 #blog8:hover #blog8-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 999, ../scss/components/blocks.scss */
+/* line 993, ../scss/components/blocks.scss */
 #blog9 {
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/sci-fi.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1003, ../scss/components/blocks.scss */
+/* line 997, ../scss/components/blocks.scss */
 #blog9 #blog9-hover {
   display: none;
 }
-/* line 1006, ../scss/components/blocks.scss */
+/* line 1000, ../scss/components/blocks.scss */
 #blog9 .overlay-wrapper {
   display: block;
   background: none;
@@ -9805,10 +9797,10 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1020, ../scss/components/blocks.scss */
+/* line 1014, ../scss/components/blocks.scss */
 #blog9:hover .overlay-wrapper {
   display: block;
-  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/sci-fi.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9818,7 +9810,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1035, ../scss/components/blocks.scss */
+/* line 1029, ../scss/components/blocks.scss */
 #blog9:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9826,29 +9818,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/sci-fi.jpg");
   background-position: center;
   background-size: cover;
-  background-position: center;
 }
-/* line 1049, ../scss/components/blocks.scss */
+/* line 1042, ../scss/components/blocks.scss */
 #blog9:hover #blog9-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1057, ../scss/components/blocks.scss */
+/* line 1050, ../scss/components/blocks.scss */
 #blog10 {
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/customer-interviews.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1061, ../scss/components/blocks.scss */
+/* line 1054, ../scss/components/blocks.scss */
 #blog10 #blog10-hover {
   display: none;
 }
-/* line 1064, ../scss/components/blocks.scss */
+/* line 1057, ../scss/components/blocks.scss */
 #blog10 .overlay-wrapper {
   display: block;
   background: none;
@@ -9861,10 +9852,10 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1078, ../scss/components/blocks.scss */
+/* line 1071, ../scss/components/blocks.scss */
 #blog10:hover .overlay-wrapper {
   display: block;
-  background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
+  background: url("../images/blog/overview/customer-interviews.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
   width: 100%;
   height: 100%;
@@ -9874,7 +9865,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1093, ../scss/components/blocks.scss */
+/* line 1086, ../scss/components/blocks.scss */
 #blog10:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9882,29 +9873,28 @@ button.close {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("../images/xl_blog_1.png");
+  background: url("../images/blog/overview/customer-interviews.jpg");
   background-position: center;
   background-size: cover;
-  background-position: center;
 }
-/* line 1107, ../scss/components/blocks.scss */
+/* line 1099, ../scss/components/blocks.scss */
 #blog10:hover #blog10-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1118, ../scss/components/blocks.scss */
+/* line 1110, ../scss/components/blocks.scss */
 #discover-client1 {
   background: url("../images/xl_blog_1.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1122, ../scss/components/blocks.scss */
+/* line 1114, ../scss/components/blocks.scss */
 #discover-client1 #discover-client1-hover {
   display: none;
 }
-/* line 1125, ../scss/components/blocks.scss */
+/* line 1117, ../scss/components/blocks.scss */
 #discover-client1 .overlay-wrapper {
   display: block;
   background: none;
@@ -9917,7 +9907,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1139, ../scss/components/blocks.scss */
+/* line 1131, ../scss/components/blocks.scss */
 #discover-client1:hover .overlay-wrapper {
   display: block;
   background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -9930,7 +9920,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1154, ../scss/components/blocks.scss */
+/* line 1146, ../scss/components/blocks.scss */
 #discover-client1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9943,24 +9933,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1168, ../scss/components/blocks.scss */
+/* line 1160, ../scss/components/blocks.scss */
 #discover-client1:hover #discover-client1-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1176, ../scss/components/blocks.scss */
+/* line 1168, ../scss/components/blocks.scss */
 #discover-client2 {
   background: url("../images/blog 4.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1180, ../scss/components/blocks.scss */
+/* line 1172, ../scss/components/blocks.scss */
 #discover-client2 #discover-client2-hover {
   display: none;
 }
-/* line 1183, ../scss/components/blocks.scss */
+/* line 1175, ../scss/components/blocks.scss */
 #discover-client2 .overlay-wrapper {
   display: block;
   background: none;
@@ -9973,7 +9963,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1197, ../scss/components/blocks.scss */
+/* line 1189, ../scss/components/blocks.scss */
 #discover-client2:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog 4.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -9986,7 +9976,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1212, ../scss/components/blocks.scss */
+/* line 1204, ../scss/components/blocks.scss */
 #discover-client2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9999,24 +9989,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1226, ../scss/components/blocks.scss */
+/* line 1218, ../scss/components/blocks.scss */
 #discover-client2:hover #discover-client2-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1234, ../scss/components/blocks.scss */
+/* line 1226, ../scss/components/blocks.scss */
 #discover-client3 {
   background: url("../images/blog 3.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1238, ../scss/components/blocks.scss */
+/* line 1230, ../scss/components/blocks.scss */
 #discover-client3 #discover-client3-hover {
   display: none;
 }
-/* line 1241, ../scss/components/blocks.scss */
+/* line 1233, ../scss/components/blocks.scss */
 #discover-client3 .overlay-wrapper {
   display: block;
   background: none;
@@ -10029,7 +10019,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1255, ../scss/components/blocks.scss */
+/* line 1247, ../scss/components/blocks.scss */
 #discover-client3:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog 3.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10042,7 +10032,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1270, ../scss/components/blocks.scss */
+/* line 1262, ../scss/components/blocks.scss */
 #discover-client3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10055,24 +10045,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1284, ../scss/components/blocks.scss */
+/* line 1276, ../scss/components/blocks.scss */
 #discover-client3:hover #discover-client3-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1292, ../scss/components/blocks.scss */
+/* line 1284, ../scss/components/blocks.scss */
 #discover-client4 {
   background: url("../images/Mask.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1296, ../scss/components/blocks.scss */
+/* line 1288, ../scss/components/blocks.scss */
 #discover-client4 #discover-client4-hover {
   display: none;
 }
-/* line 1299, ../scss/components/blocks.scss */
+/* line 1291, ../scss/components/blocks.scss */
 #discover-client4 .overlay-wrapper {
   display: block;
   background: none;
@@ -10085,7 +10075,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1313, ../scss/components/blocks.scss */
+/* line 1305, ../scss/components/blocks.scss */
 #discover-client4:hover .overlay-wrapper {
   display: block;
   background: url("../images/Mask.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10098,7 +10088,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1328, ../scss/components/blocks.scss */
+/* line 1320, ../scss/components/blocks.scss */
 #discover-client4:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10111,24 +10101,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1342, ../scss/components/blocks.scss */
+/* line 1334, ../scss/components/blocks.scss */
 #discover-client4:hover #discover-client4-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1351, ../scss/components/blocks.scss */
+/* line 1343, ../scss/components/blocks.scss */
 #discover-client5 {
   background: url("../images/Mask.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1355, ../scss/components/blocks.scss */
+/* line 1347, ../scss/components/blocks.scss */
 #discover-client5 #discover-client5-hover {
   display: none;
 }
-/* line 1358, ../scss/components/blocks.scss */
+/* line 1350, ../scss/components/blocks.scss */
 #discover-client5 .overlay-wrapper {
   display: block;
   background: none;
@@ -10141,7 +10131,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1372, ../scss/components/blocks.scss */
+/* line 1364, ../scss/components/blocks.scss */
 #discover-client5:hover .overlay-wrapper {
   display: block;
   background: url("../images/Mask.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10154,7 +10144,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1387, ../scss/components/blocks.scss */
+/* line 1379, ../scss/components/blocks.scss */
 #discover-client5:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10167,24 +10157,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1401, ../scss/components/blocks.scss */
+/* line 1393, ../scss/components/blocks.scss */
 #discover-client5:hover #discover-client5-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1418, ../scss/components/blocks.scss */
+/* line 1410, ../scss/components/blocks.scss */
 #location1 {
   background: url("../images/amsteradm.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1422, ../scss/components/blocks.scss */
+/* line 1414, ../scss/components/blocks.scss */
 #location1 #location1-hover {
   display: none;
 }
-/* line 1425, ../scss/components/blocks.scss */
+/* line 1417, ../scss/components/blocks.scss */
 #location1 .overlay-wrapper {
   display: block;
   background: none;
@@ -10197,7 +10187,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1439, ../scss/components/blocks.scss */
+/* line 1431, ../scss/components/blocks.scss */
 #location1:hover .overlay-wrapper {
   display: block;
   background: url("../images/amsteradm.jpg"), url("../patterns/XLF_Hover_pink_S.png");
@@ -10210,7 +10200,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1454, ../scss/components/blocks.scss */
+/* line 1446, ../scss/components/blocks.scss */
 #location1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10223,24 +10213,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1468, ../scss/components/blocks.scss */
+/* line 1460, ../scss/components/blocks.scss */
 #location1:hover #location1-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1477, ../scss/components/blocks.scss */
+/* line 1469, ../scss/components/blocks.scss */
 #location2 {
   background: url("../images/leiden.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1481, ../scss/components/blocks.scss */
+/* line 1473, ../scss/components/blocks.scss */
 #location2 #location2-hover {
   display: none;
 }
-/* line 1484, ../scss/components/blocks.scss */
+/* line 1476, ../scss/components/blocks.scss */
 #location2 .overlay-wrapper {
   display: block;
   background: none;
@@ -10253,7 +10243,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1498, ../scss/components/blocks.scss */
+/* line 1490, ../scss/components/blocks.scss */
 #location2:hover .overlay-wrapper {
   display: block;
   background: url("../images/leiden.jpg"), url("../patterns/XLF_Hover_pink_S.png");
@@ -10266,7 +10256,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1513, ../scss/components/blocks.scss */
+/* line 1505, ../scss/components/blocks.scss */
 #location2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10279,24 +10269,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1527, ../scss/components/blocks.scss */
+/* line 1519, ../scss/components/blocks.scss */
 #location2:hover #location2-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1536, ../scss/components/blocks.scss */
+/* line 1528, ../scss/components/blocks.scss */
 #location3 {
   background: url("../images/bucharest.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1540, ../scss/components/blocks.scss */
+/* line 1532, ../scss/components/blocks.scss */
 #location3 #location3-hover {
   display: none;
 }
-/* line 1543, ../scss/components/blocks.scss */
+/* line 1535, ../scss/components/blocks.scss */
 #location3 .overlay-wrapper {
   display: block;
   background: none;
@@ -10309,7 +10299,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1557, ../scss/components/blocks.scss */
+/* line 1549, ../scss/components/blocks.scss */
 #location3:hover .overlay-wrapper {
   display: block;
   background: url("../images/bucharest.jpg"), url("../patterns/XLF_Hover_pink_S.png");
@@ -10322,7 +10312,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1572, ../scss/components/blocks.scss */
+/* line 1564, ../scss/components/blocks.scss */
 #location3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10335,7 +10325,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1586, ../scss/components/blocks.scss */
+/* line 1578, ../scss/components/blocks.scss */
 #location3:hover #location3-hover {
   display: block;
   margin-top: 50px;
@@ -11492,7 +11482,7 @@ button.close {
 
 /*=== PAGES ===*/
 @media only screen and (max-device-width: 767px) {
-  /* line 1, ../scss/pages/_article.scss */
+  /* line 1, ../scss/pages/_blog-article.scss */
   #adventure1 {
     background-size: cover;
     background: no-repeat;
@@ -11504,7 +11494,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1, ../scss/pages/_article.scss */
+  /* line 1, ../scss/pages/_blog-article.scss */
   #adventure1 {
     display: block;
     margin: auto;
@@ -11520,45 +11510,64 @@ button.close {
   }
 }
 
+/*=== BLOG HEADERS ===*/
+/* line 30, ../scss/pages/_blog-article.scss */
+#blog-copycatting {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
 @media only screen and (max-device-width: 767px) {
-  /* line 29, ../scss/pages/_article.scss */
-  #article1 {
+  /* line 30, ../scss/pages/_blog-article.scss */
+  #blog-copycatting {
     background-size: cover;
-    background: url("../images/xl_blog_1.png") no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+    background: url("../images/blog/mobile_portrait/copycatting.jpg") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 29, ../scss/pages/_article.scss */
-  #article1 {
+  /* line 30, ../scss/pages/_blog-article.scss */
+  #blog-copycatting {
     display: block;
-    margin: auto;
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/xl_blog_1.png") no-repeat;
+    background: url("../images/blog/tablet_landscape/copycatting.jpg") no-repeat;
     background-size: 100vw;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
-    margin-bottom: 2rem;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 30, ../scss/pages/_blog-article.scss */
+  #blog-copycatting {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/desktop/copycatting.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 30, ../scss/pages/_blog-article.scss */
+  #blog-copycatting {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/hd/copycatting.jpg") no-repeat;
+    background-size: 100vw;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 58, ../scss/pages/_article.scss */
+  /* line 73, ../scss/pages/_blog-article.scss */
   .article-person {
     display: flex;
     flex-direction: column;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 58, ../scss/pages/_article.scss */
+  /* line 73, ../scss/pages/_blog-article.scss */
   .article-person {
     padding: 0;
     display: flex;
@@ -11566,15 +11575,64 @@ button.close {
   }
 }
 
+/*==== JESKE ====*/
 @media only screen and (max-device-width: 767px) {
-  /* line 77, ../scss/pages/_article.scss */
-  .article-picture1 {
+  /* line 95, ../scss/pages/_blog-article.scss */
+  .article-jeske {
     display: none;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 77, ../scss/pages/_article.scss */
-  .article-picture1 {
+  /* line 95, ../scss/pages/_blog-article.scss */
+  .article-jeske {
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jeske.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 120, ../scss/pages/_blog-article.scss */
+  .article-jeske-mb {
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jeske.jpg") no-repeat;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 120, ../scss/pages/_blog-article.scss */
+  .article-jeske-mb {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 145, ../scss/pages/_blog-article.scss */
+  .article-aboutus-marc {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 145, ../scss/pages/_blog-article.scss */
+  .article-aboutus-marc {
     margin-right: 1rem;
     width: 5.525rem;
     position: relative;
@@ -11591,55 +11649,7 @@ button.close {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 102, ../scss/pages/_article.scss */
-  .article-picture1-mb {
-    width: 5.525rem;
-    position: relative;
-    height: 5.525rem;
-    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
-    background-size: 100% auto;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 10;
-    margin-bottom: -4rem;
-    margin-top: 4rem;
-    display: block;
-    border-radius: 100%;
-  }
-}
-@media only screen and (min-device-width: 768px) {
-  /* line 102, ../scss/pages/_article.scss */
-  .article-picture1-mb {
-    display: none;
-  }
-}
-
-@media only screen and (max-device-width: 767px) {
-  /* line 127, ../scss/pages/_article.scss */
-  .article-aboutus-marc {
-    display: none;
-  }
-}
-@media only screen and (min-device-width: 768px) {
-  /* line 127, ../scss/pages/_article.scss */
-  .article-aboutus-marc {
-    margin-right: 1rem;
-    width: 5.525rem;
-    position: relative;
-    height: 5.525rem;
-    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
-    background-size: 100% auto;
-    cursor: pointer;
-    z-index: 10;
-    left: 0;
-    display: inline-block;
-    margin-top: -1.5rem;
-    border-radius: 100%;
-  }
-}
-
-@media only screen and (max-device-width: 767px) {
-  /* line 152, ../scss/pages/_article.scss */
+  /* line 170, ../scss/pages/_blog-article.scss */
   .article-aboutus-marc-mb {
     width: 5.525rem;
     position: relative;
@@ -11656,14 +11666,14 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 152, ../scss/pages/_article.scss */
+  /* line 170, ../scss/pages/_blog-article.scss */
   .article-aboutus-marc-mb {
     display: none;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 177, ../scss/pages/_article.scss */
+  /* line 195, ../scss/pages/_blog-article.scss */
   .article-person {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
@@ -11674,7 +11684,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 177, ../scss/pages/_article.scss */
+  /* line 195, ../scss/pages/_blog-article.scss */
   .article-person {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
@@ -11686,7 +11696,7 @@ button.close {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 201, ../scss/pages/_article.scss */
+  /* line 219, ../scss/pages/_blog-article.scss */
   .article-person-desc {
     font-size: 15px;
     color: gray;
@@ -11694,7 +11704,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 201, ../scss/pages/_article.scss */
+  /* line 219, ../scss/pages/_blog-article.scss */
   .article-person-desc {
     font-size: 15px;
     color: gray;
@@ -11702,7 +11712,7 @@ button.close {
   }
 }
 
-/* line 221, ../scss/pages/_article.scss */
+/* line 239, ../scss/pages/_blog-article.scss */
 .article-text {
   font-size: 15px;
   color: grey;
@@ -11711,7 +11721,7 @@ button.close {
   margin-bottom: 2rem;
 }
 
-/* line 230, ../scss/pages/_article.scss */
+/* line 248, ../scss/pages/_blog-article.scss */
 .article-text-italic {
   font-size: 15px;
   color: grey;
@@ -11721,7 +11731,7 @@ button.close {
   font-style: italic;
 }
 
-/* line 240, ../scss/pages/_article.scss */
+/* line 258, ../scss/pages/_blog-article.scss */
 .article-text-title {
   font-size: 15px;
   font-family: "Raleway", sans-serif;
@@ -11730,7 +11740,7 @@ button.close {
   color: black;
 }
 
-/* line 251, ../scss/pages/_article.scss */
+/* line 269, ../scss/pages/_blog-article.scss */
 .twitter-link {
   color: #00aeef;
   text-align: center;
@@ -11746,7 +11756,7 @@ button.close {
   -o-transition: 0.1s ease;
   transition: 0.1s ease;
 }
-/* line 266, ../scss/pages/_article.scss */
+/* line 284, ../scss/pages/_blog-article.scss */
 .twitter-link .twitter-logo-blue {
   -webkit-transition: 0.1s ease;
   -moz-transition: 0.1s ease;
@@ -11763,7 +11773,7 @@ button.close {
   margin-right: auto;
   margin-top: 2rem;
 }
-/* line 282, ../scss/pages/_article.scss */
+/* line 300, ../scss/pages/_blog-article.scss */
 .twitter-link:hover {
   color: #ff0066;
   text-align: center;
@@ -11780,7 +11790,7 @@ button.close {
   transition: 0.1s ease;
   margin-top: 3rem;
 }
-/* line 283, ../scss/pages/_article.scss */
+/* line 301, ../scss/pages/_blog-article.scss */
 .twitter-link:hover .twitter-logo-blue {
   -webkit-transition: 0.1s ease;
   -moz-transition: 0.1s ease;
@@ -11798,12 +11808,12 @@ button.close {
   margin-top: 2rem;
 }
 
-/* line 319, ../scss/pages/_article.scss */
+/* line 337, ../scss/pages/_blog-article.scss */
 .black-title {
   color: black;
 }
 
-/* line 323, ../scss/pages/_article.scss */
+/* line 341, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper {
   display: inline-block;
   margin-left: auto;
@@ -11811,19 +11821,19 @@ button.close {
   left: 0;
   right: 0;
 }
-/* line 329, ../scss/pages/_article.scss */
+/* line 347, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper ul {
   display: inline-block;
   margin-top: 2rem;
   margin-bottom: -1rem;
   padding: 0;
 }
-/* line 335, ../scss/pages/_article.scss */
+/* line 353, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper li {
   display: inline-block;
 }
 
-/* line 340, ../scss/pages/_article.scss */
+/* line 358, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper2 {
   display: table;
   margin-left: auto;
@@ -11831,19 +11841,19 @@ button.close {
   left: 0;
   right: 0;
 }
-/* line 346, ../scss/pages/_article.scss */
+/* line 364, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper2 ul {
   display: inline-block;
   margin-top: 4rem;
   margin-bottom: -1rem;
   padding: 0;
 }
-/* line 352, ../scss/pages/_article.scss */
+/* line 370, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper2 li {
   display: inline-block;
 }
 
-/* line 358, ../scss/pages/_article.scss */
+/* line 376, ../scss/pages/_blog-article.scss */
 .linkdin-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -11854,7 +11864,7 @@ button.close {
   display: block;
 }
 
-/* line 368, ../scss/pages/_article.scss */
+/* line 386, ../scss/pages/_blog-article.scss */
 .twitter-logo-blue2 {
   width: 3.125rem;
   height: 3.125rem;
@@ -11866,7 +11876,7 @@ button.close {
   display: block;
 }
 
-/* line 378, ../scss/pages/_article.scss */
+/* line 396, ../scss/pages/_blog-article.scss */
 .facebook-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -11878,7 +11888,7 @@ button.close {
   display: block;
 }
 
-/* line 389, ../scss/pages/_article.scss */
+/* line 407, ../scss/pages/_blog-article.scss */
 .email-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -11890,7 +11900,7 @@ button.close {
   display: block;
 }
 
-/* line 400, ../scss/pages/_article.scss */
+/* line 418, ../scss/pages/_blog-article.scss */
 .blue-line {
   background: #00aeef;
   width: 100%;
@@ -11899,7 +11909,7 @@ button.close {
   margin-top: 4rem;
 }
 
-/* line 408, ../scss/pages/_article.scss */
+/* line 426, ../scss/pages/_blog-article.scss */
 .pijl-article-onder {
   width: 13.125rem;
   position: relative;
@@ -11920,7 +11930,7 @@ button.close {
   background-position: center;
 }
 
-/* line 428, ../scss/pages/_article.scss */
+/* line 446, ../scss/pages/_blog-article.scss */
 .article-more {
   text-align: center;
   display: flex;
@@ -11934,7 +11944,7 @@ button.close {
   font-weight: 900;
 }
 
-/* line 441, ../scss/pages/_article.scss */
+/* line 459, ../scss/pages/_blog-article.scss */
 .article-more-p {
   text-align: center;
   display: flex;
@@ -11949,7 +11959,7 @@ button.close {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 454, ../scss/pages/_article.scss */
+  /* line 472, ../scss/pages/_blog-article.scss */
   .jeske-icon {
     width: 6.525rem;
     position: relative;
@@ -11963,7 +11973,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 454, ../scss/pages/_article.scss */
+  /* line 472, ../scss/pages/_blog-article.scss */
   .jeske-icon {
     margin-right: 1rem;
     width: 6.525rem;
@@ -11978,124 +11988,202 @@ button.close {
   }
 }
 
+/*=== BLOG-ARTICLES ===*/
+/*=== copycatting ===*/
+/* line 2, ../scss/pages/_client-need.scss */
+#opportunities {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
 @media only screen and (max-device-width: 767px) {
-  /* line 1, ../scss/pages/_client-need.scss */
+  /* line 2, ../scss/pages/_client-need.scss */
   #opportunities {
     background-size: cover;
-    background: url("../images/xlf_clientneed_1.jpeg") no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+    background: url("../images/client-need/mobile_portrait/client_need_1.png") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1, ../scss/pages/_client-need.scss */
+  /* line 2, ../scss/pages/_client-need.scss */
   #opportunities {
     display: block;
-    margin: auto;
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/xlf_clientneed_1.jpeg") no-repeat;
+    background: url("../images/client-need/tablet_landscape/client_need_1.png") no-repeat;
     background-size: 100vw;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 2, ../scss/pages/_client-need.scss */
+  #opportunities {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/client-need/desktop/client_need_1.png") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 2, ../scss/pages/_client-need.scss */
+  #opportunities {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/client-need/hd/client_need_1.png") no-repeat;
+    background-size: 100vw;
   }
 }
 
+/* line 46, ../scss/pages/_client-need.scss */
+#accelerate {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
 @media only screen and (max-device-width: 767px) {
-  /* line 29, ../scss/pages/_client-need.scss */
+  /* line 46, ../scss/pages/_client-need.scss */
   #accelerate {
     background-size: cover;
-    background: url("../images/client_need_2.png") no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+    background: url("../images/client-need/mobile_portrait/client_need_2.png") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 29, ../scss/pages/_client-need.scss */
+  /* line 46, ../scss/pages/_client-need.scss */
   #accelerate {
     display: block;
-    margin: auto;
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client_need_2.png") no-repeat;
+    background: url("../images/client-need/tablet_landscape/client_need_2.png") no-repeat;
     background-size: 100vw;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 46, ../scss/pages/_client-need.scss */
+  #accelerate {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/client-need/desktop/client_need_2.png") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 46, ../scss/pages/_client-need.scss */
+  #accelerate {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/client-need/hd/client_need_2.png") no-repeat;
+    background-size: 100vw;
   }
 }
 
+/* line 89, ../scss/pages/_client-need.scss */
+#build {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
 @media only screen and (max-device-width: 767px) {
-  /* line 57, ../scss/pages/_client-need.scss */
+  /* line 89, ../scss/pages/_client-need.scss */
   #build {
     background-size: cover;
-    background: url("../images/client need 3.png") no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+    background: url("../images/client-need/mobile_portrait/client_need_3.png") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 57, ../scss/pages/_client-need.scss */
+  /* line 89, ../scss/pages/_client-need.scss */
   #build {
     display: block;
-    margin: auto;
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client need 3.png") no-repeat;
+    background: url("../images/client-need/tablet_landscape/client_need_3.png") no-repeat;
     background-size: 100vw;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 89, ../scss/pages/_client-need.scss */
+  #build {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/client-need/desktop/client_need_3.png") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 89, ../scss/pages/_client-need.scss */
+  #build {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/client-need/hd/client_need_3.png") no-repeat;
+    background-size: 100vw;
   }
 }
 
+/* line 134, ../scss/pages/_client-need.scss */
+#innovate {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
 @media only screen and (max-device-width: 767px) {
-  /* line 86, ../scss/pages/_client-need.scss */
+  /* line 134, ../scss/pages/_client-need.scss */
   #innovate {
     background-size: cover;
-    background: url("../images/client need 4.png") no-repeat;
-    background-position: center;
-    height: 500px;
-    background-size: cover;
-    text-align: center;
-    margin-top: -8rem;
+    background: url("../images/client-need/mobile_portrait/client_need_4.png") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 86, ../scss/pages/_client-need.scss */
+  /* line 134, ../scss/pages/_client-need.scss */
   #innovate {
     display: block;
-    margin: auto;
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client need 4.png") no-repeat;
+    background: url("../images/client-need/tablet_landscape/client_need_4.png") no-repeat;
     background-size: 100vw;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 134, ../scss/pages/_client-need.scss */
+  #innovate {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/client-need/desktop/client_need_4.png") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 134, ../scss/pages/_client-need.scss */
+  #innovate {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/client-need/hd/client_need_4.png") no-repeat;
+    background-size: 100vw;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 117, ../scss/pages/_client-need.scss */
+  /* line 180, ../scss/pages/_client-need.scss */
   .title_wrapper_client {
     height: 500px;
     display: -webkit-box;
@@ -12109,7 +12197,7 @@ button.close {
     vertical-align: middle;
     text-align: center;
   }
-  /* line 132, ../scss/pages/_client-need.scss */
+  /* line 195, ../scss/pages/_client-need.scss */
   .title_wrapper_client h1 {
     display: block;
     position: relative;
@@ -12120,7 +12208,7 @@ button.close {
     letter-spacing: 1.26px;
     width: 100%;
   }
-  /* line 144, ../scss/pages/_client-need.scss */
+  /* line 207, ../scss/pages/_client-need.scss */
   .title_wrapper_client p {
     display: block;
     position: relative;
@@ -12133,7 +12221,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 117, ../scss/pages/_client-need.scss */
+  /* line 180, ../scss/pages/_client-need.scss */
   .title_wrapper_client {
     height: 500px;
     display: -webkit-box;
@@ -12147,7 +12235,7 @@ button.close {
     vertical-align: middle;
     margin-top: -5rem;
   }
-  /* line 176, ../scss/pages/_client-need.scss */
+  /* line 239, ../scss/pages/_client-need.scss */
   .title_wrapper_client h1 {
     display: block;
     position: relative;
@@ -12159,7 +12247,7 @@ button.close {
     width: 100%;
     margin-bottom: 5rem;
   }
-  /* line 187, ../scss/pages/_client-need.scss */
+  /* line 250, ../scss/pages/_client-need.scss */
   .title_wrapper_client p {
     display: block;
     position: relative;
@@ -12173,7 +12261,7 @@ button.close {
 }
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 201, ../scss/pages/_client-need.scss */
+  /* line 264, ../scss/pages/_client-need.scss */
   #pijl-groen-boven-client {
     width: 8.125rem;
     position: relative;
@@ -12197,7 +12285,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 201, ../scss/pages/_client-need.scss */
+  /* line 264, ../scss/pages/_client-need.scss */
   #pijl-groen-boven-client {
     width: 15.125rem;
     position: relative;
@@ -12222,7 +12310,7 @@ button.close {
 }
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 249, ../scss/pages/_client-need.scss */
+  /* line 312, ../scss/pages/_client-need.scss */
   #pijl-groen-links-client {
     width: 10.125rem;
     position: absolute;
@@ -12237,7 +12325,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 249, ../scss/pages/_client-need.scss */
+  /* line 312, ../scss/pages/_client-need.scss */
   #pijl-groen-links-client {
     width: 15.125rem;
     position: absolute;
@@ -12253,7 +12341,7 @@ button.close {
 }
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 282, ../scss/pages/_client-need.scss */
+  /* line 345, ../scss/pages/_client-need.scss */
   #pijl-groen-rechts-client {
     width: 10.125rem;
     position: absolute;
@@ -12273,7 +12361,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 282, ../scss/pages/_client-need.scss */
+  /* line 345, ../scss/pages/_client-need.scss */
   #pijl-groen-rechts-client {
     width: 15.125rem;
     position: absolute;
@@ -12294,7 +12382,7 @@ button.close {
 }
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 323, ../scss/pages/_client-need.scss */
+  /* line 386, ../scss/pages/_client-need.scss */
   #pijl-groen-onder-client {
     width: 8.125rem;
     position: relative;
@@ -12318,7 +12406,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 323, ../scss/pages/_client-need.scss */
+  /* line 386, ../scss/pages/_client-need.scss */
   #pijl-groen-onder-client {
     width: 15.125rem;
     position: relative;
@@ -12342,7 +12430,7 @@ button.close {
   }
 }
 
-/* line 369, ../scss/pages/_client-need.scss */
+/* line 432, ../scss/pages/_client-need.scss */
 .solutions {
   background: #7eb241;
   font-family: "Raleway", sans-serif;
@@ -12358,7 +12446,7 @@ button.close {
   border: none;
 }
 
-/* line 385, ../scss/pages/_client-need.scss */
+/* line 448, ../scss/pages/_client-need.scss */
 .solutions-wrapper {
   display: flex;
   justify-content: center;
@@ -12367,7 +12455,7 @@ button.close {
   height: 16rem;
 }
 
-/* line 394, ../scss/pages/_client-need.scss */
+/* line 457, ../scss/pages/_client-need.scss */
 .discover-title-client {
   font-size: 20px;
   font-weight: 900;
@@ -12383,7 +12471,7 @@ button.close {
   margin-top: 50px;
 }
 
-/* line 408, ../scss/pages/_client-need.scss */
+/* line 471, ../scss/pages/_client-need.scss */
 .discover-title-client1 {
   font-size: 20px;
   font-weight: 900;
@@ -12400,7 +12488,7 @@ button.close {
   text-align: center;
 }
 
-/* line 424, ../scss/pages/_client-need.scss */
+/* line 487, ../scss/pages/_client-need.scss */
 .discover-title-client2 {
   font-size: 20px;
   font-weight: 900;
@@ -12416,7 +12504,7 @@ button.close {
   text-align: center;
 }
 
-/* line 440, ../scss/pages/_client-need.scss */
+/* line 503, ../scss/pages/_client-need.scss */
 .arrow-wrapper-client {
   position: absolute;
   left: 0;
@@ -15885,32 +15973,51 @@ video {
   }
 }
 
+/* line 1, ../scss/pages/_about.scss */
+#about {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
 @media only screen and (max-device-width: 767px) {
   /* line 1, ../scss/pages/_about.scss */
   #about {
     background-size: cover;
-    background: url("../images/xlfamily_aboutus.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+    background: url("../images/about-us/mobile_portrait/about.png") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
   /* line 1, ../scss/pages/_about.scss */
   #about {
     display: block;
-    margin: auto;
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/xlfamily_aboutus.jpg") no-repeat;
+    background: url("../images/about-us/tablet_landscape/about.png") no-repeat;
     background-size: 100vw;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 1, ../scss/pages/_about.scss */
+  #about {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/about-us/desktop/about.png") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 1, ../scss/pages/_about.scss */
+  #about {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/about-us/hd/about.png") no-repeat;
+    background-size: 100vw;
   }
 }
 
@@ -15927,7 +16034,6 @@ video {
   #case-bdo-hero {
     background-size: cover;
     background: url("../images/cases/mobile_portrait/bdo.jpg") no-repeat;
-    background-size: cover;
   }
 }
 @media only screen and (min-device-width: 768px) {
@@ -15941,9 +16047,31 @@ video {
     background-size: 100vw;
   }
 }
+@media only screen and (min-device-width: 1200px) {
+  /* line 4, ../scss/pages/cases.scss */
+  #case-bdo-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/desktop/bdo.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 4, ../scss/pages/cases.scss */
+  #case-bdo-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/hd/bdo.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
 
 @media only screen and (max-device-width: 767px) {
-  /* line 29, ../scss/pages/cases.scss */
+  /* line 47, ../scss/pages/cases.scss */
   .broshuis-logo2 {
     width: 12.525rem;
     position: relative;
@@ -15960,7 +16088,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 29, ../scss/pages/cases.scss */
+  /* line 47, ../scss/pages/cases.scss */
   .broshuis-logo2 {
     width: 12.525rem;
     position: relative;
@@ -15978,7 +16106,7 @@ video {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 64, ../scss/pages/cases.scss */
+  /* line 82, ../scss/pages/cases.scss */
   .bdo-logo {
     width: 22.525rem;
     position: relative;
@@ -15995,7 +16123,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 64, ../scss/pages/cases.scss */
+  /* line 82, ../scss/pages/cases.scss */
   .bdo-logo {
     width: 12.525rem;
     position: relative;
@@ -16013,7 +16141,7 @@ video {
 }
 
 /*=== BROSHUIS ===*/
-/* line 104, ../scss/pages/cases.scss */
+/* line 122, ../scss/pages/cases.scss */
 #case-broshuis-hero {
   background-position: center;
   height: 500px;
@@ -16021,15 +16149,14 @@ video {
   margin-top: -8rem;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 104, ../scss/pages/cases.scss */
+  /* line 122, ../scss/pages/cases.scss */
   #case-broshuis-hero {
     background-size: cover;
     background: url("../images/cases/mobile_portrait/broshuis.jpg") no-repeat;
-    background-size: cover;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 104, ../scss/pages/cases.scss */
+  /* line 122, ../scss/pages/cases.scss */
   #case-broshuis-hero {
     display: block;
     max-height: 100%;
@@ -16039,9 +16166,31 @@ video {
     background-size: 100vw;
   }
 }
+@media only screen and (min-device-width: 1200px) {
+  /* line 122, ../scss/pages/cases.scss */
+  #case-broshuis-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/desktop/broshuis.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 122, ../scss/pages/cases.scss */
+  #case-broshuis-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/hd/broshuis.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
 
 /*=== DELTA LLOYD ===*/
-/* line 132, ../scss/pages/cases.scss */
+/* line 167, ../scss/pages/cases.scss */
 #case-deltalloyd-hero {
   background-position: center;
   height: 500px;
@@ -16049,15 +16198,14 @@ video {
   margin-top: -8rem;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 132, ../scss/pages/cases.scss */
+  /* line 167, ../scss/pages/cases.scss */
   #case-deltalloyd-hero {
     background-size: cover;
     background: url("../images/cases/mobile_portrait/delta_lloyd.jpg") no-repeat;
-    background-size: cover;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 132, ../scss/pages/cases.scss */
+  /* line 167, ../scss/pages/cases.scss */
   #case-deltalloyd-hero {
     display: block;
     max-height: 100%;
@@ -16067,9 +16215,31 @@ video {
     background-size: 100vw;
   }
 }
+@media only screen and (min-device-width: 1200px) {
+  /* line 167, ../scss/pages/cases.scss */
+  #case-deltalloyd-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/desktop/delta_lloyd.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 167, ../scss/pages/cases.scss */
+  #case-deltalloyd-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/hd/delta_lloyd.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
 
 /*=== VEH ===*/
-/* line 159, ../scss/pages/cases.scss */
+/* line 213, ../scss/pages/cases.scss */
 #case-veh-hero {
   background-position: center;
   height: 500px;
@@ -16077,15 +16247,14 @@ video {
   margin-top: -8rem;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 159, ../scss/pages/cases.scss */
+  /* line 213, ../scss/pages/cases.scss */
   #case-veh-hero {
     background-size: cover;
     background: url("../images/cases/mobile_portrait/veh.jpg") no-repeat;
-    background-size: cover;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 159, ../scss/pages/cases.scss */
+  /* line 213, ../scss/pages/cases.scss */
   #case-veh-hero {
     display: block;
     max-height: 100%;
@@ -16095,9 +16264,31 @@ video {
     background-size: 100vw;
   }
 }
+@media only screen and (min-device-width: 1200px) {
+  /* line 213, ../scss/pages/cases.scss */
+  #case-veh-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/desktop/veh.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 213, ../scss/pages/cases.scss */
+  #case-veh-hero {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/cases/hd/veh.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
 
 @media only screen and (max-device-width: 767px) {
-  /* line 183, ../scss/pages/cases.scss */
+  /* line 256, ../scss/pages/cases.scss */
   .delta-logo-case {
     width: 22.525rem;
     position: relative;
@@ -16114,7 +16305,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 183, ../scss/pages/cases.scss */
+  /* line 256, ../scss/pages/cases.scss */
   .delta-logo-case {
     width: 12.525rem;
     position: relative;
@@ -16131,7 +16322,7 @@ video {
   }
 }
 
-/* line 220, ../scss/pages/cases.scss */
+/* line 293, ../scss/pages/cases.scss */
 .case-list-items {
   margin-top: 4rem;
   font-size: 15px;
@@ -16142,7 +16333,7 @@ video {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 229, ../scss/pages/cases.scss */
+/* line 302, ../scss/pages/cases.scss */
 .case-list-text {
   margin-top: 4rem;
   font-size: 15px;
@@ -16152,7 +16343,7 @@ video {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 238, ../scss/pages/cases.scss */
+/* line 311, ../scss/pages/cases.scss */
 .case-text-link {
   margin-top: 4rem;
   font-size: 15px;
@@ -16163,19 +16354,19 @@ video {
   text-decoration: underline;
 }
 
-/* line 248, ../scss/pages/cases.scss */
+/* line 321, ../scss/pages/cases.scss */
 .spacing {
   height: 1rem;
 }
 
-/* line 252, ../scss/pages/cases.scss */
+/* line 325, ../scss/pages/cases.scss */
 table {
   margin-top: 4rem;
   display: flex;
   align-items: flex-end;
 }
 
-/* line 257, ../scss/pages/cases.scss */
+/* line 330, ../scss/pages/cases.scss */
 .caseht2 {
   font-size: 20px;
   color: gray;
@@ -16186,7 +16377,7 @@ table {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 266, ../scss/pages/cases.scss */
+  /* line 339, ../scss/pages/cases.scss */
   .case-text {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -16198,7 +16389,7 @@ table {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 266, ../scss/pages/cases.scss */
+  /* line 339, ../scss/pages/cases.scss */
   .case-text {
     font-size: 30px;
     font-family: "Raleway", sans-serif;
@@ -16212,7 +16403,7 @@ table {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 290, ../scss/pages/cases.scss */
+  /* line 363, ../scss/pages/cases.scss */
   .case-text2 {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -16224,7 +16415,7 @@ table {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 290, ../scss/pages/cases.scss */
+  /* line 363, ../scss/pages/cases.scss */
   .case-text2 {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -16237,28 +16428,28 @@ table {
   }
 }
 
-/* line 313, ../scss/pages/cases.scss */
+/* line 386, ../scss/pages/cases.scss */
 .cases-special1 {
   margin-bottom: 2rem;
   margin-top: 4rem;
 }
 
-/* line 318, ../scss/pages/cases.scss */
+/* line 391, ../scss/pages/cases.scss */
 .article-list {
   padding-left: 16px;
 }
-/* line 320, ../scss/pages/cases.scss */
+/* line 393, ../scss/pages/cases.scss */
 .article-list ul {
   padding-left: 16px;
   list-style-type: circle;
 }
-/* line 325, ../scss/pages/cases.scss */
+/* line 398, ../scss/pages/cases.scss */
 .article-list li {
   padding: 0;
   list-style-type: circle;
 }
 
-/* line 331, ../scss/pages/cases.scss */
+/* line 404, ../scss/pages/cases.scss */
 .person-link-wrapper-case {
   width: 30rem;
   left: auto;
@@ -16267,7 +16458,7 @@ table {
   margin-right: auto;
 }
 
-/* line 339, ../scss/pages/cases.scss */
+/* line 412, ../scss/pages/cases.scss */
 .person-link-wrapper-case2 {
   width: 40rem;
   left: auto;
@@ -16276,7 +16467,7 @@ table {
   margin-right: auto;
 }
 
-/* line 348, ../scss/pages/cases.scss */
+/* line 421, ../scss/pages/cases.scss */
 .pijl-article-onder2 {
   width: 13.125rem;
   position: relative;

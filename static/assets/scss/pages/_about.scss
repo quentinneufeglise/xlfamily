@@ -1,27 +1,42 @@
 #about {
 
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
-    background:url("../images/xlfamily_aboutus.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+    background:url("../images/about-us/mobile_portrait/about.png") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){
 
     display: block;
-    margin: auto;
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/xlfamily_aboutus.jpg") no-repeat;
+    background:url("../images/about-us/tablet_landscape/about.png") no-repeat;
     background-size: 100vw;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/about-us/desktop/about.png") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/about-us/hd/about.png") no-repeat;
+    background-size: 100vw;
   }
 }

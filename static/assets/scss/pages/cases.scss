@@ -11,7 +11,6 @@
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
     background:url("../images/cases/mobile_portrait/bdo.jpg") no-repeat;
-    background-size: cover;
   }
 
   @media only screen and (min-device-width: 768px){
@@ -23,6 +22,25 @@
     background:url("../images/cases/tablet_landscape/bdo.jpg") no-repeat;
     background-size: 100vw;
 
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/desktop/bdo.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/hd/bdo.jpg") no-repeat;
+    background-size: 100vw;
   }
 }
 
@@ -111,8 +129,6 @@
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
     background:url("../images/cases/mobile_portrait/broshuis.jpg") no-repeat;
-    background-size: cover;
-
   }
 
   @media only screen and (min-device-width: 768px){
@@ -123,7 +139,26 @@
     max-width: 100%;
     background:url("../images/cases/tablet_landscape/broshuis.jpg") no-repeat;
     background-size: 100vw;
+  }
 
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/desktop/broshuis.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/hd/broshuis.jpg") no-repeat;
+    background-size: 100vw;
   }
 }
 
@@ -139,7 +174,6 @@
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
     background:url("../images/cases/mobile_portrait/delta_lloyd.jpg") no-repeat;
-    background-size: cover;
   }
 
   @media only screen and (min-device-width: 768px){
@@ -149,6 +183,26 @@
     width: auto;
     max-width: 100%;
     background:url("../images/cases/tablet_landscape/delta_lloyd.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/desktop/delta_lloyd.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/hd/delta_lloyd.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -166,7 +220,7 @@
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
     background:url("../images/cases/mobile_portrait/veh.jpg") no-repeat;
-    background-size: cover;
+
   }
 
   @media only screen and (min-device-width: 768px){
@@ -176,6 +230,25 @@
     width: auto;
     max-width: 100%;
     background:url("../images/cases/tablet_landscape/veh.jpg") no-repeat;
+    background-size: 100vw;
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/desktop/veh.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/cases/hd/veh.jpg") no-repeat;
     background-size: 100vw;
   }
 }

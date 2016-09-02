@@ -25,33 +25,48 @@
   }
 }
 
+/*=== BLOG HEADERS ===*/
 
-#article1 {
+#blog-copycatting {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
 
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
-    background:$blog1 no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
+    background:url("../images/blog/mobile_portrait/copycatting.jpg") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){
 
     display: block;
-    margin: auto;
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: $blog1 no-repeat;
+    background:url("../images/blog/tablet_landscape/copycatting.jpg") no-repeat;
     background-size: 100vw;
-    background-position: center;
-    height: 500px;
-    text-align: center;
-    margin-top: -8rem;
-    margin-bottom: 2rem;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/copycatting.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/copycatting.jpg") no-repeat;
+    background-size: 100vw;
   }
 }
 
@@ -74,7 +89,10 @@
 
 }
 
-.article-picture1 {
+
+/*==== JESKE ====*/
+
+.article-jeske {
   @media only screen and (max-device-width: 767px) {
 display: none;
   }
@@ -86,7 +104,7 @@ display: none;
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
+    background: url("../images/team/mobile_portrait/jeske.jpg") no-repeat;
     background-size:100% auto ;
     cursor: pointer;
     z-index: 10;
@@ -99,13 +117,13 @@ display: none;
 
 }
 
-.article-picture1-mb {
+.article-jeske-mb {
   @media only screen and (max-device-width: 767px) {
 
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
+    background: url("../images/team/mobile_portrait/jeske.jpg") no-repeat;
     background-size:100% auto ;
     margin-left: auto;
     margin-right: auto;
@@ -482,3 +500,9 @@ display: none;
 
 
 }
+
+
+/*=== BLOG-ARTICLES ===*/
+
+/*=== copycatting ===*/
+
