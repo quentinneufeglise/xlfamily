@@ -14738,7 +14738,7 @@ body {
   display: block;
 }
 /* line 1429, ../scss/pages/_home.scss */
-#experiments1:hover #experiments-hover {
+#experiments1:hover #experiments1-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
