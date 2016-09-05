@@ -12798,6 +12798,12 @@ button.close {
   }
 }
 
+/* line 1276, ../scss/pages/_blog-article.scss */
+.blue-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 /* line 2, ../scss/pages/_client-need.scss */
 #opportunities {
   background-position: center;
