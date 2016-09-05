@@ -70,6 +70,405 @@
   }
 }
 
+
+
+
+#blog-sci-fi {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/sci-fi.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/sci-fi.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/sci-fi.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/sci-fi.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-corporate-blind-spot {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/corporate-blind.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/corporate-blind.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/corporate-blind.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/corporate-blind.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-corporate-acceleration {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/corporate-acceleration.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/corporate-acceleration.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/corporate-acceleration.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/corporate-acceleration.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-customer-interviews {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/customer-interviews.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/customer-interviews.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/customer-interviews.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/customer-interviews.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+#blog-being-lean {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/being-lean.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/being-lean.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/being-lean.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/being-lean.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-landing-page-validation {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/landing-page-validation.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/landing-page-validation.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/landing-page-validation.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/landing-page-validation.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+#blog-business-sprint {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/business-sprint.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/business-sprint.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/business-sprint.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/business-sprint.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+#blog-innovation-model {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/innovation-model.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/innovation-model.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/innovation-model.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/innovation-model.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-corporates-startups {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/corporates-startups.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/corporates-startups.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/corporates-startups.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/corporates-startups.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+
+/*==== AUTHORS ====*/
+
 .article-person {
   @media only screen and (max-device-width: 767px){
 
@@ -85,12 +484,206 @@
     flex-direction: row;
   }
 
-
-
 }
 
 
-/*==== JESKE ====*/
+/*==== Aneliya ====*/
+
+.article-aneliya {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-aneliya-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+/*==== Filip ====*/
+
+.article-filip {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/filip.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-filip-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/filip.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+/*==== Aneliya ====*/
+
+.article-aneliya {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-aneliya-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+/*==== Jaspar ====*/
+
+.article-jaspar {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaspar.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-jaspar-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaspar.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+/*==== Jeske ====*/
 
 .article-jeske {
   @media only screen and (max-device-width: 767px) {
@@ -113,8 +706,6 @@ display: none;
     margin-top: -1.5rem;
     border-radius: 100%;
   }
-
-
 }
 
 .article-jeske-mb {
@@ -139,10 +730,11 @@ display: none;
 
 display: none;
   }
-
 }
 
-.article-aboutus-marc {
+/*==== Jeroen ====*/
+
+.article-jeroen {
   @media only screen and (max-device-width: 767px) {
     display: none;
   }
@@ -154,7 +746,7 @@ display: none;
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
+    background: url("../images/team/mobile_portrait/jeroen.jpg") no-repeat;
     background-size:100% auto ;
     cursor: pointer;
     z-index: 10;
@@ -163,17 +755,15 @@ display: none;
     margin-top: -1.5rem;
     border-radius: 100%;
   }
-
-
 }
 
-.article-aboutus-marc-mb {
+.article-jeroen-mb {
   @media only screen and (max-device-width: 767px) {
 
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
+    background: url("../images/team/mobile_portrait/jeroen.jpg") no-repeat;
     background-size:100% auto ;
     margin-left: auto;
     margin-right: auto;
@@ -189,8 +779,158 @@ display: none;
 
     display: none;
   }
-
 }
+
+/*==== ANNE ====*/
+
+.article-anne {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/anne.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-anne-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/anne.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+
+/*==== Jaap ====*/
+
+.article-jaap {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaap.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-jaap-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaap.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+
+/*==== Wouter ====*/
+
+.article-wouter {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/wouter.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-wouter-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/wouter.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+
 
 .article-person {
   @media only screen and (max-device-width: 767px){
@@ -533,8 +1273,4 @@ display: none;
 
 }
 
-
-/*=== BLOG-ARTICLES ===*/
-
-/*=== copycatting ===*/
 

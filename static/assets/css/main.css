@@ -11560,15 +11560,448 @@ button.close {
   }
 }
 
+/* line 76, ../scss/pages/_blog-article.scss */
+#blog-sci-fi {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
 @media only screen and (max-device-width: 767px) {
-  /* line 73, ../scss/pages/_blog-article.scss */
+  /* line 76, ../scss/pages/_blog-article.scss */
+  #blog-sci-fi {
+    background-size: cover;
+    background: url("../images/blog/mobile_portrait/sci-fi.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 76, ../scss/pages/_blog-article.scss */
+  #blog-sci-fi {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/tablet_landscape/sci-fi.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 76, ../scss/pages/_blog-article.scss */
+  #blog-sci-fi {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/desktop/sci-fi.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 76, ../scss/pages/_blog-article.scss */
+  #blog-sci-fi {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/hd/sci-fi.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/* line 120, ../scss/pages/_blog-article.scss */
+#blog-corporate-blind-spot {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 120, ../scss/pages/_blog-article.scss */
+  #blog-corporate-blind-spot {
+    background-size: cover;
+    background: url("../images/blog/mobile_portrait/corporate-blind.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 120, ../scss/pages/_blog-article.scss */
+  #blog-corporate-blind-spot {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/tablet_landscape/corporate-blind.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 120, ../scss/pages/_blog-article.scss */
+  #blog-corporate-blind-spot {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/desktop/corporate-blind.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 120, ../scss/pages/_blog-article.scss */
+  #blog-corporate-blind-spot {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/hd/corporate-blind.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/* line 164, ../scss/pages/_blog-article.scss */
+#blog-corporate-acceleration {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 164, ../scss/pages/_blog-article.scss */
+  #blog-corporate-acceleration {
+    background-size: cover;
+    background: url("../images/blog/mobile_portrait/corporate-acceleration.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 164, ../scss/pages/_blog-article.scss */
+  #blog-corporate-acceleration {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/tablet_landscape/corporate-acceleration.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 164, ../scss/pages/_blog-article.scss */
+  #blog-corporate-acceleration {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/desktop/corporate-acceleration.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 164, ../scss/pages/_blog-article.scss */
+  #blog-corporate-acceleration {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/hd/corporate-acceleration.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/* line 208, ../scss/pages/_blog-article.scss */
+#blog-customer-interviews {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 208, ../scss/pages/_blog-article.scss */
+  #blog-customer-interviews {
+    background-size: cover;
+    background: url("../images/blog/mobile_portrait/customer-interviews.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 208, ../scss/pages/_blog-article.scss */
+  #blog-customer-interviews {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/tablet_landscape/customer-interviews.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 208, ../scss/pages/_blog-article.scss */
+  #blog-customer-interviews {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/desktop/customer-interviews.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 208, ../scss/pages/_blog-article.scss */
+  #blog-customer-interviews {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/hd/customer-interviews.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/* line 251, ../scss/pages/_blog-article.scss */
+#blog-being-lean {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 251, ../scss/pages/_blog-article.scss */
+  #blog-being-lean {
+    background-size: cover;
+    background: url("../images/blog/mobile_portrait/being-lean.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 251, ../scss/pages/_blog-article.scss */
+  #blog-being-lean {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/tablet_landscape/being-lean.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 251, ../scss/pages/_blog-article.scss */
+  #blog-being-lean {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/desktop/being-lean.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 251, ../scss/pages/_blog-article.scss */
+  #blog-being-lean {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/hd/being-lean.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/* line 295, ../scss/pages/_blog-article.scss */
+#blog-landing-page-validation {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 295, ../scss/pages/_blog-article.scss */
+  #blog-landing-page-validation {
+    background-size: cover;
+    background: url("../images/blog/mobile_portrait/landing-page-validation.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 295, ../scss/pages/_blog-article.scss */
+  #blog-landing-page-validation {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/tablet_landscape/landing-page-validation.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 295, ../scss/pages/_blog-article.scss */
+  #blog-landing-page-validation {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/desktop/landing-page-validation.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 295, ../scss/pages/_blog-article.scss */
+  #blog-landing-page-validation {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/hd/landing-page-validation.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/* line 338, ../scss/pages/_blog-article.scss */
+#blog-business-sprint {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 338, ../scss/pages/_blog-article.scss */
+  #blog-business-sprint {
+    background-size: cover;
+    background: url("../images/blog/mobile_portrait/business-sprint.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 338, ../scss/pages/_blog-article.scss */
+  #blog-business-sprint {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/tablet_landscape/business-sprint.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 338, ../scss/pages/_blog-article.scss */
+  #blog-business-sprint {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/desktop/business-sprint.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 338, ../scss/pages/_blog-article.scss */
+  #blog-business-sprint {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/hd/business-sprint.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/* line 381, ../scss/pages/_blog-article.scss */
+#blog-innovation-model {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 381, ../scss/pages/_blog-article.scss */
+  #blog-innovation-model {
+    background-size: cover;
+    background: url("../images/blog/mobile_portrait/innovation-model.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 381, ../scss/pages/_blog-article.scss */
+  #blog-innovation-model {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/tablet_landscape/innovation-model.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 381, ../scss/pages/_blog-article.scss */
+  #blog-innovation-model {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/desktop/innovation-model.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 381, ../scss/pages/_blog-article.scss */
+  #blog-innovation-model {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/hd/innovation-model.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/* line 425, ../scss/pages/_blog-article.scss */
+#blog-corporates-startups {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 425, ../scss/pages/_blog-article.scss */
+  #blog-corporates-startups {
+    background-size: cover;
+    background: url("../images/blog/mobile_portrait/corporates-startups.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 425, ../scss/pages/_blog-article.scss */
+  #blog-corporates-startups {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/tablet_landscape/corporates-startups.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 425, ../scss/pages/_blog-article.scss */
+  #blog-corporates-startups {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/desktop/corporates-startups.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 425, ../scss/pages/_blog-article.scss */
+  #blog-corporates-startups {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/blog/hd/corporates-startups.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+/*==== AUTHORS ====*/
+@media only screen and (max-device-width: 767px) {
+  /* line 472, ../scss/pages/_blog-article.scss */
   .article-person {
     display: flex;
     flex-direction: column;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 73, ../scss/pages/_blog-article.scss */
+  /* line 472, ../scss/pages/_blog-article.scss */
   .article-person {
     padding: 0;
     display: flex;
@@ -11576,15 +12009,211 @@ button.close {
   }
 }
 
-/*==== JESKE ====*/
+/*==== Aneliya ====*/
 @media only screen and (max-device-width: 767px) {
-  /* line 95, ../scss/pages/_blog-article.scss */
+  /* line 492, ../scss/pages/_blog-article.scss */
+  .article-aneliya {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 492, ../scss/pages/_blog-article.scss */
+  .article-aneliya {
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 515, ../scss/pages/_blog-article.scss */
+  .article-aneliya-mb {
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 515, ../scss/pages/_blog-article.scss */
+  .article-aneliya-mb {
+    display: none;
+  }
+}
+
+/*==== Filip ====*/
+@media only screen and (max-device-width: 767px) {
+  /* line 541, ../scss/pages/_blog-article.scss */
+  .article-filip {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 541, ../scss/pages/_blog-article.scss */
+  .article-filip {
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/filip.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 564, ../scss/pages/_blog-article.scss */
+  .article-filip-mb {
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/filip.jpg") no-repeat;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 564, ../scss/pages/_blog-article.scss */
+  .article-filip-mb {
+    display: none;
+  }
+}
+
+/*==== Aneliya ====*/
+@media only screen and (max-device-width: 767px) {
+  /* line 590, ../scss/pages/_blog-article.scss */
+  .article-aneliya {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 590, ../scss/pages/_blog-article.scss */
+  .article-aneliya {
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 613, ../scss/pages/_blog-article.scss */
+  .article-aneliya-mb {
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 613, ../scss/pages/_blog-article.scss */
+  .article-aneliya-mb {
+    display: none;
+  }
+}
+
+/*==== Jaspar ====*/
+@media only screen and (max-device-width: 767px) {
+  /* line 639, ../scss/pages/_blog-article.scss */
+  .article-jaspar {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 639, ../scss/pages/_blog-article.scss */
+  .article-jaspar {
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaspar.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 662, ../scss/pages/_blog-article.scss */
+  .article-jaspar-mb {
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaspar.jpg") no-repeat;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 662, ../scss/pages/_blog-article.scss */
+  .article-jaspar-mb {
+    display: none;
+  }
+}
+
+/*==== Jeske ====*/
+@media only screen and (max-device-width: 767px) {
+  /* line 688, ../scss/pages/_blog-article.scss */
   .article-jeske {
     display: none;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 95, ../scss/pages/_blog-article.scss */
+  /* line 688, ../scss/pages/_blog-article.scss */
   .article-jeske {
     margin-right: 1rem;
     width: 5.525rem;
@@ -11602,7 +12231,7 @@ button.close {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 120, ../scss/pages/_blog-article.scss */
+  /* line 711, ../scss/pages/_blog-article.scss */
   .article-jeske-mb {
     width: 5.525rem;
     position: relative;
@@ -11619,26 +12248,27 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 120, ../scss/pages/_blog-article.scss */
+  /* line 711, ../scss/pages/_blog-article.scss */
   .article-jeske-mb {
     display: none;
   }
 }
 
+/*==== Jeroen ====*/
 @media only screen and (max-device-width: 767px) {
-  /* line 145, ../scss/pages/_blog-article.scss */
-  .article-aboutus-marc {
+  /* line 737, ../scss/pages/_blog-article.scss */
+  .article-jeroen {
     display: none;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 145, ../scss/pages/_blog-article.scss */
-  .article-aboutus-marc {
+  /* line 737, ../scss/pages/_blog-article.scss */
+  .article-jeroen {
     margin-right: 1rem;
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
+    background: url("../images/team/mobile_portrait/jeroen.jpg") no-repeat;
     background-size: 100% auto;
     cursor: pointer;
     z-index: 10;
@@ -11650,12 +12280,12 @@ button.close {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 170, ../scss/pages/_blog-article.scss */
-  .article-aboutus-marc-mb {
+  /* line 760, ../scss/pages/_blog-article.scss */
+  .article-jeroen-mb {
     width: 5.525rem;
     position: relative;
     height: 5.525rem;
-    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
+    background: url("../images/team/mobile_portrait/jeroen.jpg") no-repeat;
     background-size: 100% auto;
     margin-left: auto;
     margin-right: auto;
@@ -11667,14 +12297,161 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 170, ../scss/pages/_blog-article.scss */
-  .article-aboutus-marc-mb {
+  /* line 760, ../scss/pages/_blog-article.scss */
+  .article-jeroen-mb {
+    display: none;
+  }
+}
+
+/*==== ANNE ====*/
+@media only screen and (max-device-width: 767px) {
+  /* line 786, ../scss/pages/_blog-article.scss */
+  .article-anne {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 786, ../scss/pages/_blog-article.scss */
+  .article-anne {
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/anne.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 809, ../scss/pages/_blog-article.scss */
+  .article-anne-mb {
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/anne.jpg") no-repeat;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 809, ../scss/pages/_blog-article.scss */
+  .article-anne-mb {
+    display: none;
+  }
+}
+
+/*==== Jaap ====*/
+@media only screen and (max-device-width: 767px) {
+  /* line 836, ../scss/pages/_blog-article.scss */
+  .article-jaap {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 836, ../scss/pages/_blog-article.scss */
+  .article-jaap {
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaap.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 859, ../scss/pages/_blog-article.scss */
+  .article-jaap-mb {
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaap.jpg") no-repeat;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 859, ../scss/pages/_blog-article.scss */
+  .article-jaap-mb {
+    display: none;
+  }
+}
+
+/*==== Wouter ====*/
+@media only screen and (max-device-width: 767px) {
+  /* line 886, ../scss/pages/_blog-article.scss */
+  .article-wouter {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 886, ../scss/pages/_blog-article.scss */
+  .article-wouter {
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/wouter.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 909, ../scss/pages/_blog-article.scss */
+  .article-wouter-mb {
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/wouter.jpg") no-repeat;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 909, ../scss/pages/_blog-article.scss */
+  .article-wouter-mb {
     display: none;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 195, ../scss/pages/_blog-article.scss */
+  /* line 935, ../scss/pages/_blog-article.scss */
   .article-person {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
@@ -11685,7 +12462,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 195, ../scss/pages/_blog-article.scss */
+  /* line 935, ../scss/pages/_blog-article.scss */
   .article-person {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
@@ -11697,7 +12474,7 @@ button.close {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 219, ../scss/pages/_blog-article.scss */
+  /* line 959, ../scss/pages/_blog-article.scss */
   .article-person-desc {
     font-size: 15px;
     color: gray;
@@ -11705,7 +12482,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 219, ../scss/pages/_blog-article.scss */
+  /* line 959, ../scss/pages/_blog-article.scss */
   .article-person-desc {
     font-size: 15px;
     color: gray;
@@ -11713,7 +12490,7 @@ button.close {
   }
 }
 
-/* line 239, ../scss/pages/_blog-article.scss */
+/* line 979, ../scss/pages/_blog-article.scss */
 .article-text {
   font-size: 15px;
   color: grey;
@@ -11722,7 +12499,7 @@ button.close {
   margin-bottom: 2rem;
 }
 
-/* line 248, ../scss/pages/_blog-article.scss */
+/* line 988, ../scss/pages/_blog-article.scss */
 .article-text-quote {
   font-size: 17px;
   color: grey;
@@ -11733,7 +12510,7 @@ button.close {
   text-align: center;
 }
 
-/* line 258, ../scss/pages/_blog-article.scss */
+/* line 998, ../scss/pages/_blog-article.scss */
 .article-text-italic {
   font-size: 15px;
   color: grey;
@@ -11743,7 +12520,7 @@ button.close {
   font-style: italic;
 }
 
-/* line 268, ../scss/pages/_blog-article.scss */
+/* line 1008, ../scss/pages/_blog-article.scss */
 .article-text-title {
   font-size: 15px;
   font-family: "Raleway", sans-serif;
@@ -11752,20 +12529,20 @@ button.close {
   color: black;
 }
 
-/* line 276, ../scss/pages/_blog-article.scss */
+/* line 1016, ../scss/pages/_blog-article.scss */
 .article-list {
   padding-left: 16px;
 }
-/* line 279, ../scss/pages/_blog-article.scss */
+/* line 1019, ../scss/pages/_blog-article.scss */
 .article-list ul {
   padding-left: 16px;
   list-style-type: circle;
 }
-/* line 285, ../scss/pages/_blog-article.scss */
+/* line 1025, ../scss/pages/_blog-article.scss */
 .article-list ol {
   list-style-type: decimal;
 }
-/* line 289, ../scss/pages/_blog-article.scss */
+/* line 1029, ../scss/pages/_blog-article.scss */
 .article-list li {
   padding: 0;
   list-style-type: circle;
@@ -11773,7 +12550,7 @@ button.close {
   margin-left: 1rem;
 }
 
-/* line 301, ../scss/pages/_blog-article.scss */
+/* line 1041, ../scss/pages/_blog-article.scss */
 .twitter-link {
   color: #00aeef;
   text-align: center;
@@ -11789,7 +12566,7 @@ button.close {
   -o-transition: 0.1s ease;
   transition: 0.1s ease;
 }
-/* line 316, ../scss/pages/_blog-article.scss */
+/* line 1056, ../scss/pages/_blog-article.scss */
 .twitter-link .twitter-logo-blue {
   -webkit-transition: 0.1s ease;
   -moz-transition: 0.1s ease;
@@ -11806,7 +12583,7 @@ button.close {
   margin-right: auto;
   margin-top: 2rem;
 }
-/* line 332, ../scss/pages/_blog-article.scss */
+/* line 1072, ../scss/pages/_blog-article.scss */
 .twitter-link:hover {
   color: #ff0066;
   text-align: center;
@@ -11823,7 +12600,7 @@ button.close {
   transition: 0.1s ease;
   margin-top: 3rem;
 }
-/* line 333, ../scss/pages/_blog-article.scss */
+/* line 1073, ../scss/pages/_blog-article.scss */
 .twitter-link:hover .twitter-logo-blue {
   -webkit-transition: 0.1s ease;
   -moz-transition: 0.1s ease;
@@ -11841,12 +12618,12 @@ button.close {
   margin-top: 2rem;
 }
 
-/* line 369, ../scss/pages/_blog-article.scss */
+/* line 1109, ../scss/pages/_blog-article.scss */
 .black-title {
   color: black;
 }
 
-/* line 373, ../scss/pages/_blog-article.scss */
+/* line 1113, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper {
   display: inline-block;
   margin-left: auto;
@@ -11854,19 +12631,19 @@ button.close {
   left: 0;
   right: 0;
 }
-/* line 379, ../scss/pages/_blog-article.scss */
+/* line 1119, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper ul {
   display: inline-block;
   margin-top: 2rem;
   margin-bottom: -1rem;
   padding: 0;
 }
-/* line 385, ../scss/pages/_blog-article.scss */
+/* line 1125, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper li {
   display: inline-block;
 }
 
-/* line 390, ../scss/pages/_blog-article.scss */
+/* line 1130, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper2 {
   display: table;
   margin-left: auto;
@@ -11874,19 +12651,19 @@ button.close {
   left: 0;
   right: 0;
 }
-/* line 396, ../scss/pages/_blog-article.scss */
+/* line 1136, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper2 ul {
   display: inline-block;
   margin-top: 4rem;
   margin-bottom: -1rem;
   padding: 0;
 }
-/* line 402, ../scss/pages/_blog-article.scss */
+/* line 1142, ../scss/pages/_blog-article.scss */
 .blue-icon-wrapper2 li {
   display: inline-block;
 }
 
-/* line 408, ../scss/pages/_blog-article.scss */
+/* line 1148, ../scss/pages/_blog-article.scss */
 .linkdin-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -11897,7 +12674,7 @@ button.close {
   display: block;
 }
 
-/* line 418, ../scss/pages/_blog-article.scss */
+/* line 1158, ../scss/pages/_blog-article.scss */
 .twitter-logo-blue2 {
   width: 3.125rem;
   height: 3.125rem;
@@ -11909,7 +12686,7 @@ button.close {
   display: block;
 }
 
-/* line 428, ../scss/pages/_blog-article.scss */
+/* line 1168, ../scss/pages/_blog-article.scss */
 .facebook-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -11921,7 +12698,7 @@ button.close {
   display: block;
 }
 
-/* line 439, ../scss/pages/_blog-article.scss */
+/* line 1179, ../scss/pages/_blog-article.scss */
 .email-logo-blue {
   width: 3.125rem;
   height: 3.125rem;
@@ -11933,7 +12710,7 @@ button.close {
   display: block;
 }
 
-/* line 450, ../scss/pages/_blog-article.scss */
+/* line 1190, ../scss/pages/_blog-article.scss */
 .blue-line {
   background: #00aeef;
   width: 100%;
@@ -11942,7 +12719,7 @@ button.close {
   margin-top: 4rem;
 }
 
-/* line 458, ../scss/pages/_blog-article.scss */
+/* line 1198, ../scss/pages/_blog-article.scss */
 .pijl-article-onder {
   width: 13.125rem;
   position: relative;
@@ -11963,7 +12740,7 @@ button.close {
   background-position: center;
 }
 
-/* line 478, ../scss/pages/_blog-article.scss */
+/* line 1218, ../scss/pages/_blog-article.scss */
 .article-more {
   text-align: center;
   display: flex;
@@ -11977,7 +12754,7 @@ button.close {
   font-weight: 900;
 }
 
-/* line 491, ../scss/pages/_blog-article.scss */
+/* line 1231, ../scss/pages/_blog-article.scss */
 .article-more-p {
   text-align: center;
   display: flex;
@@ -11992,7 +12769,7 @@ button.close {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 504, ../scss/pages/_blog-article.scss */
+  /* line 1244, ../scss/pages/_blog-article.scss */
   .jeske-icon {
     width: 6.525rem;
     position: relative;
@@ -12006,7 +12783,7 @@ button.close {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 504, ../scss/pages/_blog-article.scss */
+  /* line 1244, ../scss/pages/_blog-article.scss */
   .jeske-icon {
     margin-right: 1rem;
     width: 6.525rem;
@@ -12021,8 +12798,6 @@ button.close {
   }
 }
 
-/*=== BLOG-ARTICLES ===*/
-/*=== copycatting ===*/
 /* line 2, ../scss/pages/_client-need.scss */
 #opportunities {
   background-position: center;
@@ -16006,7 +16781,9 @@ video {
   }
 }
 
-/* line 1, ../scss/pages/_about.scss */
+/*===HEADER===*/
+/* Uses the same structure as the Blog Headers*/
+/* line 4, ../scss/pages/_about.scss */
 #about {
   background-position: center;
   height: 500px;
@@ -16014,14 +16791,14 @@ video {
   margin-top: -8rem;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 1, ../scss/pages/_about.scss */
+  /* line 4, ../scss/pages/_about.scss */
   #about {
     background-size: cover;
     background: url("../images/about-us/mobile_portrait/about.png") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1, ../scss/pages/_about.scss */
+  /* line 4, ../scss/pages/_about.scss */
   #about {
     display: block;
     max-height: 100%;
@@ -16032,7 +16809,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 1, ../scss/pages/_about.scss */
+  /* line 4, ../scss/pages/_about.scss */
   #about {
     display: block;
     max-height: 100%;
@@ -16043,7 +16820,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 1920px) {
-  /* line 1, ../scss/pages/_about.scss */
+  /* line 4, ../scss/pages/_about.scss */
   #about {
     display: block;
     max-height: 100%;
@@ -16051,6 +16828,56 @@ video {
     max-width: 100%;
     background: url("../images/about-us/hd/about.png") no-repeat;
     background-size: 100vw;
+  }
+}
+
+/*==== AUTHOR ====*/
+/* Uses the same structure as the Blog Headers*/
+@media only screen and (max-device-width: 767px) {
+  /* line 50, ../scss/pages/_about.scss */
+  .article-aboutus-marc {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 50, ../scss/pages/_about.scss */
+  .article-aboutus-marc {
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 75, ../scss/pages/_about.scss */
+  .article-aboutus-marc-mb {
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
+    background-size: 100% auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 75, ../scss/pages/_about.scss */
+  .article-aboutus-marc-mb {
+    display: none;
   }
 }
 
