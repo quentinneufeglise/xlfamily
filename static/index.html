@@ -1725,21 +1725,32 @@
         <div class="menu-cross-height">
             <li class="menu-cross2"></li>
         </div>
+        <form class="form-group" novalidate>
         <li class="contact-fat">Call the family</li>
         <li class="contact-number">+31 (0) 88 43 01 000</li>
         <li class="contact-fat secondpart-menu">Drop us some lines</li>
         <li>Your name</li>
-        <li><input class="input-field-black"></li>
+            <div class="control-group">
+                <li><input class="input-field-black form-control" type="text" required  id="name"></li>
+                <p class="help-block text-danger"></p>
+            </div>
         <li>Your email address</li>
-        <li><input class="input-field-black"></li>
+            <div class="control-group">
+        <li><input class="input-field-black form-control" type="email" required  id="email"></li>
+            <p class="help-block text-danger"></p>
+            </div>
         <li>Your phone number (optional)</li>
-        <li><input class="input-field-black"></li>
+            <div class="control-group">
+                <li><input class="input-field-black form-control" type="text"
+                           id="number"></li>
+                <p class="help-block text-danger"></p>
+            </div>
         <li>A penny for your thoughts?</li>
         <li><textarea rows="5" class="input-field-black-big"></textarea></li>
         <li>
-            <button class="send-button">Send</button>
+            <button type="submit" class="send-button">Send</button>
         </li>
-
+        </form>
     </ul>
 </div>
 
@@ -1782,6 +1793,11 @@
 <!---javascript--->
 <script src="assets/js/Javascript.js"></script>
 <script src="assets/js/menu.js"></script>
+<script src="assets/js/jqBootstrapValidation.js"></script>
+<script src="assets/js/contact.js"></script>
+<script>
+    $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+</script>
 
 </body>
 </html>
