@@ -950,12 +950,13 @@ display: none;
     width: 6.525rem;
     position: relative;
     height: 6.525rem;
-    background: url("../images/Jelke, BH.png") no-repeat;
+    background: url("../images/sjoerd.jpg") no-repeat;
     background-size:100% auto ;
     cursor: pointer;
     z-index: 10;
     display: inline-block;
     margin-top: 0.5rem;
+    border-radius: 100%;
 
   }
 
@@ -966,16 +967,120 @@ display: none;
     width: 6.525rem;
     position: relative;
     height: 6.525rem;
-    background: url("../images/Jelke, BH.png") no-repeat;
+    background: url("../images/sjoerd.jpg") no-repeat;
     background-size:100% auto ;
     cursor: pointer;
     z-index: 10;
     display: inline-block;
     margin-bottom: -1rem;
+    border-radius: 100%;
   }
 
 
 }
+
+.person-picture2 {
+  @media only screen and (max-device-width: 767px) {
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../images/masoud.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-top: 0.5rem;
+    border-radius: 100%;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../images/masoud.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-bottom: -1rem;
+    border-radius: 100%;
+  }
+
+
+}
+
+
+.person-picture3 {
+  @media only screen and (max-device-width: 767px) {
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../images/jose.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-top: 0.5rem;
+    border-radius: 100%;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../images/jose.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-bottom: -1rem;
+    border-radius: 100%;
+  }
+
+
+}
+
+
+.person-picture4 {
+  @media only screen and (max-device-width: 767px) {
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../images/anne.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-top: 0.5rem;
+    border-radius: 100%;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../images/anne.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-bottom: -1rem;
+    border-radius: 100%;
+  }
+
+
+}
+
+
 
 .case-logo1 {
 
@@ -1611,7 +1716,7 @@ display: none;
   background-position: center;
 }
 
-.ing-logo {
+.bdo-logo2 {
 
   @media only screen and (max-device-width: 767px) {
 
@@ -1627,7 +1732,7 @@ display: none;
    width: 12.525rem;
   position: relative;
   height: 12.525rem;
-  background: url("../icons/ing.svg") no-repeat;
+  background: url("../icons/BDO.svg") no-repeat;
   background-size:100% auto ;
   cursor: pointer;
   z-index: 10;
