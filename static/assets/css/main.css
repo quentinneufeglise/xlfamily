@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*=== Base ===*/
+/*=== BASE ===*/
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,800,700,900,100);
 /* line 1, ../scss/base/_config.scss */
 body, html {
@@ -8827,7 +8827,129 @@ button.close {
     display: none !important;
   }
 }
-/*=== Components ===*/
+/*=== COMPONENTS ===*/
+/*=== GENERAL HEADER FOR: CLIENT NEED, ADVENTURES, BLOG POSTS AND ABOUT US ===*/
+/* MENU VALIDATOIN */
+/* line 3, ../scss/components/_menu.scss */
+.help-block {
+  color: #a94442;
+}
+/* line 5, ../scss/components/_menu.scss */
+.help-block ul {
+  padding: 0;
+}
+
+/*=== FORM SUBMIT SUCCESS ===*/
+/* line 14, ../scss/components/_menu.scss */
+.alert-success {
+  color: white;
+  background-color: inherit;
+  border-color: black;
+}
+
+/* line 20, ../scss/components/_menu.scss */
+.alert {
+  padding: 10px 15px 0 0;
+}
+
+/*=== MENU CROSS ===*/
+@media only screen and (min-device-width: 768px) {
+  /* line 26, ../scss/components/_menu.scss */
+  .menu-cross {
+    right: 1rem;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url("../icons/X cross.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    background-position: center;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 26, ../scss/components/_menu.scss */
+  .menu-cross {
+    right: 0rem;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url("../icons/X cross.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    background-position: center;
+    margin-top: 2rem;
+  }
+}
+
+/* line 60, ../scss/components/_menu.scss */
+.menu-cross2 {
+  right: 1rem;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+/* line 74, ../scss/components/_menu.scss */
+.menu-cross3 {
+  right: 1rem;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+/* line 89, ../scss/components/_menu.scss */
+.menu-cross4 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 2000;
+  display: none;
+  background-position: center;
+  margin-top: 2rem;
+  top: 1rem;
+  right: 5.4rem;
+}
+
+/* line 104, ../scss/components/_menu.scss */
+.menu-cross-height {
+  width: 35rem;
+  height: 60px;
+}
+
+/*=== MENU FEEDBACK CLOSE ===*/
+/* line 112, ../scss/components/_menu.scss */
+button.close {
+  background: url("../icons/X cross.svg") no-repeat;
+}
+
+/*=== MAKE THE FORM ON THE MENU WITH STRAIGHT CORNERS ===*/
+/* line 118, ../scss/components/_menu.scss */
+.form-control {
+  border-radius: 0;
+}
+
 /* line 1, ../scss/components/blocks.scss */
 .horizontal-story {
   height: 50vh;
@@ -11482,6 +11604,138 @@ button.close {
 }
 
 /*=== PAGES ===*/
+/*=== ADVENTURES HEADERS ===*/
+/* line 3, ../scss/pages/_adventures.scss */
+#adventurexllab, #adventurexlventures, #adventurexlevents {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 11, ../scss/pages/_adventures.scss */
+  #adventurexllab {
+    background-size: cover;
+    background: url("../images/adventures-headers/mobile_portrait/xllab.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 11, ../scss/pages/_adventures.scss */
+  #adventurexllab {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/adventures-headers/tablet_landscape/xllab.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 11, ../scss/pages/_adventures.scss */
+  #adventurexllab {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/adventures-headers/desktop/xllab.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 11, ../scss/pages/_adventures.scss */
+  #adventurexllab {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/adventures-headers/hd/xllab.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 50, ../scss/pages/_adventures.scss */
+  #adventurexlventures {
+    background-size: cover;
+    background: url("../images/adventures-headers/mobile_portrait/xlventures.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 50, ../scss/pages/_adventures.scss */
+  #adventurexlventures {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/adventures-headers/tablet_landscape/xlventures.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 50, ../scss/pages/_adventures.scss */
+  #adventurexlventures {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/adventures-headers/desktop/xlventures.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 50, ../scss/pages/_adventures.scss */
+  #adventurexlventures {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/adventures-headers/hd/xlventures.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 88, ../scss/pages/_adventures.scss */
+  #adventurexlevents {
+    background-size: cover;
+    background: url("../images/adventures-headers/mobile_portrait/xlevents.jpg") no-repeat;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 88, ../scss/pages/_adventures.scss */
+  #adventurexlevents {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/adventures-headers/tablet_landscape/xlevents.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 88, ../scss/pages/_adventures.scss */
+  #adventurexlevents {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/adventures-headers/desktop/xlevents.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 88, ../scss/pages/_adventures.scss */
+  #adventurexlevents {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: url("../images/adventures-headers/hd/xlevents.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
 @media only screen and (max-device-width: 767px) {
   /* line 1, ../scss/pages/_blog-article.scss */
   #adventure1 {
@@ -12815,7 +13069,7 @@ button.close {
   /* line 2, ../scss/pages/_client-need.scss */
   #opportunities {
     background-size: cover;
-    background: url("../images/client-need/mobile_portrait/client_need_1.png") no-repeat;
+    background: url("../images/client-need/mobile_portrait/client_need_1.jpg") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
@@ -12825,7 +13079,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/tablet_landscape/client_need_1.png") no-repeat;
+    background: url("../images/client-need/tablet_landscape/client_need_1.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12836,7 +13090,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/desktop/client_need_1.png") no-repeat;
+    background: url("../images/client-need/desktop/client_need_1.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12847,7 +13101,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/hd/client_need_1.png") no-repeat;
+    background: url("../images/client-need/hd/client_need_1.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12863,7 +13117,7 @@ button.close {
   /* line 46, ../scss/pages/_client-need.scss */
   #accelerate {
     background-size: cover;
-    background: url("../images/client-need/mobile_portrait/client_need_2.png") no-repeat;
+    background: url("../images/client-need/mobile_portrait/client_need_2.jpg") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
@@ -12873,7 +13127,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/tablet_landscape/client_need_2.png") no-repeat;
+    background: url("../images/client-need/tablet_landscape/client_need_2.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12884,7 +13138,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/desktop/client_need_2.png") no-repeat;
+    background: url("../images/client-need/desktop/client_need_2.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12895,7 +13149,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/hd/client_need_2.png") no-repeat;
+    background: url("../images/client-need/hd/client_need_2.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12911,7 +13165,7 @@ button.close {
   /* line 89, ../scss/pages/_client-need.scss */
   #build {
     background-size: cover;
-    background: url("../images/client-need/mobile_portrait/client_need_3.png") no-repeat;
+    background: url("../images/client-need/mobile_portrait/client_need_3.jpg") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
@@ -12921,7 +13175,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/tablet_landscape/client_need_3.png") no-repeat;
+    background: url("../images/client-need/tablet_landscape/client_need_3.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12932,7 +13186,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/desktop/client_need_3.png") no-repeat;
+    background: url("../images/client-need/desktop/client_need_3.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12943,7 +13197,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/hd/client_need_3.png") no-repeat;
+    background: url("../images/client-need/hd/client_need_3.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12959,7 +13213,7 @@ button.close {
   /* line 134, ../scss/pages/_client-need.scss */
   #innovate {
     background-size: cover;
-    background: url("../images/client-need/mobile_portrait/client_need_4.png") no-repeat;
+    background: url("../images/client-need/mobile_portrait/client_need_4.jpg") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
@@ -12969,7 +13223,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/tablet_landscape/client_need_4.png") no-repeat;
+    background: url("../images/client-need/tablet_landscape/client_need_4.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12980,7 +13234,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/desktop/client_need_4.png") no-repeat;
+    background: url("../images/client-need/desktop/client_need_4.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -12991,7 +13245,7 @@ button.close {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/client-need/hd/client_need_4.png") no-repeat;
+    background: url("../images/client-need/hd/client_need_4.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -14685,17 +14939,17 @@ body {
   top: 0;
 }
 
-/* line 1376, ../scss/pages/_home.scss */
+/* line 1377, ../scss/pages/_home.scss */
 #experiments1 {
   background: url("../images/xl_lab.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1380, ../scss/pages/_home.scss */
+/* line 1381, ../scss/pages/_home.scss */
 #experiments1 #experiments1-hover {
   display: none;
 }
-/* line 1383, ../scss/pages/_home.scss */
+/* line 1384, ../scss/pages/_home.scss */
 #experiments1 .overlay-wrapper {
   display: block;
   background: none;
@@ -14708,7 +14962,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1397, ../scss/pages/_home.scss */
+/* line 1398, ../scss/pages/_home.scss */
 #experiments1:hover .overlay-wrapper {
   display: block;
   background: url("../images/xl_lab.jpg"), url("../patterns/XLF_Hover_green_S.png");
@@ -14721,7 +14975,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1412, ../scss/pages/_home.scss */
+/* line 1413, ../scss/pages/_home.scss */
 #experiments1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -14733,28 +14987,28 @@ body {
   background-position: center;
   background-size: cover;
 }
-/* line 1426, ../scss/pages/_home.scss */
+/* line 1427, ../scss/pages/_home.scss */
 #experiments1:hover .background_gradient-wrapper6 {
   display: block;
 }
-/* line 1429, ../scss/pages/_home.scss */
+/* line 1430, ../scss/pages/_home.scss */
 #experiments1:hover #experiments1-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1437, ../scss/pages/_home.scss */
+/* line 1439, ../scss/pages/_home.scss */
 #experiments2 {
   background: url("../images/xl_ventures.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1441, ../scss/pages/_home.scss */
+/* line 1443, ../scss/pages/_home.scss */
 #experiments2 #experiments2-hover {
   display: none;
 }
-/* line 1444, ../scss/pages/_home.scss */
+/* line 1446, ../scss/pages/_home.scss */
 #experiments2 .overlay-wrapper {
   display: block;
   background: none;
@@ -14767,7 +15021,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1458, ../scss/pages/_home.scss */
+/* line 1460, ../scss/pages/_home.scss */
 #experiments2:hover .overlay-wrapper {
   display: block;
   background: url("../images/xl_ventures.png"), url("../patterns/XLF_Hover_green_S.png");
@@ -14780,7 +15034,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1473, ../scss/pages/_home.scss */
+/* line 1475, ../scss/pages/_home.scss */
 #experiments2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -14792,28 +15046,28 @@ body {
   background-position: center;
   background-size: cover;
 }
-/* line 1487, ../scss/pages/_home.scss */
+/* line 1489, ../scss/pages/_home.scss */
 #experiments2:hover .background_gradient-wrapper7 {
   display: block;
 }
-/* line 1490, ../scss/pages/_home.scss */
+/* line 1492, ../scss/pages/_home.scss */
 #experiments2:hover #experiments2-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1498, ../scss/pages/_home.scss */
+/* line 1500, ../scss/pages/_home.scss */
 #experiments3 {
   background: url("../images/xl_events.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1502, ../scss/pages/_home.scss */
+/* line 1504, ../scss/pages/_home.scss */
 #experiments3 #experiments3-hover {
   display: none;
 }
-/* line 1505, ../scss/pages/_home.scss */
+/* line 1507, ../scss/pages/_home.scss */
 #experiments3 .overlay-wrapper {
   display: block;
   background: none;
@@ -14826,7 +15080,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1519, ../scss/pages/_home.scss */
+/* line 1521, ../scss/pages/_home.scss */
 #experiments3:hover .overlay-wrapper {
   display: block;
   background: url("../images/xl_events.jpg"), url("../patterns/XLF_Hover_green_S.png");
@@ -14839,7 +15093,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-/* line 1534, ../scss/pages/_home.scss */
+/* line 1536, ../scss/pages/_home.scss */
 #experiments3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -14851,25 +15105,25 @@ body {
   background-position: center;
   background-size: cover;
 }
-/* line 1548, ../scss/pages/_home.scss */
+/* line 1550, ../scss/pages/_home.scss */
 #experiments3:hover .background_gradient-wrapper8 {
   display: block;
 }
-/* line 1551, ../scss/pages/_home.scss */
+/* line 1553, ../scss/pages/_home.scss */
 #experiments3:hover #experiments3-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1561, ../scss/pages/_home.scss */
+/* line 1563, ../scss/pages/_home.scss */
 .experiment-tag {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 
-/* line 1568, ../scss/pages/_home.scss */
+/* line 1570, ../scss/pages/_home.scss */
 .experiments-title {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
@@ -14878,13 +15132,13 @@ body {
   margin-top: 2px;
 }
 
-/* line 1576, ../scss/pages/_home.scss */
+/* line 1578, ../scss/pages/_home.scss */
 .experiments-text {
   position: absolute;
   margin-left: 4rem;
 }
 
-/* line 1582, ../scss/pages/_home.scss */
+/* line 1584, ../scss/pages/_home.scss */
 .background_gradient-wrapper6 {
   position: absolute;
   display: block;
@@ -14904,7 +15158,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 1602, ../scss/pages/_home.scss */
+/* line 1604, ../scss/pages/_home.scss */
 .background_gradient-wrapper7 {
   position: absolute;
   display: block;
@@ -14924,7 +15178,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 1620, ../scss/pages/_home.scss */
+/* line 1622, ../scss/pages/_home.scss */
 .background_gradient-wrapper8 {
   position: absolute;
   display: block;
@@ -14944,7 +15198,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 1639, ../scss/pages/_home.scss */
+/* line 1641, ../scss/pages/_home.scss */
 .background_gradient-wrapper500 {
   position: absolute;
   display: block;
@@ -14965,13 +15219,13 @@ body {
 }
 
 /*===Projects===*/
-/* line 1658, ../scss/pages/_home.scss */
+/* line 1660, ../scss/pages/_home.scss */
 #projects {
   overflow: hidden;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1661, ../scss/pages/_home.scss */
+  /* line 1663, ../scss/pages/_home.scss */
   .project-wrapper {
     display: flex;
     position: relative;
@@ -14980,13 +15234,13 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1670, ../scss/pages/_home.scss */
+  /* line 1672, ../scss/pages/_home.scss */
   .project-wrapper ul {
     text-align: center;
   }
 }
 
-/* line 1679, ../scss/pages/_home.scss */
+/* line 1681, ../scss/pages/_home.scss */
 .divider-projects {
   width: 16.125rem;
   height: 16.125rem;
@@ -15001,7 +15255,7 @@ body {
   background-position: center;
 }
 
-/* line 1695, ../scss/pages/_home.scss */
+/* line 1697, ../scss/pages/_home.scss */
 .bdo-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15016,7 +15270,7 @@ body {
   background-position: center;
 }
 
-/* line 1719, ../scss/pages/_home.scss */
+/* line 1721, ../scss/pages/_home.scss */
 .bdo-logo2 {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15031,7 +15285,7 @@ body {
   background-position: center;
 }
 
-/* line 1743, ../scss/pages/_home.scss */
+/* line 1745, ../scss/pages/_home.scss */
 .equeens-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15046,7 +15300,37 @@ body {
   background-position: center;
 }
 
-/* line 1767, ../scss/pages/_home.scss */
+/* line 1769, ../scss/pages/_home.scss */
+.equeens-logo {
+  margin-top: 85px;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/eq_logo_fc-u_100 [Converted].svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+/* line 1794, ../scss/pages/_home.scss */
+.veh-logo {
+  margin-top: 85px;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/VEH.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+/* line 1820, ../scss/pages/_home.scss */
 .broshuis-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15061,7 +15345,7 @@ body {
   background-position: center;
 }
 
-/* line 1791, ../scss/pages/_home.scss */
+/* line 1844, ../scss/pages/_home.scss */
 .delta-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15076,7 +15360,7 @@ body {
   background-position: center;
 }
 
-/* line 1815, ../scss/pages/_home.scss */
+/* line 1868, ../scss/pages/_home.scss */
 .project-text {
   margin-top: -4rem;
   display: block;
@@ -15086,7 +15370,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1823, ../scss/pages/_home.scss */
+  /* line 1876, ../scss/pages/_home.scss */
   .project-link {
     display: block;
     font-size: 15px;
@@ -15096,7 +15380,7 @@ body {
     color: #66ba4a;
     text-decoration: underline;
   }
-  /* line 1833, ../scss/pages/_home.scss */
+  /* line 1886, ../scss/pages/_home.scss */
   .project-link:hover {
     display: block;
     font-size: 15px;
@@ -15108,7 +15392,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1823, ../scss/pages/_home.scss */
+  /* line 1876, ../scss/pages/_home.scss */
   .project-link {
     display: block;
     font-size: 15px;
@@ -15118,7 +15402,7 @@ body {
     color: #66ba4a;
     text-decoration: underline;
   }
-  /* line 1851, ../scss/pages/_home.scss */
+  /* line 1904, ../scss/pages/_home.scss */
   .project-link:hover {
     display: block;
     font-size: 15px;
@@ -15131,7 +15415,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1866, ../scss/pages/_home.scss */
+  /* line 1919, ../scss/pages/_home.scss */
   .pijl-groen-links {
     left: 0;
     position: absolute;
@@ -15161,7 +15445,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1902, ../scss/pages/_home.scss */
+  /* line 1955, ../scss/pages/_home.scss */
   .pijl-groen-rechts {
     position: absolute;
     display: -webkit-box;
@@ -15184,26 +15468,26 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1902, ../scss/pages/_home.scss */
+  /* line 1955, ../scss/pages/_home.scss */
   .pijl-groen-rechts {
     display: none;
   }
 }
 
 /*===Team===*/
-/* line 1938, ../scss/pages/_home.scss */
+/* line 1991, ../scss/pages/_home.scss */
 .background-overlay {
   z-index: -1;
 }
 
-/* line 1943, ../scss/pages/_home.scss */
+/* line 1996, ../scss/pages/_home.scss */
 .person-wrapper {
   height: 80vh;
   display: block;
   vertical-align: middle;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 1943, ../scss/pages/_home.scss */
+  /* line 1996, ../scss/pages/_home.scss */
   .person-wrapper {
     text-align: center;
     height: 500px;
@@ -15211,7 +15495,7 @@ body {
     justify-content: center;
     flex-direction: column;
   }
-  /* line 1951, ../scss/pages/_home.scss */
+  /* line 2004, ../scss/pages/_home.scss */
   .person-wrapper ul {
     top: 50%;
     transform: translateY(-50%);
@@ -15223,21 +15507,21 @@ body {
     padding: 0;
   }
 }
-/* line 1971, ../scss/pages/_home.scss */
+/* line 2024, ../scss/pages/_home.scss */
 .person-wrapper ul {
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
 }
 
-/* line 1979, ../scss/pages/_home.scss */
+/* line 2032, ../scss/pages/_home.scss */
 .person-wrapper2 {
   height: 80vh;
   display: block;
   vertical-align: middle;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 1979, ../scss/pages/_home.scss */
+  /* line 2032, ../scss/pages/_home.scss */
   .person-wrapper2 {
     text-align: center;
     height: 500px;
@@ -15246,14 +15530,14 @@ body {
     flex-direction: column;
   }
 }
-/* line 1997, ../scss/pages/_home.scss */
+/* line 2050, ../scss/pages/_home.scss */
 .person-wrapper2 ul {
   top: 100%;
   transform: translateY(-50%);
   position: absolute;
 }
 
-/* line 2005, ../scss/pages/_home.scss */
+/* line 2058, ../scss/pages/_home.scss */
 .name-team {
   position: relative;
   display: inline-block;
@@ -15266,7 +15550,7 @@ body {
   left: 0;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2005, ../scss/pages/_home.scss */
+  /* line 2058, ../scss/pages/_home.scss */
   .name-team {
     position: relative;
     display: block;
@@ -15280,7 +15564,7 @@ body {
   }
 }
 
-/* line 2035, ../scss/pages/_home.scss */
+/* line 2088, ../scss/pages/_home.scss */
 .role-team {
   position: relative;
   display: block;
@@ -15292,7 +15576,7 @@ body {
   margin-top: -2rem;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2035, ../scss/pages/_home.scss */
+  /* line 2088, ../scss/pages/_home.scss */
   .role-team {
     position: relative;
     display: block;
@@ -15305,13 +15589,13 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2035, ../scss/pages/_home.scss */
+  /* line 2088, ../scss/pages/_home.scss */
   .role-team {
     margin-bottom: 20px;
   }
 }
 
-/* line 2064, ../scss/pages/_home.scss */
+/* line 2117, ../scss/pages/_home.scss */
 .linkdin-logo1 {
   width: 4.125rem;
   height: 4.125rem;
@@ -15324,7 +15608,7 @@ body {
   display: block;
 }
 
-/* line 2078, ../scss/pages/_home.scss */
+/* line 2131, ../scss/pages/_home.scss */
 .email-logo {
   width: 4.125rem;
   height: 4.125rem;
@@ -15338,14 +15622,14 @@ body {
   margin-left: 2rem;
 }
 
-/* line 2092, ../scss/pages/_home.scss */
+/* line 2145, ../scss/pages/_home.scss */
 .person-logo-wrapper {
   display: flex;
   -webkit-box-orient: horizontal;
   text-align: left;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2092, ../scss/pages/_home.scss */
+  /* line 2145, ../scss/pages/_home.scss */
   .person-logo-wrapper {
     display: flex;
     justify-content: center;
@@ -15355,7 +15639,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2111, ../scss/pages/_home.scss */
+  /* line 2164, ../scss/pages/_home.scss */
   .arrow-team-wrapper {
     display: flex;
     justify-content: center;
@@ -15365,7 +15649,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2111, ../scss/pages/_home.scss */
+  /* line 2164, ../scss/pages/_home.scss */
   .arrow-team-wrapper {
     display: flex;
     justify-content: center;
@@ -15376,7 +15660,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2134, ../scss/pages/_home.scss */
+  /* line 2187, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 7.125rem;
     position: absolute;
@@ -15397,7 +15681,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2134, ../scss/pages/_home.scss */
+  /* line 2187, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 7.125rem;
     position: absolute;
@@ -15418,7 +15702,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1366px) {
-  /* line 2134, ../scss/pages/_home.scss */
+  /* line 2187, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 12.125rem;
     position: absolute;
@@ -15439,7 +15723,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1367px) {
-  /* line 2134, ../scss/pages/_home.scss */
+  /* line 2187, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 12.125rem;
     position: absolute;
@@ -15461,7 +15745,7 @@ body {
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2219, ../scss/pages/_home.scss */
+  /* line 2272, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 7.125rem;
     position: absolute;
@@ -15479,7 +15763,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2219, ../scss/pages/_home.scss */
+  /* line 2272, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 7.125rem;
     position: absolute;
@@ -15496,7 +15780,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1366px) {
-  /* line 2219, ../scss/pages/_home.scss */
+  /* line 2272, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 12.125rem;
     position: absolute;
@@ -15512,7 +15796,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1367px) {
-  /* line 2219, ../scss/pages/_home.scss */
+  /* line 2272, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 12.125rem;
     position: absolute;
@@ -15529,7 +15813,7 @@ body {
 }
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 2290, ../scss/pages/_home.scss */
+  /* line 2343, ../scss/pages/_home.scss */
   .get-in-touch {
     position: relative;
     display: block;
@@ -15546,7 +15830,7 @@ body {
     z-index: 1000;
     background: none;
   }
-  /* line 2311, ../scss/pages/_home.scss */
+  /* line 2364, ../scss/pages/_home.scss */
   .get-in-touch:hover {
     position: relative;
     display: block;
@@ -15565,7 +15849,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 2290, ../scss/pages/_home.scss */
+  /* line 2343, ../scss/pages/_home.scss */
   .get-in-touch {
     position: relative;
     display: block;
@@ -15582,7 +15866,7 @@ body {
     z-index: 1000;
     background: none;
   }
-  /* line 2346, ../scss/pages/_home.scss */
+  /* line 2399, ../scss/pages/_home.scss */
   .get-in-touch:hover {
     position: relative;
     display: block;
@@ -15602,7 +15886,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2365, ../scss/pages/_home.scss */
+  /* line 2418, ../scss/pages/_home.scss */
   .get-in-touch2 {
     position: absolute;
     display: block;
@@ -15623,7 +15907,7 @@ body {
     bottom: 10rem;
     left: 0;
   }
-  /* line 2385, ../scss/pages/_home.scss */
+  /* line 2438, ../scss/pages/_home.scss */
   .get-in-touch2:hover {
     position: relative;
     display: block;
@@ -15645,7 +15929,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2365, ../scss/pages/_home.scss */
+  /* line 2418, ../scss/pages/_home.scss */
   .get-in-touch2 {
     background: transparent;
     position: absolute;
@@ -15669,7 +15953,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2431, ../scss/pages/_home.scss */
+  /* line 2484, ../scss/pages/_home.scss */
   .touch-box {
     height: 500px;
     right: 0;
@@ -15677,7 +15961,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2431, ../scss/pages/_home.scss */
+  /* line 2484, ../scss/pages/_home.scss */
   .touch-box {
     height: 100vh;
     right: 0;
@@ -15686,7 +15970,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2448, ../scss/pages/_home.scss */
+  /* line 2501, ../scss/pages/_home.scss */
   .get-in-touch-wrapper {
     display: flex;
     height: 500px;
@@ -15696,7 +15980,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2448, ../scss/pages/_home.scss */
+  /* line 2501, ../scss/pages/_home.scss */
   .get-in-touch-wrapper {
     display: flex;
     height: 100vh;
@@ -15706,7 +15990,7 @@ body {
   }
 }
 
-/* line 2467, ../scss/pages/_home.scss */
+/* line 2520, ../scss/pages/_home.scss */
 .arrow-center-wrapper {
   display: flex;
   justify-content: center;
@@ -15714,7 +15998,7 @@ body {
 }
 
 /*===Footer===*/
-/* line 2478, ../scss/pages/_home.scss */
+/* line 2531, ../scss/pages/_home.scss */
 footer {
   padding-bottom: 0.938rem;
   background: black;
@@ -15722,14 +16006,14 @@ footer {
   overflow-x: hidden;
 }
 
-/* line 2488, ../scss/pages/_home.scss */
+/* line 2541, ../scss/pages/_home.scss */
 .contact {
   display: inline-block;
   padding: 40px 0px;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2500, ../scss/pages/_home.scss */
+  /* line 2553, ../scss/pages/_home.scss */
   .update-link {
     color: white;
     font-size: 15px;
@@ -15745,7 +16029,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2500, ../scss/pages/_home.scss */
+  /* line 2553, ../scss/pages/_home.scss */
   .update-link {
     text-decoration: underline;
     color: white;
@@ -15761,7 +16045,7 @@ footer {
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2533, ../scss/pages/_home.scss */
+  /* line 2586, ../scss/pages/_home.scss */
   .call {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -15772,7 +16056,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2533, ../scss/pages/_home.scss */
+  /* line 2586, ../scss/pages/_home.scss */
   .call {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -15783,7 +16067,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2533, ../scss/pages/_home.scss */
+  /* line 2586, ../scss/pages/_home.scss */
   .call {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -15796,14 +16080,14 @@ footer {
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2570, ../scss/pages/_home.scss */
+  /* line 2623, ../scss/pages/_home.scss */
   .arrow-placer {
     margin-top: -500px;
   }
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2580, ../scss/pages/_home.scss */
+  /* line 2633, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 7.125rem;
     position: absolute;
@@ -15818,7 +16102,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2580, ../scss/pages/_home.scss */
+  /* line 2633, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 7.125rem;
     position: absolute;
@@ -15832,7 +16116,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 2580, ../scss/pages/_home.scss */
+  /* line 2633, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 8.125rem;
     position: absolute;
@@ -15847,7 +16131,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 2580, ../scss/pages/_home.scss */
+  /* line 2633, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 10.125rem;
     position: relative;
@@ -15861,7 +16145,7 @@ footer {
   }
 }
 
-/* line 2640, ../scss/pages/_home.scss */
+/* line 2693, ../scss/pages/_home.scss */
 .footer-xl-logo {
   width: 8.125rem;
   background: url("../icons/xlflogo_klein_wite.svg") no-repeat;
@@ -15875,14 +16159,14 @@ footer {
   margin-right: auto;
 }
 
-/* line 2653, ../scss/pages/_home.scss */
+/* line 2706, ../scss/pages/_home.scss */
 .xl-logo-wrapper {
   margin-left: auto;
   margin-right: auto;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2658, ../scss/pages/_home.scss */
+  /* line 2711, ../scss/pages/_home.scss */
   .footer-logo-wrapper {
     display: flex;
     justify-items: center;
@@ -15890,30 +16174,30 @@ footer {
     position: relative;
     margin-top: -1rem;
   }
-  /* line 2665, ../scss/pages/_home.scss */
+  /* line 2718, ../scss/pages/_home.scss */
   .footer-logo-wrapper li {
     display: inline-block;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2658, ../scss/pages/_home.scss */
+  /* line 2711, ../scss/pages/_home.scss */
   .footer-logo-wrapper {
     height: 16rem;
   }
-  /* line 2673, ../scss/pages/_home.scss */
+  /* line 2726, ../scss/pages/_home.scss */
   .footer-logo-wrapper ul {
     display: inline-block;
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
   }
-  /* line 2678, ../scss/pages/_home.scss */
+  /* line 2731, ../scss/pages/_home.scss */
   .footer-logo-wrapper ul li {
     display: inline-block;
   }
 }
 
-/* line 2688, ../scss/pages/_home.scss */
+/* line 2741, ../scss/pages/_home.scss */
 .linkdin-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -15926,7 +16210,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2700, ../scss/pages/_home.scss */
+/* line 2753, ../scss/pages/_home.scss */
 .twitter-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -15940,7 +16224,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2712, ../scss/pages/_home.scss */
+/* line 2765, ../scss/pages/_home.scss */
 .youtube-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -15954,7 +16238,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2724, ../scss/pages/_home.scss */
+/* line 2777, ../scss/pages/_home.scss */
 .facebook-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -15968,7 +16252,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2736, ../scss/pages/_home.scss */
+/* line 2789, ../scss/pages/_home.scss */
 .insta-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -15982,12 +16266,12 @@ footer {
   display: inline-block;
 }
 
-/* line 2749, ../scss/pages/_home.scss */
+/* line 2802, ../scss/pages/_home.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 2753, ../scss/pages/_home.scss */
+/* line 2806, ../scss/pages/_home.scss */
 .mobile-footer {
   height: 16rem;
   background: black;
@@ -15995,7 +16279,7 @@ ul {
 
 /*===Menu===*/
 @media only screen and (min-device-width: 768px) {
-  /* line 2763, ../scss/pages/_home.scss */
+  /* line 2816, ../scss/pages/_home.scss */
   .menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -16012,7 +16296,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2763, ../scss/pages/_home.scss */
+  /* line 2816, ../scss/pages/_home.scss */
   .menu-wrapper {
     height: 100vh;
     width: 29rem;
@@ -16030,7 +16314,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2796, ../scss/pages/_home.scss */
+  /* line 2849, ../scss/pages/_home.scss */
   .menu-wrapper2 {
     height: 100vh;
     width: 35rem;
@@ -16048,7 +16332,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2796, ../scss/pages/_home.scss */
+  /* line 2849, ../scss/pages/_home.scss */
   .menu-wrapper2 {
     height: 100vh;
     width: 29rem;
@@ -16066,7 +16350,7 @@ ul {
   }
 }
 
-/* line 2831, ../scss/pages/_home.scss */
+/* line 2884, ../scss/pages/_home.scss */
 .menu-open {
   right: 0rem !important;
   -webkit-transition: 0.6s ease;
@@ -16077,7 +16361,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2840, ../scss/pages/_home.scss */
+  /* line 2893, ../scss/pages/_home.scss */
   .menu-items {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16091,7 +16375,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2840, ../scss/pages/_home.scss */
+  /* line 2893, ../scss/pages/_home.scss */
   .menu-items {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16106,7 +16390,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2871, ../scss/pages/_home.scss */
+  /* line 2924, ../scss/pages/_home.scss */
   .menu-items2 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16120,7 +16404,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2871, ../scss/pages/_home.scss */
+  /* line 2924, ../scss/pages/_home.scss */
   .menu-items2 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16135,7 +16419,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2901, ../scss/pages/_home.scss */
+  /* line 2954, ../scss/pages/_home.scss */
   .menu-items3 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16149,7 +16433,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2901, ../scss/pages/_home.scss */
+  /* line 2954, ../scss/pages/_home.scss */
   .menu-items3 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16164,7 +16448,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2931, ../scss/pages/_home.scss */
+  /* line 2984, ../scss/pages/_home.scss */
   .menu-items4 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16178,7 +16462,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2931, ../scss/pages/_home.scss */
+  /* line 2984, ../scss/pages/_home.scss */
   .menu-items4 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16192,26 +16476,26 @@ ul {
   }
 }
 
-/* line 2961, ../scss/pages/_home.scss */
+/* line 3014, ../scss/pages/_home.scss */
 .menu-link {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
-/* line 2965, ../scss/pages/_home.scss */
+/* line 3018, ../scss/pages/_home.scss */
 .menu-link:hover {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
-/* line 2972, ../scss/pages/_home.scss */
+/* line 3025, ../scss/pages/_home.scss */
 .first-menu-item {
   margin-top: 7rem;
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2975, ../scss/pages/_home.scss */
+  /* line 3028, ../scss/pages/_home.scss */
   .arrow-menu {
     width: 100px;
     height: 2rem;
@@ -16226,7 +16510,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2975, ../scss/pages/_home.scss */
+  /* line 3028, ../scss/pages/_home.scss */
   .arrow-menu {
     width: 7.125rem;
     margin-bottom: -1rem;
@@ -16243,7 +16527,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3007, ../scss/pages/_home.scss */
+  /* line 3060, ../scss/pages/_home.scss */
   .arrow-menu2 {
     width: 100px;
     height: 2rem;
@@ -16258,7 +16542,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3007, ../scss/pages/_home.scss */
+  /* line 3060, ../scss/pages/_home.scss */
   .arrow-menu2 {
     width: 7.125rem;
     margin-bottom: -1rem;
@@ -16275,14 +16559,14 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3039, ../scss/pages/_home.scss */
+  /* line 3092, ../scss/pages/_home.scss */
   .menu-arrow-wrapper {
     display: block;
     position: relative;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3039, ../scss/pages/_home.scss */
+  /* line 3092, ../scss/pages/_home.scss */
   .menu-arrow-wrapper {
     display: block;
     position: relative;
@@ -16290,92 +16574,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3055, ../scss/pages/_home.scss */
-  .menu-cross {
-    right: 1rem;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background: url("../icons/X cross.svg") no-repeat;
-    background-size: 100% auto;
-    cursor: pointer;
-    z-index: 10;
-    display: inline-block;
-    background-position: center;
-    margin-top: 2rem;
-  }
-}
-@media only screen and (max-device-width: 767px) {
-  /* line 3055, ../scss/pages/_home.scss */
-  .menu-cross {
-    right: 0rem;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background: url("../icons/X cross.svg") no-repeat;
-    background-size: 100% auto;
-    cursor: pointer;
-    z-index: 10;
-    display: inline-block;
-    background-position: center;
-    margin-top: 2rem;
-  }
-}
-
-/* line 3089, ../scss/pages/_home.scss */
-.menu-cross2 {
-  right: 1rem;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  background: url("../icons/X cross.svg") no-repeat;
-  background-size: 100% auto;
-  cursor: pointer;
-  z-index: 10;
-  display: inline-block;
-  background-position: center;
-  margin-top: 2rem;
-}
-
-/* line 3103, ../scss/pages/_home.scss */
-.menu-cross3 {
-  right: 1rem;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  background: url("../icons/X cross.svg") no-repeat;
-  background-size: 100% auto;
-  cursor: pointer;
-  z-index: 10;
-  display: inline-block;
-  background-position: center;
-  margin-top: 2rem;
-}
-
-/* line 3118, ../scss/pages/_home.scss */
-.menu-cross4 {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  background: url("../icons/X cross.svg") no-repeat;
-  background-size: 100% auto;
-  cursor: pointer;
-  z-index: 2000;
-  display: none;
-  background-position: center;
-  margin-top: 2rem;
-  top: 1rem;
-  right: 5.4rem;
-}
-
-/* line 3133, ../scss/pages/_home.scss */
-.menu-cross-height {
-  width: 35rem;
-  height: 60px;
-}
-
-@media only screen and (min-device-width: 768px) {
-  /* line 3138, ../scss/pages/_home.scss */
+  /* line 3108, ../scss/pages/_home.scss */
   .contact-menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -16393,7 +16592,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3138, ../scss/pages/_home.scss */
+  /* line 3108, ../scss/pages/_home.scss */
   .contact-menu-wrapper {
     height: 100vh;
     width: 25rem;
@@ -16412,7 +16611,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3176, ../scss/pages/_home.scss */
+  /* line 3146, ../scss/pages/_home.scss */
   .subscribe-menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -16430,7 +16629,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3176, ../scss/pages/_home.scss */
+  /* line 3146, ../scss/pages/_home.scss */
   .subscribe-menu-wrapper {
     height: 100vh;
     width: 25rem;
@@ -16449,7 +16648,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3215, ../scss/pages/_home.scss */
+  /* line 3185, ../scss/pages/_home.scss */
   .contact-menu-items {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16458,7 +16657,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3215, ../scss/pages/_home.scss */
+  /* line 3185, ../scss/pages/_home.scss */
   .contact-menu-items {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16468,7 +16667,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3235, ../scss/pages/_home.scss */
+  /* line 3205, ../scss/pages/_home.scss */
   .contact-fat {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16478,7 +16677,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3235, ../scss/pages/_home.scss */
+  /* line 3205, ../scss/pages/_home.scss */
   .contact-fat {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16490,7 +16689,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3257, ../scss/pages/_home.scss */
+  /* line 3227, ../scss/pages/_home.scss */
   .contact-fat2 {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16502,7 +16701,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3257, ../scss/pages/_home.scss */
+  /* line 3227, ../scss/pages/_home.scss */
   .contact-fat2 {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16514,7 +16713,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3282, ../scss/pages/_home.scss */
+  /* line 3252, ../scss/pages/_home.scss */
   .contact-number {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16523,7 +16722,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3282, ../scss/pages/_home.scss */
+  /* line 3252, ../scss/pages/_home.scss */
   .contact-number {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16534,14 +16733,14 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3302, ../scss/pages/_home.scss */
+  /* line 3272, ../scss/pages/_home.scss */
   .secondpart-menu {
     margin-top: 4rem;
   }
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3312, ../scss/pages/_home.scss */
+  /* line 3282, ../scss/pages/_home.scss */
   .input-field-black {
     width: 85%;
     background: black;
@@ -16551,11 +16750,11 @@ ul {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid white;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3312, ../scss/pages/_home.scss */
+  /* line 3282, ../scss/pages/_home.scss */
   .input-field-black {
     width: 85%;
     background: black;
@@ -16566,12 +16765,12 @@ ul {
     border-right: none;
     border-bottom: 1px solid white;
     height: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3340, ../scss/pages/_home.scss */
+  /* line 3310, ../scss/pages/_home.scss */
   .input-field-black-big {
     width: 85%;
     background: black;
@@ -16585,7 +16784,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3340, ../scss/pages/_home.scss */
+  /* line 3310, ../scss/pages/_home.scss */
   .input-field-black-big {
     width: 85%;
     background: black;
@@ -16600,7 +16799,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3367, ../scss/pages/_home.scss */
+  /* line 3337, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -16611,7 +16810,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 3367, ../scss/pages/_home.scss */
+  /* line 3337, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -16622,7 +16821,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 320px) {
-  /* line 3367, ../scss/pages/_home.scss */
+  /* line 3337, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -16633,7 +16832,7 @@ ul {
   }
 }
 
-/* line 3399, ../scss/pages/_home.scss */
+/* line 3369, ../scss/pages/_home.scss */
 .arrow-back {
   width: 100px;
   height: 100px;
@@ -16653,7 +16852,7 @@ ul {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 3417, ../scss/pages/_home.scss */
+  /* line 3387, ../scss/pages/_home.scss */
   .team-overlay {
     height: 500px;
     margin-top: -500px;
@@ -16661,7 +16860,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 3417, ../scss/pages/_home.scss */
+  /* line 3387, ../scss/pages/_home.scss */
   .team-overlay {
     height: 100vh;
     margin-top: -100vh;
@@ -16670,38 +16869,38 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3435, ../scss/pages/_home.scss */
+  /* line 3405, ../scss/pages/_home.scss */
   #test-carousel {
     height: 85vh;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3435, ../scss/pages/_home.scss */
+  /* line 3405, ../scss/pages/_home.scss */
   #test-carousel {
     height: 500px;
   }
 }
 
-/* line 3447, ../scss/pages/_home.scss */
+/* line 3417, ../scss/pages/_home.scss */
 #team {
   overflow: hidden;
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3451, ../scss/pages/_home.scss */
+  /* line 3421, ../scss/pages/_home.scss */
   footer {
     overflow: hidden;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3451, ../scss/pages/_home.scss */
+  /* line 3421, ../scss/pages/_home.scss */
   footer {
     height: auto;
     overflow: auto;
   }
 }
 
-/* line 3464, ../scss/pages/_home.scss */
+/* line 3434, ../scss/pages/_home.scss */
 video {
   width: 100vw;
   height: 100vh;
@@ -16713,12 +16912,12 @@ video {
   background: black;
 }
 
-/* line 3475, ../scss/pages/_home.scss */
+/* line 3445, ../scss/pages/_home.scss */
 .menu-link-none {
   color: white;
   font-family: "Raleway", sans-serif;
 }
-/* line 3478, ../scss/pages/_home.scss */
+/* line 3448, ../scss/pages/_home.scss */
 .menu-link-none:hover {
   color: white;
   font-family: "Raleway", sans-serif;
@@ -16910,7 +17109,7 @@ video {
   /* line 4, ../scss/pages/_about.scss */
   #about {
     background-size: cover;
-    background: url("../images/about-us/mobile_portrait/about.png") no-repeat;
+    background: url("../images/about-us/mobile_portrait/about.jpg") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
@@ -16920,7 +17119,7 @@ video {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/about-us/tablet_landscape/about.png") no-repeat;
+    background: url("../images/about-us/tablet_landscape/about.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -16931,7 +17130,7 @@ video {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/about-us/desktop/about.png") no-repeat;
+    background: url("../images/about-us/desktop/about.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -16942,7 +17141,7 @@ video {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url("../images/about-us/hd/about.png") no-repeat;
+    background: url("../images/about-us/hd/about.jpg") no-repeat;
     background-size: 100vw;
   }
 }
@@ -17046,19 +17245,22 @@ video {
   }
 }
 
+/* line 47, ../scss/pages/cases.scss */
+.broshuis-logo2 {
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/broshuis_logo.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media only screen and (max-device-width: 767px) {
   /* line 47, ../scss/pages/cases.scss */
   .broshuis-logo2 {
-    width: 12.525rem;
-    position: relative;
-    height: 12.525rem;
-    background: url("../icons/broshuis_logo.svg") no-repeat;
-    background-size: 100% auto;
-    cursor: pointer;
-    z-index: 10;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 2rem;
     margin-bottom: -10rem;
   }
@@ -17066,23 +17268,41 @@ video {
 @media only screen and (min-device-width: 768px) {
   /* line 47, ../scss/pages/cases.scss */
   .broshuis-logo2 {
-    width: 12.525rem;
-    position: relative;
-    height: 12.525rem;
-    background: url("../icons/broshuis_logo.svg") no-repeat;
-    background-size: 100% auto;
-    cursor: pointer;
-    z-index: 10;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: -7rem;
+  }
+}
+
+/* line 71, ../scss/pages/cases.scss */
+.veh-logo2 {
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/veh.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 71, ../scss/pages/cases.scss */
+  .veh-logo2 {
+    margin-top: 2rem;
+    margin-bottom: -10rem;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 71, ../scss/pages/cases.scss */
+  .veh-logo2 {
     margin-top: 5rem;
     margin-bottom: -7rem;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 82, ../scss/pages/cases.scss */
+  /* line 100, ../scss/pages/cases.scss */
   .bdo-logo {
     width: 22.525rem;
     position: relative;
@@ -17099,7 +17319,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 82, ../scss/pages/cases.scss */
+  /* line 100, ../scss/pages/cases.scss */
   .bdo-logo {
     width: 12.525rem;
     position: relative;
@@ -17117,7 +17337,7 @@ video {
 }
 
 /*=== BROSHUIS ===*/
-/* line 122, ../scss/pages/cases.scss */
+/* line 140, ../scss/pages/cases.scss */
 #case-broshuis-hero {
   background-position: center;
   height: 500px;
@@ -17125,14 +17345,14 @@ video {
   margin-top: -8rem;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 122, ../scss/pages/cases.scss */
+  /* line 140, ../scss/pages/cases.scss */
   #case-broshuis-hero {
     background-size: cover;
     background: url("../images/cases/mobile_portrait/broshuis.jpg") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 122, ../scss/pages/cases.scss */
+  /* line 140, ../scss/pages/cases.scss */
   #case-broshuis-hero {
     display: block;
     max-height: 100%;
@@ -17143,7 +17363,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 122, ../scss/pages/cases.scss */
+  /* line 140, ../scss/pages/cases.scss */
   #case-broshuis-hero {
     display: block;
     max-height: 100%;
@@ -17154,7 +17374,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 1920px) {
-  /* line 122, ../scss/pages/cases.scss */
+  /* line 140, ../scss/pages/cases.scss */
   #case-broshuis-hero {
     display: block;
     max-height: 100%;
@@ -17166,7 +17386,7 @@ video {
 }
 
 /*=== DELTA LLOYD ===*/
-/* line 167, ../scss/pages/cases.scss */
+/* line 185, ../scss/pages/cases.scss */
 #case-deltalloyd-hero {
   background-position: center;
   height: 500px;
@@ -17174,14 +17394,14 @@ video {
   margin-top: -8rem;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 167, ../scss/pages/cases.scss */
+  /* line 185, ../scss/pages/cases.scss */
   #case-deltalloyd-hero {
     background-size: cover;
     background: url("../images/cases/mobile_portrait/delta_lloyd.jpg") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 167, ../scss/pages/cases.scss */
+  /* line 185, ../scss/pages/cases.scss */
   #case-deltalloyd-hero {
     display: block;
     max-height: 100%;
@@ -17192,7 +17412,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 167, ../scss/pages/cases.scss */
+  /* line 185, ../scss/pages/cases.scss */
   #case-deltalloyd-hero {
     display: block;
     max-height: 100%;
@@ -17203,7 +17423,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 1920px) {
-  /* line 167, ../scss/pages/cases.scss */
+  /* line 185, ../scss/pages/cases.scss */
   #case-deltalloyd-hero {
     display: block;
     max-height: 100%;
@@ -17215,7 +17435,7 @@ video {
 }
 
 /*=== VEH ===*/
-/* line 213, ../scss/pages/cases.scss */
+/* line 231, ../scss/pages/cases.scss */
 #case-veh-hero {
   background-position: center;
   height: 500px;
@@ -17223,14 +17443,14 @@ video {
   margin-top: -8rem;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 213, ../scss/pages/cases.scss */
+  /* line 231, ../scss/pages/cases.scss */
   #case-veh-hero {
     background-size: cover;
     background: url("../images/cases/mobile_portrait/veh.jpg") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 213, ../scss/pages/cases.scss */
+  /* line 231, ../scss/pages/cases.scss */
   #case-veh-hero {
     display: block;
     max-height: 100%;
@@ -17241,7 +17461,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 213, ../scss/pages/cases.scss */
+  /* line 231, ../scss/pages/cases.scss */
   #case-veh-hero {
     display: block;
     max-height: 100%;
@@ -17252,7 +17472,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 1920px) {
-  /* line 213, ../scss/pages/cases.scss */
+  /* line 231, ../scss/pages/cases.scss */
   #case-veh-hero {
     display: block;
     max-height: 100%;
@@ -17264,7 +17484,7 @@ video {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 256, ../scss/pages/cases.scss */
+  /* line 274, ../scss/pages/cases.scss */
   .delta-logo-case {
     width: 22.525rem;
     position: relative;
@@ -17281,7 +17501,7 @@ video {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 256, ../scss/pages/cases.scss */
+  /* line 274, ../scss/pages/cases.scss */
   .delta-logo-case {
     width: 12.525rem;
     position: relative;
@@ -17298,7 +17518,7 @@ video {
   }
 }
 
-/* line 293, ../scss/pages/cases.scss */
+/* line 311, ../scss/pages/cases.scss */
 .case-list-items {
   margin-top: 4rem;
   font-size: 15px;
@@ -17309,7 +17529,7 @@ video {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 302, ../scss/pages/cases.scss */
+/* line 320, ../scss/pages/cases.scss */
 .case-list-text {
   margin-top: 4rem;
   font-size: 15px;
@@ -17319,7 +17539,7 @@ video {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 311, ../scss/pages/cases.scss */
+/* line 329, ../scss/pages/cases.scss */
 .case-text-link {
   margin-top: 4rem;
   font-size: 15px;
@@ -17330,19 +17550,19 @@ video {
   text-decoration: underline;
 }
 
-/* line 321, ../scss/pages/cases.scss */
+/* line 339, ../scss/pages/cases.scss */
 .spacing {
   height: 1rem;
 }
 
-/* line 325, ../scss/pages/cases.scss */
+/* line 343, ../scss/pages/cases.scss */
 table {
   margin-top: 4rem;
   display: flex;
   align-items: flex-end;
 }
 
-/* line 330, ../scss/pages/cases.scss */
+/* line 348, ../scss/pages/cases.scss */
 .caseht2 {
   font-size: 20px;
   color: gray;
@@ -17353,7 +17573,7 @@ table {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 339, ../scss/pages/cases.scss */
+  /* line 357, ../scss/pages/cases.scss */
   .case-text {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -17365,7 +17585,7 @@ table {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 339, ../scss/pages/cases.scss */
+  /* line 357, ../scss/pages/cases.scss */
   .case-text {
     font-size: 30px;
     font-family: "Raleway", sans-serif;
@@ -17379,7 +17599,7 @@ table {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 363, ../scss/pages/cases.scss */
+  /* line 381, ../scss/pages/cases.scss */
   .case-text2 {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -17391,7 +17611,7 @@ table {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 363, ../scss/pages/cases.scss */
+  /* line 381, ../scss/pages/cases.scss */
   .case-text2 {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -17404,13 +17624,13 @@ table {
   }
 }
 
-/* line 386, ../scss/pages/cases.scss */
+/* line 404, ../scss/pages/cases.scss */
 .cases-special1 {
   margin-bottom: 2rem;
   margin-top: 4rem;
 }
 
-/* line 393, ../scss/pages/cases.scss */
+/* line 411, ../scss/pages/cases.scss */
 .person-link-wrapper-case {
   width: 30rem;
   left: auto;
@@ -17419,7 +17639,7 @@ table {
   margin-right: auto;
 }
 
-/* line 401, ../scss/pages/cases.scss */
+/* line 419, ../scss/pages/cases.scss */
 .person-link-wrapper-case2 {
   width: 40rem;
   left: auto;
@@ -17428,7 +17648,7 @@ table {
   margin-right: auto;
 }
 
-/* line 410, ../scss/pages/cases.scss */
+/* line 428, ../scss/pages/cases.scss */
 .pijl-article-onder2 {
   width: 13.125rem;
   position: relative;

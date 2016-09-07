@@ -46,38 +46,56 @@
 
 .broshuis-logo2 {
 
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/broshuis_logo.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   @media only screen and (max-device-width: 767px) {
-    width: 12.525rem;
-    position: relative;
-    height: 12.525rem;
-    background: url("../icons/broshuis_logo.svg") no-repeat;
-    background-size: 100% auto;
-    cursor: pointer;
-    z-index: 10;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 2rem;
     margin-bottom: -10rem;
   }
-
   @media only screen and (min-device-width: 768px) {
-
-    width: 12.525rem;
-    position: relative;
-    height: 12.525rem;
-    background: url("../icons/broshuis_logo.svg") no-repeat;
-    background-size: 100% auto;
-    cursor: pointer;
-    z-index: 10;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 5rem;
     margin-bottom: -7rem;
 
   }
 }
+
+.veh-logo2 {
+
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/veh.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media only screen and (max-device-width: 767px) {
+    margin-top: 2rem;
+    margin-bottom: -10rem;
+  }
+  @media only screen and (min-device-width: 768px) {
+    margin-top: 5rem;
+    margin-bottom: -7rem;
+
+  }
+}
+
+
+
+
+
 
   .bdo-logo {
 

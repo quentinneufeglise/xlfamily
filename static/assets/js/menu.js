@@ -3,18 +3,18 @@
  */
 
 
-$(document).ready(function() {
+$(document).ready(function () {
 
 
 // Close menu on  click outside of body
 
-    $("body").on("click",function (event) {
+    $("body").on("click", function (event) {
         var target = event.target;
 
-        if ( $(target).is('.menu-wrapper') || $(target).is('.hamburger')){
+        if ($(target).is('.menu-wrapper') || $(target).is('.hamburger')) {
             // menu
         } else {
-            if($(target).parents('.menu-wrapper').length > 0){
+            if ($(target).parents('.menu-wrapper').length > 0) {
                 // menu
             } else {
                 // not menu
@@ -22,8 +22,6 @@ $(document).ready(function() {
             }
         }
     });
-
-
 
 
     $(".hamburger").click(function () {
@@ -34,27 +32,24 @@ $(document).ready(function() {
     });
 
 
-
-
     $(".menu-cross").click(function () {
         $(".menu-wrapper").removeClass('menu-open');
     });
 });
 
 
-
-$(document).ready(function() {
+$(document).ready(function () {
 
 
 // Close menu on  click outside of body
 
-    $("body").on("click",function (event) {
+    $("body").on("click", function (event) {
         var target = event.target;
 
-        if ( $(target).is('.contact-menu-wrapper') || $(target).is('.contact-open2') || $(target).is('.get-in-touch2')){
+        if ($(target).is('.contact-menu-wrapper') || $(target).is('.contact-open2') || $(target).is('.get-in-touch2')) {
             // menu
         } else {
-            if($(target).parents('.contact-menu-wrapper').length > 0){
+            if ($(target).parents('.contact-menu-wrapper').length > 0) {
                 // menu
             } else {
                 // not menu
@@ -77,8 +72,6 @@ $(document).ready(function() {
     });
 
 
-
-
     $(".menu-cross").click(function () {
         $(".menu-wrapper").removeClass('menu-open');
     });
@@ -94,11 +87,8 @@ $(".menu-cross3").click(function () {
 });
 
 
-
-
-
-    $(document).ready(function () {
-    $(".arrow-menu").on("click", function(){
+$(document).ready(function () {
+    $(".arrow-menu").on("click", function () {
 
         $(".menu-items").hide();
         $(".menu-items2").show();
@@ -108,7 +98,7 @@ $(".menu-cross3").click(function () {
 });
 
 $(document).ready(function () {
-    $(".arrow-back").on("click", function(){
+    $(".arrow-back").on("click", function () {
 
         $(".menu-items2").hide();
         $(".menu-items").show();
@@ -118,7 +108,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $(".arrow-menu2").on("click", function(){
+    $(".arrow-menu2").on("click", function () {
 
         $(".menu-items").hide();
         $(".menu-items3").show();
@@ -128,7 +118,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $(".arrow-back").on("click", function(){
+    $(".arrow-back").on("click", function () {
 
         $(".menu-items3").hide();
         $(".menu-items").show();
@@ -138,18 +128,18 @@ $(document).ready(function () {
 });
 
 
-$(document).ready(function() {
+$(document).ready(function () {
 
 
 // Close menu on  click outside of body
 
-    $("body").on("click",function (event) {
+    $("body").on("click", function (event) {
         var target = event.target;
 
-        if ( $(target).is('.subscribe-menu-wrapper') || $(target).is('.footer-pijl-rechts')){
+        if ($(target).is('.subscribe-menu-wrapper') || $(target).is('.footer-pijl-rechts')) {
             // menu
         } else {
-            if($(target).parents('.subscribe-menu-wrapper').length > 0){
+            if ($(target).parents('.subscribe-menu-wrapper').length > 0) {
                 // menu
             } else {
                 // not menu
@@ -157,7 +147,6 @@ $(document).ready(function() {
             }
         }
     });
-
 
 
     $(".footer-pijl-rechts").click(function () {
@@ -169,3 +158,12 @@ $(document).ready(function() {
 
 
 
+// Hide the forms on filling in and pressing on Submit
+
+//$(document).ready(function () {
+
+  //  $(".send-button").click(function () {
+    //            $(".form-group").hide(1000);
+   // });
+
+//});

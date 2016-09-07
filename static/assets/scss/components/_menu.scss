@@ -1,0 +1,120 @@
+/* MENU VALIDATOIN */
+
+.help-block {
+  color: #a94442;
+  ul{
+    padding:0;
+
+    }
+}
+
+
+/*=== FORM SUBMIT SUCCESS ===*/
+
+.alert-success {
+  color: $primary-color_white;
+  background-color: inherit;
+  border-color: black;
+}
+
+.alert {
+  padding: 10px 15px 0 0;
+}
+
+/*=== MENU CROSS ===*/
+
+.menu-cross {
+  @media only screen and (min-device-width: 768px) {
+
+
+    right: 1rem;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url("../icons/X cross.svg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    background-position: center;
+    margin-top: 2rem;
+  }
+
+  @media only screen and (max-device-width: 767px) {
+
+    right: 0rem;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url("../icons/X cross.svg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    background-position: center;
+    margin-top: 2rem;
+  }
+
+}
+
+.menu-cross2 {
+  right: 1rem;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+.menu-cross3 {
+
+  right: 1rem;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+  margin-top: 2rem;
+}
+
+.menu-cross4   {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../icons/X cross.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 2000;
+  display: none;
+  background-position: center;
+  margin-top: 2rem;
+  top: 1rem;
+  right: 5.4rem;
+}
+
+.menu-cross-height{
+  width: 35rem;
+  height: 60px;
+}
+
+
+/*=== MENU FEEDBACK CLOSE ===*/
+
+button.close {
+  background:url("../icons/X cross.svg") no-repeat;
+}
+
+/*=== MAKE THE FORM ON THE MENU WITH STRAIGHT CORNERS ===*/
+
+.form-control {
+  border-radius: 0;
+}

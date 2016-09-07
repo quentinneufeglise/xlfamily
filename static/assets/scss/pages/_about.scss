@@ -10,7 +10,7 @@
 
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
-    background:url("../images/about-us/mobile_portrait/about.png") no-repeat;
+    background:url("../images/about-us/mobile_portrait/about.jpg") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){
@@ -19,7 +19,7 @@
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background:url("../images/about-us/tablet_landscape/about.png") no-repeat;
+    background:url("../images/about-us/tablet_landscape/about.jpg") no-repeat;
     background-size: 100vw;
 
   }
@@ -29,7 +29,7 @@
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background:url("../images/about-us/desktop/about.png") no-repeat;
+    background:url("../images/about-us/desktop/about.jpg") no-repeat;
     background-size: 100vw;
   }
 
@@ -39,7 +39,7 @@
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background:url("../images/about-us/hd/about.png") no-repeat;
+    background:url("../images/about-us/hd/about.jpg") no-repeat;
     background-size: 100vw;
   }
 }

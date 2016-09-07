@@ -59,3 +59,9 @@ wordpress/wp-settings.php
 wordpress/wp-signup.php
 wordpress/wp-trackback.php
 wordpress/xmlrpc.php
+static/assets/images/adventures/hd/.DS_Store
+static/assets/images/adventures/tablet_landscape_hover/.DS_Store
+static/assets/images/cases/desktop/.DS_Store
+static/assets/images/locations/desktop_hover/.DS_Store
+static/assets/images/locations/hd_hover/.DS_Store
+static/assets/images/locations/tablet_landscape_hover/.DS_Store

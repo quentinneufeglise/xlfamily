@@ -1766,6 +1766,57 @@ display: none;
   background-position: center;
 }
 
+.equeens-logo {
+
+  @media only screen and (max-device-width: 767px) {
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+
+  }
+
+  margin-top: 85px;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/eq_logo_fc-u_100 [Converted].svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+
+.veh-logo {
+
+  @media only screen and (max-device-width: 767px) {
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+
+  }
+
+  margin-top: 85px;
+  margin-bottom: -6rem;
+  width: 12.525rem;
+  position: relative;
+  height: 12.525rem;
+  background: url("../icons/VEH.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: inline-block;
+  background-position: center;
+}
+
+
+
 .broshuis-logo {
 
   @media only screen and (max-device-width: 767px) {
@@ -3054,89 +3105,6 @@ ul {
 
 }
 
-.menu-cross {
-  @media only screen and (min-device-width: 768px) {
-
-
-    right: 1rem;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background: url("../icons/X cross.svg") no-repeat;
-    background-size:100% auto ;
-    cursor: pointer;
-    z-index: 10;
-    display: inline-block;
-    background-position: center;
-    margin-top: 2rem;
-  }
-
-  @media only screen and (max-device-width: 767px) {
-
-    right: 0rem;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background: url("../icons/X cross.svg") no-repeat;
-    background-size:100% auto ;
-    cursor: pointer;
-    z-index: 10;
-    display: inline-block;
-    background-position: center;
-    margin-top: 2rem;
-  }
-
-}
-
-.menu-cross2 {
-  right: 1rem;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  background: url("../icons/X cross.svg") no-repeat;
-  background-size:100% auto ;
-  cursor: pointer;
-  z-index: 10;
-  display: inline-block;
-  background-position: center;
-  margin-top: 2rem;
-}
-
-.menu-cross3 {
-
-  right: 1rem;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  background: url("../icons/X cross.svg") no-repeat;
-  background-size:100% auto ;
-  cursor: pointer;
-  z-index: 10;
-  display: inline-block;
-  background-position: center;
-  margin-top: 2rem;
-}
-
-.menu-cross4   {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  background: url("../icons/X cross.svg") no-repeat;
-  background-size:100% auto ;
-  cursor: pointer;
-  z-index: 2000;
-  display: none;
-  background-position: center;
-  margin-top: 2rem;
-  top: 1rem;
-  right: 5.4rem;
-}
-
-.menu-cross-height{
-  width: 35rem;
-  height: 60px;
-}
-
 .contact-menu-wrapper {
   @media only screen and (min-device-width: 768px) {
 
@@ -3321,7 +3289,7 @@ ul {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid white ;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   @media only screen and (max-device-width: 767px) {
@@ -3334,7 +3302,7 @@ ul {
     border-right: none;
     border-bottom: 1px solid white ;
     height: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
 }
