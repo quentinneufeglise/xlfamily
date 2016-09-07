@@ -342,13 +342,18 @@
   }
 }
 
-//*article*//
 
-#article-block-1 {
-  background: url("../images/broshuis.jpeg");
+
+//====*SECTIONS FOR MORE ABOUT THIS TOPIC AND READ NEXT ARTICLE*====//
+
+/*====Artcile-Block-1====*/
+
+.article-block-1 {
+
   background-size: cover;
   background-position:center;
-  #article-block-1-hover {
+
+  .article-block-1-hover {
     display: none;
   }
   .overlay-wrapper {
@@ -362,12 +367,12 @@
     left: 0;
     background-size: cover;
     background-position:center;
+
   }
 
   &:hover {
     .overlay-wrapper {
       display: block;
-      background:url("../images/broshuis.jpeg"), url("../patterns/XLF_Hover_pink_S.png");
       background-blend-mode: multiply;
       width: 100%;
       height: 100%;
@@ -376,9 +381,11 @@
       left: 0;
       background-size: cover;
       background-position:center;
+      .sci-fi-hover {
+      background:url("../images/blog/desktop/sci-fi.jpg"), url("../patterns/XLF_Hover_pink_S.png");
+      }
+
     }
-
-
 
     .background-wrapper {
 
@@ -388,16 +395,16 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: url("../images/broshuis.jpeg");
-      background-position:center;
+      background: url("../images/blog/desktop/sci-fi.jpg");
       background-size: cover;
+      background-position:center;
 
     }
 
     .background_gradient-wrapper3 {
       display: block;
     }
-    #article-block-1-hover {
+    .article-block-1-hover {
       display: block;
       margin-top: $story-hover;
       max-width: 400px;
@@ -406,11 +413,13 @@
 }
 
 
-#article-block-2 {
-  background: url("../images/broshuis.jpeg");
+/*====Artcile-Block-2====*/
+.article-block-2 {
+
   background-size: cover;
   background-position:center;
-  #article-block-2-hover {
+
+  .article-block-2-hover {
     display: none;
   }
   .overlay-wrapper {
@@ -441,9 +450,7 @@
     }
 
 
-
     .background-wrapper {
-
       position: absolute;
       display: block;
       left: 0;
@@ -459,7 +466,7 @@
     .background_gradient-wrapper2 {
       display: block;
     }
-    #article-block-2-hover {
+    .article-block-2-hover {
       display: block;
       margin-top: $story-hover;
       max-width: 400px;
@@ -467,11 +474,14 @@
   }
 }
 
-#article-block-3 {
-  background: url("../images/broshuis.jpeg");
+
+
+/*====Artcile-Block-3=====*/
+
+.article-block-3 {
   background-size: cover;
   background-position:center;
-  #article-block-3-hover {
+  .article-block-3-hover {
     display: none;
   }
   .overlay-wrapper {
@@ -520,7 +530,7 @@
     .background_gradient-wrapper3 {
       display: block;
     }
-    #article-block-3-hover {
+    .article-block-3-hover {
       display: block;
       margin-top: $story-hover;
       max-width: 400px;
@@ -528,6 +538,97 @@
   }
 }
 
+
+/*===images block all blocks===*/
+
+#article-block-sci-fi {
+  background: url("../images/blog/desktop/sci-fi.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#article-block-corporate-blind {
+  background: url("../images/blog/desktop/corporate-blind.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#article-block-corporate-acceleration {
+  background: url("../images/blog/desktop/corporate-acceleration.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#article-block-being-lean {
+  background: url("../images/blog/desktop/being-lean.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#article-block-copycatting {
+  background: url("../images/blog/desktop/copycatting.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#article-block-business-sprint {
+  background: url("../images/blog/desktop/business-sprint.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#article-block-corporates-startups {
+  background: url("../images/blog/desktop/corporates-startups.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#article-block-customer-interviews {
+  background: url("../images/blog/desktop/customer-interviews.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#article-block-innovation-model {
+  background: url("../images/blog/desktop/innovation-model.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#article-block-landing-page-validation {
+  background: url("../images/blog/desktop/landing-page-validation.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+
+/*====CLIENT CASES===*/
+
+/*===images block all blocks===*/
+
+#case-block-bdo {
+  background: url("../images/cases/desktop/bdo.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#case-block-veh {
+  background: url("../images/cases/desktop/veh.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#case-block-broshuis {
+  background: url("../images/cases/desktop/broshuis.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+#case-block-deltalloyd {
+  background: url("../images/cases/desktop/delta_lloyd.jpg") no-repeat;
+  background-size: cover;
+  background-position:center;
+}
 
 //*Blog overview*//
 

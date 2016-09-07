@@ -27,12 +27,17 @@
 
 /*=== BLOG HEADERS ===*/
 
-#blog-copycatting {
-
+#blog-copycatting, #blog-sci-fi, #blog-corporate-blind-spot, #blog-corporate-acceleration, #blog-customer-interviews,
+#blog-being-lean, #blog-landing-page-validation, #blog-business-sprint, #blog-innovation-model, #blog-corporates-startups {
   background-position: center;
   height: 500px;
   text-align: center;
   margin-top: -8rem;
+
+}
+
+
+#blog-copycatting {
 
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
@@ -71,14 +76,7 @@
 }
 
 
-
-
 #blog-sci-fi {
-
-  background-position: center;
-  height: 500px;
-  text-align: center;
-  margin-top: -8rem;
 
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
@@ -119,10 +117,6 @@
 
 #blog-corporate-blind-spot {
 
-  background-position: center;
-  height: 500px;
-  text-align: center;
-  margin-top: -8rem;
 
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
@@ -163,11 +157,6 @@
 
 #blog-corporate-acceleration {
 
-  background-position: center;
-  height: 500px;
-  text-align: center;
-  margin-top: -8rem;
-
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
     background:url("../images/blog/mobile_portrait/corporate-acceleration.jpg") no-repeat;
@@ -207,11 +196,6 @@
 
 #blog-customer-interviews {
 
-  background-position: center;
-  height: 500px;
-  text-align: center;
-  margin-top: -8rem;
-
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
     background:url("../images/blog/mobile_portrait/customer-interviews.jpg") no-repeat;
@@ -249,11 +233,6 @@
 }
 
 #blog-being-lean {
-
-  background-position: center;
-  height: 500px;
-  text-align: center;
-  margin-top: -8rem;
 
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
@@ -294,11 +273,6 @@
 
 #blog-landing-page-validation {
 
-  background-position: center;
-  height: 500px;
-  text-align: center;
-  margin-top: -8rem;
-
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
     background:url("../images/blog/mobile_portrait/landing-page-validation.jpg") no-repeat;
@@ -336,11 +310,6 @@
 }
 
 #blog-business-sprint {
-
-  background-position: center;
-  height: 500px;
-  text-align: center;
-  margin-top: -8rem;
 
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
@@ -380,11 +349,6 @@
 
 #blog-innovation-model {
 
-  background-position: center;
-  height: 500px;
-  text-align: center;
-  margin-top: -8rem;
-
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
     background:url("../images/blog/mobile_portrait/innovation-model.jpg") no-repeat;
@@ -423,11 +387,6 @@
 
 
 #blog-corporates-startups {
-
-  background-position: center;
-  height: 500px;
-  text-align: center;
-  margin-top: -8rem;
 
   @media only screen and (max-device-width: 767px) {
     background-size: cover;
