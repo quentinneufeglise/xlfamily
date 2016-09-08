@@ -9303,7 +9303,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 374, ../scss/components/blocks.scss */
+/* line 373, ../scss/components/blocks.scss */
 .article-block-1:hover .overlay-wrapper {
   display: block;
   width: 100%;
@@ -9314,8 +9314,11 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 387, ../scss/components/blocks.scss */
-.article-block-1 .background-wrapper, .article-block-1 .article-block-sci-fi-hover {
+/* line 383, ../scss/components/blocks.scss */
+.article-block-1:hover .background-wrapper, .article-block-1:hover .article-block-sci-fi-hover, .article-block-1:hover .article-block-corporate-blind-hover, .article-block-1:hover .article-block-corporate-acceleration-hover,
+.article-block-1:hover .article-block-being-lean-hover, .article-block-1:hover .article-block-copycatting-hover, .article-block-1:hover .article-block-business-sprint-hover, .article-block-1:hover .article-block-corporates-startups-hover,
+.article-block-1:hover .article-block-customer-interviews-hover, .article-block-1:hover .article-block-innovation-model-hover, .article-block-1:hover .article-block-landing-page-validation-hover,
+.article-block-1:hover .adventure-block-xllab-hover, .article-block-1:hover .adventure-block-xlventures-hover, .article-block-1:hover .adventure-block-xlevents-hover {
   position: absolute;
   display: block;
   left: 0;
@@ -9323,28 +9326,28 @@ button.close {
   width: 100%;
   height: 100%;
 }
-/* line 398, ../scss/components/blocks.scss */
-.article-block-1 .background_gradient-wrapper3 {
+/* line 396, ../scss/components/blocks.scss */
+.article-block-1:hover .background_gradient-wrapper3 {
   display: block;
 }
-/* line 401, ../scss/components/blocks.scss */
-.article-block-1 .article-block-1-hover {
+/* line 399, ../scss/components/blocks.scss */
+.article-block-1:hover .article-block-1-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
 /*====Article-Block-2====*/
-/* line 412, ../scss/components/blocks.scss */
+/* line 411, ../scss/components/blocks.scss */
 .article-block-2 {
   background-size: cover;
   background-position: center;
 }
-/* line 417, ../scss/components/blocks.scss */
+/* line 416, ../scss/components/blocks.scss */
 .article-block-2 .article-block-2-hover {
   display: none;
 }
-/* line 420, ../scss/components/blocks.scss */
+/* line 419, ../scss/components/blocks.scss */
 .article-block-2 .overlay-wrapper {
   display: block;
   background: none;
@@ -9357,7 +9360,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 434, ../scss/components/blocks.scss */
+/* line 433, ../scss/components/blocks.scss */
 .article-block-2:hover .overlay-wrapper {
   display: block;
   width: 100%;
@@ -9368,8 +9371,11 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 446, ../scss/components/blocks.scss */
-.article-block-2:hover .background-wrapper, .article-block-2:hover .article-block-corporate-blind-hover {
+/* line 445, ../scss/components/blocks.scss */
+.article-block-2:hover .background-wrapper, .article-block-2:hover .article-block-sci-fi-hover, .article-block-2:hover .article-block-corporate-blind-hover, .article-block-2:hover .article-block-corporate-acceleration-hover,
+.article-block-2:hover .article-block-being-lean-hover, .article-block-2:hover .article-block-copycatting-hover, .article-block-2:hover .article-block-business-sprint-hover, .article-block-2:hover .article-block-corporates-startups-hover,
+.article-block-2:hover .article-block-customer-interviews-hover, .article-block-2:hover .article-block-innovation-model-hover, .article-block-2:hover .article-block-landing-page-validation-hover,
+.article-block-2:hover .adventure-block-xllab-hover, .article-block-2:hover .adventure-block-xlventures-hover, .article-block-2:hover .adventure-block-xlevents-hover {
   position: absolute;
   display: block;
   left: 0;
@@ -9377,11 +9383,11 @@ button.close {
   width: 100%;
   height: 100%;
 }
-/* line 455, ../scss/components/blocks.scss */
+/* line 457, ../scss/components/blocks.scss */
 .article-block-2:hover .background_gradient-wrapper2 {
   display: block;
 }
-/* line 458, ../scss/components/blocks.scss */
+/* line 460, ../scss/components/blocks.scss */
 .article-block-2:hover .article-block-2-hover {
   display: block;
   margin-top: 50px;
@@ -9389,16 +9395,16 @@ button.close {
 }
 
 /*====Article-Block-3=====*/
-/* line 470, ../scss/components/blocks.scss */
+/* line 472, ../scss/components/blocks.scss */
 .article-block-3 {
   background-size: cover;
   background-position: center;
 }
-/* line 474, ../scss/components/blocks.scss */
+/* line 476, ../scss/components/blocks.scss */
 .article-block-3 .article-block-3-hover {
   display: none;
 }
-/* line 477, ../scss/components/blocks.scss */
+/* line 479, ../scss/components/blocks.scss */
 .article-block-3 .overlay-wrapper {
   display: block;
   background: none;
@@ -9411,7 +9417,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 491, ../scss/components/blocks.scss */
+/* line 493, ../scss/components/blocks.scss */
 .article-block-3:hover .overlay-wrapper, .article-block-3:hover .broshuis {
   display: block;
   width: 100%;
@@ -9422,8 +9428,11 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 502, ../scss/components/blocks.scss */
-.article-block-3:hover .background-wrapper, .article-block-3:hover .article-block-corporate-acceleration-hover {
+/* line 504, ../scss/components/blocks.scss */
+.article-block-3:hover .background-wrapper, .article-block-3:hover .article-block-sci-fi-hover, .article-block-3:hover .article-block-corporate-blind-hover, .article-block-3:hover .article-block-corporate-acceleration-hover,
+.article-block-3:hover .article-block-being-lean-hover, .article-block-3:hover .article-block-copycatting-hover, .article-block-3:hover .article-block-business-sprint-hover, .article-block-3:hover .article-block-corporates-startups-hover,
+.article-block-3:hover .article-block-customer-interviews-hover, .article-block-3:hover .article-block-innovation-model-hover, .article-block-3:hover .article-block-landing-page-validation-hover,
+.article-block-3:hover .case-block-bdo-hover, .article-block-3:hover .case-block-veh-hover, .article-block-3:hover .case-block-broshuis-hover, .article-block-3:hover .case-block-deltalloyd-hover {
   position: absolute;
   display: block;
   left: 0;
@@ -9431,11 +9440,11 @@ button.close {
   width: 100%;
   height: 100%;
 }
-/* line 513, ../scss/components/blocks.scss */
+/* line 518, ../scss/components/blocks.scss */
 .article-block-3:hover .background_gradient-wrapper3 {
   display: block;
 }
-/* line 516, ../scss/components/blocks.scss */
+/* line 521, ../scss/components/blocks.scss */
 .article-block-3:hover .article-block-3-hover {
   display: block;
   margin-top: 50px;
@@ -9444,14 +9453,14 @@ button.close {
 
 /*===images block all blocks articles===*/
 /*===sci-fi===*/
-/* line 530, ../scss/components/blocks.scss */
+/* line 535, ../scss/components/blocks.scss */
 #article-block-sci-fi {
   background: url("../images/blog/desktop/sci-fi.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 536, ../scss/components/blocks.scss */
+/* line 541, ../scss/components/blocks.scss */
 .article-block-sci-fi-hover {
   background: url("../images/blog/desktop/sci-fi.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
@@ -9460,14 +9469,14 @@ button.close {
 }
 
 /*===corporate-blind===*/
-/* line 544, ../scss/components/blocks.scss */
+/* line 549, ../scss/components/blocks.scss */
 #article-block-corporate-blind {
   background: url("../images/blog/desktop/corporate-blind.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 551, ../scss/components/blocks.scss */
+/* line 556, ../scss/components/blocks.scss */
 .article-block-corporate-blind-hover {
   background: url("../images/blog/desktop/corporate-blind.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
@@ -9476,14 +9485,14 @@ button.close {
 }
 
 /*===corporate-acceleration===*/
-/* line 560, ../scss/components/blocks.scss */
+/* line 565, ../scss/components/blocks.scss */
 #article-block-corporate-acceleration {
   background: url("../images/blog/desktop/corporate-acceleration.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 566, ../scss/components/blocks.scss */
+/* line 571, ../scss/components/blocks.scss */
 .article-block-corporate-acceleration-hover {
   background: url("../images/blog/desktop/corporate-acceleration.jpg"), url("../patterns/XLF_hover_cyan_S.png");
   background-blend-mode: multiply;
@@ -9491,119 +9500,245 @@ button.close {
   background-size: cover;
 }
 
-/* line 576, ../scss/components/blocks.scss */
+/*===being-lean===*/
+/* line 580, ../scss/components/blocks.scss */
 #article-block-being-lean {
   background: url("../images/blog/desktop/being-lean.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 582, ../scss/components/blocks.scss */
+/* line 586, ../scss/components/blocks.scss */
+.article-block-being-lean-hover {
+  background: url("../images/blog/desktop/being-lean.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===copycatting===*/
+/* line 595, ../scss/components/blocks.scss */
 #article-block-copycatting {
   background: url("../images/blog/desktop/copycatting.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 588, ../scss/components/blocks.scss */
+/* line 601, ../scss/components/blocks.scss */
+.article-block-copycatting-hover {
+  background: url("../images/blog/desktop/copycatting.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===business-sprint===*/
+/* line 610, ../scss/components/blocks.scss */
 #article-block-business-sprint {
   background: url("../images/blog/desktop/business-sprint.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 594, ../scss/components/blocks.scss */
+/* line 616, ../scss/components/blocks.scss */
+.article-block-business-sprint-hover {
+  background: url("../images/blog/desktop/business-sprint.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===corporates-startups===*/
+/* line 625, ../scss/components/blocks.scss */
 #article-block-corporates-startups {
   background: url("../images/blog/desktop/corporates-startups.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 600, ../scss/components/blocks.scss */
+/* line 631, ../scss/components/blocks.scss */
+.article-block-corporates-startups-hover {
+  background: url("../images/blog/desktop/corporates-startups.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*====customer-interviews====*/
+/* line 640, ../scss/components/blocks.scss */
 #article-block-customer-interviews {
   background: url("../images/blog/desktop/customer-interviews.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 606, ../scss/components/blocks.scss */
+/* line 646, ../scss/components/blocks.scss */
+.article-block-customer-interviews-hover {
+  background: url("../images/blog/desktop/customer-interviews.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===innovation-model===*/
+/* line 655, ../scss/components/blocks.scss */
 #article-block-innovation-model {
   background: url("../images/blog/desktop/innovation-model.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 612, ../scss/components/blocks.scss */
+/* line 661, ../scss/components/blocks.scss */
+.article-block-innovation-model-hover {
+  background: url("../images/blog/desktop/innovation-model.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===landing-page-validation===*/
+/* line 671, ../scss/components/blocks.scss */
 #article-block-landing-page-validation {
   background: url("../images/blog/desktop/landing-page-validation.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+/* line 677, ../scss/components/blocks.scss */
+.article-block-landing-page-validation-hover {
+  background: url("../images/blog/desktop/landing-page-validation.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
 /*====CLIENT CASES===*/
 /*===images block all blocks cases===*/
-/* line 623, ../scss/components/blocks.scss */
+/*===BDO===*/
+/* line 690, ../scss/components/blocks.scss */
 #case-block-bdo {
   background: url("../images/cases/desktop/bdo.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 629, ../scss/components/blocks.scss */
+/* line 696, ../scss/components/blocks.scss */
+.case-block-bdo-hover {
+  background: url("../images/cases/desktop/bdo.jpg"), url("../patterns/XLF_Hover_pink_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===VEH===*/
+/* line 705, ../scss/components/blocks.scss */
 #case-block-veh {
   background: url("../images/cases/desktop/veh.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 635, ../scss/components/blocks.scss */
+/* line 711, ../scss/components/blocks.scss */
+.case-block-veh-hover {
+  background: url("../images/cases/desktop/veh.jpg"), url("../patterns/XLF_Hover_pink_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===BROSHUIS===*/
+/* line 721, ../scss/components/blocks.scss */
 #case-block-broshuis {
   background: url("../images/cases/desktop/broshuis.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 641, ../scss/components/blocks.scss */
+/* line 727, ../scss/components/blocks.scss */
+.case-block-broshuis-hover {
+  background: url("../images/cases/desktop/broshuis.jpg"), url("../patterns/XLF_Hover_pink_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===DELTALLOYD==*/
+/* line 736, ../scss/components/blocks.scss */
 #case-block-deltalloyd {
   background: url("../images/cases/desktop/delta_lloyd.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+/* line 742, ../scss/components/blocks.scss */
+.case-block-deltalloyd-hover {
+  background: url("../images/cases/desktop/delta_lloyd.jpg"), url("../patterns/XLF_Hover_pink_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
 /*====ADVENTURES===*/
 /*===images block all blocks adventures===*/
-/* line 653, ../scss/components/blocks.scss */
+/*===XLlab===*/
+/* line 756, ../scss/components/blocks.scss */
 #adventure-block-xllab {
-  background: url("../images/adventure-headers/desktop/xllab.jpg") no-repeat;
+  background: url("../images/adventures-headers/desktop/xllab.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 659, ../scss/components/blocks.scss */
+/* line 762, ../scss/components/blocks.scss */
+.adventure-block-xllab-hover {
+  background: url("../images/adventures-headers/desktop/xllab.jpg"), url("../patterns/XLF_hover_green_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===XLventures===*/
+/* line 771, ../scss/components/blocks.scss */
 #adventure-block-xlventures {
-  background: url("../images/adventure-headers/desktop/xlventures.jpg") no-repeat;
+  background: url("../images/adventures-headers/desktop/xlventures.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 665, ../scss/components/blocks.scss */
+/* line 777, ../scss/components/blocks.scss */
+.adventure-block-xlventures-hover {
+  background: url("../images/adventures-headers/desktop/xlventures.jpg"), url("../patterns/XLF_hover_green_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/*===XLevents===*/
+/* line 786, ../scss/components/blocks.scss */
 #adventure-block-xlevents {
-  background: url("../images/adventure-headers/desktop/xlevents.jpg") no-repeat;
+  background: url("../images/adventures-headers/desktop/xlevents.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 675, ../scss/components/blocks.scss */
+/* line 792, ../scss/components/blocks.scss */
+.adventure-block-xlevents-hover {
+  background: url("../images/adventures-headers/desktop/xlevents.jpg"), url("../patterns/XLF_hover_green_S.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 802, ../scss/components/blocks.scss */
 #blog1 {
   background: url("../images/blog/overview/corporate-acceleration.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 679, ../scss/components/blocks.scss */
+/* line 806, ../scss/components/blocks.scss */
 #blog1 #blog1-hover {
   display: none;
 }
-/* line 682, ../scss/components/blocks.scss */
+/* line 809, ../scss/components/blocks.scss */
 #blog1 .overlay-wrapper {
   display: block;
   background: none;
@@ -9616,7 +9751,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 696, ../scss/components/blocks.scss */
+/* line 823, ../scss/components/blocks.scss */
 #blog1:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog/overview/corporate-acceleration.jpg"), url("../patterns/XLF_hover_cyan_S.png");
@@ -9629,7 +9764,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 710, ../scss/components/blocks.scss */
+/* line 837, ../scss/components/blocks.scss */
 #blog1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9641,24 +9776,24 @@ button.close {
   background-position: center;
   background-size: cover;
 }
-/* line 723, ../scss/components/blocks.scss */
+/* line 850, ../scss/components/blocks.scss */
 #blog1:hover #blog1-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 732, ../scss/components/blocks.scss */
+/* line 859, ../scss/components/blocks.scss */
 #blog2 {
   background: url("../images/blog/overview/corporate-blind.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 736, ../scss/components/blocks.scss */
+/* line 863, ../scss/components/blocks.scss */
 #blog2 #blog2-hover {
   display: none;
 }
-/* line 739, ../scss/components/blocks.scss */
+/* line 866, ../scss/components/blocks.scss */
 #blog2 .overlay-wrapper {
   display: block;
   background: none;
@@ -9671,7 +9806,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 753, ../scss/components/blocks.scss */
+/* line 880, ../scss/components/blocks.scss */
 #blog2:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog/overview/corporate-blind.jpg"), url("../patterns/XLF_hover_cyan_S.png");
@@ -9684,7 +9819,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 768, ../scss/components/blocks.scss */
+/* line 895, ../scss/components/blocks.scss */
 #blog2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9696,24 +9831,24 @@ button.close {
   background-position: center;
   background-size: cover;
 }
-/* line 782, ../scss/components/blocks.scss */
+/* line 909, ../scss/components/blocks.scss */
 #blog2:hover #blog2-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 790, ../scss/components/blocks.scss */
+/* line 917, ../scss/components/blocks.scss */
 #blog3 {
   background: url("../images/blog/overview/business-sprint.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 794, ../scss/components/blocks.scss */
+/* line 921, ../scss/components/blocks.scss */
 #blog3 #blog3-hover {
   display: none;
 }
-/* line 797, ../scss/components/blocks.scss */
+/* line 924, ../scss/components/blocks.scss */
 #blog3 .overlay-wrapper {
   display: block;
   background: none;
@@ -9726,7 +9861,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 811, ../scss/components/blocks.scss */
+/* line 938, ../scss/components/blocks.scss */
 #blog3:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog/overview/business-sprint.jpg"), url("../patterns/XLF_hover_cyan_S.png");
@@ -9739,7 +9874,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 826, ../scss/components/blocks.scss */
+/* line 953, ../scss/components/blocks.scss */
 #blog3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9751,24 +9886,24 @@ button.close {
   background-position: center;
   background-size: cover;
 }
-/* line 839, ../scss/components/blocks.scss */
+/* line 966, ../scss/components/blocks.scss */
 #blog3:hover #blog3-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 847, ../scss/components/blocks.scss */
+/* line 974, ../scss/components/blocks.scss */
 #blog4 {
   background: url("../images/blog/overview/innovation-model.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 851, ../scss/components/blocks.scss */
+/* line 978, ../scss/components/blocks.scss */
 #blog4 #blog4-hover {
   display: none;
 }
-/* line 854, ../scss/components/blocks.scss */
+/* line 981, ../scss/components/blocks.scss */
 #blog4 .overlay-wrapper {
   display: block;
   background: none;
@@ -9781,7 +9916,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 868, ../scss/components/blocks.scss */
+/* line 995, ../scss/components/blocks.scss */
 #blog4:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog/overview/innovation-model.jpg"), url("../patterns/XLF_hover_cyan_S.png");
@@ -9794,7 +9929,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 883, ../scss/components/blocks.scss */
+/* line 1010, ../scss/components/blocks.scss */
 #blog4:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9806,24 +9941,24 @@ button.close {
   background-position: center;
   background-size: cover;
 }
-/* line 896, ../scss/components/blocks.scss */
+/* line 1023, ../scss/components/blocks.scss */
 #blog4:hover #blog4-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 904, ../scss/components/blocks.scss */
+/* line 1031, ../scss/components/blocks.scss */
 #blog5 {
   background: url("../images/blog/overview/being-lean.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 908, ../scss/components/blocks.scss */
+/* line 1035, ../scss/components/blocks.scss */
 #blog5 #blog5-hover {
   display: none;
 }
-/* line 911, ../scss/components/blocks.scss */
+/* line 1038, ../scss/components/blocks.scss */
 #blog5 .overlay-wrapper {
   display: block;
   background: none;
@@ -9836,7 +9971,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 925, ../scss/components/blocks.scss */
+/* line 1052, ../scss/components/blocks.scss */
 #blog5:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog/overview/being-lean.jpg"), url("../patterns/XLF_hover_cyan_S.png");
@@ -9849,7 +9984,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 940, ../scss/components/blocks.scss */
+/* line 1067, ../scss/components/blocks.scss */
 #blog5:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9861,24 +9996,24 @@ button.close {
   background-position: center;
   background-size: cover;
 }
-/* line 953, ../scss/components/blocks.scss */
+/* line 1080, ../scss/components/blocks.scss */
 #blog5:hover #blog5-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 961, ../scss/components/blocks.scss */
+/* line 1088, ../scss/components/blocks.scss */
 #blog6 {
   background: url("../images/blog/overview/copycatting.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 965, ../scss/components/blocks.scss */
+/* line 1092, ../scss/components/blocks.scss */
 #blog6 #blog6-hover {
   display: none;
 }
-/* line 968, ../scss/components/blocks.scss */
+/* line 1095, ../scss/components/blocks.scss */
 #blog6 .overlay-wrapper {
   display: block;
   background: none;
@@ -9891,7 +10026,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 982, ../scss/components/blocks.scss */
+/* line 1109, ../scss/components/blocks.scss */
 #blog6:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog/overview/copycatting.jpg"), url("../patterns/XLF_hover_cyan_S.png");
@@ -9904,7 +10039,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 997, ../scss/components/blocks.scss */
+/* line 1124, ../scss/components/blocks.scss */
 #blog6:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9916,24 +10051,24 @@ button.close {
   background-position: center;
   background-size: cover;
 }
-/* line 1010, ../scss/components/blocks.scss */
+/* line 1137, ../scss/components/blocks.scss */
 #blog6:hover #blog6-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1018, ../scss/components/blocks.scss */
+/* line 1145, ../scss/components/blocks.scss */
 #blog7 {
   background: url("../images/blog/overview/corporates-startups.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1022, ../scss/components/blocks.scss */
+/* line 1149, ../scss/components/blocks.scss */
 #blog7 #blog7-hover {
   display: none;
 }
-/* line 1025, ../scss/components/blocks.scss */
+/* line 1152, ../scss/components/blocks.scss */
 #blog7 .overlay-wrapper {
   display: block;
   background: none;
@@ -9946,7 +10081,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1039, ../scss/components/blocks.scss */
+/* line 1166, ../scss/components/blocks.scss */
 #blog7:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog/overview/corporates-startups.jpg"), url("../patterns/XLF_hover_cyan_S.png");
@@ -9959,7 +10094,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1054, ../scss/components/blocks.scss */
+/* line 1181, ../scss/components/blocks.scss */
 #blog7:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -9971,24 +10106,24 @@ button.close {
   background-position: center;
   background-size: cover;
 }
-/* line 1067, ../scss/components/blocks.scss */
+/* line 1194, ../scss/components/blocks.scss */
 #blog7:hover #blog7-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1075, ../scss/components/blocks.scss */
+/* line 1202, ../scss/components/blocks.scss */
 #blog8 {
   background: url("../images/blog/overview/landing-page-validation.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1079, ../scss/components/blocks.scss */
+/* line 1206, ../scss/components/blocks.scss */
 #blog8 #blog8-hover {
   display: none;
 }
-/* line 1082, ../scss/components/blocks.scss */
+/* line 1209, ../scss/components/blocks.scss */
 #blog8 .overlay-wrapper {
   display: block;
   background: none;
@@ -10001,7 +10136,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1096, ../scss/components/blocks.scss */
+/* line 1223, ../scss/components/blocks.scss */
 #blog8:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog/overview/landing-page-validation.jpg"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10014,7 +10149,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1111, ../scss/components/blocks.scss */
+/* line 1238, ../scss/components/blocks.scss */
 #blog8:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10026,24 +10161,24 @@ button.close {
   background-position: center;
   background-size: cover;
 }
-/* line 1125, ../scss/components/blocks.scss */
+/* line 1252, ../scss/components/blocks.scss */
 #blog8:hover #blog8-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1133, ../scss/components/blocks.scss */
+/* line 1260, ../scss/components/blocks.scss */
 #blog9 {
   background: url("../images/blog/overview/sci-fi.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1137, ../scss/components/blocks.scss */
+/* line 1264, ../scss/components/blocks.scss */
 #blog9 #blog9-hover {
   display: none;
 }
-/* line 1140, ../scss/components/blocks.scss */
+/* line 1267, ../scss/components/blocks.scss */
 #blog9 .overlay-wrapper {
   display: block;
   background: none;
@@ -10056,7 +10191,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1154, ../scss/components/blocks.scss */
+/* line 1281, ../scss/components/blocks.scss */
 #blog9:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog/overview/sci-fi.jpg"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10069,7 +10204,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1169, ../scss/components/blocks.scss */
+/* line 1296, ../scss/components/blocks.scss */
 #blog9:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10081,24 +10216,24 @@ button.close {
   background-position: center;
   background-size: cover;
 }
-/* line 1182, ../scss/components/blocks.scss */
+/* line 1309, ../scss/components/blocks.scss */
 #blog9:hover #blog9-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1190, ../scss/components/blocks.scss */
+/* line 1317, ../scss/components/blocks.scss */
 #blog10 {
   background: url("../images/blog/overview/customer-interviews.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1194, ../scss/components/blocks.scss */
+/* line 1321, ../scss/components/blocks.scss */
 #blog10 #blog10-hover {
   display: none;
 }
-/* line 1197, ../scss/components/blocks.scss */
+/* line 1324, ../scss/components/blocks.scss */
 #blog10 .overlay-wrapper {
   display: block;
   background: none;
@@ -10111,7 +10246,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1211, ../scss/components/blocks.scss */
+/* line 1338, ../scss/components/blocks.scss */
 #blog10:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog/overview/customer-interviews.jpg"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10124,7 +10259,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1226, ../scss/components/blocks.scss */
+/* line 1353, ../scss/components/blocks.scss */
 #blog10:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10136,24 +10271,24 @@ button.close {
   background-position: center;
   background-size: cover;
 }
-/* line 1239, ../scss/components/blocks.scss */
+/* line 1366, ../scss/components/blocks.scss */
 #blog10:hover #blog10-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1250, ../scss/components/blocks.scss */
+/* line 1377, ../scss/components/blocks.scss */
 #discover-client1 {
   background: url("../images/xl_blog_1.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1254, ../scss/components/blocks.scss */
+/* line 1381, ../scss/components/blocks.scss */
 #discover-client1 #discover-client1-hover {
   display: none;
 }
-/* line 1257, ../scss/components/blocks.scss */
+/* line 1384, ../scss/components/blocks.scss */
 #discover-client1 .overlay-wrapper {
   display: block;
   background: none;
@@ -10166,7 +10301,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1271, ../scss/components/blocks.scss */
+/* line 1398, ../scss/components/blocks.scss */
 #discover-client1:hover .overlay-wrapper {
   display: block;
   background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10179,7 +10314,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1286, ../scss/components/blocks.scss */
+/* line 1413, ../scss/components/blocks.scss */
 #discover-client1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10192,24 +10327,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1300, ../scss/components/blocks.scss */
+/* line 1427, ../scss/components/blocks.scss */
 #discover-client1:hover #discover-client1-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1308, ../scss/components/blocks.scss */
+/* line 1435, ../scss/components/blocks.scss */
 #discover-client2 {
   background: url("../images/blog 4.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1312, ../scss/components/blocks.scss */
+/* line 1439, ../scss/components/blocks.scss */
 #discover-client2 #discover-client2-hover {
   display: none;
 }
-/* line 1315, ../scss/components/blocks.scss */
+/* line 1442, ../scss/components/blocks.scss */
 #discover-client2 .overlay-wrapper {
   display: block;
   background: none;
@@ -10222,7 +10357,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1329, ../scss/components/blocks.scss */
+/* line 1456, ../scss/components/blocks.scss */
 #discover-client2:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog 4.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10235,7 +10370,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1344, ../scss/components/blocks.scss */
+/* line 1471, ../scss/components/blocks.scss */
 #discover-client2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10248,24 +10383,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1358, ../scss/components/blocks.scss */
+/* line 1485, ../scss/components/blocks.scss */
 #discover-client2:hover #discover-client2-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1366, ../scss/components/blocks.scss */
+/* line 1493, ../scss/components/blocks.scss */
 #discover-client3 {
   background: url("../images/blog 3.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1370, ../scss/components/blocks.scss */
+/* line 1497, ../scss/components/blocks.scss */
 #discover-client3 #discover-client3-hover {
   display: none;
 }
-/* line 1373, ../scss/components/blocks.scss */
+/* line 1500, ../scss/components/blocks.scss */
 #discover-client3 .overlay-wrapper {
   display: block;
   background: none;
@@ -10278,7 +10413,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1387, ../scss/components/blocks.scss */
+/* line 1514, ../scss/components/blocks.scss */
 #discover-client3:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog 3.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10291,7 +10426,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1402, ../scss/components/blocks.scss */
+/* line 1529, ../scss/components/blocks.scss */
 #discover-client3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10304,24 +10439,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1416, ../scss/components/blocks.scss */
+/* line 1543, ../scss/components/blocks.scss */
 #discover-client3:hover #discover-client3-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1424, ../scss/components/blocks.scss */
+/* line 1551, ../scss/components/blocks.scss */
 #discover-client4 {
   background: url("../images/Mask.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1428, ../scss/components/blocks.scss */
+/* line 1555, ../scss/components/blocks.scss */
 #discover-client4 #discover-client4-hover {
   display: none;
 }
-/* line 1431, ../scss/components/blocks.scss */
+/* line 1558, ../scss/components/blocks.scss */
 #discover-client4 .overlay-wrapper {
   display: block;
   background: none;
@@ -10334,7 +10469,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1445, ../scss/components/blocks.scss */
+/* line 1572, ../scss/components/blocks.scss */
 #discover-client4:hover .overlay-wrapper {
   display: block;
   background: url("../images/Mask.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10347,7 +10482,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1460, ../scss/components/blocks.scss */
+/* line 1587, ../scss/components/blocks.scss */
 #discover-client4:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10360,24 +10495,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1474, ../scss/components/blocks.scss */
+/* line 1601, ../scss/components/blocks.scss */
 #discover-client4:hover #discover-client4-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1483, ../scss/components/blocks.scss */
+/* line 1610, ../scss/components/blocks.scss */
 #discover-client5 {
   background: url("../images/Mask.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1487, ../scss/components/blocks.scss */
+/* line 1614, ../scss/components/blocks.scss */
 #discover-client5 #discover-client5-hover {
   display: none;
 }
-/* line 1490, ../scss/components/blocks.scss */
+/* line 1617, ../scss/components/blocks.scss */
 #discover-client5 .overlay-wrapper {
   display: block;
   background: none;
@@ -10390,7 +10525,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1504, ../scss/components/blocks.scss */
+/* line 1631, ../scss/components/blocks.scss */
 #discover-client5:hover .overlay-wrapper {
   display: block;
   background: url("../images/Mask.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10403,7 +10538,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1519, ../scss/components/blocks.scss */
+/* line 1646, ../scss/components/blocks.scss */
 #discover-client5:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10416,24 +10551,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1533, ../scss/components/blocks.scss */
+/* line 1660, ../scss/components/blocks.scss */
 #discover-client5:hover #discover-client5-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1550, ../scss/components/blocks.scss */
+/* line 1677, ../scss/components/blocks.scss */
 #location1 {
   background: url("../images/amsteradm.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1554, ../scss/components/blocks.scss */
+/* line 1681, ../scss/components/blocks.scss */
 #location1 #location1-hover {
   display: none;
 }
-/* line 1557, ../scss/components/blocks.scss */
+/* line 1684, ../scss/components/blocks.scss */
 #location1 .overlay-wrapper {
   display: block;
   background: none;
@@ -10446,7 +10581,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1571, ../scss/components/blocks.scss */
+/* line 1698, ../scss/components/blocks.scss */
 #location1:hover .overlay-wrapper {
   display: block;
   background: url("../images/amsteradm.jpg"), url("../patterns/XLF_Hover_pink_S.png");
@@ -10459,7 +10594,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1586, ../scss/components/blocks.scss */
+/* line 1713, ../scss/components/blocks.scss */
 #location1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10472,24 +10607,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1600, ../scss/components/blocks.scss */
+/* line 1727, ../scss/components/blocks.scss */
 #location1:hover #location1-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1609, ../scss/components/blocks.scss */
+/* line 1736, ../scss/components/blocks.scss */
 #location2 {
   background: url("../images/leiden.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1613, ../scss/components/blocks.scss */
+/* line 1740, ../scss/components/blocks.scss */
 #location2 #location2-hover {
   display: none;
 }
-/* line 1616, ../scss/components/blocks.scss */
+/* line 1743, ../scss/components/blocks.scss */
 #location2 .overlay-wrapper {
   display: block;
   background: none;
@@ -10502,7 +10637,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1630, ../scss/components/blocks.scss */
+/* line 1757, ../scss/components/blocks.scss */
 #location2:hover .overlay-wrapper {
   display: block;
   background: url("../images/leiden.jpg"), url("../patterns/XLF_Hover_pink_S.png");
@@ -10515,7 +10650,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1645, ../scss/components/blocks.scss */
+/* line 1772, ../scss/components/blocks.scss */
 #location2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10528,24 +10663,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1659, ../scss/components/blocks.scss */
+/* line 1786, ../scss/components/blocks.scss */
 #location2:hover #location2-hover {
   display: block;
   margin-top: 50px;
   max-width: 400px;
 }
 
-/* line 1668, ../scss/components/blocks.scss */
+/* line 1795, ../scss/components/blocks.scss */
 #location3 {
   background: url("../images/bucharest.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1672, ../scss/components/blocks.scss */
+/* line 1799, ../scss/components/blocks.scss */
 #location3 #location3-hover {
   display: none;
 }
-/* line 1675, ../scss/components/blocks.scss */
+/* line 1802, ../scss/components/blocks.scss */
 #location3 .overlay-wrapper {
   display: block;
   background: none;
@@ -10558,7 +10693,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1689, ../scss/components/blocks.scss */
+/* line 1816, ../scss/components/blocks.scss */
 #location3:hover .overlay-wrapper {
   display: block;
   background: url("../images/bucharest.jpg"), url("../patterns/XLF_Hover_pink_S.png");
@@ -10571,7 +10706,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1704, ../scss/components/blocks.scss */
+/* line 1831, ../scss/components/blocks.scss */
 #location3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10584,7 +10719,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1718, ../scss/components/blocks.scss */
+/* line 1845, ../scss/components/blocks.scss */
 #location3:hover #location3-hover {
   display: block;
   margin-top: 50px;

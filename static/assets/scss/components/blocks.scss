@@ -367,7 +367,6 @@
     left: 0;
     background-size: cover;
     background-position:center;
-
   }
 
   &:hover {
@@ -380,11 +379,11 @@
       left: 0;
       background-size: cover;
       background-position:center;
-      }
-
     }
-
-    .background-wrapper,.article-block-sci-fi-hover {
+    .background-wrapper, .article-block-sci-fi-hover, .article-block-corporate-blind-hover, .article-block-corporate-acceleration-hover,
+    .article-block-being-lean-hover, .article-block-copycatting-hover, .article-block-business-sprint-hover, .article-block-corporates-startups-hover,
+    .article-block-customer-interviews-hover, .article-block-innovation-model-hover, .article-block-landing-page-validation-hover,
+    .adventure-block-xllab-hover, .adventure-block-xlventures-hover, .adventure-block-xlevents-hover{
 
       position: absolute;
       display: block;
@@ -392,8 +391,7 @@
       top: 0;
       width: 100%;
       height: 100%;
-
-    }
+   }
 
     .background_gradient-wrapper3 {
       display: block;
@@ -404,6 +402,7 @@
       max-width: 400px;
     }
   }
+}
 
 
 
@@ -443,7 +442,10 @@
     }
 
 
-    .background-wrapper, .article-block-corporate-blind-hover  {
+    .background-wrapper, .article-block-sci-fi-hover, .article-block-corporate-blind-hover, .article-block-corporate-acceleration-hover,
+    .article-block-being-lean-hover, .article-block-copycatting-hover, .article-block-business-sprint-hover, .article-block-corporates-startups-hover,
+    .article-block-customer-interviews-hover, .article-block-innovation-model-hover, .article-block-landing-page-validation-hover,
+    .adventure-block-xllab-hover, .adventure-block-xlventures-hover, .adventure-block-xlevents-hover  {
       position: absolute;
       display: block;
       left: 0;
@@ -499,7 +501,10 @@
       background-position:center;
     }
 
-    .background-wrapper, .article-block-corporate-acceleration-hover {
+    .background-wrapper, .article-block-sci-fi-hover, .article-block-corporate-blind-hover, .article-block-corporate-acceleration-hover,
+    .article-block-being-lean-hover, .article-block-copycatting-hover, .article-block-business-sprint-hover, .article-block-corporates-startups-hover,
+    .article-block-customer-interviews-hover, .article-block-innovation-model-hover, .article-block-landing-page-validation-hover,
+    .case-block-bdo-hover, .case-block-veh-hover, .case-block-broshuis-hover, .case-block-deltalloyd-hover {
 
       position: absolute;
       display: block;
@@ -570,8 +575,7 @@
   background-size: cover;
 }
 
-
-
+/*===being-lean===*/
 
 #article-block-being-lean {
   background: url("../images/blog/desktop/being-lean.jpg") no-repeat;
@@ -579,17 +583,44 @@
   background-position:center;
 }
 
+.article-block-being-lean-hover {
+  background:url("../images/blog/desktop/being-lean.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*===copycatting===*/
+
 #article-block-copycatting {
   background: url("../images/blog/desktop/copycatting.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
 
-#article-block-business-sprint {
-  background: url("../images/blog/desktop/business-sprint.jpg") no-repeat;
-  background-size: cover;
+.article-block-copycatting-hover {
+  background: url("../images/blog/desktop/copycatting.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
   background-position:center;
+  background-size: cover;
 }
+
+/*===business-sprint===*/
+
+#article-block-business-sprint {
+   background: url("../images/blog/desktop/business-sprint.jpg") no-repeat;
+   background-size: cover;
+   background-position:center;
+ }
+
+.article-block-business-sprint-hover {
+  background:url("../images/blog/desktop/business-sprint.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*===corporates-startups===*/
 
 #article-block-corporates-startups {
   background: url("../images/blog/desktop/corporates-startups.jpg") no-repeat;
@@ -597,11 +628,29 @@
   background-position:center;
 }
 
+.article-block-corporates-startups-hover {
+  background: url("../images/blog/desktop/corporates-startups.jpg") , url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*====customer-interviews====*/
+
 #article-block-customer-interviews {
   background: url("../images/blog/desktop/customer-interviews.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
+
+.article-block-customer-interviews-hover {
+  background:url("../images/blog/desktop/customer-interviews.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*===innovation-model===*/
 
 #article-block-innovation-model {
   background: url("../images/blog/desktop/innovation-model.jpg") no-repeat;
@@ -609,16 +658,34 @@
   background-position:center;
 }
 
+.article-block-innovation-model-hover {
+  background:url("../images/blog/desktop/innovation-model.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+
+/*===landing-page-validation===*/
+
 #article-block-landing-page-validation {
   background: url("../images/blog/desktop/landing-page-validation.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
 
+.article-block-landing-page-validation-hover {
+  background: url("../images/blog/desktop/landing-page-validation.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
 
 /*====CLIENT CASES===*/
 
 /*===images block all blocks cases===*/
+
+/*===BDO===*/
 
 #case-block-bdo {
   background: url("../images/cases/desktop/bdo.jpg") no-repeat;
@@ -626,11 +693,30 @@
   background-position:center;
 }
 
+.case-block-bdo-hover {
+  background: url("../images/cases/desktop/bdo.jpg"), url("../patterns/XLF_Hover_pink_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*===VEH===*/
+
 #case-block-veh {
   background: url("../images/cases/desktop/veh.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
+
+.case-block-veh-hover {
+  background: url("../images/cases/desktop/veh.jpg"), url("../patterns/XLF_Hover_pink_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*===BROSHUIS===*/
+
 
 #case-block-broshuis {
   background: url("../images/cases/desktop/broshuis.jpg") no-repeat;
@@ -638,36 +724,77 @@
   background-position:center;
 }
 
+.case-block-broshuis-hover {
+  background: url("../images/cases/desktop/broshuis.jpg"), url("../patterns/XLF_Hover_pink_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*===DELTALLOYD==*/
+
 #case-block-deltalloyd {
   background: url("../images/cases/desktop/delta_lloyd.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
 
+.case-block-deltalloyd-hover {
+  background: url("../images/cases/desktop/delta_lloyd.jpg"), url("../patterns/XLF_Hover_pink_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
 
 
 /*====ADVENTURES===*/
 
 /*===images block all blocks adventures===*/
 
+/*===XLlab===*/
+
 #adventure-block-xllab {
-  background: url("../images/adventure-headers/desktop/xllab.jpg") no-repeat;
+  background: url("../images/adventures-headers/desktop/xllab.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
+
+.adventure-block-xllab-hover {
+  background: url("../images/adventures-headers/desktop/xllab.jpg"), url("../patterns/XLF_hover_green_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*===XLventures===*/
 
 #adventure-block-xlventures {
-  background: url("../images/adventure-headers/desktop/xlventures.jpg") no-repeat;
+  background: url("../images/adventures-headers/desktop/xlventures.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
+
+.adventure-block-xlventures-hover {
+  background: url("../images/adventures-headers/desktop/xlventures.jpg"), url("../patterns/XLF_hover_green_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*===XLevents===*/
 
 #adventure-block-xlevents {
-  background: url("../images/adventure-headers/desktop/xlevents.jpg") no-repeat;
+  background: url("../images/adventures-headers/desktop/xlevents.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
 
+.adventure-block-xlevents-hover {
+  background: url("../images/adventures-headers/desktop/xlevents.jpg"), url("../patterns/XLF_hover_green_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
 
 //*Blog overview*//
 
