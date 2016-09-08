@@ -346,7 +346,7 @@
 
 //====*SECTIONS FOR MORE ABOUT THIS TOPIC AND READ NEXT ARTICLE*====//
 
-/*====Artcile-Block-1====*/
+/*====Article-Block-1====*/
 
 .article-block-1 {
 
@@ -373,7 +373,6 @@
   &:hover {
     .overlay-wrapper {
       display: block;
-      background-blend-mode: multiply;
       width: 100%;
       height: 100%;
       position: absolute;
@@ -381,13 +380,11 @@
       left: 0;
       background-size: cover;
       background-position:center;
-      .sci-fi-hover {
-      background:url("../images/blog/desktop/sci-fi.jpg"), url("../patterns/XLF_Hover_pink_S.png");
       }
 
     }
 
-    .background-wrapper {
+    .background-wrapper,.article-block-sci-fi-hover {
 
       position: absolute;
       display: block;
@@ -395,9 +392,6 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: url("../images/blog/desktop/sci-fi.jpg");
-      background-size: cover;
-      background-position:center;
 
     }
 
@@ -410,10 +404,11 @@
       max-width: 400px;
     }
   }
-}
 
 
-/*====Artcile-Block-2====*/
+
+/*====Article-Block-2====*/
+
 .article-block-2 {
 
   background-size: cover;
@@ -438,8 +433,6 @@
   &:hover {
     .overlay-wrapper {
       display: block;
-      background:url("../images/broshuis.jpeg"), url("../patterns/XLF_Hover_pink_S.png");
-      background-blend-mode: multiply;
       width: 100%;
       height: 100%;
       position: absolute;
@@ -450,17 +443,13 @@
     }
 
 
-    .background-wrapper {
+    .background-wrapper, .article-block-corporate-blind-hover  {
       position: absolute;
       display: block;
       left: 0;
       top: 0;
       width: 100%;
       height: 100%;
-      background: url("../images/broshuis.jpeg");
-      background-position:center;
-      background-size: cover;
-
     }
 
     .background_gradient-wrapper2 {
@@ -476,11 +465,12 @@
 
 
 
-/*====Artcile-Block-3=====*/
+/*====Article-Block-3=====*/
 
 .article-block-3 {
   background-size: cover;
   background-position:center;
+
   .article-block-3-hover {
     display: none;
   }
@@ -498,10 +488,8 @@
   }
 
   &:hover {
-    .overlay-wrapper {
+    .overlay-wrapper, .broshuis {
       display: block;
-      background:url("../images/broshuis.jpeg"), url("../patterns/XLF_Hover_pink_S.png");
-      background-blend-mode: multiply;
       width: 100%;
       height: 100%;
       position: absolute;
@@ -511,9 +499,7 @@
       background-position:center;
     }
 
-
-
-    .background-wrapper {
+    .background-wrapper, .article-block-corporate-acceleration-hover {
 
       position: absolute;
       display: block;
@@ -521,9 +507,6 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: url("../images/broshuis.jpeg");
-      background-position:center;
-      background-size: cover;
 
     }
 
@@ -541,23 +524,54 @@
 
 /*===images block all blocks articles===*/
 
+
+/*===sci-fi===*/
+
 #article-block-sci-fi {
   background: url("../images/blog/desktop/sci-fi.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
 
+.article-block-sci-fi-hover {
+  background:url("../images/blog/desktop/sci-fi.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*===corporate-blind===*/
 #article-block-corporate-blind {
   background: url("../images/blog/desktop/corporate-blind.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
 
+
+.article-block-corporate-blind-hover {
+  background:url("../images/blog/desktop/corporate-blind.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+/*===corporate-acceleration===*/
+
 #article-block-corporate-acceleration {
   background: url("../images/blog/desktop/corporate-acceleration.jpg") no-repeat;
   background-size: cover;
   background-position:center;
 }
+
+.article-block-corporate-acceleration-hover {
+  background:url("../images/blog/desktop/corporate-acceleration.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+  background-blend-mode: multiply;
+  background-position:center;
+  background-size: cover;
+}
+
+
+
 
 #article-block-being-lean {
   background: url("../images/blog/desktop/being-lean.jpg") no-repeat;

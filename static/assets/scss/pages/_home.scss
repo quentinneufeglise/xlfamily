@@ -573,7 +573,7 @@ display: none;
 
 
 /*===CASES-AND-STORIES===*/
-
+//removed  background: red; from .background-wrapper
 
 
 .background-wrapper {
@@ -584,10 +584,11 @@ display: none;
   top:0;
   width: 100%;
   height: 100%;
-  background: red;
+
 }
 
 .background_gradient-wrapper1 {
+
 
   position: absolute;
   display: block;
