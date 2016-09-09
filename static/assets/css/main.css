@@ -9690,7 +9690,7 @@ button.close {
 
 /* line 762, ../scss/components/blocks.scss */
 .adventure-block-xllab-hover {
-  background: url("../images/adventures-headers/desktop/xllab.jpg"), url("../patterns/XLF_hover_green_S.png");
+  background: url("../images/adventures-headers/desktop/xllab.jpg"), url("../patterns/XLF_Hover_green_S.png");
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
@@ -9706,7 +9706,7 @@ button.close {
 
 /* line 777, ../scss/components/blocks.scss */
 .adventure-block-xlventures-hover {
-  background: url("../images/adventures-headers/desktop/xlventures.jpg"), url("../patterns/XLF_hover_green_S.png");
+  background: url("../images/adventures-headers/desktop/xlventures.jpg"), url("../patterns/XLF_Hover_green_S.png");
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
@@ -9722,7 +9722,7 @@ button.close {
 
 /* line 792, ../scss/components/blocks.scss */
 .adventure-block-xlevents-hover {
-  background: url("../images/adventures-headers/desktop/xlevents.jpg"), url("../patterns/XLF_hover_green_S.png");
+  background: url("../images/adventures-headers/desktop/xlevents.jpg"), url("../patterns/XLF_Hover_green_S.png");
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
@@ -14705,7 +14705,7 @@ body {
 /* line 936, ../scss/pages/_home.scss */
 .case-person {
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
   color: black;
 }
@@ -15057,14 +15057,14 @@ body {
 
 /* line 1289, ../scss/pages/_home.scss */
 .case-person-desc {
-  font-size: 20px;
+  font-size: 18px;
   color: gray;
   font-family: "Raleway", sans-serif;
 }
 
 /* line 1297, ../scss/pages/_home.scss */
 .list-by {
-  font-size: 20px;
+  font-size: 18px;
   color: black;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -15073,7 +15073,7 @@ body {
 @media only screen and (max-device-width: 767px) {
   /* line 1305, ../scss/pages/_home.scss */
   .case-link {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: underline;
     color: #00aeef;
     font-weight: 900;
@@ -15081,7 +15081,7 @@ body {
   }
   /* line 1313, ../scss/pages/_home.scss */
   .case-link:hover, .case-link:focus {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: underline;
     color: #00aeef;
     font-weight: 900;
@@ -15090,7 +15090,7 @@ body {
 @media only screen and (min-device-width: 768px) {
   /* line 1305, ../scss/pages/_home.scss */
   .case-link {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: underline;
     color: #00aeef;
     position: relative;
@@ -15100,7 +15100,7 @@ body {
   }
   /* line 1329, ../scss/pages/_home.scss */
   .case-link:hover, .case-link:focus {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: underline;
     color: #00aeef;
     position: relative;
@@ -17781,65 +17781,64 @@ table {
   justify-content: center;
 }
 
+/* line 357, ../scss/pages/cases.scss */
+.case-text {
+  font-family: "Raleway", sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.563rem;
+  position: relative;
+}
 @media only screen and (max-device-width: 767px) {
   /* line 357, ../scss/pages/cases.scss */
   .case-text {
     font-size: 20px;
-    font-family: "Raleway", sans-serif;
     width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
   }
 }
 @media only screen and (min-device-width: 768px) {
   /* line 357, ../scss/pages/cases.scss */
   .case-text {
-    font-size: 30px;
-    font-family: "Raleway", sans-serif;
+    font-size: 20px;
     width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
     text-align: center;
   }
 }
 
+/* line 379, ../scss/pages/cases.scss */
+.case-text2 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 1.563rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
 @media only screen and (max-device-width: 767px) {
-  /* line 381, ../scss/pages/cases.scss */
+  /* line 379, ../scss/pages/cases.scss */
   .case-text2 {
     font-size: 20px;
-    font-family: "Raleway", sans-serif;
     width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 381, ../scss/pages/cases.scss */
+  /* line 379, ../scss/pages/cases.scss */
   .case-text2 {
     font-size: 20px;
-    font-family: "Raleway", sans-serif;
     width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
     text-align: center;
   }
 }
 
-/* line 404, ../scss/pages/cases.scss */
+/* line 400, ../scss/pages/cases.scss */
 .cases-special1 {
   margin-bottom: 2rem;
   margin-top: 4rem;
 }
 
-/* line 411, ../scss/pages/cases.scss */
+/* line 407, ../scss/pages/cases.scss */
 .person-link-wrapper-case {
   width: 30rem;
   left: auto;
@@ -17848,7 +17847,7 @@ table {
   margin-right: auto;
 }
 
-/* line 419, ../scss/pages/cases.scss */
+/* line 415, ../scss/pages/cases.scss */
 .person-link-wrapper-case2 {
   width: 40rem;
   left: auto;
@@ -17857,7 +17856,7 @@ table {
   margin-right: auto;
 }
 
-/* line 428, ../scss/pages/cases.scss */
+/* line 424, ../scss/pages/cases.scss */
 .pijl-article-onder2 {
   width: 13.125rem;
   position: relative;

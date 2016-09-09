@@ -355,23 +355,21 @@ table {
 }
 
 .case-text {
+  font-family: $raleway;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.563rem;
+  position: relative;
+
   @media only screen and (max-device-width: 767px) {
     font-size: $font-ht;
-    font-family: $raleway;
     width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
   }
 
   @media only screen and (min-device-width: 768px)   {
-    font-size: 30px;
-    font-family: $raleway;
+    font-size: 20px;
     width: 90%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
     text-align: center;
   }
@@ -379,24 +377,22 @@ table {
 
 
 .case-text2 {
+  font-family: $raleway;
+  margin-bottom: 1.563rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
   @media only screen and (max-device-width: 767px) {
     font-size: $font-ht;
-    font-family: $raleway;
     width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+
   }
 
   @media only screen and (min-device-width: 768px)   {
     font-size: 20px;
-    font-family: $raleway;
     width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
     text-align: center;
   }
 }

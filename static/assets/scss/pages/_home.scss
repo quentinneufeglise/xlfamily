@@ -935,7 +935,7 @@ display: none;
 
 .case-person {
   font-family: $raleway;
-  font-size: $font-ht;
+  font-size: 18px;
   font-weight: 800;
   color: black;
 
@@ -1287,7 +1287,7 @@ display: none;
   }
 }
 .case-person-desc {
-  font-size: $font-ht;
+  font-size: 18px;
   color:gray;
   font-family: $raleway;
 
@@ -1295,7 +1295,7 @@ display: none;
 }
 
 .list-by {
-  font-size: $font-ht;
+  font-size: 18px;
   color:black;
   font-family: $raleway;
   font-weight: 400;
@@ -1305,13 +1305,13 @@ display: none;
 .case-link {
 
   @media only screen and (max-device-width: 767px) {
-    font-size: $font-ht;
+    font-size: 18px;
     text-decoration: underline;
     color: $brand-color-blue;
     font-weight:900;
     cursor: pointer;
     &:hover, &:focus{
-      font-size: $font-ht;
+      font-size: 18px;
       text-decoration: underline;
       color: $brand-color-blue;
       font-weight:900;
@@ -1319,7 +1319,7 @@ display: none;
   }
 
   @media only screen and (min-device-width: 768px)  {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: underline;
     color: #00aeef;
     position: relative;
@@ -1327,7 +1327,7 @@ display: none;
     cursor: pointer;
     float: right;
     &:hover, &:focus{
-      font-size: 20px;
+      font-size: 18px;
       text-decoration: underline;
       color: #00aeef;
       position: relative;
