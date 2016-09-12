@@ -833,149 +833,289 @@
 //*Blog overview*//
 
 
-#blog1 {
+#blog1 {@media only screen and (min-device-width: 768px) {
   background: url("../images/blog/overview/corporate-acceleration.jpg");
   background-size: cover;
   background-position:center;
-#blog1-hover {
-  display: none;
-}
-.overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position:center;
-}
-
-&:hover {
+  #blog1-hover {
+    display: none;
+  }
   .overlay-wrapper {
     display: block;
-    background:url("../images/blog/overview/corporate-acceleration.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
     background-blend-mode: multiply;
-    width: 100%;
-    height: 100%;
-    position: absolute;
     top: 0;
     left: 0;
     background-size: cover;
     background-position:center;
   }
 
+  &:hover {
+    .overlay-wrapper {
+      display: block;
+      background:url("../images/blog/overview/corporate-acceleration.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+      background-blend-mode: multiply;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
 
-  .background-wrapper {
 
-    position: absolute;
-    display: block;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background:url("../images/blog/overview/corporate-acceleration.jpg");
-    background-position:center;
+    .background-wrapper {
+
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background:url("../images/blog/overview/corporate-acceleration.jpg");
+      background-position:center;
+      background-size: cover;
+    }
+
+    #blog1-hover {
+      display: block;
+      margin-top: $story-hover;
+      max-width: 400px;
+    }
+  }
+
+}
+
+  @media only screen and (max-device-width: 767px) {
+    background: url("../images/blog/overview/corporate-acceleration.jpg");
     background-size: cover;
+    background-position:center;
+    #blog1-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position: center;
+    }
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/corporate-acceleration.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog1-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
   }
 
-  #blog1-hover {
-    display: block;
-    margin-top: $story-hover;
-    max-width: 400px;
-  }
-}
-}
+
 
 
 #blog2 {
-  background: url("../images/blog/overview/corporate-blind.jpg");
-  background-size: cover;
-  background-position:center;
-  #blog2-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
+  @media only screen and (min-device-width: 768px) {
+
+    background: url("../images/blog/overview/corporate-blind.jpg");
     background-size: cover;
     background-position:center;
-  }
-
-  &:hover {
+    #blog2-hover {
+      display: none;
+    }
     .overlay-wrapper {
       display: block;
-      background:url("../images/blog/overview/corporate-blind.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
       background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
       top: 0;
       left: 0;
       background-size: cover;
       background-position:center;
     }
 
+    &:hover {
+      .overlay-wrapper {
+        display: block;
+        background:url("../images/blog/overview/corporate-blind.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position:center;
+      }
 
 
-    .background-wrapper {
 
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background:url("../images/blog/overview/corporate-blind.jpg");
-      background-position:center;
-      background-size: cover;
+      .background-wrapper {
 
-    }
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/corporate-blind.jpg");
+        background-position:center;
+        background-size: cover;
 
-    #blog2-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
+      }
+
+      #blog2-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
     }
   }
-}
+
+  @media only screen and (max-device-width: 767px) {
+    background: url("../images/blog/overview/corporate-blind.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog2-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/corporate-blind.jpg");
+        background-position:center;
+        background-size: cover;
+
+      }
+
+      #blog2-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
+
 
 #blog3 {
-  background: url("../images/blog/overview/business-sprint.jpg");
-  background-size: cover;
-  background-position:center;
-  #blog3-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
+  @media only screen and (min-device-width: 768px) {
+    background: url("../images/blog/overview/business-sprint.jpg");
     background-size: cover;
     background-position:center;
-  }
-
-  &:hover {
+    #blog3-hover {
+      display: none;
+    }
     .overlay-wrapper {
       display: block;
-      background:url("../images/blog/overview/business-sprint.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
+      background: none;
       width: 100%;
       height: 100%;
       position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+    &:hover {
+      .overlay-wrapper {
+        display: block;
+        background:url("../images/blog/overview/business-sprint.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position:center;
+      }
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: url("../images/blog/overview/business-sprint.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+
+      #blog3-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+
+  }
+
+  @media only screen and (max-device-width: 767px) {
+    background: url("../images/blog/overview/business-sprint.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog3-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
       top: 0;
       left: 0;
       background-size: cover;
@@ -984,398 +1124,314 @@
 
 
 
-    .background-wrapper {
+      .background-wrapper {
 
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/blog/overview/business-sprint.jpg");
-      background-position: center;
-      background-size: cover;
-    }
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: url("../images/blog/overview/business-sprint.jpg");
+        background-position: center;
+        background-size: cover;
+      }
 
-    #blog3-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
+      #blog3-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
     }
   }
-}
+
+
 
 #blog4 {
-  background: url("../images/blog/overview/innovation-model.jpg");
-  background-size: cover;
-  background-position:center;
-  #blog4-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
+  @media only screen and (min-device-width: 768px) {
+
+    background: url("../images/blog/overview/innovation-model.jpg");
     background-size: cover;
     background-position:center;
-  }
-
-  &:hover {
+    #blog4-hover {
+      display: none;
+    }
     .overlay-wrapper {
       display: block;
-      background:url("../images/blog/overview/innovation-model.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
       background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
       top: 0;
       left: 0;
       background-size: cover;
       background-position:center;
     }
 
+    &:hover {
+      .overlay-wrapper {
+        display: block;
+        background:url("../images/blog/overview/innovation-model.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position:center;
+      }
 
 
-    .background-wrapper {
 
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background:url("../images/blog/overview/innovation-model.jpg");
-      background-position:center;
-      background-size: cover;
-    }
+      .background-wrapper {
 
-    #blog4-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/innovation-model.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog4-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
     }
   }
-}
+
+  @media only screen and (max-device-width: 767px) {
+    background: url("../images/blog/overview/innovation-model.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog4-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/innovation-model.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog4-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
+
 
 #blog5 {
-  background: url("../images/blog/overview/being-lean.jpg");
-  background-size: cover;
-  background-position:center;
-  #blog5-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
+  @media only screen and (min-device-width: 768px) {
+    background: url("../images/blog/overview/being-lean.jpg");
     background-size: cover;
     background-position:center;
-  }
-
-  &:hover {
+    #blog5-hover {
+      display: none;
+    }
     .overlay-wrapper {
       display: block;
-      background:url("../images/blog/overview/being-lean.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
+      background: none;
       width: 100%;
       height: 100%;
       position: absolute;
+      background-blend-mode: multiply;
       top: 0;
       left: 0;
       background-size: cover;
       background-position:center;
     }
 
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background:url("../images/blog/overview/being-lean.jpg");
-      background-position:center;
-      background-size: cover;
+    &:hover {
+      .overlay-wrapper {
+        display: block;
+        background:url("../images/blog/overview/being-lean.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position:center;
       }
 
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/being-lean.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog5-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+
+  }
+
+  @media only screen and (max-device-width: 767px) {
+    background: url("../images/blog/overview/being-lean.jpg");
+    background-size: cover;
+    background-position:center;
     #blog5-hover {
+      display: none;
+    }
+    .overlay-wrapper {
       display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/being-lean.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog5-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
     }
   }
-}
+
+
 
 #blog6 {
-  background: url("../images/blog/overview/copycatting.jpg");
-  background-size: cover;
-  background-position:center;
-  #blog6-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
+  @media only screen and (min-device-width: 768px) {
+
+    background: url("../images/blog/overview/copycatting.jpg");
     background-size: cover;
     background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/blog/overview/copycatting.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background:url("../images/blog/overview/copycatting.jpg");
-      background-position:center;
-      background-size: cover;
-    }
-
     #blog6-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
+      display: none;
     }
-  }
-}
-
-#blog7 {
-  background: url("../images/blog/overview/corporates-startups.jpg");
-  background-size: cover;
-  background-position:center;
-  #blog7-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
     .overlay-wrapper {
       display: block;
-      background:url("../images/blog/overview/corporates-startups.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
       background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
       top: 0;
       left: 0;
       background-size: cover;
       background-position:center;
     }
 
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background:url("../images/blog/overview/corporates-startups.jpg");
-      background-position:center;
-      background-size: cover;
-    }
-
-    #blog7-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
-
-#blog8 {
-  background: url("../images/blog/overview/landing-page-validation.jpg");
-  background-size: cover;
-  background-position:center;
-  #blog8-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/blog/overview/landing-page-validation.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background:url("../images/blog/overview/landing-page-validation.jpg");
-      background-position:center;
-      background-size: cover;
-
-    }
-
-    #blog8-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
-
-#blog9 {
-  background: url("../images/blog/overview/sci-fi.jpg");
-  background-size: cover;
-  background-position:center;
-  #blog9-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/blog/overview/sci-fi.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background:url("../images/blog/overview/sci-fi.jpg");
-      background-position:center;
-      background-size: cover;
+    &:hover {
+      .overlay-wrapper {
+        display: block;
+        background:url("../images/blog/overview/copycatting.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position:center;
       }
 
-    #blog9-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/copycatting.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog6-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
     }
   }
-}
 
-#blog10 {
-  background: url("../images/blog/overview/customer-interviews.jpg");
-  background-size: cover;
-  background-position:center;
-  #blog10-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
+  @media only screen and (max-device-width: 767px) {
+    background: url("../images/blog/overview/copycatting.jpg");
     background-size: cover;
     background-position:center;
-  }
-
-  &:hover {
+    #blog6-hover {
+      display: none;
+    }
     .overlay-wrapper {
       display: block;
-      background:url("../images/blog/overview/customer-interviews.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
       background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
       top: 0;
       left: 0;
       background-size: cover;
@@ -1384,26 +1440,458 @@
 
 
 
-    .background-wrapper {
 
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background:url("../images/blog/overview/customer-interviews.jpg");
-      background-position:center;
-      background-size: cover;
-    }
 
-    #blog10-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/copycatting.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog6-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
     }
   }
-}
+
+
+
+#blog7 {
+  @media only screen and (min-device-width: 768px) {
+
+
+    background: url("../images/blog/overview/corporates-startups.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog7-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+    &:hover {
+      .overlay-wrapper {
+        display: block;
+        background:url("../images/blog/overview/corporates-startups.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position:center;
+      }
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/corporates-startups.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog7-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
+  @media only screen and (max-device-width: 767px) {
+
+    background: url("../images/blog/overview/corporates-startups.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog7-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/corporates-startups.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog7-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
+
+#blog8 {
+  @media only screen and (min-device-width: 768px) {
+
+    background: url("../images/blog/overview/landing-page-validation.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog8-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+    &:hover {
+      .overlay-wrapper {
+        display: block;
+        background:url("../images/blog/overview/landing-page-validation.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position:center;
+      }
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/landing-page-validation.jpg");
+        background-position:center;
+        background-size: cover;
+
+      }
+
+      #blog8-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
+
+
+  @media only screen and (max-device-width: 767px) {
+
+    background: url("../images/blog/overview/landing-page-validation.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog8-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/landing-page-validation.jpg");
+        background-position:center;
+        background-size: cover;
+
+      }
+
+      #blog8-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
+
+  #blog9 {
+  @media only screen and (min-device-width: 768px) {
+
+    background: url("../images/blog/overview/sci-fi.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog9-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+    &:hover {
+      .overlay-wrapper {
+        display: block;
+        background:url("../images/blog/overview/sci-fi.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position:center;
+      }
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/sci-fi.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog9-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
+  @media only screen and (max-device-width: 767px) {
+    background: url("../images/blog/overview/sci-fi.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog9-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/sci-fi.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog9-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
+
+#blog10 {
+  @media only screen and (min-device-width: 768px) {
+
+    background: url("../images/blog/overview/customer-interviews.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog10-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+    &:hover {
+      .overlay-wrapper {
+        display: block;
+        background:url("../images/blog/overview/customer-interviews.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position:center;
+      }
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/customer-interviews.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog10-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
+
+  @media only screen and (max-device-width: 767px) {
+
+    background: url("../images/blog/overview/customer-interviews.jpg");
+    background-size: cover;
+    background-position:center;
+    #blog10-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position:center;
+    }
+
+
+
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background:url("../images/blog/overview/customer-interviews.jpg");
+        background-position:center;
+        background-size: cover;
+      }
+
+      #blog10-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
 
 
 //*Client need*//
