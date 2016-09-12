@@ -9040,7 +9040,7 @@ button.close {
 /* line 88, ../scss/components/blocks.scss */
 #story1:hover #story1-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 /* line 97, ../scss/components/blocks.scss */
@@ -9072,7 +9072,7 @@ button.close {
 /* line 124, ../scss/components/blocks.scss */
 #story1 a:hover #story1-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
@@ -9131,7 +9131,7 @@ button.close {
 /* line 185, ../scss/components/blocks.scss */
 #story2:hover #story2-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
@@ -9190,7 +9190,7 @@ button.close {
 /* line 249, ../scss/components/blocks.scss */
 #story3:hover #story3-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
@@ -9249,7 +9249,7 @@ button.close {
 /* line 310, ../scss/components/blocks.scss */
 #story4:hover #story4-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
@@ -9308,7 +9308,7 @@ button.close {
 /* line 371, ../scss/components/blocks.scss */
 #story5:hover #story5-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
@@ -9365,7 +9365,7 @@ button.close {
 /* line 433, ../scss/components/blocks.scss */
 .article-block-1:hover .article-block-1-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
@@ -9422,7 +9422,7 @@ button.close {
 /* line 494, ../scss/components/blocks.scss */
 .article-block-2:hover .article-block-2-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
@@ -9479,7 +9479,7 @@ button.close {
 /* line 555, ../scss/components/blocks.scss */
 .article-block-3:hover .article-block-3-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
@@ -9760,567 +9760,1017 @@ button.close {
   background-size: cover;
 }
 
-/* line 836, ../scss/components/blocks.scss */
-#blog1 {
-  background: url("../images/blog/overview/corporate-acceleration.jpg");
-  background-size: cover;
-  background-position: center;
+@media only screen and (min-device-width: 768px) {
+  /* line 836, ../scss/components/blocks.scss */
+  #blog1 {
+    background: url("../images/blog/overview/corporate-acceleration.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 840, ../scss/components/blocks.scss */
+  #blog1 #blog1-hover {
+    display: none;
+  }
+  /* line 843, ../scss/components/blocks.scss */
+  #blog1 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 857, ../scss/components/blocks.scss */
+  #blog1:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/blog/overview/corporate-acceleration.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 871, ../scss/components/blocks.scss */
+  #blog1:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/corporate-acceleration.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 884, ../scss/components/blocks.scss */
+  #blog1:hover #blog1-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
-/* line 840, ../scss/components/blocks.scss */
-#blog1 #blog1-hover {
-  display: none;
-}
-/* line 843, ../scss/components/blocks.scss */
-#blog1 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 857, ../scss/components/blocks.scss */
-#blog1:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/blog/overview/corporate-acceleration.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 871, ../scss/components/blocks.scss */
-#blog1:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/blog/overview/corporate-acceleration.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 884, ../scss/components/blocks.scss */
-#blog1:hover #blog1-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
-}
-
-/* line 893, ../scss/components/blocks.scss */
-#blog2 {
-  background: url("../images/blog/overview/corporate-blind.jpg");
-  background-size: cover;
-  background-position: center;
-}
-/* line 897, ../scss/components/blocks.scss */
-#blog2 #blog2-hover {
-  display: none;
-}
-/* line 900, ../scss/components/blocks.scss */
-#blog2 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 914, ../scss/components/blocks.scss */
-#blog2:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/blog/overview/corporate-blind.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 929, ../scss/components/blocks.scss */
-#blog2:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/blog/overview/corporate-blind.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 943, ../scss/components/blocks.scss */
-#blog2:hover #blog2-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
+@media only screen and (max-device-width: 767px) {
+  /* line 836, ../scss/components/blocks.scss */
+  #blog1 {
+    background: url("../images/blog/overview/corporate-acceleration.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 897, ../scss/components/blocks.scss */
+  #blog1 #blog1-hover {
+    display: none;
+  }
+  /* line 900, ../scss/components/blocks.scss */
+  #blog1 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 914, ../scss/components/blocks.scss */
+  #blog1 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/corporate-acceleration.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 927, ../scss/components/blocks.scss */
+  #blog1 #blog1-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
 
-/* line 951, ../scss/components/blocks.scss */
-#blog3 {
-  background: url("../images/blog/overview/business-sprint.jpg");
-  background-size: cover;
-  background-position: center;
+@media only screen and (min-device-width: 768px) {
+  /* line 938, ../scss/components/blocks.scss */
+  #blog2 {
+    background: url("../images/blog/overview/corporate-blind.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 944, ../scss/components/blocks.scss */
+  #blog2 #blog2-hover {
+    display: none;
+  }
+  /* line 947, ../scss/components/blocks.scss */
+  #blog2 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 961, ../scss/components/blocks.scss */
+  #blog2:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/blog/overview/corporate-blind.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 976, ../scss/components/blocks.scss */
+  #blog2:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/corporate-blind.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 990, ../scss/components/blocks.scss */
+  #blog2:hover #blog2-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
-/* line 955, ../scss/components/blocks.scss */
-#blog3 #blog3-hover {
-  display: none;
-}
-/* line 958, ../scss/components/blocks.scss */
-#blog3 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 972, ../scss/components/blocks.scss */
-#blog3:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/blog/overview/business-sprint.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 987, ../scss/components/blocks.scss */
-#blog3:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/blog/overview/business-sprint.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1000, ../scss/components/blocks.scss */
-#blog3:hover #blog3-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
-}
-
-/* line 1008, ../scss/components/blocks.scss */
-#blog4 {
-  background: url("../images/blog/overview/innovation-model.jpg");
-  background-size: cover;
-  background-position: center;
-}
-/* line 1012, ../scss/components/blocks.scss */
-#blog4 #blog4-hover {
-  display: none;
-}
-/* line 1015, ../scss/components/blocks.scss */
-#blog4 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1029, ../scss/components/blocks.scss */
-#blog4:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/blog/overview/innovation-model.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1044, ../scss/components/blocks.scss */
-#blog4:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/blog/overview/innovation-model.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1057, ../scss/components/blocks.scss */
-#blog4:hover #blog4-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
+@media only screen and (max-device-width: 767px) {
+  /* line 938, ../scss/components/blocks.scss */
+  #blog2 {
+    background: url("../images/blog/overview/corporate-blind.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1002, ../scss/components/blocks.scss */
+  #blog2 #blog2-hover {
+    display: none;
+  }
+  /* line 1005, ../scss/components/blocks.scss */
+  #blog2 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1022, ../scss/components/blocks.scss */
+  #blog2 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/corporate-blind.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1036, ../scss/components/blocks.scss */
+  #blog2 #blog2-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
 
-/* line 1065, ../scss/components/blocks.scss */
-#blog5 {
-  background: url("../images/blog/overview/being-lean.jpg");
-  background-size: cover;
-  background-position: center;
+@media only screen and (min-device-width: 768px) {
+  /* line 1046, ../scss/components/blocks.scss */
+  #blog3 {
+    background: url("../images/blog/overview/business-sprint.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1051, ../scss/components/blocks.scss */
+  #blog3 #blog3-hover {
+    display: none;
+  }
+  /* line 1054, ../scss/components/blocks.scss */
+  #blog3 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1068, ../scss/components/blocks.scss */
+  #blog3:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/blog/overview/business-sprint.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1083, ../scss/components/blocks.scss */
+  #blog3:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/business-sprint.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1096, ../scss/components/blocks.scss */
+  #blog3:hover #blog3-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
-/* line 1069, ../scss/components/blocks.scss */
-#blog5 #blog5-hover {
-  display: none;
-}
-/* line 1072, ../scss/components/blocks.scss */
-#blog5 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1086, ../scss/components/blocks.scss */
-#blog5:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/blog/overview/being-lean.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1101, ../scss/components/blocks.scss */
-#blog5:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/blog/overview/being-lean.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1114, ../scss/components/blocks.scss */
-#blog5:hover #blog5-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
-}
-
-/* line 1122, ../scss/components/blocks.scss */
-#blog6 {
-  background: url("../images/blog/overview/copycatting.jpg");
-  background-size: cover;
-  background-position: center;
-}
-/* line 1126, ../scss/components/blocks.scss */
-#blog6 #blog6-hover {
-  display: none;
-}
-/* line 1129, ../scss/components/blocks.scss */
-#blog6 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1143, ../scss/components/blocks.scss */
-#blog6:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/blog/overview/copycatting.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1158, ../scss/components/blocks.scss */
-#blog6:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/blog/overview/copycatting.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1171, ../scss/components/blocks.scss */
-#blog6:hover #blog6-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
+@media only screen and (max-device-width: 767px) {
+  /* line 1046, ../scss/components/blocks.scss */
+  #blog3 {
+    background: url("../images/blog/overview/business-sprint.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1109, ../scss/components/blocks.scss */
+  #blog3 #blog3-hover {
+    display: none;
+  }
+  /* line 1112, ../scss/components/blocks.scss */
+  #blog3 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1127, ../scss/components/blocks.scss */
+  #blog3 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/business-sprint.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1140, ../scss/components/blocks.scss */
+  #blog3 #blog3-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
 
-/* line 1179, ../scss/components/blocks.scss */
-#blog7 {
-  background: url("../images/blog/overview/corporates-startups.jpg");
-  background-size: cover;
-  background-position: center;
+@media only screen and (min-device-width: 768px) {
+  /* line 1150, ../scss/components/blocks.scss */
+  #blog4 {
+    background: url("../images/blog/overview/innovation-model.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1156, ../scss/components/blocks.scss */
+  #blog4 #blog4-hover {
+    display: none;
+  }
+  /* line 1159, ../scss/components/blocks.scss */
+  #blog4 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1173, ../scss/components/blocks.scss */
+  #blog4:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/blog/overview/innovation-model.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1188, ../scss/components/blocks.scss */
+  #blog4:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/innovation-model.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1201, ../scss/components/blocks.scss */
+  #blog4:hover #blog4-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
-/* line 1183, ../scss/components/blocks.scss */
-#blog7 #blog7-hover {
-  display: none;
-}
-/* line 1186, ../scss/components/blocks.scss */
-#blog7 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1200, ../scss/components/blocks.scss */
-#blog7:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/blog/overview/corporates-startups.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1215, ../scss/components/blocks.scss */
-#blog7:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/blog/overview/corporates-startups.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1228, ../scss/components/blocks.scss */
-#blog7:hover #blog7-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
-}
-
-/* line 1236, ../scss/components/blocks.scss */
-#blog8 {
-  background: url("../images/blog/overview/landing-page-validation.jpg");
-  background-size: cover;
-  background-position: center;
-}
-/* line 1240, ../scss/components/blocks.scss */
-#blog8 #blog8-hover {
-  display: none;
-}
-/* line 1243, ../scss/components/blocks.scss */
-#blog8 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1257, ../scss/components/blocks.scss */
-#blog8:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/blog/overview/landing-page-validation.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1272, ../scss/components/blocks.scss */
-#blog8:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/blog/overview/landing-page-validation.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1286, ../scss/components/blocks.scss */
-#blog8:hover #blog8-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
+@media only screen and (max-device-width: 767px) {
+  /* line 1150, ../scss/components/blocks.scss */
+  #blog4 {
+    background: url("../images/blog/overview/innovation-model.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1213, ../scss/components/blocks.scss */
+  #blog4 #blog4-hover {
+    display: none;
+  }
+  /* line 1216, ../scss/components/blocks.scss */
+  #blog4 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1234, ../scss/components/blocks.scss */
+  #blog4 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/innovation-model.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1247, ../scss/components/blocks.scss */
+  #blog4 #blog4-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
 
-/* line 1294, ../scss/components/blocks.scss */
-#blog9 {
-  background: url("../images/blog/overview/sci-fi.jpg");
-  background-size: cover;
-  background-position: center;
+@media only screen and (min-device-width: 768px) {
+  /* line 1257, ../scss/components/blocks.scss */
+  #blog5 {
+    background: url("../images/blog/overview/being-lean.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1262, ../scss/components/blocks.scss */
+  #blog5 #blog5-hover {
+    display: none;
+  }
+  /* line 1265, ../scss/components/blocks.scss */
+  #blog5 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1279, ../scss/components/blocks.scss */
+  #blog5:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/blog/overview/being-lean.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1294, ../scss/components/blocks.scss */
+  #blog5:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/being-lean.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1307, ../scss/components/blocks.scss */
+  #blog5:hover #blog5-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
-/* line 1298, ../scss/components/blocks.scss */
-#blog9 #blog9-hover {
-  display: none;
-}
-/* line 1301, ../scss/components/blocks.scss */
-#blog9 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1315, ../scss/components/blocks.scss */
-#blog9:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/blog/overview/sci-fi.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1330, ../scss/components/blocks.scss */
-#blog9:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/blog/overview/sci-fi.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1343, ../scss/components/blocks.scss */
-#blog9:hover #blog9-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
-}
-
-/* line 1351, ../scss/components/blocks.scss */
-#blog10 {
-  background: url("../images/blog/overview/customer-interviews.jpg");
-  background-size: cover;
-  background-position: center;
-}
-/* line 1355, ../scss/components/blocks.scss */
-#blog10 #blog10-hover {
-  display: none;
-}
-/* line 1358, ../scss/components/blocks.scss */
-#blog10 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1372, ../scss/components/blocks.scss */
-#blog10:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/blog/overview/customer-interviews.jpg"), url("../patterns/XLF_hover_cyan_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1387, ../scss/components/blocks.scss */
-#blog10:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/blog/overview/customer-interviews.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1400, ../scss/components/blocks.scss */
-#blog10:hover #blog10-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
+@media only screen and (max-device-width: 767px) {
+  /* line 1257, ../scss/components/blocks.scss */
+  #blog5 {
+    background: url("../images/blog/overview/being-lean.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1320, ../scss/components/blocks.scss */
+  #blog5 #blog5-hover {
+    display: none;
+  }
+  /* line 1323, ../scss/components/blocks.scss */
+  #blog5 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1339, ../scss/components/blocks.scss */
+  #blog5 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/being-lean.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1352, ../scss/components/blocks.scss */
+  #blog5 #blog5-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
 
-/* line 1411, ../scss/components/blocks.scss */
+@media only screen and (min-device-width: 768px) {
+  /* line 1362, ../scss/components/blocks.scss */
+  #blog6 {
+    background: url("../images/blog/overview/copycatting.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1368, ../scss/components/blocks.scss */
+  #blog6 #blog6-hover {
+    display: none;
+  }
+  /* line 1371, ../scss/components/blocks.scss */
+  #blog6 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1385, ../scss/components/blocks.scss */
+  #blog6:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/blog/overview/copycatting.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1400, ../scss/components/blocks.scss */
+  #blog6:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/copycatting.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1413, ../scss/components/blocks.scss */
+  #blog6:hover #blog6-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 1362, ../scss/components/blocks.scss */
+  #blog6 {
+    background: url("../images/blog/overview/copycatting.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1425, ../scss/components/blocks.scss */
+  #blog6 #blog6-hover {
+    display: none;
+  }
+  /* line 1428, ../scss/components/blocks.scss */
+  #blog6 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1445, ../scss/components/blocks.scss */
+  #blog6 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/copycatting.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1458, ../scss/components/blocks.scss */
+  #blog6 #blog6-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  /* line 1468, ../scss/components/blocks.scss */
+  #blog7 {
+    background: url("../images/blog/overview/corporates-startups.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1475, ../scss/components/blocks.scss */
+  #blog7 #blog7-hover {
+    display: none;
+  }
+  /* line 1478, ../scss/components/blocks.scss */
+  #blog7 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1492, ../scss/components/blocks.scss */
+  #blog7:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/blog/overview/corporates-startups.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1507, ../scss/components/blocks.scss */
+  #blog7:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/corporates-startups.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1520, ../scss/components/blocks.scss */
+  #blog7:hover #blog7-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 1468, ../scss/components/blocks.scss */
+  #blog7 {
+    background: url("../images/blog/overview/corporates-startups.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1533, ../scss/components/blocks.scss */
+  #blog7 #blog7-hover {
+    display: none;
+  }
+  /* line 1536, ../scss/components/blocks.scss */
+  #blog7 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1553, ../scss/components/blocks.scss */
+  #blog7 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/corporates-startups.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1566, ../scss/components/blocks.scss */
+  #blog7 #blog7-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  /* line 1575, ../scss/components/blocks.scss */
+  #blog8 {
+    background: url("../images/blog/overview/landing-page-validation.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1581, ../scss/components/blocks.scss */
+  #blog8 #blog8-hover {
+    display: none;
+  }
+  /* line 1584, ../scss/components/blocks.scss */
+  #blog8 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1598, ../scss/components/blocks.scss */
+  #blog8:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/blog/overview/landing-page-validation.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1613, ../scss/components/blocks.scss */
+  #blog8:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/landing-page-validation.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1627, ../scss/components/blocks.scss */
+  #blog8:hover #blog8-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 1575, ../scss/components/blocks.scss */
+  #blog8 {
+    background: url("../images/blog/overview/landing-page-validation.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1642, ../scss/components/blocks.scss */
+  #blog8 #blog8-hover {
+    display: none;
+  }
+  /* line 1645, ../scss/components/blocks.scss */
+  #blog8 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1662, ../scss/components/blocks.scss */
+  #blog8 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/landing-page-validation.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1676, ../scss/components/blocks.scss */
+  #blog8 #blog8-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  /* line 1685, ../scss/components/blocks.scss */
+  #blog9 {
+    background: url("../images/blog/overview/sci-fi.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1691, ../scss/components/blocks.scss */
+  #blog9 #blog9-hover {
+    display: none;
+  }
+  /* line 1694, ../scss/components/blocks.scss */
+  #blog9 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1708, ../scss/components/blocks.scss */
+  #blog9:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/blog/overview/sci-fi.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1723, ../scss/components/blocks.scss */
+  #blog9:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/sci-fi.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1736, ../scss/components/blocks.scss */
+  #blog9:hover #blog9-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 1685, ../scss/components/blocks.scss */
+  #blog9 {
+    background: url("../images/blog/overview/sci-fi.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1748, ../scss/components/blocks.scss */
+  #blog9 #blog9-hover {
+    display: none;
+  }
+  /* line 1751, ../scss/components/blocks.scss */
+  #blog9 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1768, ../scss/components/blocks.scss */
+  #blog9 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/sci-fi.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1781, ../scss/components/blocks.scss */
+  #blog9 #blog9-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  /* line 1790, ../scss/components/blocks.scss */
+  #blog10 {
+    background: url("../images/blog/overview/customer-interviews.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1796, ../scss/components/blocks.scss */
+  #blog10 #blog10-hover {
+    display: none;
+  }
+  /* line 1799, ../scss/components/blocks.scss */
+  #blog10 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1813, ../scss/components/blocks.scss */
+  #blog10:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/blog/overview/customer-interviews.jpg"), url("../patterns/XLF_hover_cyan_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1828, ../scss/components/blocks.scss */
+  #blog10:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/customer-interviews.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1841, ../scss/components/blocks.scss */
+  #blog10:hover #blog10-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 1790, ../scss/components/blocks.scss */
+  #blog10 {
+    background: url("../images/blog/overview/customer-interviews.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1855, ../scss/components/blocks.scss */
+  #blog10 #blog10-hover {
+    display: none;
+  }
+  /* line 1858, ../scss/components/blocks.scss */
+  #blog10 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1874, ../scss/components/blocks.scss */
+  #blog10 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blog/overview/customer-interviews.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1887, ../scss/components/blocks.scss */
+  #blog10 #blog10-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+
+/* line 1899, ../scss/components/blocks.scss */
 #discover-client1 {
   background: url("../images/xl_blog_1.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1415, ../scss/components/blocks.scss */
+/* line 1903, ../scss/components/blocks.scss */
 #discover-client1 #discover-client1-hover {
   display: none;
 }
-/* line 1418, ../scss/components/blocks.scss */
+/* line 1906, ../scss/components/blocks.scss */
 #discover-client1 .overlay-wrapper {
   display: block;
   background: none;
@@ -10333,7 +10783,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1432, ../scss/components/blocks.scss */
+/* line 1920, ../scss/components/blocks.scss */
 #discover-client1:hover .overlay-wrapper {
   display: block;
   background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10346,7 +10796,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1447, ../scss/components/blocks.scss */
+/* line 1935, ../scss/components/blocks.scss */
 #discover-client1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10359,24 +10809,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1461, ../scss/components/blocks.scss */
+/* line 1949, ../scss/components/blocks.scss */
 #discover-client1:hover #discover-client1-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
-/* line 1469, ../scss/components/blocks.scss */
+/* line 1957, ../scss/components/blocks.scss */
 #discover-client2 {
   background: url("../images/blog 4.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1473, ../scss/components/blocks.scss */
+/* line 1961, ../scss/components/blocks.scss */
 #discover-client2 #discover-client2-hover {
   display: none;
 }
-/* line 1476, ../scss/components/blocks.scss */
+/* line 1964, ../scss/components/blocks.scss */
 #discover-client2 .overlay-wrapper {
   display: block;
   background: none;
@@ -10389,7 +10839,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1490, ../scss/components/blocks.scss */
+/* line 1978, ../scss/components/blocks.scss */
 #discover-client2:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog 4.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10402,7 +10852,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1505, ../scss/components/blocks.scss */
+/* line 1993, ../scss/components/blocks.scss */
 #discover-client2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10415,24 +10865,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1519, ../scss/components/blocks.scss */
+/* line 2007, ../scss/components/blocks.scss */
 #discover-client2:hover #discover-client2-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
-/* line 1527, ../scss/components/blocks.scss */
+/* line 2015, ../scss/components/blocks.scss */
 #discover-client3 {
   background: url("../images/blog 3.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1531, ../scss/components/blocks.scss */
+/* line 2019, ../scss/components/blocks.scss */
 #discover-client3 #discover-client3-hover {
   display: none;
 }
-/* line 1534, ../scss/components/blocks.scss */
+/* line 2022, ../scss/components/blocks.scss */
 #discover-client3 .overlay-wrapper {
   display: block;
   background: none;
@@ -10445,7 +10895,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1548, ../scss/components/blocks.scss */
+/* line 2036, ../scss/components/blocks.scss */
 #discover-client3:hover .overlay-wrapper {
   display: block;
   background: url("../images/blog 3.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10458,7 +10908,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1563, ../scss/components/blocks.scss */
+/* line 2051, ../scss/components/blocks.scss */
 #discover-client3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10471,24 +10921,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1577, ../scss/components/blocks.scss */
+/* line 2065, ../scss/components/blocks.scss */
 #discover-client3:hover #discover-client3-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
-/* line 1585, ../scss/components/blocks.scss */
+/* line 2073, ../scss/components/blocks.scss */
 #discover-client4 {
   background: url("../images/Mask.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1589, ../scss/components/blocks.scss */
+/* line 2077, ../scss/components/blocks.scss */
 #discover-client4 #discover-client4-hover {
   display: none;
 }
-/* line 1592, ../scss/components/blocks.scss */
+/* line 2080, ../scss/components/blocks.scss */
 #discover-client4 .overlay-wrapper {
   display: block;
   background: none;
@@ -10501,7 +10951,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1606, ../scss/components/blocks.scss */
+/* line 2094, ../scss/components/blocks.scss */
 #discover-client4:hover .overlay-wrapper {
   display: block;
   background: url("../images/Mask.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10514,7 +10964,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1621, ../scss/components/blocks.scss */
+/* line 2109, ../scss/components/blocks.scss */
 #discover-client4:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10527,24 +10977,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1635, ../scss/components/blocks.scss */
+/* line 2123, ../scss/components/blocks.scss */
 #discover-client4:hover #discover-client4-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
-/* line 1644, ../scss/components/blocks.scss */
+/* line 2132, ../scss/components/blocks.scss */
 #discover-client5 {
   background: url("../images/Mask.png");
   background-size: cover;
   background-position: center;
 }
-/* line 1648, ../scss/components/blocks.scss */
+/* line 2136, ../scss/components/blocks.scss */
 #discover-client5 #discover-client5-hover {
   display: none;
 }
-/* line 1651, ../scss/components/blocks.scss */
+/* line 2139, ../scss/components/blocks.scss */
 #discover-client5 .overlay-wrapper {
   display: block;
   background: none;
@@ -10557,7 +11007,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1665, ../scss/components/blocks.scss */
+/* line 2153, ../scss/components/blocks.scss */
 #discover-client5:hover .overlay-wrapper {
   display: block;
   background: url("../images/Mask.png"), url("../patterns/XLF_hover_cyan_S.png");
@@ -10570,7 +11020,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1680, ../scss/components/blocks.scss */
+/* line 2168, ../scss/components/blocks.scss */
 #discover-client5:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10583,24 +11033,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1694, ../scss/components/blocks.scss */
+/* line 2182, ../scss/components/blocks.scss */
 #discover-client5:hover #discover-client5-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
-/* line 1711, ../scss/components/blocks.scss */
+/* line 2199, ../scss/components/blocks.scss */
 #location1 {
   background: url("../images/amsteradm.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1715, ../scss/components/blocks.scss */
+/* line 2203, ../scss/components/blocks.scss */
 #location1 #location1-hover {
   display: none;
 }
-/* line 1718, ../scss/components/blocks.scss */
+/* line 2206, ../scss/components/blocks.scss */
 #location1 .overlay-wrapper {
   display: block;
   background: none;
@@ -10613,7 +11063,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1732, ../scss/components/blocks.scss */
+/* line 2220, ../scss/components/blocks.scss */
 #location1:hover .overlay-wrapper {
   display: block;
   background: url("../images/amsteradm.jpg"), url("../patterns/XLF_Hover_pink_S.png");
@@ -10626,7 +11076,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1747, ../scss/components/blocks.scss */
+/* line 2235, ../scss/components/blocks.scss */
 #location1:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10639,24 +11089,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1761, ../scss/components/blocks.scss */
+/* line 2249, ../scss/components/blocks.scss */
 #location1:hover #location1-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
-/* line 1770, ../scss/components/blocks.scss */
+/* line 2258, ../scss/components/blocks.scss */
 #location2 {
   background: url("../images/leiden.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1774, ../scss/components/blocks.scss */
+/* line 2262, ../scss/components/blocks.scss */
 #location2 #location2-hover {
   display: none;
 }
-/* line 1777, ../scss/components/blocks.scss */
+/* line 2265, ../scss/components/blocks.scss */
 #location2 .overlay-wrapper {
   display: block;
   background: none;
@@ -10669,7 +11119,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1791, ../scss/components/blocks.scss */
+/* line 2279, ../scss/components/blocks.scss */
 #location2:hover .overlay-wrapper {
   display: block;
   background: url("../images/leiden.jpg"), url("../patterns/XLF_Hover_pink_S.png");
@@ -10682,7 +11132,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1806, ../scss/components/blocks.scss */
+/* line 2294, ../scss/components/blocks.scss */
 #location2:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10695,24 +11145,24 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1820, ../scss/components/blocks.scss */
+/* line 2308, ../scss/components/blocks.scss */
 #location2:hover #location2-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
-/* line 1829, ../scss/components/blocks.scss */
+/* line 2317, ../scss/components/blocks.scss */
 #location3 {
   background: url("../images/bucharest.jpg");
   background-size: cover;
   background-position: center;
 }
-/* line 1833, ../scss/components/blocks.scss */
+/* line 2321, ../scss/components/blocks.scss */
 #location3 #location3-hover {
   display: none;
 }
-/* line 1836, ../scss/components/blocks.scss */
+/* line 2324, ../scss/components/blocks.scss */
 #location3 .overlay-wrapper {
   display: block;
   background: none;
@@ -10725,7 +11175,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1850, ../scss/components/blocks.scss */
+/* line 2338, ../scss/components/blocks.scss */
 #location3:hover .overlay-wrapper {
   display: block;
   background: url("../images/bucharest.jpg"), url("../patterns/XLF_Hover_pink_S.png");
@@ -10738,7 +11188,7 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1865, ../scss/components/blocks.scss */
+/* line 2353, ../scss/components/blocks.scss */
 #location3:hover .background-wrapper {
   position: absolute;
   display: block;
@@ -10751,10 +11201,10 @@ button.close {
   background-size: cover;
   background-position: center;
 }
-/* line 1879, ../scss/components/blocks.scss */
+/* line 2367, ../scss/components/blocks.scss */
 #location3:hover #location3-hover {
   display: block;
-  margin-top: 50px;
+  margin-top: 20px;
   max-width: 400px;
 }
 
@@ -14521,43 +14971,74 @@ body {
   z-index: 500;
 }
 
-/* line 725, ../scss/pages/_home.scss */
-.hover-text {
-  font-size: 25px;
-  font-family: "Raleway", sans-serif;
-  color: white;
-  cursor: pointer;
+@media only screen and (min-device-width: 768px) {
+  /* line 725, ../scss/pages/_home.scss */
+  .hover-text {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 725, ../scss/pages/_home.scss */
+  .hover-text {
+    display: none;
+  }
 }
 
-/* line 732, ../scss/pages/_home.scss */
-.hover-link {
-  font-size: 20px;
-  text-decoration: underline;
-  font-family: "Raleway", sans-serif;
-  color: white;
-  font-weight: 900;
-  line-height: 2.5;
-  cursor: pointer;
+@media only screen and (min-device-width: 768px) {
+  /* line 739, ../scss/pages/_home.scss */
+  .hover-link {
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-weight: 900;
+    line-height: 2.5;
+    cursor: pointer;
+  }
+  /* line 749, ../scss/pages/_home.scss */
+  .hover-link:hover {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    text-decoration: underline;
+    color: white;
+    line-height: 2.5;
+    font-weight: 900;
+  }
 }
-/* line 740, ../scss/pages/_home.scss */
-.hover-link:hover {
-  font-size: 20px;
-  font-family: "Raleway", sans-serif;
-  text-decoration: underline;
-  color: white;
-  line-height: 2.5;
-  font-weight: 900;
+@media only screen and (max-device-width: 767px) {
+  /* line 739, ../scss/pages/_home.scss */
+  .hover-link {
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-weight: 900;
+    margin-top: -6rem;
+    cursor: pointer;
+  }
+  /* line 768, ../scss/pages/_home.scss */
+  .hover-link:hover {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    text-decoration: underline;
+    color: white;
+    line-height: 2.5;
+    font-weight: 900;
+  }
 }
 
 /*===cases==*/
 @media only screen and (max-device-width: 767px) {
-  /* line 751, ../scss/pages/_home.scss */
+  /* line 782, ../scss/pages/_home.scss */
   .cases-height {
     margin-bottom: 4rem;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 751, ../scss/pages/_home.scss */
+  /* line 782, ../scss/pages/_home.scss */
   .cases-height {
     margin-top: 10rem;
     margin-bottom: 18rem;
@@ -14565,13 +15046,13 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 765, ../scss/pages/_home.scss */
+  /* line 796, ../scss/pages/_home.scss */
   #pijl-blauw-links {
     display: none;
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 765, ../scss/pages/_home.scss */
+  /* line 796, ../scss/pages/_home.scss */
   #pijl-blauw-links {
     width: 14.125rem;
     position: absolute;
@@ -14592,7 +15073,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 765, ../scss/pages/_home.scss */
+  /* line 796, ../scss/pages/_home.scss */
   #pijl-blauw-links {
     width: 14.125rem;
     position: absolute;
@@ -14614,13 +15095,13 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 810, ../scss/pages/_home.scss */
+  /* line 841, ../scss/pages/_home.scss */
   #pijl-blauw-rechts {
     display: none;
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 810, ../scss/pages/_home.scss */
+  /* line 841, ../scss/pages/_home.scss */
   #pijl-blauw-rechts {
     width: 14.125rem;
     position: absolute;
@@ -14636,7 +15117,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 810, ../scss/pages/_home.scss */
+  /* line 841, ../scss/pages/_home.scss */
   #pijl-blauw-rechts {
     width: 14.125rem;
     position: absolute;
@@ -14653,7 +15134,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 844, ../scss/pages/_home.scss */
+  /* line 875, ../scss/pages/_home.scss */
   .pijl-blauw-links-mb {
     width: 7.125rem;
     position: absolute;
@@ -14675,7 +15156,7 @@ body {
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 871, ../scss/pages/_home.scss */
+  /* line 902, ../scss/pages/_home.scss */
   .pijl-blauw-rechts-mb {
     width: 7.125rem;
     position: absolute;
@@ -14691,7 +15172,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 871, ../scss/pages/_home.scss */
+  /* line 902, ../scss/pages/_home.scss */
   .pijl-blauw-rechts-mb {
     width: 7.125rem;
     position: absolute;
@@ -14707,20 +15188,20 @@ body {
   }
 }
 
-/* line 909, ../scss/pages/_home.scss */
+/* line 940, ../scss/pages/_home.scss */
 .cases-wrapper {
   text-align: center;
   margin-top: 5rem;
 }
 
-/* line 914, ../scss/pages/_home.scss */
+/* line 945, ../scss/pages/_home.scss */
 .caseht {
   font-size: 20px;
   color: gray;
   font-family: "Raleway", sans-serif;
 }
 
-/* line 923, ../scss/pages/_home.scss */
+/* line 954, ../scss/pages/_home.scss */
 .case-logo {
   width: 4.125rem;
   position: absolute;
@@ -14734,7 +15215,7 @@ body {
   display: block;
 }
 
-/* line 936, ../scss/pages/_home.scss */
+/* line 967, ../scss/pages/_home.scss */
 .case-person {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -14742,13 +15223,13 @@ body {
   color: black;
 }
 
-/* line 944, ../scss/pages/_home.scss */
+/* line 975, ../scss/pages/_home.scss */
 .case-person2 {
   width: 20rem;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 949, ../scss/pages/_home.scss */
+  /* line 980, ../scss/pages/_home.scss */
   .person-picture1 {
     width: 6.525rem;
     position: relative;
@@ -14763,7 +15244,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 949, ../scss/pages/_home.scss */
+  /* line 980, ../scss/pages/_home.scss */
   .person-picture1 {
     margin-right: 1rem;
     width: 6.525rem;
@@ -14780,7 +15261,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 983, ../scss/pages/_home.scss */
+  /* line 1014, ../scss/pages/_home.scss */
   .person-picture2 {
     width: 6.525rem;
     position: relative;
@@ -14795,7 +15276,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 983, ../scss/pages/_home.scss */
+  /* line 1014, ../scss/pages/_home.scss */
   .person-picture2 {
     margin-right: 1rem;
     width: 6.525rem;
@@ -14812,7 +15293,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1017, ../scss/pages/_home.scss */
+  /* line 1048, ../scss/pages/_home.scss */
   .person-picture3 {
     width: 6.525rem;
     position: relative;
@@ -14827,7 +15308,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1017, ../scss/pages/_home.scss */
+  /* line 1048, ../scss/pages/_home.scss */
   .person-picture3 {
     margin-right: 1rem;
     width: 6.525rem;
@@ -14844,7 +15325,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1051, ../scss/pages/_home.scss */
+  /* line 1082, ../scss/pages/_home.scss */
   .person-picture4 {
     width: 6.525rem;
     position: relative;
@@ -14859,7 +15340,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1051, ../scss/pages/_home.scss */
+  /* line 1082, ../scss/pages/_home.scss */
   .person-picture4 {
     margin-right: 1rem;
     width: 6.525rem;
@@ -14876,7 +15357,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1086, ../scss/pages/_home.scss */
+  /* line 1117, ../scss/pages/_home.scss */
   .case-logo1 {
     width: 8.525rem;
     position: relative;
@@ -14893,7 +15374,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1086, ../scss/pages/_home.scss */
+  /* line 1117, ../scss/pages/_home.scss */
   .case-logo1 {
     width: 12.525rem;
     position: relative;
@@ -14910,7 +15391,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1119, ../scss/pages/_home.scss */
+  /* line 1150, ../scss/pages/_home.scss */
   .case-bdo-logo {
     width: 8.525rem;
     position: relative;
@@ -14927,7 +15408,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1119, ../scss/pages/_home.scss */
+  /* line 1150, ../scss/pages/_home.scss */
   .case-bdo-logo {
     width: 12.525rem;
     position: relative;
@@ -14944,7 +15425,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1152, ../scss/pages/_home.scss */
+  /* line 1183, ../scss/pages/_home.scss */
   .case-broshuis-logo {
     width: 8.525rem;
     position: relative;
@@ -14961,7 +15442,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1152, ../scss/pages/_home.scss */
+  /* line 1183, ../scss/pages/_home.scss */
   .case-broshuis-logo {
     width: 12.525rem;
     position: relative;
@@ -14978,7 +15459,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1185, ../scss/pages/_home.scss */
+  /* line 1216, ../scss/pages/_home.scss */
   .case-veh-logo {
     width: 8.525rem;
     position: relative;
@@ -14995,7 +15476,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1185, ../scss/pages/_home.scss */
+  /* line 1216, ../scss/pages/_home.scss */
   .case-veh-logo {
     width: 12.525rem;
     position: relative;
@@ -15012,7 +15493,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1218, ../scss/pages/_home.scss */
+  /* line 1249, ../scss/pages/_home.scss */
   .case-delta-logo {
     width: 8.525rem;
     position: relative;
@@ -15029,7 +15510,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1218, ../scss/pages/_home.scss */
+  /* line 1249, ../scss/pages/_home.scss */
   .case-delta-logo {
     width: 12.525rem;
     position: relative;
@@ -15046,55 +15527,55 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1251, ../scss/pages/_home.scss */
+  /* line 1282, ../scss/pages/_home.scss */
   .list-person {
     text-align: center;
   }
-  /* line 1254, ../scss/pages/_home.scss */
+  /* line 1285, ../scss/pages/_home.scss */
   .list-person ul {
     padding: 0;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1251, ../scss/pages/_home.scss */
+  /* line 1282, ../scss/pages/_home.scss */
   .list-person {
     text-align: left;
   }
-  /* line 1261, ../scss/pages/_home.scss */
+  /* line 1292, ../scss/pages/_home.scss */
   .list-person ul {
     padding: 0;
   }
-  /* line 1264, ../scss/pages/_home.scss */
+  /* line 1295, ../scss/pages/_home.scss */
   .list-person li {
     display: inline-block;
   }
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1275, ../scss/pages/_home.scss */
+  /* line 1306, ../scss/pages/_home.scss */
   .list-extend {
     text-align: center;
   }
-  /* line 1279, ../scss/pages/_home.scss */
+  /* line 1310, ../scss/pages/_home.scss */
   .list-extend ul {
     padding: 0;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1275, ../scss/pages/_home.scss */
+  /* line 1306, ../scss/pages/_home.scss */
   .list-extend {
     width: 20rem;
   }
 }
 
-/* line 1289, ../scss/pages/_home.scss */
+/* line 1320, ../scss/pages/_home.scss */
 .case-person-desc {
   font-size: 18px;
   color: gray;
   font-family: "Raleway", sans-serif;
 }
 
-/* line 1297, ../scss/pages/_home.scss */
+/* line 1328, ../scss/pages/_home.scss */
 .list-by {
   font-size: 18px;
   color: black;
@@ -15103,7 +15584,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1305, ../scss/pages/_home.scss */
+  /* line 1336, ../scss/pages/_home.scss */
   .case-link {
     font-size: 18px;
     text-decoration: underline;
@@ -15111,7 +15592,7 @@ body {
     font-weight: 900;
     cursor: pointer;
   }
-  /* line 1313, ../scss/pages/_home.scss */
+  /* line 1344, ../scss/pages/_home.scss */
   .case-link:hover, .case-link:focus {
     font-size: 18px;
     text-decoration: underline;
@@ -15120,7 +15601,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1305, ../scss/pages/_home.scss */
+  /* line 1336, ../scss/pages/_home.scss */
   .case-link {
     font-size: 18px;
     text-decoration: underline;
@@ -15130,7 +15611,7 @@ body {
     cursor: pointer;
     float: right;
   }
-  /* line 1329, ../scss/pages/_home.scss */
+  /* line 1360, ../scss/pages/_home.scss */
   .case-link:hover, .case-link:focus {
     font-size: 18px;
     text-decoration: underline;
@@ -15143,7 +15624,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1348, ../scss/pages/_home.scss */
+  /* line 1379, ../scss/pages/_home.scss */
   .person-link-wrapper {
     margin-top: 50px;
     text-align: center;
@@ -15151,24 +15632,24 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1348, ../scss/pages/_home.scss */
+  /* line 1379, ../scss/pages/_home.scss */
   .person-link-wrapper {
     text-align: center;
   }
 }
 
 /*===ADVENTURES===*/
-/* line 1362, ../scss/pages/_home.scss */
+/* line 1393, ../scss/pages/_home.scss */
 #experiments {
   margin-top: 10rem;
 }
 
-/* line 1366, ../scss/pages/_home.scss */
+/* line 1397, ../scss/pages/_home.scss */
 .vertical-experiment {
   height: 100vh;
   border: white solid 1px;
 }
-/* line 1369, ../scss/pages/_home.scss */
+/* line 1400, ../scss/pages/_home.scss */
 .vertical-experiment .content-wrapper {
   background-color: blue;
   position: absolute;
@@ -15180,191 +15661,338 @@ body {
   top: 0;
 }
 
-/* line 1382, ../scss/pages/_home.scss */
-#experiments1 {
-  background: url("../images/xl_lab.jpg");
-  background-size: cover;
-  background-position: center;
+@media only screen and (min-device-width: 768px) {
+  /* line 1413, ../scss/pages/_home.scss */
+  #experiments1 {
+    background: url("../images/xl_lab.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1419, ../scss/pages/_home.scss */
+  #experiments1 #experiments1-hover {
+    display: none;
+  }
+  /* line 1422, ../scss/pages/_home.scss */
+  #experiments1 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1436, ../scss/pages/_home.scss */
+  #experiments1:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/xl_lab.jpg"), url("../patterns/XLF_Hover_green_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1451, ../scss/pages/_home.scss */
+  #experiments1:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/xl_lab.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1465, ../scss/pages/_home.scss */
+  #experiments1:hover .background_gradient-wrapper6 {
+    display: block;
+  }
+  /* line 1468, ../scss/pages/_home.scss */
+  #experiments1:hover #experiments1-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
-/* line 1386, ../scss/pages/_home.scss */
-#experiments1 #experiments1-hover {
-  display: none;
-}
-/* line 1389, ../scss/pages/_home.scss */
-#experiments1 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1403, ../scss/pages/_home.scss */
-#experiments1:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/xl_lab.jpg"), url("../patterns/XLF_Hover_green_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1418, ../scss/pages/_home.scss */
-#experiments1:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/xl_lab.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1432, ../scss/pages/_home.scss */
-#experiments1:hover .background_gradient-wrapper6 {
-  display: block;
-}
-/* line 1435, ../scss/pages/_home.scss */
-#experiments1:hover #experiments1-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
-}
-
-/* line 1444, ../scss/pages/_home.scss */
-#experiments2 {
-  background: url("../images/xl_ventures.png");
-  background-size: cover;
-  background-position: center;
-}
-/* line 1448, ../scss/pages/_home.scss */
-#experiments2 #experiments2-hover {
-  display: none;
-}
-/* line 1451, ../scss/pages/_home.scss */
-#experiments2 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1465, ../scss/pages/_home.scss */
-#experiments2:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/xl_ventures.png"), url("../patterns/XLF_Hover_green_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1480, ../scss/pages/_home.scss */
-#experiments2:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/xl_ventures.png");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1494, ../scss/pages/_home.scss */
-#experiments2:hover .background_gradient-wrapper7 {
-  display: block;
-}
-/* line 1497, ../scss/pages/_home.scss */
-#experiments2:hover #experiments2-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
+@media only screen and (max-device-width: 767px) {
+  /* line 1413, ../scss/pages/_home.scss */
+  #experiments1 {
+    background: url("../images/xl_lab.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1480, ../scss/pages/_home.scss */
+  #experiments1 #experiments1-hover {
+    display: none;
+  }
+  /* line 1483, ../scss/pages/_home.scss */
+  #experiments1 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1500, ../scss/pages/_home.scss */
+  #experiments1 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/xl_lab.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1514, ../scss/pages/_home.scss */
+  #experiments1 .background_gradient-wrapper6 {
+    display: block;
+  }
+  /* line 1517, ../scss/pages/_home.scss */
+  #experiments1 #experiments1-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
 
-/* line 1505, ../scss/pages/_home.scss */
-#experiments3 {
-  background: url("../images/xl_events.jpg");
-  background-size: cover;
-  background-position: center;
+@media only screen and (min-device-width: 768px) {
+  /* line 1529, ../scss/pages/_home.scss */
+  #experiments2 {
+    background: url("../images/xl_ventures.png");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1535, ../scss/pages/_home.scss */
+  #experiments2 #experiments2-hover {
+    display: none;
+  }
+  /* line 1538, ../scss/pages/_home.scss */
+  #experiments2 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1552, ../scss/pages/_home.scss */
+  #experiments2:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/xl_ventures.png"), url("../patterns/XLF_Hover_green_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1567, ../scss/pages/_home.scss */
+  #experiments2:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/xl_ventures.png");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1581, ../scss/pages/_home.scss */
+  #experiments2:hover .background_gradient-wrapper7 {
+    display: block;
+  }
+  /* line 1584, ../scss/pages/_home.scss */
+  #experiments2:hover #experiments2-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
-/* line 1509, ../scss/pages/_home.scss */
-#experiments3 #experiments3-hover {
-  display: none;
-}
-/* line 1512, ../scss/pages/_home.scss */
-#experiments3 .overlay-wrapper {
-  display: block;
-  background: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-blend-mode: multiply;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1526, ../scss/pages/_home.scss */
-#experiments3:hover .overlay-wrapper {
-  display: block;
-  background: url("../images/xl_events.jpg"), url("../patterns/XLF_Hover_green_S.png");
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-position: center;
-}
-/* line 1541, ../scss/pages/_home.scss */
-#experiments3:hover .background-wrapper {
-  position: absolute;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../images/xl_events.jpg");
-  background-position: center;
-  background-size: cover;
-}
-/* line 1555, ../scss/pages/_home.scss */
-#experiments3:hover .background_gradient-wrapper8 {
-  display: block;
-}
-/* line 1558, ../scss/pages/_home.scss */
-#experiments3:hover #experiments3-hover {
-  display: block;
-  margin-top: 50px;
-  max-width: 400px;
+@media only screen and (max-device-width: 767px) {
+  /* line 1529, ../scss/pages/_home.scss */
+  #experiments2 {
+    background: url("../images/xl_ventures.png");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1596, ../scss/pages/_home.scss */
+  #experiments2 #experiments2-hover {
+    display: none;
+  }
+  /* line 1599, ../scss/pages/_home.scss */
+  #experiments2 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1616, ../scss/pages/_home.scss */
+  #experiments2 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/xl_ventures.png");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1630, ../scss/pages/_home.scss */
+  #experiments2 .background_gradient-wrapper7 {
+    display: block;
+  }
+  /* line 1633, ../scss/pages/_home.scss */
+  #experiments2 #experiments2-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
 }
 
-/* line 1568, ../scss/pages/_home.scss */
+@media only screen and (min-device-width: 768px) {
+  /* line 1644, ../scss/pages/_home.scss */
+  #experiments3 {
+    background: url("../images/xl_events.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1651, ../scss/pages/_home.scss */
+  #experiments3 #experiments3-hover {
+    display: none;
+  }
+  /* line 1654, ../scss/pages/_home.scss */
+  #experiments3 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1668, ../scss/pages/_home.scss */
+  #experiments3:hover .overlay-wrapper {
+    display: block;
+    background: url("../images/xl_events.jpg"), url("../patterns/XLF_Hover_green_S.png");
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1683, ../scss/pages/_home.scss */
+  #experiments3:hover .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/xl_events.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1697, ../scss/pages/_home.scss */
+  #experiments3:hover .background_gradient-wrapper8 {
+    display: block;
+  }
+  /* line 1700, ../scss/pages/_home.scss */
+  #experiments3:hover #experiments3-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+  /* line 1644, ../scss/pages/_home.scss */
+  #experiments3 {
+    background: url("../images/xl_events.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1713, ../scss/pages/_home.scss */
+  #experiments3 #experiments3-hover {
+    display: none;
+  }
+  /* line 1716, ../scss/pages/_home.scss */
+  #experiments3 .overlay-wrapper {
+    display: block;
+    background: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-blend-mode: multiply;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+  }
+  /* line 1733, ../scss/pages/_home.scss */
+  #experiments3 .background-wrapper {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/xl_events.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 1747, ../scss/pages/_home.scss */
+  #experiments3 .background_gradient-wrapper8 {
+    display: block;
+  }
+  /* line 1750, ../scss/pages/_home.scss */
+  #experiments3 #experiments3-hover {
+    display: block;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+}
+
+/* line 1762, ../scss/pages/_home.scss */
 .experiment-tag {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
 
-/* line 1575, ../scss/pages/_home.scss */
+/* line 1769, ../scss/pages/_home.scss */
 .experiments-title {
   color: whitesmoke;
   font-family: "Raleway", sans-serif;
@@ -15373,13 +16001,13 @@ body {
   margin-top: 2px;
 }
 
-/* line 1583, ../scss/pages/_home.scss */
+/* line 1777, ../scss/pages/_home.scss */
 .experiments-text {
   position: absolute;
   margin-left: 4rem;
 }
 
-/* line 1589, ../scss/pages/_home.scss */
+/* line 1783, ../scss/pages/_home.scss */
 .background_gradient-wrapper6 {
   position: absolute;
   display: block;
@@ -15399,7 +16027,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 1609, ../scss/pages/_home.scss */
+/* line 1803, ../scss/pages/_home.scss */
 .background_gradient-wrapper7 {
   position: absolute;
   display: block;
@@ -15419,7 +16047,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 1627, ../scss/pages/_home.scss */
+/* line 1821, ../scss/pages/_home.scss */
 .background_gradient-wrapper8 {
   position: absolute;
   display: block;
@@ -15439,7 +16067,7 @@ body {
   /* IE6-9 */
 }
 
-/* line 1646, ../scss/pages/_home.scss */
+/* line 1840, ../scss/pages/_home.scss */
 .background_gradient-wrapper500 {
   position: absolute;
   display: block;
@@ -15460,13 +16088,13 @@ body {
 }
 
 /*===Projects===*/
-/* line 1665, ../scss/pages/_home.scss */
+/* line 1859, ../scss/pages/_home.scss */
 #projects {
   overflow: hidden;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1668, ../scss/pages/_home.scss */
+  /* line 1862, ../scss/pages/_home.scss */
   .project-wrapper {
     display: flex;
     position: relative;
@@ -15475,13 +16103,13 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1677, ../scss/pages/_home.scss */
+  /* line 1871, ../scss/pages/_home.scss */
   .project-wrapper ul {
     text-align: center;
   }
 }
 
-/* line 1686, ../scss/pages/_home.scss */
+/* line 1880, ../scss/pages/_home.scss */
 .divider-projects {
   width: 16.125rem;
   height: 16.125rem;
@@ -15496,7 +16124,7 @@ body {
   background-position: center;
 }
 
-/* line 1702, ../scss/pages/_home.scss */
+/* line 1896, ../scss/pages/_home.scss */
 .bdo-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15511,7 +16139,7 @@ body {
   background-position: center;
 }
 
-/* line 1726, ../scss/pages/_home.scss */
+/* line 1920, ../scss/pages/_home.scss */
 .bdo-logo2 {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15526,7 +16154,7 @@ body {
   background-position: center;
 }
 
-/* line 1750, ../scss/pages/_home.scss */
+/* line 1944, ../scss/pages/_home.scss */
 .equeens-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15541,7 +16169,7 @@ body {
   background-position: center;
 }
 
-/* line 1774, ../scss/pages/_home.scss */
+/* line 1968, ../scss/pages/_home.scss */
 .equeens-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15556,7 +16184,7 @@ body {
   background-position: center;
 }
 
-/* line 1799, ../scss/pages/_home.scss */
+/* line 1993, ../scss/pages/_home.scss */
 .veh-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15571,7 +16199,7 @@ body {
   background-position: center;
 }
 
-/* line 1825, ../scss/pages/_home.scss */
+/* line 2019, ../scss/pages/_home.scss */
 .broshuis-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15586,7 +16214,7 @@ body {
   background-position: center;
 }
 
-/* line 1849, ../scss/pages/_home.scss */
+/* line 2043, ../scss/pages/_home.scss */
 .delta-logo {
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -15601,7 +16229,7 @@ body {
   background-position: center;
 }
 
-/* line 1873, ../scss/pages/_home.scss */
+/* line 2067, ../scss/pages/_home.scss */
 .project-text {
   margin-top: -4rem;
   display: block;
@@ -15611,7 +16239,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1881, ../scss/pages/_home.scss */
+  /* line 2075, ../scss/pages/_home.scss */
   .project-link {
     display: block;
     font-size: 15px;
@@ -15621,7 +16249,7 @@ body {
     color: #66ba4a;
     text-decoration: underline;
   }
-  /* line 1891, ../scss/pages/_home.scss */
+  /* line 2085, ../scss/pages/_home.scss */
   .project-link:hover {
     display: block;
     font-size: 15px;
@@ -15633,7 +16261,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1881, ../scss/pages/_home.scss */
+  /* line 2075, ../scss/pages/_home.scss */
   .project-link {
     display: block;
     font-size: 15px;
@@ -15643,7 +16271,7 @@ body {
     color: #66ba4a;
     text-decoration: underline;
   }
-  /* line 1909, ../scss/pages/_home.scss */
+  /* line 2103, ../scss/pages/_home.scss */
   .project-link:hover {
     display: block;
     font-size: 15px;
@@ -15656,7 +16284,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1924, ../scss/pages/_home.scss */
+  /* line 2118, ../scss/pages/_home.scss */
   .pijl-groen-links {
     left: 0;
     position: absolute;
@@ -15686,7 +16314,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 1960, ../scss/pages/_home.scss */
+  /* line 2154, ../scss/pages/_home.scss */
   .pijl-groen-rechts {
     position: absolute;
     display: -webkit-box;
@@ -15709,26 +16337,26 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 1960, ../scss/pages/_home.scss */
+  /* line 2154, ../scss/pages/_home.scss */
   .pijl-groen-rechts {
     display: none;
   }
 }
 
 /*===Team===*/
-/* line 1996, ../scss/pages/_home.scss */
+/* line 2190, ../scss/pages/_home.scss */
 .background-overlay {
   z-index: -1;
 }
 
-/* line 2001, ../scss/pages/_home.scss */
+/* line 2195, ../scss/pages/_home.scss */
 .person-wrapper {
   height: 80vh;
   display: block;
   vertical-align: middle;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2001, ../scss/pages/_home.scss */
+  /* line 2195, ../scss/pages/_home.scss */
   .person-wrapper {
     text-align: center;
     height: 500px;
@@ -15736,7 +16364,7 @@ body {
     justify-content: center;
     flex-direction: column;
   }
-  /* line 2009, ../scss/pages/_home.scss */
+  /* line 2203, ../scss/pages/_home.scss */
   .person-wrapper ul {
     top: 50%;
     transform: translateY(-50%);
@@ -15748,21 +16376,21 @@ body {
     padding: 0;
   }
 }
-/* line 2029, ../scss/pages/_home.scss */
+/* line 2223, ../scss/pages/_home.scss */
 .person-wrapper ul {
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
 }
 
-/* line 2037, ../scss/pages/_home.scss */
+/* line 2231, ../scss/pages/_home.scss */
 .person-wrapper2 {
   height: 80vh;
   display: block;
   vertical-align: middle;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2037, ../scss/pages/_home.scss */
+  /* line 2231, ../scss/pages/_home.scss */
   .person-wrapper2 {
     text-align: center;
     height: 500px;
@@ -15771,14 +16399,14 @@ body {
     flex-direction: column;
   }
 }
-/* line 2055, ../scss/pages/_home.scss */
+/* line 2249, ../scss/pages/_home.scss */
 .person-wrapper2 ul {
   top: 100%;
   transform: translateY(-50%);
   position: absolute;
 }
 
-/* line 2063, ../scss/pages/_home.scss */
+/* line 2257, ../scss/pages/_home.scss */
 .name-team {
   position: relative;
   display: inline-block;
@@ -15791,7 +16419,7 @@ body {
   left: 0;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2063, ../scss/pages/_home.scss */
+  /* line 2257, ../scss/pages/_home.scss */
   .name-team {
     position: relative;
     display: block;
@@ -15805,7 +16433,7 @@ body {
   }
 }
 
-/* line 2093, ../scss/pages/_home.scss */
+/* line 2287, ../scss/pages/_home.scss */
 .role-team {
   position: relative;
   display: block;
@@ -15817,7 +16445,7 @@ body {
   margin-top: -2rem;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2093, ../scss/pages/_home.scss */
+  /* line 2287, ../scss/pages/_home.scss */
   .role-team {
     position: relative;
     display: block;
@@ -15830,13 +16458,13 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2093, ../scss/pages/_home.scss */
+  /* line 2287, ../scss/pages/_home.scss */
   .role-team {
     margin-bottom: 20px;
   }
 }
 
-/* line 2122, ../scss/pages/_home.scss */
+/* line 2316, ../scss/pages/_home.scss */
 .linkdin-logo1 {
   width: 4.125rem;
   height: 4.125rem;
@@ -15849,7 +16477,7 @@ body {
   display: block;
 }
 
-/* line 2136, ../scss/pages/_home.scss */
+/* line 2330, ../scss/pages/_home.scss */
 .email-logo {
   width: 4.125rem;
   height: 4.125rem;
@@ -15863,14 +16491,14 @@ body {
   margin-left: 2rem;
 }
 
-/* line 2150, ../scss/pages/_home.scss */
+/* line 2344, ../scss/pages/_home.scss */
 .person-logo-wrapper {
   display: flex;
   -webkit-box-orient: horizontal;
   text-align: left;
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2150, ../scss/pages/_home.scss */
+  /* line 2344, ../scss/pages/_home.scss */
   .person-logo-wrapper {
     display: flex;
     justify-content: center;
@@ -15880,7 +16508,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2169, ../scss/pages/_home.scss */
+  /* line 2363, ../scss/pages/_home.scss */
   .arrow-team-wrapper {
     display: flex;
     justify-content: center;
@@ -15890,7 +16518,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2169, ../scss/pages/_home.scss */
+  /* line 2363, ../scss/pages/_home.scss */
   .arrow-team-wrapper {
     display: flex;
     justify-content: center;
@@ -15901,7 +16529,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2192, ../scss/pages/_home.scss */
+  /* line 2386, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 7.125rem;
     position: absolute;
@@ -15922,7 +16550,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2192, ../scss/pages/_home.scss */
+  /* line 2386, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 7.125rem;
     position: absolute;
@@ -15943,7 +16571,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1366px) {
-  /* line 2192, ../scss/pages/_home.scss */
+  /* line 2386, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 12.125rem;
     position: absolute;
@@ -15964,7 +16592,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1367px) {
-  /* line 2192, ../scss/pages/_home.scss */
+  /* line 2386, ../scss/pages/_home.scss */
   #pijl-wit-links {
     width: 12.125rem;
     position: absolute;
@@ -15986,7 +16614,7 @@ body {
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2277, ../scss/pages/_home.scss */
+  /* line 2471, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 7.125rem;
     position: absolute;
@@ -16004,7 +16632,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2277, ../scss/pages/_home.scss */
+  /* line 2471, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 7.125rem;
     position: absolute;
@@ -16021,7 +16649,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1366px) {
-  /* line 2277, ../scss/pages/_home.scss */
+  /* line 2471, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 12.125rem;
     position: absolute;
@@ -16037,7 +16665,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1367px) {
-  /* line 2277, ../scss/pages/_home.scss */
+  /* line 2471, ../scss/pages/_home.scss */
   #pijl-wit-rechts {
     width: 12.125rem;
     position: absolute;
@@ -16054,7 +16682,7 @@ body {
 }
 
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 2348, ../scss/pages/_home.scss */
+  /* line 2542, ../scss/pages/_home.scss */
   .get-in-touch {
     position: relative;
     display: block;
@@ -16071,7 +16699,7 @@ body {
     z-index: 1000;
     background: none;
   }
-  /* line 2369, ../scss/pages/_home.scss */
+  /* line 2563, ../scss/pages/_home.scss */
   .get-in-touch:hover {
     position: relative;
     display: block;
@@ -16090,7 +16718,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 2348, ../scss/pages/_home.scss */
+  /* line 2542, ../scss/pages/_home.scss */
   .get-in-touch {
     position: relative;
     display: block;
@@ -16107,7 +16735,7 @@ body {
     z-index: 1000;
     background: none;
   }
-  /* line 2404, ../scss/pages/_home.scss */
+  /* line 2598, ../scss/pages/_home.scss */
   .get-in-touch:hover {
     position: relative;
     display: block;
@@ -16127,7 +16755,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2423, ../scss/pages/_home.scss */
+  /* line 2617, ../scss/pages/_home.scss */
   .get-in-touch2 {
     position: absolute;
     display: block;
@@ -16148,7 +16776,7 @@ body {
     bottom: 10rem;
     left: 0;
   }
-  /* line 2443, ../scss/pages/_home.scss */
+  /* line 2637, ../scss/pages/_home.scss */
   .get-in-touch2:hover {
     position: relative;
     display: block;
@@ -16170,7 +16798,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2423, ../scss/pages/_home.scss */
+  /* line 2617, ../scss/pages/_home.scss */
   .get-in-touch2 {
     background: transparent;
     position: absolute;
@@ -16194,7 +16822,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2489, ../scss/pages/_home.scss */
+  /* line 2683, ../scss/pages/_home.scss */
   .touch-box {
     height: 500px;
     right: 0;
@@ -16202,7 +16830,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2489, ../scss/pages/_home.scss */
+  /* line 2683, ../scss/pages/_home.scss */
   .touch-box {
     height: 100vh;
     right: 0;
@@ -16211,7 +16839,7 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2506, ../scss/pages/_home.scss */
+  /* line 2700, ../scss/pages/_home.scss */
   .get-in-touch-wrapper {
     display: flex;
     height: 500px;
@@ -16221,7 +16849,7 @@ body {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2506, ../scss/pages/_home.scss */
+  /* line 2700, ../scss/pages/_home.scss */
   .get-in-touch-wrapper {
     display: flex;
     height: 100vh;
@@ -16231,7 +16859,7 @@ body {
   }
 }
 
-/* line 2525, ../scss/pages/_home.scss */
+/* line 2719, ../scss/pages/_home.scss */
 .arrow-center-wrapper {
   display: flex;
   justify-content: center;
@@ -16239,7 +16867,7 @@ body {
 }
 
 /*===Footer===*/
-/* line 2536, ../scss/pages/_home.scss */
+/* line 2730, ../scss/pages/_home.scss */
 footer {
   padding-bottom: 0.938rem;
   background: black;
@@ -16247,14 +16875,14 @@ footer {
   overflow-x: hidden;
 }
 
-/* line 2546, ../scss/pages/_home.scss */
+/* line 2740, ../scss/pages/_home.scss */
 .contact {
   display: inline-block;
   padding: 40px 0px;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2558, ../scss/pages/_home.scss */
+  /* line 2752, ../scss/pages/_home.scss */
   .update-link {
     color: white;
     font-size: 15px;
@@ -16270,7 +16898,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2558, ../scss/pages/_home.scss */
+  /* line 2752, ../scss/pages/_home.scss */
   .update-link {
     text-decoration: underline;
     color: white;
@@ -16286,7 +16914,7 @@ footer {
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2591, ../scss/pages/_home.scss */
+  /* line 2785, ../scss/pages/_home.scss */
   .call {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16297,7 +16925,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2591, ../scss/pages/_home.scss */
+  /* line 2785, ../scss/pages/_home.scss */
   .call {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16308,7 +16936,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2591, ../scss/pages/_home.scss */
+  /* line 2785, ../scss/pages/_home.scss */
   .call {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16321,14 +16949,14 @@ footer {
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2628, ../scss/pages/_home.scss */
+  /* line 2822, ../scss/pages/_home.scss */
   .arrow-placer {
     margin-top: -500px;
   }
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2638, ../scss/pages/_home.scss */
+  /* line 2832, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 7.125rem;
     position: absolute;
@@ -16343,7 +16971,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2638, ../scss/pages/_home.scss */
+  /* line 2832, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 7.125rem;
     position: absolute;
@@ -16357,7 +16985,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 2638, ../scss/pages/_home.scss */
+  /* line 2832, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 8.125rem;
     position: absolute;
@@ -16372,7 +17000,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 2638, ../scss/pages/_home.scss */
+  /* line 2832, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 10.125rem;
     position: relative;
@@ -16386,7 +17014,7 @@ footer {
   }
 }
 
-/* line 2698, ../scss/pages/_home.scss */
+/* line 2892, ../scss/pages/_home.scss */
 .footer-xl-logo {
   width: 8.125rem;
   background: url("../icons/xlflogo_klein_wite.svg") no-repeat;
@@ -16400,14 +17028,14 @@ footer {
   margin-right: auto;
 }
 
-/* line 2711, ../scss/pages/_home.scss */
+/* line 2905, ../scss/pages/_home.scss */
 .xl-logo-wrapper {
   margin-left: auto;
   margin-right: auto;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2716, ../scss/pages/_home.scss */
+  /* line 2910, ../scss/pages/_home.scss */
   .footer-logo-wrapper {
     display: flex;
     justify-items: center;
@@ -16415,30 +17043,30 @@ footer {
     position: relative;
     margin-top: -1rem;
   }
-  /* line 2723, ../scss/pages/_home.scss */
+  /* line 2917, ../scss/pages/_home.scss */
   .footer-logo-wrapper li {
     display: inline-block;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2716, ../scss/pages/_home.scss */
+  /* line 2910, ../scss/pages/_home.scss */
   .footer-logo-wrapper {
     height: 16rem;
   }
-  /* line 2731, ../scss/pages/_home.scss */
+  /* line 2925, ../scss/pages/_home.scss */
   .footer-logo-wrapper ul {
     display: inline-block;
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
   }
-  /* line 2736, ../scss/pages/_home.scss */
+  /* line 2930, ../scss/pages/_home.scss */
   .footer-logo-wrapper ul li {
     display: inline-block;
   }
 }
 
-/* line 2746, ../scss/pages/_home.scss */
+/* line 2940, ../scss/pages/_home.scss */
 .linkdin-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -16451,7 +17079,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2758, ../scss/pages/_home.scss */
+/* line 2952, ../scss/pages/_home.scss */
 .twitter-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -16465,7 +17093,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2770, ../scss/pages/_home.scss */
+/* line 2964, ../scss/pages/_home.scss */
 .youtube-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -16479,7 +17107,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2782, ../scss/pages/_home.scss */
+/* line 2976, ../scss/pages/_home.scss */
 .facebook-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -16493,7 +17121,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2794, ../scss/pages/_home.scss */
+/* line 2988, ../scss/pages/_home.scss */
 .insta-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -16507,12 +17135,12 @@ footer {
   display: inline-block;
 }
 
-/* line 2807, ../scss/pages/_home.scss */
+/* line 3001, ../scss/pages/_home.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 2811, ../scss/pages/_home.scss */
+/* line 3005, ../scss/pages/_home.scss */
 .mobile-footer {
   height: 16rem;
   background: black;
@@ -16520,7 +17148,7 @@ ul {
 
 /*===Menu===*/
 @media only screen and (min-device-width: 768px) {
-  /* line 2821, ../scss/pages/_home.scss */
+  /* line 3015, ../scss/pages/_home.scss */
   .menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -16537,7 +17165,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2821, ../scss/pages/_home.scss */
+  /* line 3015, ../scss/pages/_home.scss */
   .menu-wrapper {
     height: 100vh;
     width: 29rem;
@@ -16555,7 +17183,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2854, ../scss/pages/_home.scss */
+  /* line 3048, ../scss/pages/_home.scss */
   .menu-wrapper2 {
     height: 100vh;
     width: 35rem;
@@ -16573,7 +17201,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2854, ../scss/pages/_home.scss */
+  /* line 3048, ../scss/pages/_home.scss */
   .menu-wrapper2 {
     height: 100vh;
     width: 29rem;
@@ -16591,7 +17219,7 @@ ul {
   }
 }
 
-/* line 2889, ../scss/pages/_home.scss */
+/* line 3083, ../scss/pages/_home.scss */
 .menu-open {
   right: 0rem !important;
   -webkit-transition: 0.6s ease;
@@ -16602,7 +17230,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2898, ../scss/pages/_home.scss */
+  /* line 3092, ../scss/pages/_home.scss */
   .menu-items {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16616,7 +17244,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2898, ../scss/pages/_home.scss */
+  /* line 3092, ../scss/pages/_home.scss */
   .menu-items {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16631,7 +17259,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2929, ../scss/pages/_home.scss */
+  /* line 3123, ../scss/pages/_home.scss */
   .menu-items2 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16645,7 +17273,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2929, ../scss/pages/_home.scss */
+  /* line 3123, ../scss/pages/_home.scss */
   .menu-items2 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16660,7 +17288,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2959, ../scss/pages/_home.scss */
+  /* line 3153, ../scss/pages/_home.scss */
   .menu-items3 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16674,7 +17302,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2959, ../scss/pages/_home.scss */
+  /* line 3153, ../scss/pages/_home.scss */
   .menu-items3 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16689,7 +17317,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 2989, ../scss/pages/_home.scss */
+  /* line 3183, ../scss/pages/_home.scss */
   .menu-items4 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16703,7 +17331,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 2989, ../scss/pages/_home.scss */
+  /* line 3183, ../scss/pages/_home.scss */
   .menu-items4 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16717,26 +17345,26 @@ ul {
   }
 }
 
-/* line 3019, ../scss/pages/_home.scss */
+/* line 3213, ../scss/pages/_home.scss */
 .menu-link {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
-/* line 3023, ../scss/pages/_home.scss */
+/* line 3217, ../scss/pages/_home.scss */
 .menu-link:hover {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
-/* line 3030, ../scss/pages/_home.scss */
+/* line 3224, ../scss/pages/_home.scss */
 .first-menu-item {
   margin-top: 7rem;
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3033, ../scss/pages/_home.scss */
+  /* line 3227, ../scss/pages/_home.scss */
   .arrow-menu {
     width: 100px;
     height: 2rem;
@@ -16751,7 +17379,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3033, ../scss/pages/_home.scss */
+  /* line 3227, ../scss/pages/_home.scss */
   .arrow-menu {
     width: 7.125rem;
     margin-bottom: -1rem;
@@ -16768,7 +17396,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3065, ../scss/pages/_home.scss */
+  /* line 3259, ../scss/pages/_home.scss */
   .arrow-menu2 {
     width: 100px;
     height: 2rem;
@@ -16783,7 +17411,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3065, ../scss/pages/_home.scss */
+  /* line 3259, ../scss/pages/_home.scss */
   .arrow-menu2 {
     width: 7.125rem;
     margin-bottom: -1rem;
@@ -16800,14 +17428,14 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3097, ../scss/pages/_home.scss */
+  /* line 3291, ../scss/pages/_home.scss */
   .menu-arrow-wrapper {
     display: block;
     position: relative;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3097, ../scss/pages/_home.scss */
+  /* line 3291, ../scss/pages/_home.scss */
   .menu-arrow-wrapper {
     display: block;
     position: relative;
@@ -16815,7 +17443,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3113, ../scss/pages/_home.scss */
+  /* line 3307, ../scss/pages/_home.scss */
   .contact-menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -16833,7 +17461,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3113, ../scss/pages/_home.scss */
+  /* line 3307, ../scss/pages/_home.scss */
   .contact-menu-wrapper {
     height: 100vh;
     width: 25rem;
@@ -16852,7 +17480,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3151, ../scss/pages/_home.scss */
+  /* line 3345, ../scss/pages/_home.scss */
   .subscribe-menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -16870,7 +17498,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3151, ../scss/pages/_home.scss */
+  /* line 3345, ../scss/pages/_home.scss */
   .subscribe-menu-wrapper {
     height: 100vh;
     width: 25rem;
@@ -16889,7 +17517,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3190, ../scss/pages/_home.scss */
+  /* line 3384, ../scss/pages/_home.scss */
   .contact-menu-items {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16898,7 +17526,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3190, ../scss/pages/_home.scss */
+  /* line 3384, ../scss/pages/_home.scss */
   .contact-menu-items {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16908,7 +17536,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3210, ../scss/pages/_home.scss */
+  /* line 3404, ../scss/pages/_home.scss */
   .contact-fat {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16918,7 +17546,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3210, ../scss/pages/_home.scss */
+  /* line 3404, ../scss/pages/_home.scss */
   .contact-fat {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16930,7 +17558,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3232, ../scss/pages/_home.scss */
+  /* line 3426, ../scss/pages/_home.scss */
   .contact-fat2 {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16942,7 +17570,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3232, ../scss/pages/_home.scss */
+  /* line 3426, ../scss/pages/_home.scss */
   .contact-fat2 {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -16954,7 +17582,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3257, ../scss/pages/_home.scss */
+  /* line 3451, ../scss/pages/_home.scss */
   .contact-number {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16963,7 +17591,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3257, ../scss/pages/_home.scss */
+  /* line 3451, ../scss/pages/_home.scss */
   .contact-number {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -16974,14 +17602,14 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3277, ../scss/pages/_home.scss */
+  /* line 3471, ../scss/pages/_home.scss */
   .secondpart-menu {
     margin-top: 4rem;
   }
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3287, ../scss/pages/_home.scss */
+  /* line 3481, ../scss/pages/_home.scss */
   .input-field-black {
     width: 85%;
     background: black;
@@ -16995,7 +17623,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3287, ../scss/pages/_home.scss */
+  /* line 3481, ../scss/pages/_home.scss */
   .input-field-black {
     width: 85%;
     background: black;
@@ -17011,7 +17639,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3315, ../scss/pages/_home.scss */
+  /* line 3509, ../scss/pages/_home.scss */
   .input-field-black-big {
     width: 85%;
     background: black;
@@ -17025,7 +17653,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3315, ../scss/pages/_home.scss */
+  /* line 3509, ../scss/pages/_home.scss */
   .input-field-black-big {
     width: 85%;
     background: black;
@@ -17040,7 +17668,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3342, ../scss/pages/_home.scss */
+  /* line 3536, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -17051,7 +17679,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 3342, ../scss/pages/_home.scss */
+  /* line 3536, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -17062,7 +17690,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 320px) {
-  /* line 3342, ../scss/pages/_home.scss */
+  /* line 3536, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -17073,7 +17701,7 @@ ul {
   }
 }
 
-/* line 3374, ../scss/pages/_home.scss */
+/* line 3568, ../scss/pages/_home.scss */
 .arrow-back {
   width: 100px;
   height: 100px;
@@ -17093,7 +17721,7 @@ ul {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 3392, ../scss/pages/_home.scss */
+  /* line 3586, ../scss/pages/_home.scss */
   .team-overlay {
     height: 500px;
     margin-top: -500px;
@@ -17101,7 +17729,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 3392, ../scss/pages/_home.scss */
+  /* line 3586, ../scss/pages/_home.scss */
   .team-overlay {
     height: 100vh;
     margin-top: -100vh;
@@ -17110,38 +17738,38 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3410, ../scss/pages/_home.scss */
+  /* line 3604, ../scss/pages/_home.scss */
   #test-carousel {
     height: 85vh;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3410, ../scss/pages/_home.scss */
+  /* line 3604, ../scss/pages/_home.scss */
   #test-carousel {
     height: 500px;
   }
 }
 
-/* line 3422, ../scss/pages/_home.scss */
+/* line 3616, ../scss/pages/_home.scss */
 #team {
   overflow: hidden;
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3426, ../scss/pages/_home.scss */
+  /* line 3620, ../scss/pages/_home.scss */
   footer {
     overflow: hidden;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3426, ../scss/pages/_home.scss */
+  /* line 3620, ../scss/pages/_home.scss */
   footer {
     height: auto;
     overflow: auto;
   }
 }
 
-/* line 3439, ../scss/pages/_home.scss */
+/* line 3633, ../scss/pages/_home.scss */
 video {
   width: 100vw;
   height: 100vh;
@@ -17153,19 +17781,19 @@ video {
   background: black;
 }
 
-/* line 3450, ../scss/pages/_home.scss */
+/* line 3644, ../scss/pages/_home.scss */
 .menu-link-none {
   color: white;
   font-family: "Raleway", sans-serif;
 }
-/* line 3453, ../scss/pages/_home.scss */
+/* line 3647, ../scss/pages/_home.scss */
 .menu-link-none:hover {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
-/* line 3460, ../scss/pages/_home.scss */
+/* line 3654, ../scss/pages/_home.scss */
 .filler {
   width: 100%;
   height: 100%;

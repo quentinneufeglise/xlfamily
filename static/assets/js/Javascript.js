@@ -141,16 +141,50 @@ window.twttr = (function(d, s, id) {
 }(document, "script", "twitter-wjs"));
 
 
-
+/*blog links*/
 $(document).ready(function() {
 
     $('#blog1').click(function(e) {
-        window.location = ("about.html");
+        window.location = ("blog-corporate-acceleration.html");
     });
 
 
     $('#blog2').click(function(e) {
-        window.location = ("about.html");
+        window.location = ("blog-corporate-blind-spot.html");
     });
+
+    $('#blog3').click(function(e) {
+        window.location = ("blog-business-sprint.html");
+    });
+
+    $('#blog4').click(function(e) {
+        window.location = ("blog-innovation-model.html");
+    });
+
+    $('#blog5').click(function(e) {
+        window.location = ("blog-being-lean.html");
+    });
+
+    $('#blog6').click(function(e) {
+        window.location = ("blog-copycatting.html");
+    });
+
+    $('#blog7').click(function(e) {
+        window.location = ("blog-corporates-startups.html");
+    });
+
+    $('#blog8').click(function(e) {
+        window.location = ("blog-landing-pages-validation.html");
+    });
+
+    $('#blog9').click(function(e) {
+        window.location = ("blog-sci-fi.html");
+    });
+
+    $('#blog10').click(function(e) {
+        window.location = ("blog-customer-interviews.html");
+    });
+
+
 
 });
