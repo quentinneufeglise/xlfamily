@@ -142,4 +142,15 @@ window.twttr = (function(d, s, id) {
 
 
 
+$(document).ready(function() {
 
+    $('#blog1').click(function(e) {
+        window.location = ("about.html");
+    });
+
+
+    $('#blog2').click(function(e) {
+        window.location = ("about.html");
+    });
+
+});
