@@ -189,3 +189,104 @@ $(document).ready(function() {
 });
 
 
+/*adventures*/
+
+$(document).ready(function() {
+
+    $('#experiments1').click(function(e) {
+        window.location = ("adventure-xllab.html");
+    });
+
+    $('#experiments2').click(function(e) {
+        window.location = ("adventure-xlventures.html");
+    });
+
+    $('#experiments3').click(function(e) {
+        window.location = ("adventure-xlevents.html");
+    });
+
+    $('#adventure-block-xllab').click(function(e) {
+        window.location = ("adventure-xllab.html");
+    });
+
+    $('#adventure-block-xlventures').click(function(e) {
+        window.location = ("adventure-xlventures.html");
+    });
+
+    $('#adventure-block-xlevents').click(function(e) {
+        window.location = ("adventure-xlevents.html");
+    });
+
+
+});
+
+
+/*blog artciles - article pages*/
+
+$(document).ready(function() {
+
+    $('#article-block-corporate-acceleration').click(function(e) {
+        window.location = ("blog-corporate-acceleration.html");
+    });
+
+
+    $('#article-block-corporate-blind').click(function(e) {
+        window.location = ("blog-corporate-blind-spot.html");
+    });
+
+    $('#article-block-business-sprint').click(function(e) {
+        window.location = ("blog-business-sprint.html");
+    });
+
+    $('#article-block-innovation-model').click(function(e) {
+        window.location = ("blog-innovation-model.html");
+    });
+
+    $('#article-block-being-lean').click(function(e) {
+        window.location = ("blog-being-lean.html");
+    });
+
+    $('#article-block-copycatting').click(function(e) {
+        window.location = ("blog-copycatting.html");
+    });
+
+    $('#article-block-corporates-startups').click(function(e) {
+        window.location = ("blog-corporates-startups.html");
+    });
+
+    $('#article-block-landing-page-validation').click(function(e) {
+        window.location = ("blog-landing-pages-validation.html");
+    });
+
+    $('#article-block-sci-fi').click(function(e) {
+        window.location = ("blog-sci-fi.html");
+    });
+
+    $('#article-block-customer-interviews').click(function(e) {
+        window.location = ("blog-customer-interviews.html");
+    });
+
+
+});
+
+/*cases*/
+
+$(document).ready(function() {
+
+    $('#case-block-veh').click(function(e) {
+        window.location = ("case-veh.html");
+    });
+
+    $('#case-block-broshuis').click(function(e) {
+        window.location = ("case-broshuis.html");
+    });
+
+    $('#case-block-deltalloyd').click(function(e) {
+        window.location = ("case-deltalloyd.html");
+    });
+
+    $('#case-block-bdo').click(function(e) {
+        window.location = ("case-bdo.html");
+    });
+
+});

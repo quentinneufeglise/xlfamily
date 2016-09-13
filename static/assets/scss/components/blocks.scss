@@ -35,13 +35,19 @@
   margin-top: -50vh;
 }
 
-//*home*//
 
-#story1 {
-  background: url("../images/xl_blog_1.png");
+
+//====*SECTIONS FOR MORE ABOUT THIS TOPIC AND READ NEXT ARTICLE*====//
+
+/*====Article-Block-1====*/
+
+.article-block-1 {
+  @media only screen and (min-device-width: 768px) {
+
   background-size: cover;
   background-position: center;
-  #story1-hover {
+
+  .article-block-1-hover {
     display: none;
   }
   .overlay-wrapper {
@@ -60,8 +66,6 @@
   &:hover {
     .overlay-wrapper {
       display: block;
-      background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
       width: 100%;
       height: 100%;
       position: absolute;
@@ -69,355 +73,11 @@
       left: 0;
       background-size: cover;
       background-position: center;
-    }
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/xl_blog_1.png");
-      background-position: center;
-      background-size: cover;
-      background-position: center;
-    }
-
-    #story1-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-  a {
-
-    &:hover {
-      .overlay-wrapper {
-        display: block;
-        background: url("../images/xl_blog_1.png"), url("../patterns/XLF_hover_cyan_S.png");
-        background-blend-mode: multiply;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-size: cover;
-        background-position: center;
-      }
-
-      .background-wrapper {
-
-        position: absolute;
-        display: block;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: url("../images/xl_blog_1.png");
-        background-position: center;
-        background-size: cover;
-        background-position: center;
-      }
-
-      #story1-hover {
-        display: block;
-        margin-top: $story-hover;
-        max-width: 400px;
-      }
-    }
-  }
-}
-#story2 {
-  background: url("../images/etos.png");
-  background-size: cover;
-  background-position:center;
-  #story2-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/etos.png"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/etos.png");
-      background-position:center;
-      background-size: cover;
-
-    }
-
-    .background_gradient-wrapper2 {
-      display: block;
-    }
-    #story2-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
-
-
-
-
-#story3 {
-  background: url("../images/broshuis.jpeg");
-  background-size: cover;
-  background-position:center;
-  #story3-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/broshuis.jpeg"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/broshuis.jpeg");
-      background-position:center;
-      background-size: cover;
-
-    }
-
-    .background_gradient-wrapper3 {
-      display: block;
-    }
-    #story3-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
-
-#story4 {
-  background: url("../images/xl_blog_2.jpeg");
-  background-size: cover;
-  background-position:center;
-  #story4-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/xl_blog_2.jpeg"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/xl_blog_2.jpeg");
-      background-position:center;
-      background-size: cover;
-
-    }
-
-    .background_gradient-wrapper4 {
-      display: block;
-    }
-    #story4-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
-
-#story5 {
-  background: url("../images/xl_blog_3.png");
-  background-size: cover;
-  background-position:center;
-  #story5-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      background:url("../images/xl_blog_3.png"), url("../patterns/XLF_hover_cyan_S.png");
-      background-blend-mode: multiply;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
-    }
-
-
-
-    .background-wrapper {
-
-      position: absolute;
-      display: block;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: url("../images/xl_blog_3.png");
-      background-position:center;
-      background-size: cover;
-
-    }
-
-    .background_gradient-wrapper5 {
-      display: block;
-    }
-    #story5-hover {
-      display: block;
-      margin-top: $story-hover;
-      max-width: 400px;
-    }
-  }
-}
-
-
-
-//====*SECTIONS FOR MORE ABOUT THIS TOPIC AND READ NEXT ARTICLE*====//
-
-/*====Article-Block-1====*/
-
-.article-block-1 {
-
-  background-size: cover;
-  background-position:center;
-
-  .article-block-1-hover {
-    display: none;
-  }
-  .overlay-wrapper {
-    display: block;
-    background: none;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-blend-mode: multiply;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position:center;
-  }
-
-  &:hover {
-    .overlay-wrapper {
-      display: block;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-size: cover;
-      background-position:center;
     }
     .background-wrapper, .article-block-sci-fi-hover, .article-block-corporate-blind-hover, .article-block-corporate-acceleration-hover,
     .article-block-being-lean-hover, .article-block-copycatting-hover, .article-block-business-sprint-hover, .article-block-corporates-startups-hover,
     .article-block-customer-interviews-hover, .article-block-innovation-model-hover, .article-block-landing-page-validation-hover,
-    .adventure-block-xllab-hover, .adventure-block-xlventures-hover, .adventure-block-xlevents-hover{
+    .adventure-block-xllab-hover, .adventure-block-xlventures-hover, .adventure-block-xlevents-hover {
 
       position: absolute;
       display: block;
@@ -425,12 +85,65 @@
       top: 0;
       width: 100%;
       height: 100%;
-   }
+    }
 
     .background_gradient-wrapper3 {
       display: block;
     }
     .article-block-1-hover {
+      display: block;
+      margin-top: $story-hover;
+      max-width: 400px;
+    }
+  }
+
+}
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background-position: center;
+
+    .article-block-3-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .overlay-wrapper {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .background-wrapper {
+
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .background_gradient-wrapper3 {
+      display: block;
+    }
+    .article-block-3-hover {
       display: block;
       margin-top: $story-hover;
       max-width: 400px;
@@ -443,6 +156,7 @@
 /*====Article-Block-2====*/
 
 .article-block-2 {
+  @media only screen and (min-device-width: 768px) {
 
   background-size: cover;
   background-position:center;
@@ -497,6 +211,59 @@
       max-width: 400px;
     }
   }
+  }
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background-position: center;
+
+    .article-block-3-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .overlay-wrapper {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .background-wrapper {
+
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .background_gradient-wrapper3 {
+      display: block;
+    }
+    .article-block-3-hover {
+      display: block;
+      margin-top: $story-hover;
+      max-width: 400px;
+    }
+  }
 }
 
 
@@ -504,8 +271,12 @@
 /*====Article-Block-3=====*/
 
 .article-block-3 {
+
+  @media only screen and (min-device-width: 768px) {
+
+
   background-size: cover;
-  background-position:center;
+  background-position: center;
 
   .article-block-3-hover {
     display: none;
@@ -520,11 +291,11 @@
     top: 0;
     left: 0;
     background-size: cover;
-    background-position:center;
+    background-position: center;
   }
 
   &:hover {
-    .overlay-wrapper, .broshuis {
+    .overlay-wrapper {
       display: block;
       width: 100%;
       height: 100%;
@@ -532,7 +303,7 @@
       top: 0;
       left: 0;
       background-size: cover;
-      background-position:center;
+      background-position: center;
     }
 
     .background-wrapper, .article-block-sci-fi-hover, .article-block-corporate-blind-hover, .article-block-corporate-acceleration-hover,
@@ -560,6 +331,60 @@
   }
 }
 
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background-position: center;
+
+    .article-block-3-hover {
+      display: none;
+    }
+    .overlay-wrapper {
+      display: block;
+      background: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-blend-mode: multiply;
+      top: 0;
+      left: 0;
+      background-size: cover;
+      background-position: center;
+    }
+
+      .overlay-wrapper {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .background-wrapper {
+
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+
+      }
+
+      .background_gradient-wrapper3 {
+        display: block;
+      }
+      .article-block-3-hover {
+        display: block;
+        margin-top: $story-hover;
+        max-width: 400px;
+      }
+    }
+  }
+
+
 
 /*===images block all blocks articles===*/
 
@@ -570,6 +395,7 @@
   background: url("../images/blog/desktop/sci-fi.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .article-block-sci-fi-hover {
@@ -584,6 +410,7 @@
   background: url("../images/blog/desktop/corporate-blind.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 
@@ -600,6 +427,7 @@
   background: url("../images/blog/desktop/corporate-acceleration.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .article-block-corporate-acceleration-hover {
@@ -615,6 +443,7 @@
   background: url("../images/blog/desktop/being-lean.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .article-block-being-lean-hover {
@@ -630,6 +459,7 @@
   background: url("../images/blog/desktop/copycatting.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .article-block-copycatting-hover {
@@ -645,6 +475,7 @@
    background: url("../images/blog/desktop/business-sprint.jpg") no-repeat;
    background-size: cover;
    background-position:center;
+  cursor: pointer;
  }
 
 .article-block-business-sprint-hover {
@@ -660,6 +491,7 @@
   background: url("../images/blog/desktop/corporates-startups.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .article-block-corporates-startups-hover {
@@ -675,6 +507,7 @@
   background: url("../images/blog/desktop/customer-interviews.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .article-block-customer-interviews-hover {
@@ -690,6 +523,7 @@
   background: url("../images/blog/desktop/innovation-model.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .article-block-innovation-model-hover {
@@ -706,6 +540,7 @@
   background: url("../images/blog/desktop/landing-page-validation.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .article-block-landing-page-validation-hover {
@@ -725,6 +560,7 @@
   background: url("../images/cases/desktop/bdo.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .case-block-bdo-hover {
@@ -732,6 +568,7 @@
   background-blend-mode: multiply;
   background-position:center;
   background-size: cover;
+
 }
 
 /*===VEH===*/
@@ -740,6 +577,7 @@
   background: url("../images/cases/desktop/veh.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .case-block-veh-hover {
@@ -756,6 +594,7 @@
   background: url("../images/cases/desktop/broshuis.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .case-block-broshuis-hover {
@@ -771,6 +610,7 @@
   background: url("../images/cases/desktop/delta_lloyd.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .case-block-deltalloyd-hover {
@@ -791,6 +631,7 @@
   background: url("../images/adventures-headers/desktop/xllab.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .adventure-block-xllab-hover {
@@ -806,6 +647,7 @@
   background: url("../images/adventures-headers/desktop/xlventures.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .adventure-block-xlventures-hover {
@@ -821,6 +663,7 @@
   background: url("../images/adventures-headers/desktop/xlevents.jpg") no-repeat;
   background-size: cover;
   background-position:center;
+  cursor: pointer;
 }
 
 .adventure-block-xlevents-hover {
@@ -837,6 +680,7 @@
   background: url("../images/blog/overview/corporate-acceleration.jpg");
   background-size: cover;
   background-position:center;
+  cursor: pointer;
   #blog1-hover {
     display: none;
   }
@@ -894,6 +738,7 @@
     background: url("../images/blog/overview/corporate-acceleration.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog1-hover {
       display: none;
     }
@@ -941,6 +786,7 @@
     background: url("../images/blog/overview/corporate-blind.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog2-hover {
       display: none;
     }
@@ -999,6 +845,7 @@
     background: url("../images/blog/overview/corporate-blind.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog2-hover {
       display: none;
     }
@@ -1048,6 +895,7 @@
     background: url("../images/blog/overview/business-sprint.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog3-hover {
       display: none;
     }
@@ -1106,6 +954,7 @@
     background: url("../images/blog/overview/business-sprint.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog3-hover {
       display: none;
     }
@@ -1153,6 +1002,7 @@
     background: url("../images/blog/overview/innovation-model.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog4-hover {
       display: none;
     }
@@ -1210,6 +1060,7 @@
     background: url("../images/blog/overview/innovation-model.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog4-hover {
       display: none;
     }
@@ -1259,6 +1110,7 @@
     background: url("../images/blog/overview/being-lean.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog5-hover {
       display: none;
     }
@@ -1317,6 +1169,7 @@
     background: url("../images/blog/overview/being-lean.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog5-hover {
       display: none;
     }
@@ -1365,6 +1218,7 @@
     background: url("../images/blog/overview/copycatting.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog6-hover {
       display: none;
     }
@@ -1422,6 +1276,7 @@
     background: url("../images/blog/overview/copycatting.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog6-hover {
       display: none;
     }
@@ -1472,6 +1327,7 @@
     background: url("../images/blog/overview/corporates-startups.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog7-hover {
       display: none;
     }
@@ -1530,6 +1386,7 @@
     background: url("../images/blog/overview/corporates-startups.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog7-hover {
       display: none;
     }
@@ -1578,6 +1435,7 @@
     background: url("../images/blog/overview/landing-page-validation.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog8-hover {
       display: none;
     }
@@ -1639,6 +1497,7 @@
     background: url("../images/blog/overview/landing-page-validation.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog8-hover {
       display: none;
     }
@@ -1688,6 +1547,7 @@
     background: url("../images/blog/overview/sci-fi.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog9-hover {
       display: none;
     }
@@ -1745,6 +1605,7 @@
     background: url("../images/blog/overview/sci-fi.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog9-hover {
       display: none;
     }
@@ -1793,6 +1654,7 @@
     background: url("../images/blog/overview/customer-interviews.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog10-hover {
       display: none;
     }
@@ -1852,6 +1714,7 @@
     background: url("../images/blog/overview/customer-interviews.jpg");
     background-size: cover;
     background-position:center;
+    cursor: pointer;
     #blog10-hover {
       display: none;
     }

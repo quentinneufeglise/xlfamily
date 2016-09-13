@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$story-hover".
-        on line 90 of C:/Users/Aneliya/Desktop/xlfamily-3-0/static/assets/scss/components/blocks.scss
+        on line 95 of C:/Users/Aneliya/Desktop/xlfamily-3-0/static/assets/scss/components/blocks.scss
 
-85:       background-position: center;
-86:     }
-87: 
-88:     #story1-hover {
-89:       display: block;
-90:       margin-top: $story-hover;
-91:       max-width: 400px;
+90:     .background_gradient-wrapper3 {
+91:       display: block;
 92:     }
-93:   }
-94:   a {
-95: 
+93:     .article-block-1-hover {
+94:       display: block;
+95:       margin-top: $story-hover;
+96:       max-width: 400px;
+97:     }
+98:   }
+99: 
+100: }
 
 Backtrace:
-C:/Users/Aneliya/Desktop/xlfamily-3-0/static/assets/scss/components/blocks.scss:90
+C:/Users/Aneliya/Desktop/xlfamily-3-0/static/assets/scss/components/blocks.scss:95
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -41,6 +41,20 @@ C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:513:in `visit_media'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
@@ -91,4 +105,4 @@ C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$story-hover\".\A         on line 90 of C:/Users/Aneliya/Desktop/xlfamily-3-0/static/assets/scss/components/blocks.scss\A \A 85:       background-position: center;\A 86:     }\A 87: \A 88:     #story1-hover {\A 89:       display: block;\A 90:       margin-top: $story-hover;\A 91:       max-width: 400px;\A 92:     }\A 93:   }\A 94:   a {\A 95: "; }
+  content: "Error: Undefined variable: \"$story-hover\".\A         on line 95 of C:/Users/Aneliya/Desktop/xlfamily-3-0/static/assets/scss/components/blocks.scss\A \A 90:     .background_gradient-wrapper3 {\A 91:       display: block;\A 92:     }\A 93:     .article-block-1-hover {\A 94:       display: block;\A 95:       margin-top: $story-hover;\A 96:       max-width: 400px;\A 97:     }\A 98:   }\A 99: \A 100: }"; }
