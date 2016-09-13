@@ -17756,20 +17756,20 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3620, ../scss/pages/_home.scss */
+  /* line 3621, ../scss/pages/_home.scss */
   footer {
     overflow: hidden;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3620, ../scss/pages/_home.scss */
+  /* line 3621, ../scss/pages/_home.scss */
   footer {
     height: auto;
     overflow: auto;
   }
 }
 
-/* line 3633, ../scss/pages/_home.scss */
+/* line 3634, ../scss/pages/_home.scss */
 video {
   width: 100vw;
   height: 100vh;
@@ -17781,19 +17781,19 @@ video {
   background: black;
 }
 
-/* line 3644, ../scss/pages/_home.scss */
+/* line 3645, ../scss/pages/_home.scss */
 .menu-link-none {
   color: white;
   font-family: "Raleway", sans-serif;
 }
-/* line 3647, ../scss/pages/_home.scss */
+/* line 3648, ../scss/pages/_home.scss */
 .menu-link-none:hover {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
-/* line 3654, ../scss/pages/_home.scss */
+/* line 3655, ../scss/pages/_home.scss */
 .filler {
   width: 100%;
   height: 100%;
