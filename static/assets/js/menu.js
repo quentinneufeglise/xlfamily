@@ -88,7 +88,7 @@ $(".menu-cross3").click(function () {
 
 
 $(document).ready(function () {
-    $(".arrow-menu").on("click", function () {
+    $(".approach-link").on("click", function () {
 
         $(".menu-items").hide();
         $(".menu-items2").show();
@@ -108,7 +108,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $(".arrow-menu2").on("click", function () {
+    $(".adventures-link").on("click", function () {
 
         $(".menu-items").hide();
         $(".menu-items3").show();

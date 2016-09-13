@@ -8950,6 +8950,12 @@ button.close {
   border-radius: 0;
 }
 
+/*==== CUSROR STYLING===*/
+/* line 125, ../scss/components/_menu.scss */
+.approach-link, .adventures-link, .contact-open2 {
+  cursor: pointer;
+}
+
 /* line 1, ../scss/components/blocks.scss */
 .horizontal-story {
   height: 50vh;
@@ -16881,16 +16887,26 @@ footer {
   padding: 40px 0px;
 }
 
+/* line 2752, ../scss/pages/_home.scss */
+.update-link {
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+/* line 2761, ../scss/pages/_home.scss */
+.update-link:hover {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
 @media only screen and (max-device-width: 767px) {
   /* line 2752, ../scss/pages/_home.scss */
   .update-link {
-    color: white;
-    font-size: 15px;
-    font-family: "Raleway", sans-serif;
-    line-height: 1.5;
-    display: inline-block;
-    float: left;
-    position: relative;
     font-weight: 700;
     margin-right: 30%;
     margin-bottom: 1.625rem;
@@ -16900,14 +16916,6 @@ footer {
 @media only screen and (min-device-width: 768px) {
   /* line 2752, ../scss/pages/_home.scss */
   .update-link {
-    text-decoration: underline;
-    color: white;
-    font-size: 15px;
-    font-family: "Raleway", sans-serif;
-    line-height: 1.5;
-    display: inline-block;
-    float: left;
-    position: relative;
     margin-right: 1.250rem;
     margin-bottom: 0.625rem;
   }
@@ -16949,14 +16957,14 @@ footer {
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2822, ../scss/pages/_home.scss */
+  /* line 2819, ../scss/pages/_home.scss */
   .arrow-placer {
     margin-top: -500px;
   }
 }
 
 @media only screen and (max-device-width: 320px) {
-  /* line 2832, ../scss/pages/_home.scss */
+  /* line 2829, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 7.125rem;
     position: absolute;
@@ -16971,7 +16979,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 2832, ../scss/pages/_home.scss */
+  /* line 2829, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 7.125rem;
     position: absolute;
@@ -16985,7 +16993,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
-  /* line 2832, ../scss/pages/_home.scss */
+  /* line 2829, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 8.125rem;
     position: absolute;
@@ -17000,7 +17008,7 @@ footer {
   }
 }
 @media only screen and (min-device-width: 1200px) {
-  /* line 2832, ../scss/pages/_home.scss */
+  /* line 2829, ../scss/pages/_home.scss */
   .footer-pijl-rechts {
     width: 10.125rem;
     position: relative;
@@ -17014,7 +17022,7 @@ footer {
   }
 }
 
-/* line 2892, ../scss/pages/_home.scss */
+/* line 2889, ../scss/pages/_home.scss */
 .footer-xl-logo {
   width: 8.125rem;
   background: url("../icons/xlflogo_klein_wite.svg") no-repeat;
@@ -17028,14 +17036,14 @@ footer {
   margin-right: auto;
 }
 
-/* line 2905, ../scss/pages/_home.scss */
+/* line 2902, ../scss/pages/_home.scss */
 .xl-logo-wrapper {
   margin-left: auto;
   margin-right: auto;
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 2910, ../scss/pages/_home.scss */
+  /* line 2907, ../scss/pages/_home.scss */
   .footer-logo-wrapper {
     display: flex;
     justify-items: center;
@@ -17043,30 +17051,30 @@ footer {
     position: relative;
     margin-top: -1rem;
   }
-  /* line 2917, ../scss/pages/_home.scss */
+  /* line 2914, ../scss/pages/_home.scss */
   .footer-logo-wrapper li {
     display: inline-block;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 2910, ../scss/pages/_home.scss */
+  /* line 2907, ../scss/pages/_home.scss */
   .footer-logo-wrapper {
     height: 16rem;
   }
-  /* line 2925, ../scss/pages/_home.scss */
+  /* line 2922, ../scss/pages/_home.scss */
   .footer-logo-wrapper ul {
     display: inline-block;
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
   }
-  /* line 2930, ../scss/pages/_home.scss */
+  /* line 2927, ../scss/pages/_home.scss */
   .footer-logo-wrapper ul li {
     display: inline-block;
   }
 }
 
-/* line 2940, ../scss/pages/_home.scss */
+/* line 2937, ../scss/pages/_home.scss */
 .linkdin-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -17079,7 +17087,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2952, ../scss/pages/_home.scss */
+/* line 2949, ../scss/pages/_home.scss */
 .twitter-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -17093,7 +17101,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2964, ../scss/pages/_home.scss */
+/* line 2961, ../scss/pages/_home.scss */
 .youtube-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -17107,7 +17115,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2976, ../scss/pages/_home.scss */
+/* line 2973, ../scss/pages/_home.scss */
 .facebook-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -17121,7 +17129,7 @@ footer {
   display: inline-block;
 }
 
-/* line 2988, ../scss/pages/_home.scss */
+/* line 2985, ../scss/pages/_home.scss */
 .insta-logo {
   width: 3.125rem;
   height: 3.125rem;
@@ -17135,12 +17143,12 @@ footer {
   display: inline-block;
 }
 
-/* line 3001, ../scss/pages/_home.scss */
+/* line 2998, ../scss/pages/_home.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 3005, ../scss/pages/_home.scss */
+/* line 3002, ../scss/pages/_home.scss */
 .mobile-footer {
   height: 16rem;
   background: black;
@@ -17148,7 +17156,7 @@ ul {
 
 /*===Menu===*/
 @media only screen and (min-device-width: 768px) {
-  /* line 3015, ../scss/pages/_home.scss */
+  /* line 3012, ../scss/pages/_home.scss */
   .menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -17165,7 +17173,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3015, ../scss/pages/_home.scss */
+  /* line 3012, ../scss/pages/_home.scss */
   .menu-wrapper {
     height: 100vh;
     width: 29rem;
@@ -17183,7 +17191,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3048, ../scss/pages/_home.scss */
+  /* line 3045, ../scss/pages/_home.scss */
   .menu-wrapper2 {
     height: 100vh;
     width: 35rem;
@@ -17201,7 +17209,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3048, ../scss/pages/_home.scss */
+  /* line 3045, ../scss/pages/_home.scss */
   .menu-wrapper2 {
     height: 100vh;
     width: 29rem;
@@ -17219,7 +17227,7 @@ ul {
   }
 }
 
-/* line 3083, ../scss/pages/_home.scss */
+/* line 3080, ../scss/pages/_home.scss */
 .menu-open {
   right: 0rem !important;
   -webkit-transition: 0.6s ease;
@@ -17230,7 +17238,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3092, ../scss/pages/_home.scss */
+  /* line 3089, ../scss/pages/_home.scss */
   .menu-items {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -17244,7 +17252,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3092, ../scss/pages/_home.scss */
+  /* line 3089, ../scss/pages/_home.scss */
   .menu-items {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -17259,7 +17267,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3123, ../scss/pages/_home.scss */
+  /* line 3120, ../scss/pages/_home.scss */
   .menu-items2 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -17273,7 +17281,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3123, ../scss/pages/_home.scss */
+  /* line 3120, ../scss/pages/_home.scss */
   .menu-items2 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -17288,7 +17296,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3153, ../scss/pages/_home.scss */
+  /* line 3150, ../scss/pages/_home.scss */
   .menu-items3 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -17302,7 +17310,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3153, ../scss/pages/_home.scss */
+  /* line 3150, ../scss/pages/_home.scss */
   .menu-items3 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -17317,7 +17325,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3183, ../scss/pages/_home.scss */
+  /* line 3180, ../scss/pages/_home.scss */
   .menu-items4 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -17331,7 +17339,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3183, ../scss/pages/_home.scss */
+  /* line 3180, ../scss/pages/_home.scss */
   .menu-items4 {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -17345,26 +17353,26 @@ ul {
   }
 }
 
-/* line 3213, ../scss/pages/_home.scss */
+/* line 3210, ../scss/pages/_home.scss */
 .menu-link {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
-/* line 3217, ../scss/pages/_home.scss */
+/* line 3214, ../scss/pages/_home.scss */
 .menu-link:hover {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
-/* line 3224, ../scss/pages/_home.scss */
+/* line 3221, ../scss/pages/_home.scss */
 .first-menu-item {
   margin-top: 7rem;
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3227, ../scss/pages/_home.scss */
+  /* line 3224, ../scss/pages/_home.scss */
   .arrow-menu {
     width: 100px;
     height: 2rem;
@@ -17379,7 +17387,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3227, ../scss/pages/_home.scss */
+  /* line 3224, ../scss/pages/_home.scss */
   .arrow-menu {
     width: 7.125rem;
     margin-bottom: -1rem;
@@ -17396,7 +17404,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3259, ../scss/pages/_home.scss */
+  /* line 3256, ../scss/pages/_home.scss */
   .arrow-menu2 {
     width: 100px;
     height: 2rem;
@@ -17411,7 +17419,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3259, ../scss/pages/_home.scss */
+  /* line 3256, ../scss/pages/_home.scss */
   .arrow-menu2 {
     width: 7.125rem;
     margin-bottom: -1rem;
@@ -17428,14 +17436,14 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3291, ../scss/pages/_home.scss */
+  /* line 3288, ../scss/pages/_home.scss */
   .menu-arrow-wrapper {
     display: block;
     position: relative;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3291, ../scss/pages/_home.scss */
+  /* line 3288, ../scss/pages/_home.scss */
   .menu-arrow-wrapper {
     display: block;
     position: relative;
@@ -17443,7 +17451,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3307, ../scss/pages/_home.scss */
+  /* line 3304, ../scss/pages/_home.scss */
   .contact-menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -17461,7 +17469,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3307, ../scss/pages/_home.scss */
+  /* line 3304, ../scss/pages/_home.scss */
   .contact-menu-wrapper {
     height: 100vh;
     width: 25rem;
@@ -17480,7 +17488,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3345, ../scss/pages/_home.scss */
+  /* line 3342, ../scss/pages/_home.scss */
   .subscribe-menu-wrapper {
     height: 100vh;
     width: 35rem;
@@ -17498,7 +17506,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3345, ../scss/pages/_home.scss */
+  /* line 3342, ../scss/pages/_home.scss */
   .subscribe-menu-wrapper {
     height: 100vh;
     width: 25rem;
@@ -17517,7 +17525,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3384, ../scss/pages/_home.scss */
+  /* line 3381, ../scss/pages/_home.scss */
   .contact-menu-items {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -17526,7 +17534,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3384, ../scss/pages/_home.scss */
+  /* line 3381, ../scss/pages/_home.scss */
   .contact-menu-items {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -17536,7 +17544,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3404, ../scss/pages/_home.scss */
+  /* line 3401, ../scss/pages/_home.scss */
   .contact-fat {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -17546,7 +17554,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3404, ../scss/pages/_home.scss */
+  /* line 3401, ../scss/pages/_home.scss */
   .contact-fat {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -17558,7 +17566,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3426, ../scss/pages/_home.scss */
+  /* line 3423, ../scss/pages/_home.scss */
   .contact-fat2 {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -17570,7 +17578,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3426, ../scss/pages/_home.scss */
+  /* line 3423, ../scss/pages/_home.scss */
   .contact-fat2 {
     font-family: "Raleway", sans-serif;
     color: white;
@@ -17582,7 +17590,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3451, ../scss/pages/_home.scss */
+  /* line 3448, ../scss/pages/_home.scss */
   .contact-number {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -17591,7 +17599,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3451, ../scss/pages/_home.scss */
+  /* line 3448, ../scss/pages/_home.scss */
   .contact-number {
     color: white;
     font-family: "Raleway", sans-serif;
@@ -17602,14 +17610,14 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3471, ../scss/pages/_home.scss */
+  /* line 3468, ../scss/pages/_home.scss */
   .secondpart-menu {
     margin-top: 4rem;
   }
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3481, ../scss/pages/_home.scss */
+  /* line 3478, ../scss/pages/_home.scss */
   .input-field-black {
     width: 85%;
     background: black;
@@ -17623,7 +17631,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3481, ../scss/pages/_home.scss */
+  /* line 3478, ../scss/pages/_home.scss */
   .input-field-black {
     width: 85%;
     background: black;
@@ -17639,7 +17647,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3509, ../scss/pages/_home.scss */
+  /* line 3506, ../scss/pages/_home.scss */
   .input-field-black-big {
     width: 85%;
     background: black;
@@ -17653,7 +17661,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3509, ../scss/pages/_home.scss */
+  /* line 3506, ../scss/pages/_home.scss */
   .input-field-black-big {
     width: 85%;
     background: black;
@@ -17668,7 +17676,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3536, ../scss/pages/_home.scss */
+  /* line 3533, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -17679,7 +17687,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 3536, ../scss/pages/_home.scss */
+  /* line 3533, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -17690,7 +17698,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 320px) {
-  /* line 3536, ../scss/pages/_home.scss */
+  /* line 3533, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -17701,7 +17709,7 @@ ul {
   }
 }
 
-/* line 3568, ../scss/pages/_home.scss */
+/* line 3565, ../scss/pages/_home.scss */
 .arrow-back {
   width: 100px;
   height: 100px;
@@ -17721,7 +17729,7 @@ ul {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 3586, ../scss/pages/_home.scss */
+  /* line 3583, ../scss/pages/_home.scss */
   .team-overlay {
     height: 500px;
     margin-top: -500px;
@@ -17729,7 +17737,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 3586, ../scss/pages/_home.scss */
+  /* line 3583, ../scss/pages/_home.scss */
   .team-overlay {
     height: 100vh;
     margin-top: -100vh;
@@ -17738,38 +17746,38 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3604, ../scss/pages/_home.scss */
+  /* line 3601, ../scss/pages/_home.scss */
   #test-carousel {
     height: 85vh;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3604, ../scss/pages/_home.scss */
+  /* line 3601, ../scss/pages/_home.scss */
   #test-carousel {
     height: 500px;
   }
 }
 
-/* line 3616, ../scss/pages/_home.scss */
+/* line 3613, ../scss/pages/_home.scss */
 #team {
   overflow: hidden;
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3621, ../scss/pages/_home.scss */
+  /* line 3618, ../scss/pages/_home.scss */
   footer {
     overflow: hidden;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3621, ../scss/pages/_home.scss */
+  /* line 3618, ../scss/pages/_home.scss */
   footer {
     height: auto;
     overflow: auto;
   }
 }
 
-/* line 3634, ../scss/pages/_home.scss */
+/* line 3631, ../scss/pages/_home.scss */
 video {
   width: 100vw;
   height: 100vh;
@@ -17781,19 +17789,19 @@ video {
   background: black;
 }
 
-/* line 3645, ../scss/pages/_home.scss */
+/* line 3642, ../scss/pages/_home.scss */
 .menu-link-none {
   color: white;
   font-family: "Raleway", sans-serif;
 }
-/* line 3648, ../scss/pages/_home.scss */
+/* line 3645, ../scss/pages/_home.scss */
 .menu-link-none:hover {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
-/* line 3655, ../scss/pages/_home.scss */
+/* line 3652, ../scss/pages/_home.scss */
 .filler {
   width: 100%;
   height: 100%;

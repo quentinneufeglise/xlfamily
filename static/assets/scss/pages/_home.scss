@@ -2750,14 +2750,21 @@ display: inline-block;
 
 
 .update-link {
-  @media only screen and (max-device-width: 767px) {
+  cursor: pointer;
+  color: white;
+  font-size: $font-text;
+  font-family: $raleway;
+  line-height: 1.5;
+  display: inline-block;
+  float: left;
+  position: relative;
+  &:hover {
     color: white;
-    font-size: $font-text;
     font-family: $raleway;
-    line-height: 1.5;
-    display: inline-block;
-    float: left;
-    position: relative;
+    text-decoration: none;
+  }
+  @media only screen and (max-device-width: 767px) {
+
     font-weight: 700;
     margin-right: 30%;
     margin-bottom: 1.625rem;
@@ -2765,14 +2772,7 @@ display: inline-block;
   }
 
   @media only screen and (min-device-width: 768px) {
-    text-decoration: underline;
-    color: white;
-    font-size: $font-text;
-    font-family: $raleway;
-    line-height: 1.5;
-    display: inline-block;
-    float: left;
-    position: relative;
+
     margin-right: 1.250rem;
     margin-bottom: 0.625rem;
 
