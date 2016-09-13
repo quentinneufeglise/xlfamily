@@ -136,7 +136,7 @@ $(document).ready(function () {
     $("body").on("click", function (event) {
         var target = event.target;
 
-        if ($(target).is('.subscribe-menu-wrapper') || $(target).is('.footer-pijl-rechts')) {
+        if ($(target).is('.subscribe-menu-wrapper') || $(target).is('.update-link')) {
             // menu
         } else {
             if ($(target).parents('.subscribe-menu-wrapper').length > 0) {
@@ -149,9 +149,9 @@ $(document).ready(function () {
     });
 
 
-    $(".footer-pijl-rechts").click(function () {
+    $(".update-link").click(function () {
         $(".subscribe-menu-wrapper").addClass("menu-open");
-        $(".footer-pijl-rechts").addClass("hamburger-open");
+        $(".update-link").addClass("hamburger-open");
 
     });
 });
