@@ -12,7 +12,7 @@ $thoughts = $_POST['thoughts'];
 
 	
 // Create the email and send the message
-$to = 'silvio@xlfamily.com';
+$to = 'aneliya@xlfamily.com';
 $email_subject = "Contact request XL website  :  $name";
 $email_body = "Someone is interested in XL family \n\n"."Details\n\n Name: $name \n\n Email address : $email_address \n\n Phone number: $phone_number \n\n Message: $thoughts";
 $headers = "From: noreply@xlfamily.com\n";

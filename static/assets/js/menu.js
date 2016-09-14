@@ -2,6 +2,23 @@
  * Created by quentin on 8/22/16.
  */
 
+/*
+Show contact form and clear success message
+ */
+function initContactForm() {
+    $('#success > .alert-success').empty();
+    $('#contactform').show();
+}
+
+/*
+ Show newsletter form and clear success message
+ */
+function initNewsForm() {
+    $('#success_newsletter > .alert-success').empty();
+    $('#newsletterform').show();
+}
+
+
 
 $(document).ready(function () {
 
@@ -19,6 +36,7 @@ $(document).ready(function () {
             } else {
                 // not menu
                 $(".menu-wrapper").removeClass('menu-open');
+                initContactForm();
             }
         }
     });
@@ -79,11 +97,13 @@ $(document).ready(function () {
 
 $(".menu-cross2").click(function () {
     $(".contact-menu-wrapper").removeClass('menu-open');
+    initContactForm();
 });
 
 
 $(".menu-cross3").click(function () {
     $(".subscribe-menu-wrapper").removeClass('menu-open');
+    initNewsForm();
 });
 
 
@@ -144,6 +164,7 @@ $(document).ready(function () {
             } else {
                 // not menu
                 $(".subscribe-menu-wrapper").removeClass('menu-open');
+                initNewsForm();
             }
         }
     });

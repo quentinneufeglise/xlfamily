@@ -37,14 +37,15 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<p class='contact-fat2'>Thank you! </p><p>We'll get back to you soon.</p>");
+                        .append("<p class='contact-fat2'>Thank you!</p><p>We'll get back to you soon.</p>");
                     $('#success > .alert-success')
                     //    .append("<span><br/><br/>Gebruik de tijd tot aan 21 april om je idee verder te verfijnen.</span>");
                     //$('#success > .alert-success')
                         .append('</div>');
 
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    $('#contactform').trigger("reset");
+                    $('#contactform').hide();
                 },
                 error: function() {
                     // Fail message
@@ -54,7 +55,8 @@ $(function() {
                     $('#success > .alert-danger').append("<strong>Oops " + name + ", there seems to have been an error. Please try again later!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    $('#contactform').trigger("reset");
+
                 },
             })
         },
