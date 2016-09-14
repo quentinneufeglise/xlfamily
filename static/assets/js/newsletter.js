@@ -42,8 +42,10 @@ $(function() {
                         .append('</div>');
 
                     //clear all fields
-                    $('#newsletterform').hide();
+
                     $('#newsletterform').trigger("reset");
+                    $('#newsletterform').removeClass('dirty-nl_name').removeClass('dirty-nl_email');
+                    $('#newsletterform').hide();
 
 
 
@@ -56,7 +58,6 @@ $(function() {
                     $('#success_newsletter > .alert-danger').append("<strong>Oops " + name + ", there seems to have been an error. Please try again later!");
                     $('#success_newsletter > .alert-danger').append('</div>');
                     //clear all fields
-                    $('#newsletterform').trigger("reset");
                 },
             })
         },
@@ -69,6 +70,21 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
+
+    /*MAKING THE BUTTON BLUE*/
+
+    $('#nl_name, #nl_email').on('keyup', function(){
+        var id = $(this).attr('id');
+        if( $(this).val().length > 0){
+            $('#newsletterform').addClass('dirty-' + id);
+        } else {
+            $('#newsletterform').removeClass('dirty-' + id);
+        }
+    });
+
+
+
+
 });
 
 

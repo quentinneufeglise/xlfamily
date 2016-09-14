@@ -51,6 +51,8 @@ body{
 }
 
 .hamburger {
+
+
   @media only screen and (max-device-width: 767px) {
     width: 4.125rem;
     position: absolute;
@@ -63,6 +65,20 @@ body{
     z-index: 10;
     display: block;
   }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    width: 4.125rem;
+    position: absolute;
+    height: 4.125rem;
+    top: 2.250rem;
+    right: 3.250rem;
+    background: url("../icons/hamburger.svg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: none;
+  }
+
 
 
   @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
@@ -100,7 +116,7 @@ body{
 
 #hero-video {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 991px) {
     background-size: cover;
     background: url('../images/giphy__7__360.gif') no-repeat;
     background-size: 100% 100%;
@@ -110,7 +126,7 @@ body{
     margin-top: -8rem;
   }
 
-  @media only screen and (min-device-width: 768px){
+  @media only screen and (min-device-width: 992px){
 
     display: block;
     margin: auto;
@@ -162,7 +178,7 @@ body{
 
 .title_wrapper {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 991px) {
     height: 500px;
     display: -webkit-box;
     display: -moz-box;
@@ -207,12 +223,10 @@ body{
 
 
 
-  @media only screen and (min-device-width: 768px)  {
+  @media only screen and (min-device-width: 992px)  {
     height: 100vh;
     position: relative;
     text-align: center;
-
-
 
 
 
@@ -496,6 +510,13 @@ body{
   }
 
 
+  @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
   @media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
 
 
@@ -511,17 +532,38 @@ body{
 #discover2 {
   text-align: center;
 
+  @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    margin-bottom: 50px;
+    text-align: center;
+
+  }
+
+
 
 }
 
 #discover3 {
   text-align: center;
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    margin-bottom: 50px;
+    text-align: center;
+
+  }
+
 }
 
 #discover4 {
   @media only screen and (max-device-width: 767px) {
     margin-bottom: 50px;
     text-align: center;
+  }
+
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    margin-bottom: 50px;
+    text-align: center;
+
   }
 
 
@@ -1873,7 +1915,6 @@ display: none;
   position: relative;
   background: url("../icons/d_divider_client logo.png") no-repeat;
   background-size:100% auto ;
-  cursor: pointer;
   z-index: 10;
   display: block;
   margin-left: auto;
@@ -1883,16 +1924,9 @@ display: none;
 }
 
 
+/*====LOGOS====*/
+
 .bdo-logo {
-
-  @media only screen and (max-device-width: 767px) {
-
-  }
-
-  @media only screen and (min-device-width: 768px) {
-
-
-  }
 
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -1901,7 +1935,6 @@ display: none;
   height: 12.525rem;
   background: url("../icons/BDO.svg") no-repeat;
   background-size:100% auto ;
-  cursor: pointer;
   z-index: 10;
   display: inline-block;
   background-position: center;
@@ -1909,38 +1942,21 @@ display: none;
 
 .bdo-logo2 {
 
-  @media only screen and (max-device-width: 767px) {
-
-  }
-
-  @media only screen and (min-device-width: 768px) {
-
-
-  }
-
   margin-top: 85px;
   margin-bottom: -6rem;
-   width: 12.525rem;
+  width: 12.525rem;
   position: relative;
   height: 12.525rem;
   background: url("../icons/BDO.svg") no-repeat;
   background-size:100% auto ;
-  cursor: pointer;
   z-index: 10;
   display: inline-block;
   background-position: center;
 }
 
+
+
 .equeens-logo {
-
-  @media only screen and (max-device-width: 767px) {
-
-  }
-
-  @media only screen and (min-device-width: 768px) {
-
-
-  }
 
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -1949,31 +1965,6 @@ display: none;
   height: 12.525rem;
   background: url("../icons/eq_logo_fc-u_100 [Converted].svg") no-repeat;
   background-size:100% auto ;
-  cursor: pointer;
-  z-index: 10;
-  display: inline-block;
-  background-position: center;
-}
-
-.equeens-logo {
-
-  @media only screen and (max-device-width: 767px) {
-
-  }
-
-  @media only screen and (min-device-width: 768px) {
-
-
-  }
-
-  margin-top: 85px;
-  margin-bottom: -6rem;
-  width: 12.525rem;
-  position: relative;
-  height: 12.525rem;
-  background: url("../icons/eq_logo_fc-u_100 [Converted].svg") no-repeat;
-  background-size:100% auto ;
-  cursor: pointer;
   z-index: 10;
   display: inline-block;
   background-position: center;
@@ -1982,15 +1973,6 @@ display: none;
 
 .veh-logo {
 
-  @media only screen and (max-device-width: 767px) {
-
-  }
-
-  @media only screen and (min-device-width: 768px) {
-
-
-  }
-
   margin-top: 85px;
   margin-bottom: -6rem;
   width: 12.525rem;
@@ -1998,7 +1980,6 @@ display: none;
   height: 12.525rem;
   background: url("../icons/VEH.svg") no-repeat;
   background-size:100% auto ;
-  cursor: pointer;
   z-index: 10;
   display: inline-block;
   background-position: center;
@@ -2008,15 +1989,6 @@ display: none;
 
 .broshuis-logo {
 
-  @media only screen and (max-device-width: 767px) {
-
-  }
-
-  @media only screen and (min-device-width: 768px) {
-
-
-  }
-
   margin-top: 85px;
   margin-bottom: -6rem;
   width: 12.525rem;
@@ -2024,22 +1996,12 @@ display: none;
   height: 12.525rem;
   background: url("../icons/broshuis_logo.svg") no-repeat;
   background-size:100% auto ;
-  cursor: pointer;
   z-index: 10;
   display: inline-block;
   background-position: center;
 }
 
 .delta-logo {
-
-  @media only screen and (max-device-width: 767px) {
-
-  }
-
-  @media only screen and (min-device-width: 768px) {
-
-
-  }
 
   margin-top: 85px;
   margin-bottom: -6rem;
@@ -2048,7 +2010,6 @@ display: none;
   height: 12.525rem;
   background: url("../icons/Delta_Lloyd.svg") no-repeat;
   background-size:100% auto ;
-  cursor: pointer;
   z-index: 10;
   display: inline-block;
   background-position: center;

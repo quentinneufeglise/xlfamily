@@ -45,6 +45,7 @@ $(function() {
 
                     //clear all fields
                     $('#contactform').trigger("reset");
+                    $('#contactform').removeClass('dirty-name').removeClass('dirty-email').removeClass('dirty-thoughts');
                     $('#contactform').hide();
                 },
                 error: function() {
@@ -55,7 +56,7 @@ $(function() {
                     $('#success > .alert-danger').append("<strong>Oops " + name + ", there seems to have been an error. Please try again later!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
-                    $('#contactform').trigger("reset");
+
 
                 },
             })
@@ -71,6 +72,19 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
+
+    /*MAKING THE BUTTON BLUE*/
+
+    $('#name, #email, #thoughts').on('keyup', function(){
+        var id = $(this).attr('id');
+        if( $(this).val().length > 0){
+            $('#contactform').addClass('dirty-' + id);
+        } else {
+            $('#contactform').removeClass('dirty-' + id);
+        }
+    });
+
+
 });
 
 
