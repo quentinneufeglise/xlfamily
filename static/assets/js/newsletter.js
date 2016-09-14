@@ -42,8 +42,11 @@ $(function() {
                         .append('</div>');
 
                     //clear all fields
-                    $('#newsletterform').trigger("reset");
                     $('#newsletterform').hide();
+                    $('#newsletterform').trigger("reset");
+
+
+
                 },
                 error: function() {
                     // Fail message

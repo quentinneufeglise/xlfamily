@@ -30,13 +30,13 @@ $(document).ready(function () {
 
         if ($(target).is('.menu-wrapper') || $(target).is('.hamburger')) {
             // menu
+            initContactForm();
         } else {
             if ($(target).parents('.menu-wrapper').length > 0) {
                 // menu
             } else {
                 // not menu
                 $(".menu-wrapper").removeClass('menu-open');
-                initContactForm();
             }
         }
     });
@@ -97,13 +97,12 @@ $(document).ready(function () {
 
 $(".menu-cross2").click(function () {
     $(".contact-menu-wrapper").removeClass('menu-open');
-    initContactForm();
 });
 
 
 $(".menu-cross3").click(function () {
     $(".subscribe-menu-wrapper").removeClass('menu-open');
-    initNewsForm();
+
 });
 
 
@@ -164,7 +163,7 @@ $(document).ready(function () {
             } else {
                 // not menu
                 $(".subscribe-menu-wrapper").removeClass('menu-open');
-                initNewsForm();
+
             }
         }
     });
@@ -173,7 +172,7 @@ $(document).ready(function () {
     $(".update-link").click(function () {
         $(".subscribe-menu-wrapper").addClass("menu-open");
         $(".update-link").addClass("hamburger-open");
-
+        initNewsForm();
     });
 });
 
