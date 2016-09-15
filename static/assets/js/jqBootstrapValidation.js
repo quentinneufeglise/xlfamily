@@ -103,10 +103,21 @@
           if (settings.options.sniffHtml) {
             var message = "";
             // ---------------------------------------------------------
-            //                                                   PATTERN
+            //                                             ORIGINAL:PATTERN
+            // ---------------------------------------------------------
+           // if ($this.attr("pattern") !== undefined) {
+             // message = "Not in the expected format<!-- data-validation-pattern-message to override -->";
+             // if ($this.data("validationPatternMessage")) {
+             //   message = $this.data("validationPatternMessage");
+             // }
+             // $this.data("validationPatternMessage", message);
+             // $this.data("validationPatternRegex", $this.attr("pattern"));
+           // }
+            // ---------------------------------------------------------
+            //                                    Aneliya: PHONE NUMBER PATTERN
             // ---------------------------------------------------------
             if ($this.attr("pattern") !== undefined) {
-              message = "Not in the expected format<!-- data-validation-pattern-message to override -->";
+              message = "Please enter a phone number<!-- data-validation-pattern-message to override -->";
               if ($this.data("validationPatternMessage")) {
                 message = $this.data("validationPatternMessage");
               }

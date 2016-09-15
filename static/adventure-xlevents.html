@@ -437,6 +437,7 @@
 </div><!----menu-wrapper---->
 
 
+
 <div class="contact-menu-wrapper">
     <ul class="contact-menu-items">
         <div class="menu-cross-height">
@@ -458,8 +459,7 @@
             </div>
             <li>Your phone number (optional)</li>
             <div class="control-group">
-                <li><input class="input-field-black form-control" type="text"
-                           id="number"></li>
+                <li><input class="input-field-black form-control" type="text" pattern="^([0-9\(\)\/\+ \-]*)$" id="number"></li>
                 <p class="help-block text-danger"></p>
             </div>
             <li>A penny for your thoughts?</li>
@@ -487,7 +487,7 @@
             </div>
             <li>Your email address</li>
             <div class="control-group">
-                <li><input class="input-field-black form-control" type="text" required id="nl_email"></li>
+                <li><input class="input-field-black form-control" type="email" required id="nl_email"></li>
                 <p class="help-block text-danger"></p>
             </div>
             <li>
@@ -499,7 +499,6 @@
 
 
 </div><!----subscribe-menu-wrapper--->
-
 
 
 <!----------- FOOTER -------------->
