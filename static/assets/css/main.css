@@ -12253,6 +12253,19 @@ button.close {
   }
 }
 
+/*==== REMOVES THE BLUE OUTLINE OF THE BUTTONS ====*/
+/* line 3, ../scss/components/_noblue.scss */
+button:focus {
+  outline: transparent !important;
+}
+
+/* line 7, ../scss/components/_noblue.scss */
+.form-control:focus {
+  outline: transparent !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 /*=== PAGES ===*/
 /*=== ADVENTURES HEADERS ===*/
 /* line 3, ../scss/pages/_adventures.scss */
@@ -17561,7 +17574,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3457, ../scss/pages/_home.scss */
+  /* line 3459, ../scss/pages/_home.scss */
   .input-field-black-big {
     width: 85%;
     background: black;
@@ -17575,7 +17588,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3457, ../scss/pages/_home.scss */
+  /* line 3459, ../scss/pages/_home.scss */
   .input-field-black-big {
     width: 85%;
     background: black;
@@ -17590,7 +17603,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3484, ../scss/pages/_home.scss */
+  /* line 3486, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -17601,7 +17614,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
-  /* line 3484, ../scss/pages/_home.scss */
+  /* line 3486, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -17612,7 +17625,7 @@ ul {
   }
 }
 @media only screen and (max-device-width: 320px) {
-  /* line 3484, ../scss/pages/_home.scss */
+  /* line 3486, ../scss/pages/_home.scss */
   .send-button {
     border: solid 3px white;
     width: 85%;
@@ -17623,7 +17636,7 @@ ul {
   }
 }
 
-/* line 3516, ../scss/pages/_home.scss */
+/* line 3518, ../scss/pages/_home.scss */
 .arrow-back {
   width: 100px;
   height: 100px;
@@ -17643,7 +17656,7 @@ ul {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 3534, ../scss/pages/_home.scss */
+  /* line 3536, ../scss/pages/_home.scss */
   .team-overlay {
     height: 500px;
     margin-top: -500px;
@@ -17651,7 +17664,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 3534, ../scss/pages/_home.scss */
+  /* line 3536, ../scss/pages/_home.scss */
   .team-overlay {
     height: 100vh;
     margin-top: -100vh;
@@ -17660,38 +17673,38 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3552, ../scss/pages/_home.scss */
+  /* line 3554, ../scss/pages/_home.scss */
   #test-carousel {
     height: 85vh;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3552, ../scss/pages/_home.scss */
+  /* line 3554, ../scss/pages/_home.scss */
   #test-carousel {
     height: 500px;
   }
 }
 
-/* line 3564, ../scss/pages/_home.scss */
+/* line 3566, ../scss/pages/_home.scss */
 #team {
   overflow: hidden;
 }
 
 @media only screen and (min-device-width: 768px) {
-  /* line 3569, ../scss/pages/_home.scss */
+  /* line 3571, ../scss/pages/_home.scss */
   footer {
     overflow: hidden;
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 3569, ../scss/pages/_home.scss */
+  /* line 3571, ../scss/pages/_home.scss */
   footer {
     height: auto;
     overflow: auto;
   }
 }
 
-/* line 3582, ../scss/pages/_home.scss */
+/* line 3584, ../scss/pages/_home.scss */
 video {
   width: 100vw;
   height: 100vh;
@@ -17703,19 +17716,19 @@ video {
   background: black;
 }
 
-/* line 3593, ../scss/pages/_home.scss */
+/* line 3595, ../scss/pages/_home.scss */
 .menu-link-none {
   color: white;
   font-family: "Raleway", sans-serif;
 }
-/* line 3596, ../scss/pages/_home.scss */
+/* line 3598, ../scss/pages/_home.scss */
 .menu-link-none:hover {
   color: white;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
 }
 
-/* line 3603, ../scss/pages/_home.scss */
+/* line 3605, ../scss/pages/_home.scss */
 .filler {
   width: 100%;
   height: 100%;

@@ -5550,13 +5550,13 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #449d44;
   border-color: #398439;
 }
-/* line 22, ../sass/bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+/* line 22, ../sass/bootstrap/stylesheets/bootstrap/mixins/_noblue.scss */
 .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
   color: #fff;
   background-color: #449d44;
   border-color: #398439;
 }
-/* line 29, ../sass/bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+/* line 29, ../sass/bootstrap/stylesheets/bootstrap/mixins/_noblue.scss */
 .btn-success:active:hover, .btn-success:active:focus, .btn-success:active.focus, .btn-success.active:hover, .btn-success.active:focus, .btn-success.active.focus, .open > .btn-success.dropdown-toggle:hover, .open > .btn-success.dropdown-toggle:focus, .open > .btn-success.dropdown-toggle.focus {
   color: #fff;
   background-color: #398439;
@@ -5589,7 +5589,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   background-color: #31b0d5;
   border-color: #1b6d85;
 }
-/* line 17, ../sass/bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+/* line 17, ../sass/bootstrap/stylesheets/bootstrap/mixins/_noblue.scss */
 .btn-info:hover {
   color: #fff;
   background-color: #31b0d5;
