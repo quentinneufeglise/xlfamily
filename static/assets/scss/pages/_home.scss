@@ -118,7 +118,7 @@ body{
 
   @media only screen and (max-device-width: 991px) {
     background-size: cover;
-    background: url('../images/XLgif.gif') no-repeat;
+    background: url('../images/XL-splash-screenshot.jpg') no-repeat;
     background-size: 100% 100%;
     background-position: center;
     height: 500px;
@@ -133,7 +133,7 @@ body{
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    background: url('../images/XLgif.gif') no-repeat;
+    background: url('../images/XL-splash-screenshot.jpg') no-repeat;
     background-size: 100vw;
     background-position: center;
     height: 101vh;
@@ -141,6 +141,24 @@ body{
     margin-top: -8rem;
   }
 }
+
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url('../images/XL-splash-screenshot.jpg') no-repeat;
+  background-size: cover;
+}
+
 
 #playbutton {
   width:8.125rem;

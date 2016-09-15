@@ -84,7 +84,7 @@ $(document).ready(function() {
 
 
 
-
+/*===HOME VIDEO===*/
 
 $("#playbutton").click(function(){
     $(".home-video").fadeIn(800);

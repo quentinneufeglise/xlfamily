@@ -4,8 +4,22 @@ button:focus {
   outline: transparent !important;
 }
 
+/*==== REMOVES THE BLUE OUTLINE AROUND THE FORM FIELDS ====*/
+
+
 .form-control:focus {
   outline: transparent !important;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+/*==== REMOVES THE BLUE OUTLINE IN THE FORM FIELDS ====*/
+
+input[type="text"],input[type="email"], textarea {
+  outline: none;
+  box-shadow:none !important;
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white !important;
 }
