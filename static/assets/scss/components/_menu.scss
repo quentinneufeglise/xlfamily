@@ -8,7 +8,12 @@
     }
 }
 /*=== CHANGE LOCATION - MAKE THE BUTTON BLUE ON INPUT ===*/
-#contactform.dirty-name.dirty-email.dirty-thoughts,
+#contactform.dirty-name.dirty-email.dirty-thoughts .send-button{
+  background: $brand-color-blue;
+  border-color: $brand-color-blue;
+}
+
+
 #newsletterform.dirty-nl_name.dirty-nl_email .send-button{
   background: $brand-color-blue;
   border-color: $brand-color-blue;

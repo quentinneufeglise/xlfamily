@@ -8841,28 +8841,33 @@ button.close {
 
 /*=== CHANGE LOCATION - MAKE THE BUTTON BLUE ON INPUT ===*/
 /* line 11, ../scss/components/_menu.scss */
-#contactform.dirty-name.dirty-email.dirty-thoughts,
+#contactform.dirty-name.dirty-email.dirty-thoughts .send-button {
+  background: #00aeef;
+  border-color: #00aeef;
+}
+
+/* line 17, ../scss/components/_menu.scss */
 #newsletterform.dirty-nl_name.dirty-nl_email .send-button {
   background: #00aeef;
   border-color: #00aeef;
 }
 
 /*=== FORM SUBMIT SUCCESS ===*/
-/* line 21, ../scss/components/_menu.scss */
+/* line 26, ../scss/components/_menu.scss */
 .alert-success {
   color: white;
   background-color: inherit;
   border-color: black;
 }
 
-/* line 27, ../scss/components/_menu.scss */
+/* line 32, ../scss/components/_menu.scss */
 .alert {
   padding: 10px 15px 0 0;
 }
 
 /*=== MENU CROSS ===*/
 @media only screen and (min-device-width: 768px) {
-  /* line 33, ../scss/components/_menu.scss */
+  /* line 38, ../scss/components/_menu.scss */
   .menu-cross {
     right: 1rem;
     width: 30px;
@@ -8878,7 +8883,7 @@ button.close {
   }
 }
 @media only screen and (max-device-width: 767px) {
-  /* line 33, ../scss/components/_menu.scss */
+  /* line 38, ../scss/components/_menu.scss */
   .menu-cross {
     right: 0rem;
     width: 30px;
@@ -8894,7 +8899,7 @@ button.close {
   }
 }
 
-/* line 67, ../scss/components/_menu.scss */
+/* line 72, ../scss/components/_menu.scss */
 .menu-cross2 {
   right: 1rem;
   width: 30px;
@@ -8909,7 +8914,7 @@ button.close {
   margin-top: 2rem;
 }
 
-/* line 81, ../scss/components/_menu.scss */
+/* line 86, ../scss/components/_menu.scss */
 .menu-cross3 {
   right: 1rem;
   width: 30px;
@@ -8924,7 +8929,7 @@ button.close {
   margin-top: 2rem;
 }
 
-/* line 96, ../scss/components/_menu.scss */
+/* line 101, ../scss/components/_menu.scss */
 .menu-cross4 {
   width: 30px;
   height: 30px;
@@ -8940,26 +8945,26 @@ button.close {
   right: 5.4rem;
 }
 
-/* line 111, ../scss/components/_menu.scss */
+/* line 116, ../scss/components/_menu.scss */
 .menu-cross-height {
   width: 35rem;
   height: 60px;
 }
 
 /*=== MENU FEEDBACK CLOSE ===*/
-/* line 119, ../scss/components/_menu.scss */
+/* line 124, ../scss/components/_menu.scss */
 button.close {
   background: url("../icons/X cross.svg") no-repeat;
 }
 
 /*=== MAKE THE FORM ON THE MENU WITH STRAIGHT CORNERS ===*/
-/* line 125, ../scss/components/_menu.scss */
+/* line 130, ../scss/components/_menu.scss */
 .form-control {
   border-radius: 0;
 }
 
 /*==== CUSROR STYLING===*/
-/* line 132, ../scss/components/_menu.scss */
+/* line 137, ../scss/components/_menu.scss */
 .approach-link, .adventures-link, .contact-open2 {
   cursor: pointer;
 }

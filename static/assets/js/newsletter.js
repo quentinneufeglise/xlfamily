@@ -42,10 +42,11 @@ $(function() {
                         .append('</div>');
 
                     //clear all fields
-
-                    $('#newsletterform').trigger("reset");
-                    $('#newsletterform').removeClass('dirty-nl_name').removeClass('dirty-nl_email');
                     $('#newsletterform').hide();
+                    $('#newsletterform').removeClass('dirty-nl_name').removeClass('dirty-nl_email');
+                    $('#newsletterform').trigger("reset");
+
+
 
 
 

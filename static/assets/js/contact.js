@@ -44,9 +44,11 @@ $(function() {
                         .append('</div>');
 
                     //clear all fields
-                    $('#contactform').trigger("reset");
-                    $('#contactform').removeClass('dirty-name').removeClass('dirty-email').removeClass('dirty-thoughts');
                     $('#contactform').hide();
+                    $('#contactform').removeClass('dirty-name').removeClass('dirty-email').removeClass('dirty-thoughts');
+                    $('#contactform').trigger("reset");
+
+
                 },
                 error: function() {
                     // Fail message
