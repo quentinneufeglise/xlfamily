@@ -813,22 +813,34 @@ display: none;
   margin-top: 20px;
   display: block;
   z-index: 500;
-
 }
+
+
+
 .hover-text{@media only screen and (min-device-width: 768px) {
   font-size: $font-block-text;
   font-family: $raleway;
   color: white;
   cursor: pointer;
-
-
 }
 
   @media only screen and (max-device-width: 767px) {
 display: none;
   }
-
 }
+
+.hover-text-aboutus{@media only screen and (min-device-width: 768px) {
+  font-size: $font-block-text;
+  font-family: $raleway;
+  color: white;
+ }
+
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+}
+
+
 .hover-link {
   @media only screen and (min-device-width: 768px){
 
@@ -2759,11 +2771,12 @@ display: inline-block;
   line-height: 1.5;
   display: inline-block;
   float: left;
+  text-decoration: underline;
   position: relative;
   &:hover {
     color: white;
     font-family: $raleway;
-    text-decoration: none;
+    text-decoration: underline;
   }
   @media only screen and (max-device-width: 767px) {
 

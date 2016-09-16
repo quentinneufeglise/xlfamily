@@ -1187,7 +1187,7 @@ display: none;
   font-weight: 900;
 }
 
-.article-more-p {
+.joinustext {
   text-align: center;
   display: flex;
   align-items: center;
@@ -1198,6 +1198,13 @@ display: none;
   color: black;
   font-size: $font-ht;
   font-weight: 500;
+  a {
+   text-decoration: underline;
+   color: $brand-color-blue;
+    &:hover {
+      color:$brand-color-magento;
+    }
+  }
 }
 
 .jeske-icon {
