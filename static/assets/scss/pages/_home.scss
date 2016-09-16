@@ -118,7 +118,7 @@ body{
 
   @media only screen and (max-device-width: 991px) {
     background-size: cover;
-    /*background: url('../images/XL-splash-screenshot.jpg') no-repeat;*/
+    background: url('../images/XL-splash-mobile.jpg') no-repeat;
     /*background-size: 100% 100%;*/
     background-position: center;
     height: 500px;
@@ -133,50 +133,65 @@ body{
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    /*background: url('../images/XL-splash-screenshot.jpg') no-repeat;*/
+    background: url('../images/XL-splash-screenshot.jpg') no-repeat;
     background-size: 100vw;
     background-position: center;
-    height: 101vh;
+    height: 100vh;
     text-align: center;
     margin-top: -8rem;
   }
 }
 
-/*=== MAKE THE VIDEO FULLSCREEN
-.home-video, .loop-video{
-  margin: 0;
-  padding: 0;
-} */
 
 video.loop-video {
   top: 50%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  background: url('../images/XL-splash-screenshot.jpg') no-repeat;
   background-size: cover;
   transition: 1s opacity;
-  /*width: 100vw;
-  height: 100vh;*/
-  width: 100vw;
-  height: auto;
+  height: 100%;
   position: absolute;
+  background-color: black;
   }
 
-/*
-.loop-video {
-  z-index: -2;
-  position: fixed;
-  top: 50%; left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%, -50%);
+
+
+/*==== INTRO VIDEO====*/
+
+#video-home {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 1000;
+  background: black;
 }
-*/
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height:80%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  margin-top: -50px;
+}
+
+/*=== HERO ELEMENTS===*/
+
 
 #playbutton {
   width:8.125rem;
@@ -3616,21 +3631,6 @@ footer {
   }
 
 }
-
-
-/*==== INTRO VIDEO====*/
-
-#video-home {
-  width: 100vw;
-  height: 100vh;
-  display: none;
-  position: absolute;
-  top:0;
-  left: 0;
-  z-index: 1000;
-  background: black;
-}
-
 
 
 

@@ -155,12 +155,15 @@
         <div class="container-fluid">
 
             <div class="row">
-                <div class="col-sm-12">
+                <div class="video-container col-sm-12">
+
+                 <div class="hidden-xs hidden-sm">
 
                     <video class="loop-video" poster="assets/images/XL-splash-screenshot.jpg" autoplay muted loop>
-                        <source src="assets/video/XLwebsplash_1.mp4" type="video/mp4">
+                        <source src="assets/video/XLsplashnarrow.mp4" type="video/mp4">
+                        <source src="assets/video/XLsplashnarrow.webm" type="video/webm">
                     </video><!-- /video -->
-
+                 </div>
 
                     <div class="title_wrapper">
 
@@ -1849,12 +1852,26 @@
 
 <span class="menu-cross4"></span>
 
+<div id="video-home" class="home-video embed-container">
+
+    <iframe src="https://player.vimeo.com/video/182851872?autoplay=0&title=0&byline=0&portrait=0" frameborder="0"
+            webkitallowfullscreen mozallowfullscreen allowfullscreen>
+
+    </iframe>
+
+</div><!---video-home---->
+
+
+<!----
+
+Previous video markup
+
 <video id="video-home" class="home-video" >
 
     <source src="assets/video/XLfamilydraft2_1.mp4" type="video/mp4">
     Your browser does not support the video tag.
 
-</video>
+</video> ---->
 
 
 <!----------- FOOTER -------------->
@@ -1870,6 +1887,7 @@
 <script src="assets/js/Javascript.js"></script>
 <script src="assets/js/menu.js"></script>
 <script src="assets/js/jqBootstrapValidation.js"></script>
+<script src="https://player.vimeo.com/api/player.js"></script>
 
 
 <script src="assets/js/contact.js"></script>
