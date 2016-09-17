@@ -6,11 +6,6 @@ $(document).ready(function() {
     var player = new Vimeo.Player(iframe);
 
 
-    $(".prev2").click(function(){
-        owl2.trigger('owl.prev');
-    });
-
-
     $("#playbutton").click(function(){
         $(".home-video").fadeIn(800);
         $(".menu-cross4").fadeIn(800);
