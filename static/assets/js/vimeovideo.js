@@ -27,7 +27,7 @@ $(document).ready(function() {
 
     });
 
-
+/*
     player.on('play', function() {
         console.log('played the video!');
     });
@@ -36,7 +36,7 @@ $(document).ready(function() {
         console.log('title:', title);
     });
 
-
+*/
 
 });
 
