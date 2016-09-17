@@ -168,44 +168,44 @@ window.twttr = (function(d, s, id) {
 $(document).ready(function() {
 
     $('#blog1').click(function(e) {
-        window.location = ("blog-corporate-acceleration.html");
+        window.location = ("successful-in-corporate-acceleration-start-innovating-with-a-purpose.html");
     });
 
 
     $('#blog2').click(function(e) {
-        window.location = ("blog-corporate-blind-spot.html");
+        window.location = ("corporate-blind-spot.html");
     });
 
     $('#blog3').click(function(e) {
-        window.location = ("blog-business-sprint.html");
+        window.location = ("sprint-how-to-scaleup-corporate-innovation.html");
     });
 
     $('#blog4').click(function(e) {
-        window.location = ("blog-innovation-model.html");
+        window.location = ("choosing-the-right-innovation-model.html");
     });
 
     $('#blog5').click(function(e) {
-        window.location = ("blog-being-lean.html");
+        window.location = ("what-corporations-dont-get-about-being-lean.html");
     });
 
     $('#blog6').click(function(e) {
-        window.location = ("blog-copycatting.html");
+        window.location = ("get-inspired-by-everyday-life-the-art-of-copycatting.html");
     });
 
     $('#blog7').click(function(e) {
-        window.location = ("blog-corporates-startups.html");
+        window.location = ("how-corporates-and-startups-can-collaborate.html");
     });
 
     $('#blog8').click(function(e) {
-        window.location = ("blog-landing-pages-validation.html");
+        window.location = ("why-landing-pages-are-an-effective-tool-for-idea-validation.html");
     });
 
     $('#blog9').click(function(e) {
-        window.location = ("blog-sci-fi.html");
+        window.location = ("sci-fi-storytelling-or-fortunetelling.html");
     });
 
     $('#blog10').click(function(e) {
-        window.location = ("blog-customer-interviews.html");
+        window.location = ("customer-interviews-dont-let-people-lie-to-you.html");
     });
 
 
@@ -249,44 +249,44 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     $('#article-block-corporate-acceleration').click(function(e) {
-        window.location = ("blog-corporate-acceleration.html");
+        window.location = ("successful-in-corporate-acceleration-start-innovating-with-a-purpose.html");
     });
 
 
     $('#article-block-corporate-blind').click(function(e) {
-        window.location = ("blog-corporate-blind-spot.html");
+        window.location = ("corporate-blind-spot.html");
     });
 
     $('#article-block-business-sprint').click(function(e) {
-        window.location = ("blog-business-sprint.html");
+        window.location = ("sprint-how-to-scaleup-corporate-innovation.html");
     });
 
     $('#article-block-innovation-model').click(function(e) {
-        window.location = ("blog-innovation-model.html");
+        window.location = ("choosing-the-right-innovation-model.html");
     });
 
     $('#article-block-being-lean').click(function(e) {
-        window.location = ("blog-being-lean.html");
+        window.location = ("what-corporations-dont-get-about-being-lean.html");
     });
 
     $('#article-block-copycatting').click(function(e) {
-        window.location = ("blog-copycatting.html");
+        window.location = ("get-inspired-by-everyday-life-the-art-of-copycatting.html");
     });
 
     $('#article-block-corporates-startups').click(function(e) {
-        window.location = ("blog-corporates-startups.html");
+        window.location = ("how-corporates-and-startups-can-collaborate.html");
     });
 
     $('#article-block-landing-page-validation').click(function(e) {
-        window.location = ("blog-landing-pages-validation.html");
+        window.location = ("why-landing-pages-are-an-effective-tool-for-idea-validation.html");
     });
 
     $('#article-block-sci-fi').click(function(e) {
-        window.location = ("blog-sci-fi.html");
+        window.location = ("sci-fi-storytelling-or-fortunetelling.html");
     });
 
     $('#article-block-customer-interviews').click(function(e) {
-        window.location = ("blog-customer-interviews.html");
+        window.location = ("customer-interviews-dont-let-people-lie-to-you.html");
     });
 
 
@@ -297,7 +297,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     $('#case-block-veh').click(function(e) {
-        window.location = ("case-veh.html");
+        window.location = ("case-vereniging-eigen-huis.html");
     });
 
     $('#case-block-broshuis').click(function(e) {
