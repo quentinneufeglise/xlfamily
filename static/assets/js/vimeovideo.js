@@ -2,17 +2,20 @@
 
 $(document).ready(function() {
 
-
     var iframe = document.querySelector('iframe');
     var player = new Vimeo.Player(iframe);
 
+
+    $(".prev2").click(function(){
+        owl2.trigger('owl.prev');
+    });
 
 
     $("#playbutton").click(function(){
         $(".home-video").fadeIn(800);
         $(".menu-cross4").fadeIn(800);
         $("body").addClass("no-scroll");
-
+        player.play();
     });
 
 
@@ -32,9 +35,6 @@ $(document).ready(function() {
     player.getVideoTitle().then(function(title) {
         console.log('title:', title);
     });
-
-
-
 
 
 
