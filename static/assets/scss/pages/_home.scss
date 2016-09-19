@@ -556,7 +556,7 @@ video.loop-video {
     font-size: $font-text;
     text-decoration: underline;
     color: $brand-color-magento;
-    font-weight:900;
+    font-weight:$font-semi_bold;
   }
 }
 
@@ -1448,7 +1448,7 @@ display: none;
       font-size: 18px;
       text-decoration: underline;
       color: $brand-color-blue;
-      font-weight:900;
+      font-weight:$font-semi_bold;
     }
   }
 
@@ -1465,7 +1465,7 @@ display: none;
       text-decoration: underline;
       color: #00aeef;
       position: relative;
-      font-weight: 900;
+      font-weight: $font-semi_bold;
       cursor: pointer;
       float: right;
     }
@@ -1519,8 +1519,10 @@ display: none;
     background: url("../images/xl_lab.jpg");
     background-size: cover;
     background-position:center ;
+    cursor: pointer;
     #experiments1-hover {
       display: none;
+
     }
     .overlay-wrapper {
       display: block;
@@ -1546,7 +1548,8 @@ display: none;
         top: 0;
         left: 0;
         background-size: cover;
-        background-position:center
+        background-position:center;
+
       }
 
 
@@ -1572,6 +1575,7 @@ display: none;
         display: block;
         margin-top: $story-hover;
         max-width: 400px;
+        cursor: pointer ;
       }
     }
   }
@@ -1618,6 +1622,7 @@ display: none;
         display: block;
         margin-top: $story-hover;
         max-width: 400px;
+        cursor: pointer ;
       }
     }
   }
@@ -1632,6 +1637,7 @@ display: none;
     background: url("../images/xl_ventures.png");
     background-size: cover;
     background-position:center ;
+    cursor: pointer;
     #experiments2-hover {
       display: none;
     }
@@ -1685,6 +1691,7 @@ display: none;
         display: block;
         margin-top: $story-hover;
         max-width: 400px;
+        cursor: pointer ;
       }
     }
   }
@@ -1730,6 +1737,7 @@ display: none;
         display: block;
         margin-top: $story-hover;
         max-width: 400px;
+        cursor: pointer ;
       }
     }
   }
@@ -1744,6 +1752,7 @@ display: none;
     background: url("../images/xl_events.jpg");
     background-size: cover;
     background-position:center ;
+    cursor: pointer;
     #experiments3-hover {
       display: none;
     }
@@ -1797,6 +1806,7 @@ display: none;
         display: block;
         margin-top: $story-hover;
         max-width: 400px;
+        cursor: pointer ;
       }
     }
   }
@@ -1844,6 +1854,7 @@ display: none;
         display: block;
         margin-top: $story-hover;
         max-width: 400px;
+        cursor: pointer ;
       }
     }
 
@@ -2094,12 +2105,14 @@ display: none;
     margin-bottom:10rem;
     color: $brand-color-green;
     text-decoration: underline;
+    font-weight: $font-semi_bold;
     &:hover {
       display: block;
       font-size: $font-text;
       font-family: $raleway;
       margin-top: 3rem;
       margin-bottom: 13rem;
+      font-weight: $font-semi_bold;
       color: $brand-color-green;
       text-decoration: underline;
     }
@@ -2112,11 +2125,13 @@ display: none;
     margin-bottom: 120px;
     color: $brand-color-green;
     text-decoration: underline;
+    font-weight: $font-semi_bold;
     &:hover {
       display: block;
       font-size: $font-text;
       font-family: $raleway;
       margin-top: 3rem;
+      font-weight: $font-semi_bold;
       margin-bottom: 120px;
       color: $brand-color-green;
       text-decoration: underline;
@@ -3401,7 +3416,7 @@ ul {
   @media only screen and (min-device-width: 768px) {
 
     font-family: $raleway;
-    color: white;
+    color: #727272;
     font-size: $font-text;
     font-weight: 700;
 
@@ -3409,8 +3424,9 @@ ul {
 
   @media only screen and (max-device-width: 767px) {
     font-family: $raleway;
-    color: white;
+
     font-size: $font-text;
+    color: #727272;
     font-weight: 700;
 
   }
@@ -3503,7 +3519,8 @@ ul {
     border-top:none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid white ;
+    border-bottom: 1px solid #727272 ;
+    padding: 0;
     margin-bottom: 2rem;
   }
 
@@ -3515,9 +3532,10 @@ ul {
     border-top:none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid white ;
+    border-bottom: 1px solid #727272 ;
     height: 2rem;
     margin-bottom: 2rem;
+    padding: 0;
   }
 
 }
@@ -3532,6 +3550,7 @@ ul {
     font-family: $raleway;
     border-top:none;
     border-left: none;
+    padding: 0;
     border-right: none;
     border-bottom: 1px solid white ;
     height: 10rem;
@@ -3547,6 +3566,7 @@ ul {
     border-right: none;
     border-bottom: 1px solid white ;
     height: 2rem;
+    padding: 0;
   }
 
 }
@@ -3560,6 +3580,7 @@ ul {
   margin-top: 2rem;
   text-align: center;
   background: none;
+    color: white;
   }
 
   @media only screen and (min-device-width: 321px) and (max-device-width: 767px) {
@@ -3569,6 +3590,7 @@ ul {
     height: 4rem;
     text-align: center;
     background: none;
+    color: white;
     margin-top: 2rem;
 
   }
@@ -3578,6 +3600,7 @@ ul {
   width: 85%;
   height: 4rem;
   text-align: center;
+      color: white;
   background: none;
   margin-top: -1rem;
 }}
@@ -3665,4 +3688,8 @@ footer {
 .filler {
   width: 100%;
   height: 100%;
+}
+
+.lower-list {
+  margin-bottom: -1rem;
 }

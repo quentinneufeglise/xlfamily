@@ -37,7 +37,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<p class='contact-fat2'>Thank you!</p><p>We'll get back to you soon.</p>");
+                        .append("<p class='contact-fat2'>Great to hear from you!</p><p>Thanks fpr reaching out. We’ll get back to you shortly. While you’re here,check out the latest news from our blog</p>");
                     $('#success > .alert-success')
                     //    .append("<span><br/><br/>Gebruik de tijd tot aan 21 april om je idee verder te verfijnen.</span>");
                     //$('#success > .alert-success')

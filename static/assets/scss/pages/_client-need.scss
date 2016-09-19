@@ -430,11 +430,10 @@
   }
 
   .solutions {
-    background: #7eb241;
+    background: #66CC33 ;
     font-family: $raleway;
     font-size: 17px;
     font-weight: 800;
-    display: flex;
     text-align: center;
     height: 6rem;
     width: 20rem;
@@ -444,6 +443,23 @@
     border: none;
 
   }
+
+.solutions-mb {
+  background: #66CC33 ;
+  font-family: $raleway;
+  font-size: 17px;
+  font-weight: 800;
+  display: flex;
+  text-align: center;
+  height: 6rem;
+  width: 30rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: -5rem;
+
+}
 
   .solutions-wrapper {
     display: flex;

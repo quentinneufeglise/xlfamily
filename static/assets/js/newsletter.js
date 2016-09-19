@@ -36,7 +36,7 @@ $(function() {
                     $('#success_newsletter > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success_newsletter > .alert-success')
-                        .append("<p class='contact-fat2'>Thank you!</p><p>You have successfully subscribed for our newsletter</p>");
+                        .append("<p class='contact-fat2'>You’re all set!</p><p>Sit tight, our next newsletter is coming soon! In the meanwhile, check out our  blog section.</p>");
                     $('#success_newsletter > .alert-success')
 
                         .append('</div>');
