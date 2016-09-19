@@ -854,7 +854,7 @@ display: none;
     text-decoration: underline;
     font-family: $raleway;
     color: white;
-    font-weight: 900;
+    font-weight: $font-semi_bold;
     line-height: 2.5;
     cursor: pointer;
     &:hover {
@@ -863,7 +863,7 @@ display: none;
       text-decoration: underline;
       color: white;
       line-height: 2.5;
-      font-weight: 900;
+      font-weight:  $font-semi_bold;
     }
   }
 
@@ -873,7 +873,7 @@ display: none;
     text-decoration: underline;
     font-family: $raleway;
     color: white;
-    font-weight: 900;
+    font-weight:  $font-semi_bold;
     margin-top: -6rem;
     cursor: pointer;
     &:hover {
@@ -882,7 +882,7 @@ display: none;
       text-decoration: underline;
       color: white;
       line-height: 2.5;
-      font-weight: 900;
+      font-weight:  $font-semi_bold;
     }
   }
   }
@@ -1442,6 +1442,7 @@ display: none;
     font-size: 18px;
     text-decoration: underline;
     color: $brand-color-blue;
+
     font-weight:900;
     cursor: pointer;
     &:hover, &:focus{
@@ -1453,7 +1454,7 @@ display: none;
   }
 
   @media only screen and (min-device-width: 768px)  {
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: underline;
     color: #00aeef;
     position: relative;
@@ -1461,7 +1462,7 @@ display: none;
     cursor: pointer;
     float: right;
     &:hover, &:focus{
-      font-size: 18px;
+      font-size: 15px;
       text-decoration: underline;
       color: #00aeef;
       position: relative;
