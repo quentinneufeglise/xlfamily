@@ -849,8 +849,7 @@ display: none;
 
 .hover-link {
   @media only screen and (min-device-width: 768px){
-
-    font-size: $font-ht;
+    font-size: 15px;
     text-decoration: underline;
     font-family: $raleway;
     color: white;
@@ -858,7 +857,7 @@ display: none;
     line-height: 2.5;
     cursor: pointer;
     &:hover {
-      font-size: $font-ht;
+      font-size:15px;
       font-family: $raleway;
       text-decoration: underline;
       color: white;
@@ -869,7 +868,7 @@ display: none;
 
 
   @media only screen and (max-device-width: 767px) {
-    font-size: $font-ht;
+    font-size: 15px;
     text-decoration: underline;
     font-family: $raleway;
     color: white;
@@ -877,7 +876,7 @@ display: none;
     margin-top: -6rem;
     cursor: pointer;
     &:hover {
-      font-size: $font-ht;
+      font-size: 15px;
       font-family: $raleway;
       text-decoration: underline;
       color: white;
