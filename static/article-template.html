@@ -511,40 +511,65 @@
         <div class="menu-cross-height">
             <li class="menu-cross2"></li>
         </div>
-        <li class="contact-fat">Call the family</li>
-        <li class="contact-number">+31 (0) 12345678</li>
-        <li class="contact-fat secondpart-menu">Drop us some lines</li>
-        <li>Your name</li>
-        <li><input class="input-field-black"></li>
-        <li>Your email address</li>
-        <li><input class="input-field-black"></li>
-        <li>Your phone number (optional)</li>
-        <li><input class="input-field-black"></li>
-        <li>A penny for your thoughts?</li>
-        <li><textarea rows="5" class="input-field-black-big"></textarea></li>
-        <li>
-            <button class="send-button">Send</button>
-        </li>
-
+        <form class="form-group" novalidate id="contactform">
+            <li class="contact-fat">Call the family</li>
+            <li class="contact-number">+31 (0) 88 43 01 000</li>
+            <li class="contact-fat secondpart-menu">Drop us some lines</li>
+            <li class="lower-list">Your name</li>
+            <div class="control-group">
+                <li><input class="input-field-black form-control" autocomplete="off" type="text" required id="name"></li>
+                <p class="help-block text-danger"></p>
+            </div>
+            <li class="lower-list">Your email address</li>
+            <div class="control-group">
+                <li><input class="input-field-black form-control"  autocomplete="off" type="email" required id="email"></li>
+                <p class="help-block text-danger"></p>
+            </div>
+            <li class="lower-list">Your phone number (optional)</li>
+            <div class="control-group">
+                <li><input class="input-field-black form-control"  autocomplete="off" type="text" pattern="^([0-9\(\)\/\+ \-]*)$" id="number"></li>
+                <p class="help-block text-danger"></p>
+            </div>
+            <li class="lower-list">A penny for your thoughts?</li>
+            <div class="control-group">
+                <li><textarea rows="2" required id="thoughts" class="input-field-black-big form-control" data-validation-required-message="A penny for your thoughts?"></textarea></li>
+                <p class="help-block text-danger"></p>
+            </div>
+            <li>
+                <button type="submit" class="send-button">Send</button>
+            </li>
+        </form><!----contact form---->
+        <div id="success"></div><!-----success message after form submit---->
     </ul>
-</div>
+</div><!-----contact-menu-wrapper--->
 
 <div class="subscribe-menu-wrapper">
+
     <ul class="contact-menu-items">
         <div class="menu-cross-height">
             <li class="menu-cross3"></li>
         </div>
-        <li class="contact-fat2">Subscribe to our newsletter</li>
-        <li>Your name</li>
-        <li><input class="input-field-black"></li>
-        <li>Your email address</li>
-        <li><input class="input-field-black"></li>
-        <li>
-            <button class="send-button">Send</button>
-        </li>
-
+        <form class="form-group" novalidate id="newsletterform">
+            <li class="contact-fat2">Subscribe to our newsletter</li>
+            <li>Your name</li>
+            <div class="control-group">
+                <li><input class="input-field-black form-control" autocomplete="off"  type="text" required id="nl_name"></li>
+                <p class="help-block text-danger"></p>
+            </div>
+            <li>Your email address</li>
+            <div class="control-group">
+                <li><input class="input-field-black form-control" autocomplete="off" type="email" required id="nl_email"></li>
+                <p class="help-block text-danger"></p>
+            </div>
+            <li>
+                <button type="submit" class="send-button">Send</button>
+            </li>
+        </form><!----newsletter form---->
+        <div id="success_newsletter"></div><!----success message after newsletter submit--->
     </ul>
-</div>
+
+
+</div><!----subscribe-menu-wrapper--->
 
 
 

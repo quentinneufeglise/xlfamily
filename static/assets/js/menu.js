@@ -79,6 +79,7 @@ $(document).ready(function () {
 
     $(".get-in-touch2").click(function () {
         $(".contact-menu-wrapper").addClass("menu-open");
+        initContactForm();
         $(".contact-open").addClass("hamburger-open");
 
     });

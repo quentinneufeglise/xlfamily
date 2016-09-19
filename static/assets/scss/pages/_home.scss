@@ -2794,7 +2794,6 @@ display: inline-block;
   @media only screen and (max-device-width: 767px) {
 
     font-weight: 700;
-    margin-right: 30%;
     margin-bottom: 1.625rem;
     left: 0;
   }
@@ -2945,6 +2944,9 @@ margin-left: auto;
     align-items: center;
     position: relative;
     margin-top: -1rem;
+    ul {
+      padding: 0;
+    }
 li {
   display: inline-block;
 }
@@ -3036,6 +3038,9 @@ ul {
 .mobile-footer {
   height: 16rem;
   background: black;
+  ul {
+    padding: 0;
+  }
 }
 
 
