@@ -1,0 +1,1147 @@
+@media only screen and (max-device-width: 767px) {
+  /* line 6, ../../scss/components/team_pictures.scss */
+  .hans-picture {
+    background: url("../images/team/mobile_portrait/hans.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 6, ../../scss/components/team_pictures.scss */
+  .hans-picture {
+    background: url("../images/team/tablet_landscape/hans.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 6, ../../scss/components/team_pictures.scss */
+  .hans-picture {
+    background: url("../images/team/desktop/hans.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 6, ../../scss/components/team_pictures.scss */
+  .hans-picture {
+    background: url("../images/team/hd/hans.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 40, ../../scss/components/team_pictures.scss */
+  .aneliya-picture {
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 40, ../../scss/components/team_pictures.scss */
+  .aneliya-picture {
+    background: url("../images/team/tablet_landscape/aneliya.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 40, ../../scss/components/team_pictures.scss */
+  .aneliya-picture {
+    background: url("../images/team/desktop/aneliya.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 40, ../../scss/components/team_pictures.scss */
+  .aneliya-picture {
+    background: url("../images/team/hd/aneliya.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 72, ../../scss/components/team_pictures.scss */
+  .anne-picture {
+    background: url("../images/team/mobile_portrait/anne.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 72, ../../scss/components/team_pictures.scss */
+  .anne-picture {
+    background: url("../images/team/tablet_landscape/anne.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 72, ../../scss/components/team_pictures.scss */
+  .anne-picture {
+    background: url("../images/team/desktop/anne.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 72, ../../scss/components/team_pictures.scss */
+  .anne-picture {
+    background: url("../images/team/hd/anne.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 104, ../../scss/components/team_pictures.scss */
+  .beatriz-picture {
+    background: url("../images/team/mobile_portrait/beatriz.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 104, ../../scss/components/team_pictures.scss */
+  .beatriz-picture {
+    background: url("../images/team/tablet_landscape/beatriz.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 104, ../../scss/components/team_pictures.scss */
+  .beatriz-picture {
+    background: url("../images/team/desktop/beatriz.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 104, ../../scss/components/team_pictures.scss */
+  .beatriz-picture {
+    background: url("../images/team/hd/beatriz.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 136, ../../scss/components/team_pictures.scss */
+  .ben-picture {
+    background: url("../images/team/mobile_portrait/ben.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 136, ../../scss/components/team_pictures.scss */
+  .ben-picture {
+    background: url("../images/team/tablet_landscape/ben.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 136, ../../scss/components/team_pictures.scss */
+  .ben-picture {
+    background: url("../images/team/desktop/ben.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 136, ../../scss/components/team_pictures.scss */
+  .ben-picture {
+    background: url("../images/team/hd/ben.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 168, ../../scss/components/team_pictures.scss */
+  .brendan-picture {
+    background: url("../images/team/mobile_portrait/brendan.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 168, ../../scss/components/team_pictures.scss */
+  .brendan-picture {
+    background: url("../images/team/tablet_landscape/brendan.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 168, ../../scss/components/team_pictures.scss */
+  .brendan-picture {
+    background: url("../images/team/desktop/brendan.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 168, ../../scss/components/team_pictures.scss */
+  .brendan-picture {
+    background: url("../images/team/hd/brendan.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 200, ../../scss/components/team_pictures.scss */
+  .dimitris-picture {
+    background: url("../images/team/mobile_portrait/dimitris.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 200, ../../scss/components/team_pictures.scss */
+  .dimitris-picture {
+    background: url("../images/team/tablet_landscape/dimitris.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 200, ../../scss/components/team_pictures.scss */
+  .dimitris-picture {
+    background: url("../images/team/desktop/dimitris.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 200, ../../scss/components/team_pictures.scss */
+  .dimitris-picture {
+    background: url("../images/team/hd/dimitris.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 232, ../../scss/components/team_pictures.scss */
+  .filip-picture {
+    background: url("../images/team/mobile_portrait/filip.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 232, ../../scss/components/team_pictures.scss */
+  .filip-picture {
+    background: url("../images/team/tablet_landscape/filip.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 232, ../../scss/components/team_pictures.scss */
+  .filip-picture {
+    background: url("../images/team/desktop/filip.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 232, ../../scss/components/team_pictures.scss */
+  .filip-picture {
+    background: url("../images/team/hd/filip.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 264, ../../scss/components/team_pictures.scss */
+  .jaap-picture {
+    background: url("../images/team/mobile_portrait/jaap.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 264, ../../scss/components/team_pictures.scss */
+  .jaap-picture {
+    background: url("../images/team/tablet_landscape/jaap.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 264, ../../scss/components/team_pictures.scss */
+  .jaap-picture {
+    background: url("../images/team/desktop/jaap.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 264, ../../scss/components/team_pictures.scss */
+  .jaap-picture {
+    background: url("../images/team/hd/jaap.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 296, ../../scss/components/team_pictures.scss */
+  .jaspar-picture {
+    background: url("../images/team/mobile_portrait/jaspar.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 296, ../../scss/components/team_pictures.scss */
+  .jaspar-picture {
+    background: url("../images/team/tablet_landscape/jaspar.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 296, ../../scss/components/team_pictures.scss */
+  .jaspar-picture {
+    background: url("../images/team/desktop/jaspar.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 296, ../../scss/components/team_pictures.scss */
+  .jaspar-picture {
+    background: url("../images/team/hd/jaspar.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 328, ../../scss/components/team_pictures.scss */
+  .jeroen-picture {
+    background: url("../images/team/mobile_portrait/jeroen.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 328, ../../scss/components/team_pictures.scss */
+  .jeroen-picture {
+    background: url("../images/team/tablet_landscape/jeroen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 328, ../../scss/components/team_pictures.scss */
+  .jeroen-picture {
+    background: url("../images/team/desktop/jeroen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 328, ../../scss/components/team_pictures.scss */
+  .jeroen-picture {
+    background: url("../images/team/hd/jeroen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 360, ../../scss/components/team_pictures.scss */
+  .jeske-picture {
+    background: url("../images/team/mobile_portrait/jeske.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 360, ../../scss/components/team_pictures.scss */
+  .jeske-picture {
+    background: url("../images/team/tablet_landscape/jeske.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 360, ../../scss/components/team_pictures.scss */
+  .jeske-picture {
+    background: url("../images/team/desktop/jeske.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 360, ../../scss/components/team_pictures.scss */
+  .jeske-picture {
+    background: url("../images/team/hd/jeske.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 392, ../../scss/components/team_pictures.scss */
+  .leslie-picture {
+    background: url("../images/team/mobile_portrait/leslie.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 392, ../../scss/components/team_pictures.scss */
+  .leslie-picture {
+    background: url("../images/team/tablet_landscape/leslie.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 392, ../../scss/components/team_pictures.scss */
+  .leslie-picture {
+    background: url("../images/team/desktop/leslie.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 392, ../../scss/components/team_pictures.scss */
+  .leslie-picture {
+    background: url("../images/team/hd/leslie.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 424, ../../scss/components/team_pictures.scss */
+  .lucien-picture {
+    background: url("../images/team/mobile_portrait/lucien.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 424, ../../scss/components/team_pictures.scss */
+  .lucien-picture {
+    background: url("../images/team/tablet_landscape/lucien.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 424, ../../scss/components/team_pictures.scss */
+  .lucien-picture {
+    background: url("../images/team/desktop/lucien.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 424, ../../scss/components/team_pictures.scss */
+  .lucien-picture {
+    background: url("../images/team/hd/lucien.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 456, ../../scss/components/team_pictures.scss */
+  .maarten-picture {
+    background: url("../images/team/mobile_portrait/maarten.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 456, ../../scss/components/team_pictures.scss */
+  .maarten-picture {
+    background: url("../images/team/tablet_landscape/maarten.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 456, ../../scss/components/team_pictures.scss */
+  .maarten-picture {
+    background: url("../images/team/desktop/maarten.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 456, ../../scss/components/team_pictures.scss */
+  .maarten-picture {
+    background: url("../images/team/hd/maarten.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 488, ../../scss/components/team_pictures.scss */
+  .marc-picture {
+    background: url("../images/team/mobile_portrait/marc.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 488, ../../scss/components/team_pictures.scss */
+  .marc-picture {
+    background: url("../images/team/tablet_landscape/marc.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 488, ../../scss/components/team_pictures.scss */
+  .marc-picture {
+    background: url("../images/team/desktop/marc.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 488, ../../scss/components/team_pictures.scss */
+  .marc-picture {
+    background: url("../images/team/hd/marc.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 520, ../../scss/components/team_pictures.scss */
+  .matthijs-picture {
+    background: url("../images/team/mobile_portrait/matthijs.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 520, ../../scss/components/team_pictures.scss */
+  .matthijs-picture {
+    background: url("../images/team/tablet_landscape/matthijs.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 520, ../../scss/components/team_pictures.scss */
+  .matthijs-picture {
+    background: url("../images/team/desktop/matthijs.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 520, ../../scss/components/team_pictures.scss */
+  .matthijs-picture {
+    background: url("../images/team/hd/matthijs.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 553, ../../scss/components/team_pictures.scss */
+  .mihaela-picture {
+    background: url("../images/team/mobile_portrait/mihaela.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 553, ../../scss/components/team_pictures.scss */
+  .mihaela-picture {
+    background: url("../images/team/tablet_landscape/mihaela.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 553, ../../scss/components/team_pictures.scss */
+  .mihaela-picture {
+    background: url("../images/team/desktop/mihaela.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 553, ../../scss/components/team_pictures.scss */
+  .mihaela-picture {
+    background: url("../images/team/hd/mihaela.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 586, ../../scss/components/team_pictures.scss */
+  .nils-picture {
+    background: url("../images/team/mobile_portrait/nils.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 586, ../../scss/components/team_pictures.scss */
+  .nils-picture {
+    background: url("../images/team/tablet_landscape/nils.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 586, ../../scss/components/team_pictures.scss */
+  .nils-picture {
+    background: url("../images/team/desktop/nils.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 586, ../../scss/components/team_pictures.scss */
+  .nils-picture {
+    background: url("../images/team/hd/nils.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 620, ../../scss/components/team_pictures.scss */
+  .pascal-picture {
+    background: url("../images/team/mobile_portrait/pascal.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 620, ../../scss/components/team_pictures.scss */
+  .pascal-picture {
+    background: url("../images/team/tablet_landscape/pascal.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 620, ../../scss/components/team_pictures.scss */
+  .pascal-picture {
+    background: url("../images/team/desktop/pascal.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 620, ../../scss/components/team_pictures.scss */
+  .pascal-picture {
+    background: url("../images/team/hd/pascal.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 652, ../../scss/components/team_pictures.scss */
+  .paul-picture {
+    background: url("../images/team/mobile_portrait/paul.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 652, ../../scss/components/team_pictures.scss */
+  .paul-picture {
+    background: url("../images/team/tablet_landscape/paul.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 652, ../../scss/components/team_pictures.scss */
+  .paul-picture {
+    background: url("../images/team/desktop/paul.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 652, ../../scss/components/team_pictures.scss */
+  .paul-picture {
+    background: url("../images/team/hd/paul.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 685, ../../scss/components/team_pictures.scss */
+  .ragna-picture {
+    background: url("../images/team/mobile_portrait/ragna.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 685, ../../scss/components/team_pictures.scss */
+  .ragna-picture {
+    background: url("../images/team/tablet_landscape/ragna.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 685, ../../scss/components/team_pictures.scss */
+  .ragna-picture {
+    background: url("../images/team/desktop/ragna.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 685, ../../scss/components/team_pictures.scss */
+  .ragna-picture {
+    background: url("../images/team/hd/ragna.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 718, ../../scss/components/team_pictures.scss */
+  .romen-picture {
+    background: url("../images/team/mobile_portrait/romen.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 718, ../../scss/components/team_pictures.scss */
+  .romen-picture {
+    background: url("../images/team/tablet_landscape/romen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 718, ../../scss/components/team_pictures.scss */
+  .romen-picture {
+    background: url("../images/team/desktop/romen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 718, ../../scss/components/team_pictures.scss */
+  .romen-picture {
+    background: url("../images/team/hd/romen.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 750, ../../scss/components/team_pictures.scss */
+  .saskia-picture {
+    background: url("../images/team/mobile_portrait/saskia.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 750, ../../scss/components/team_pictures.scss */
+  .saskia-picture {
+    background: url("../images/team/tablet_landscape/saskia.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 750, ../../scss/components/team_pictures.scss */
+  .saskia-picture {
+    background: url("../images/team/desktop/saskia.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 750, ../../scss/components/team_pictures.scss */
+  .saskia-picture {
+    background: url("../images/team/hd/saskia.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 782, ../../scss/components/team_pictures.scss */
+  .silvio-picture {
+    background: url("../images/team/mobile_portrait/silvio.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 782, ../../scss/components/team_pictures.scss */
+  .silvio-picture {
+    background: url("../images/team/tablet_landscape/silvio.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 782, ../../scss/components/team_pictures.scss */
+  .silvio-picture {
+    background: url("../images/team/desktop/silvio.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 782, ../../scss/components/team_pictures.scss */
+  .silvio-picture {
+    background: url("../images/team/hd/silvio.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 814, ../../scss/components/team_pictures.scss */
+  .tudor-picture {
+    background: url("../images/team/mobile_portrait/tudor.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 814, ../../scss/components/team_pictures.scss */
+  .tudor-picture {
+    background: url("../images/team/tablet_landscape/tudor.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 814, ../../scss/components/team_pictures.scss */
+  .tudor-picture {
+    background: url("../images/team/desktop/tudor.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 814, ../../scss/components/team_pictures.scss */
+  .tudor-picture {
+    background: url("../images/team/hd/tudor.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 846, ../../scss/components/team_pictures.scss */
+  .wouter-picture {
+    background: url("../images/team/mobile_portrait/wouter.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 846, ../../scss/components/team_pictures.scss */
+  .wouter-picture {
+    background: url("../images/team/tablet_landscape/wouter.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 846, ../../scss/components/team_pictures.scss */
+  .wouter-picture {
+    background: url("../images/team/desktop/wouter.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 846, ../../scss/components/team_pictures.scss */
+  .wouter-picture {
+    background: url("../images/team/hd/wouter.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  /* line 878, ../../scss/components/team_pictures.scss */
+  .xander-picture {
+    background: url("../images/team/mobile_portrait/xander.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) {
+  /* line 878, ../../scss/components/team_pictures.scss */
+  .xander-picture {
+    background: url("../images/team/tablet_landscape/xander.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1200px) {
+  /* line 878, ../../scss/components/team_pictures.scss */
+  .xander-picture {
+    background: url("../images/team/desktop/xander.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 1920px) {
+  /* line 878, ../../scss/components/team_pictures.scss */
+  .xander-picture {
+    background: url("../images/team/hd/xander.jpg") no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+  }
+}

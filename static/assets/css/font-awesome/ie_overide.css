@@ -1,0 +1,22 @@
+/* line 3, ../scss/ie_overide.scss */
+body {
+  padding: 0;
+}
+
+/* line 7, ../scss/ie_overide.scss */
+footer {
+  margin-top: 0;
+}
+
+/* line 11, ../scss/ie_overide.scss */
+.team-overlay {
+  margin-top: -100vh;
+  position: relative;
+}
+
+@media only screen and (min-device-width: 768px) {
+  /* line 16, ../scss/ie_overide.scss */
+  #hero-video {
+    height: 110vh;
+  }
+}

@@ -1,0 +1,30 @@
+//*wadwad*//
+
+body {
+  padding: 0;
+}
+
+footer {
+  margin-top: 0;
+}
+
+.team-overlay {
+  margin-top: -100vh;
+  position: relative;
+}
+
+
+#hero-video {
+  @media only screen and (min-device-width:768px) {
+    height: 110vh;
+  }
+
+}
+
+.linkdin-logo1 {
+  display: inline-block;
+}
+
+.email-logo {
+  display: inline-block;
+}

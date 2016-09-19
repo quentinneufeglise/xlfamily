@@ -1,0 +1,34 @@
+#lost-pic {
+
+  @media only screen and (max-device-width: 991px) {
+    background-size: cover;
+    background: url('../images/404/mobile_portrait/404.jpg') no-repeat;
+
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  @media only screen and (min-device-width: 992px){
+
+    display: block;
+    margin: auto;
+    background: url('../images/404/desktop/404.jpg') no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+  }
+}
+
+.lost-button {
+  background-color: $brand-color-blue;
+  border: none;
+  color: white;
+  font-family: $raleway;
+  width: 20rem;
+  height: 4rem;
+  margin-top: 2rem;
+  font-size: 15px;
+  font-weight: 800;
+}

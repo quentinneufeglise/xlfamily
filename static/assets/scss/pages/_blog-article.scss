@@ -1,0 +1,1247 @@
+#adventure1 {
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background: $blog1 no-repeat;
+    background-size: 100vw;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    margin-top: -8rem;
+  }
+}
+
+/*=== BLOG HEADERS ===*/
+
+#blog-copycatting, #blog-sci-fi, #blog-corporate-blind-spot, #blog-corporate-acceleration, #blog-customer-interviews,
+#blog-being-lean, #blog-landing-page-validation, #blog-business-sprint, #blog-innovation-model, #blog-corporates-startups {
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+
+}
+
+
+#blog-copycatting {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/copycatting.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/copycatting.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/copycatting.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/copycatting.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-sci-fi {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/sci-fi.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/sci-fi.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/sci-fi.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/sci-fi.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-corporate-blind-spot {
+
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/corporate-blind.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/corporate-blind.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/corporate-blind.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/corporate-blind.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-corporate-acceleration {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/corporate-acceleration.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/corporate-acceleration.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/corporate-acceleration.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/corporate-acceleration.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-customer-interviews {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/customer-interviews.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/customer-interviews.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/customer-interviews.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/customer-interviews.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+#blog-being-lean {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/being-lean.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/being-lean.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/being-lean.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/being-lean.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-landing-page-validation {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/landing-page-validation.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/landing-page-validation.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/landing-page-validation.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/landing-page-validation.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+#blog-business-sprint {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/business-sprint.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/business-sprint.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/business-sprint.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/business-sprint.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+#blog-innovation-model {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/innovation-model.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/innovation-model.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/innovation-model.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/innovation-model.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#blog-corporates-startups {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/blog/mobile_portrait/corporates-startups.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/tablet_landscape/corporates-startups.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/desktop/corporates-startups.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/blog/hd/corporates-startups.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+
+/*==== AUTHORS ====*/
+
+.article-person {
+  @media only screen and (max-device-width: 767px){
+
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  @media only screen and (min-device-width: 768px){
+
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+
+/*==== Aneliya ====*/
+
+.article-aneliya {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-aneliya-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+/*==== Filip ====*/
+
+.article-filip {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/filip.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-filip-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/filip.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+/*==== Aneliya ====*/
+
+.article-aneliya {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-aneliya-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/aneliya.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+/*==== Jaspar ====*/
+
+.article-jaspar {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaspar.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-jaspar-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaspar.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+/*==== Jeske ====*/
+
+.article-jeske {
+  @media only screen and (max-device-width: 767px) {
+display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jeske.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-jeske-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jeske.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+display: none;
+  }
+}
+
+/*==== Jeroen ====*/
+
+.article-jeroen {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jeroen.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-jeroen-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jeroen.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+/*==== ANNE ====*/
+
+.article-anne {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/anne.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-anne-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/anne.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+
+/*==== Jaap ====*/
+
+.article-jaap {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaap.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-jaap-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/jaap.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+
+/*==== Wouter ====*/
+
+.article-wouter {
+  @media only screen and (max-device-width: 767px) {
+    display: none;
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/wouter.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    left: 0;
+    display: inline-block;
+    margin-top: -1.5rem;
+    border-radius: 100%;
+  }
+}
+
+.article-wouter-mb {
+  @media only screen and (max-device-width: 767px) {
+
+    width: 5.525rem;
+    position: relative;
+    height: 5.525rem;
+    background: url("../images/team/mobile_portrait/wouter.jpg") no-repeat;
+    background-size:100% auto ;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+    display: block;
+    border-radius: 100%;
+
+  }
+
+  @media only screen and (min-device-width: 768px) {
+
+    display: none;
+  }
+}
+
+
+
+.article-person {
+  @media only screen and (max-device-width: 767px){
+    font-family: $raleway;
+    font-size: $font-ht;
+    font-weight: 900;
+    color: black;
+    line-height: 10px;
+    margin-top: 5rem;
+  }
+
+
+  @media only screen and (min-device-width: 768px){
+
+    font-family: $raleway;
+    font-size: $font-ht;
+    font-weight: 900;
+    color: black;
+    line-height: 10px;
+    margin-top: 5rem;
+  }
+
+
+}
+
+.article-person-desc{
+  @media only screen and (max-device-width: 767px){
+    font-size: $font-text;
+    color:gray;
+    font-family: $raleway;
+  }
+
+
+  @media only screen and (min-device-width: 768px){
+
+    font-size: $font-text;
+    color:gray;
+    font-family: $raleway;
+  }
+
+
+
+
+}
+
+.article-text {
+  font-size: $font-text;
+  color: grey;
+  font-family: $raleway;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+
+.article-text-quote {
+  font-size: $font-text-quote;
+  color: grey;
+  font-family: $raleway;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.article-text-italic {
+  font-size: $font-text;
+  color: grey;
+  font-family: $raleway;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+
+.article-text-title {
+  font-size: $font-text;
+  font-family: $raleway;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.article-list {
+  padding-left: 16px;
+
+  ul {
+    padding-left: 16px;
+    list-style-type: circle;
+
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  li {
+    padding: 0;
+    list-style-type: circle;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+
+
+
+}
+
+
+.twitter-link {
+  color: $brand-color-blue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: $raleway;
+  font-size: $font-ht;
+  margin-top: 3rem;
+  -webkit-transition: 0.1s ease;
+  -moz-transition: 0.1s ease;
+  -ms-transition: 0.1s ease;
+  -o-transition: 0.1s ease;
+  transition: 0.1s ease;
+
+  .twitter-logo-blue {
+    -webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
+    -ms-transition: 0.1s ease;
+    -o-transition: 0.1s ease;
+    transition: 0.1s ease;
+    width: 3.125rem;
+    height: 3.125rem;
+    background: url("../icons/SM icons_twitter_color.svg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+  &:hover {
+    .twitter-logo-blue {
+      -webkit-transition: 0.1s ease;
+      -moz-transition: 0.1s ease;
+      -ms-transition: 0.1s ease;
+      -o-transition: 0.1s ease;
+      transition: 0.1s ease;
+      width: 3.125rem;
+      height: 3.125rem;
+      background: url("../icons/SM icons_twitter_color.svg") no-repeat;
+      background-size:100% auto ;
+      cursor: pointer;
+      z-index: 10;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+    }
+
+    color: $brand-color-magento;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    font-family: $raleway;
+    font-size: $font-ht;
+    -webkit-transition: 0.1s ease;
+    -moz-transition: 0.1s ease;
+    -ms-transition: 0.1s ease;
+    -o-transition: 0.1s ease;
+    transition: 0.1s ease;
+    margin-top: 3rem;
+  }
+}
+
+
+
+.black-title{
+  color: black;
+}
+
+.blue-icon-wrapper{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  ul {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+  }
+}
+
+.blue-icon-wrapper2{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  ul {
+    display: inline-block;
+    margin-top: 4rem;
+    margin-bottom: -1rem;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+  }
+}
+
+
+.linkdin-logo-blue {
+  width: 3.125rem;
+  height: 3.125rem;
+  background: url("../icons/SM icons_Linkedin 2.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+
+}
+.twitter-logo-blue2 {
+  width: 3.125rem;
+  height: 3.125rem;
+  background: url("../icons/SM icons_twitter_color.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  margin-left: 2rem;
+  display: block;
+}
+.facebook-logo-blue {
+  width: 3.125rem;
+  height: 3.125rem;
+  background: url("../icons/SM icons_Fb 2.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  margin-left: 2rem;
+  z-index: 10;
+  display: block;
+
+}
+.email-logo-blue {
+  width: 3.125rem;
+  height: 3.125rem;
+  background: url("../icons/SM icons_email_color.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  margin-left: 2rem;
+  z-index: 10;
+  display: block;
+}
+
+.blue-line {
+  background: $brand-color-blue;
+  width: 100%;
+  height: 2px;
+  display: block;
+  margin-top: 4rem;
+}
+
+.pijl-article-onder {
+  width: 13.125rem;
+  position: relative;
+  height: 12.35rem;
+  background: url("../icons/MB_ Pijl_blauw.svg") no-repeat;
+  background-size: 100% auto;
+  z-index: -1;
+  display: block;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-position: center;
+}
+
+.article-more {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-family: $raleway;
+  color: black;
+  font-size: $font-ht;
+  font-weight: 900;
+}
+
+.joinustext {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-family: $raleway;
+  color: black;
+  font-size: $font-ht;
+  font-weight: 500;
+  a {
+   text-decoration: underline;
+   color: $brand-color-blue;
+    &:hover {
+      color:$brand-color-magento;
+    }
+  }
+}
+
+.jeske-icon {
+  @media only screen and (max-device-width: 767px) {
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../icons/jeske-icon.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-top: 0.5rem;
+
+  }
+
+
+  @media only screen and (min-device-width: 768px) {
+
+    margin-right: 1rem;
+    width: 6.525rem;
+    position: relative;
+    height: 6.525rem;
+    background: url("../icons/jeske-icon.jpg") no-repeat;
+    background-size:100% auto ;
+    cursor: pointer;
+    z-index: 10;
+    display: inline-block;
+    margin-bottom: -1rem;
+  }
+
+
+}
+
+.blue-icon-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+
