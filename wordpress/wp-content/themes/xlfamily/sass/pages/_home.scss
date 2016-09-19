@@ -1,0 +1,308 @@
+/*=== SCSS FOR THE HOMEPAGE ===*/
+
+/*===NAVBAR===*/
+
+.navbar {
+  height: 6rem;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+
+}
+
+#s-family-logo {
+  width: 4.125rem;
+  position: absolute;
+  height: 4.125rem;
+  top: 2.250rem;
+  left: 3.250rem;
+  background: url("../icons/xlflogo_klein_wite.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+}
+
+#hamburger {
+  width: 4.125rem;
+  position: absolute;
+  height: 4.125rem;
+  top: 2.250rem;
+  right: 3.250rem;
+  background: url("../icons/hamburger.svg") no-repeat;
+  background-size:100% auto ;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+}
+
+  /*===HERO-VIDEO===*/
+
+#hero-video {
+  background: url('../images/video.png') no-repeat;
+  background-size:100vw;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  margin-top: -8rem;
+}
+
+#playbutton {
+  width:8.125rem;
+  height:8.125rem;
+  background: url("../icons/play-button.svg") no-repeat;
+  background-size: 100% auto;
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+}
+
+.mouse-wrapper{
+  display: flex;
+
+  #mousebutton {
+    width: 4.125rem;
+    height: 4.125rem;
+    background: url("../icons/mouse.svg") no-repeat;
+    background-size: 100% auto;
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    bottom: 1.250rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.title_wrapper {
+  height: 100vh;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+
+  h1 {
+    display: block;
+    position: relative;
+    font-family: Raleway;
+    font-size: 4.1rem;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    font-weight: 900;
+    width: 100%;
+  }
+}
+
+/*===CLIENT-NEEDS-OVERVIEW===*/
+
+#pijl-boven {
+  width: 15.125rem;
+  position: relative;
+  height: 15.125rem;
+  background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
+  background-size:100% auto ;
+  z-index: 10;
+  display: block;
+  left:0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-position: center;
+
+}#pijl-links {
+  width: 15.125rem;
+  position: absolute;
+  height: 15.125rem;
+  background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
+  background-size:100% auto ;
+  z-index: 10;
+  display: block;
+  background-position: center;
+  left: 0;
+
+}#pijl-rechts {
+  width: 15.125rem;
+  position: absolute;
+  height: 15.125rem;
+  background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
+  background-size:100% auto ;
+  z-index: 10;
+  display: block;
+  right: 0;
+    margin-right: 1px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background-position: center;
+
+}#pijl-onder {
+  width: 15.125rem;
+  position: relative;
+  height: 15.125rem;
+  background: url("../icons/MB_ Pijl_pink.svg") no-repeat;
+  background-size:100% auto ;
+  z-index: 10;
+  display: block;
+  left:0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  background-position: center;
+
+}
+
+
+.discover-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: black;
+  font-family: Raleway;
+}
+
+.discover-text {
+  font-family: Raleway;
+  font-size: 1.5rem;
+}
+
+.start{
+  font-size: 1.7rem;
+  text-decoration: underline;
+  color: $brand-color-magento;
+  font-weight:900;
+  cursor: pointer;
+  &:hover, &:focus{
+    font-size: 1.7rem;
+    text-decoration: underline;
+    color: $brand-color-magento;
+    font-weight:900;
+  }
+}
+
+#discover1 {
+  text-align: center;
+}
+
+#discover2 {
+  text-align: center;
+
+
+}
+
+#discover3 {
+  text-align: center;
+}
+
+#discover4 {
+  text-align: center;
+}
+
+
+/*===CASES-AND-STORIES===*/
+
+.horizontal-story {
+  height: 50vh;
+  border: white solid 1px;
+
+  .content-wrapper{
+    background-color: red;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    left: 0;
+    top: 0;
+
+
+  }
+}
+.vertical-story {
+  height: 100vh;
+  border: white solid 1px;
+  .content-wrapper{
+    background-color:blue ;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    left: 0;
+    top: 0;
+  }
+}
+.test{
+  margin-top: -50vh;
+}
+
+#story1 {
+  background-image: url("../images/xl_blog_1.png");
+  background-size: 100% 100%;
+}
+
+#story2 {
+  background-image: url("../images/etos.png");
+  background-size: 100% 100%;
+}
+
+#story3 {
+  background-image: url("../images/broshuis.jpeg");
+  background-size: 100% 100%;
+  &:hover #story3 {
+    background: #1abc9c;
+
+    &:hover #story3 img {
+      opacity: 1;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+
+      &:hover figure:hover img {
+        opacity: .5;
+      }
+    }
+  }
+}
+
+
+#story4 {
+  background-image: url("../images/xl_blog_2.jpeg");
+  background-size: 100% 100%;
+}
+
+#story5 {
+  background-image: url("../images/xl_blog_3.png");
+  background-size: 100% 100%;
+}
+
+.storyht {
+  color: whitesmoke;
+  font-family: Raleway;
+  font-size: 2rem;
+
+}
+
+.storytitle {
+  color: whitesmoke;
+  font-family: Raleway;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.story-text {
+  position: absolute;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}

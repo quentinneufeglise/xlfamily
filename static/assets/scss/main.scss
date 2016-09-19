@@ -1,22 +1,28 @@
-/*=== Base ===*/
+
+/*=== BASE ===*/
 @import "base/config";
 @import "base/variables";
 @import "base/placeholders";
 
+
 /*=== FRAMEWORK ===*/
 @import "bootstrap/stylesheets/bootstrap";
 
-/*=== Components ===*/
+
+/*=== COMPONENTS ===*/
 @import "components/header";
 @import "components/footer";
+@import "components/menu";
+@import "components/blocks";
+@import "components/team_pictures";
+@import "components/_noblue";
 
 /*=== PAGES ===*/
 @import "pages/404";
-@import "pages/article";
+@import "pages/adventures";
+@import "pages/blog-article";
 @import "pages/client-need";
 @import "pages/home";
 @import "pages/overview-articles";
-
-
-
-
+@import "pages/about";
+@import "pages/cases";

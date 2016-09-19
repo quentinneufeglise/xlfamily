@@ -1,0 +1,124 @@
+/*=== ADVENTURES HEADERS ===*/
+
+#adventurexllab, #adventurexlventures, #adventurexlevents {
+
+  background-position: center;
+  height: 500px;
+  text-align: center;
+  margin-top: -8rem;
+}
+
+#adventurexllab {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/adventures-headers/mobile_portrait/xllab.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/adventures-headers/tablet_landscape/xllab.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/adventures-headers/desktop/xllab.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/adventures-headers/hd/xllab.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+
+#adventurexlventures {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/adventures-headers/mobile_portrait/xlventures.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/adventures-headers/tablet_landscape/xlventures.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/adventures-headers/desktop/xlventures.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/adventures-headers/hd/xlventures.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
+
+#adventurexlevents {
+
+  @media only screen and (max-device-width: 767px) {
+    background-size: cover;
+    background:url("../images/adventures-headers/mobile_portrait/xlevents.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/adventures-headers/tablet_landscape/xlevents.jpg") no-repeat;
+    background-size: 100vw;
+
+  }
+  @media only screen and (min-device-width: 1200px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/adventures-headers/desktop/xlevents.jpg") no-repeat;
+    background-size: 100vw;
+  }
+
+  @media only screen and (min-device-width: 1920px){
+
+    display: block;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    background:url("../images/adventures-headers/hd/xlevents.jpg") no-repeat;
+    background-size: 100vw;
+  }
+}
