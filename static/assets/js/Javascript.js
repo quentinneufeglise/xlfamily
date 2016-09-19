@@ -161,7 +161,7 @@ $(document).ready(function() {
     });
 
     $('#blog6').click(function(e) {
-        window.location = ("get-inspired-by-everyday-life-the-art-of-copycatting.html");
+        window.location = ("blog/get-inspired-by-everyday-life-the-art-of-copycatting.html");
     });
 
     $('#blog7').click(function(e) {
