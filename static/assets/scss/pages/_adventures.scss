@@ -10,9 +10,14 @@
 
 #adventurexllab {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait){
     background-size: cover;
     background:url("../images/adventures-headers/mobile_portrait/xllab.jpg") no-repeat;
+  }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/adventures-headers/tablet_landscape/xllab.jpg") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){
@@ -49,9 +54,14 @@
 
 #adventurexlventures {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait) {
     background-size: cover;
     background:url("../images/adventures-headers/mobile_portrait/xlventures.jpg") no-repeat;
+  }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/adventures-headers/tablet_landscape/xlventures.jpg") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){
@@ -87,9 +97,14 @@
 
 #adventurexlevents {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait) {
     background-size: cover;
     background:url("../images/adventures-headers/mobile_portrait/xlevents.jpg") no-repeat;
+  }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/adventures-headers/tablet_landscape/xlevents.jpg") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){

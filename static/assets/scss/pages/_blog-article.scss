@@ -39,12 +39,17 @@
 
 #blog-copycatting {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait) {
     background-size: cover;
     background:url("../images/blog/mobile_portrait/copycatting.jpg") no-repeat;
   }
 
-  @media only screen and (min-device-width: 768px){
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/blog/tablet_landscape/copycatting.jpg") no-repeat;
+  }
+
+  @media only screen and (min-device-width: 768px)  {
 
     display: block;
     max-height: 100%;
@@ -54,7 +59,7 @@
     background-size: 100vw;
 
   }
-  @media only screen and (min-device-width: 1200px){
+  @media only screen and (min-device-width: 1200px) {
 
     display: block;
     max-height: 100%;
@@ -78,9 +83,14 @@
 
 #blog-sci-fi {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait) {
     background-size: cover;
     background:url("../images/blog/mobile_portrait/sci-fi.jpg") no-repeat;
+  }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/blog/tablet_landscape/sci-fi.jpg") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){
@@ -118,9 +128,14 @@
 #blog-corporate-blind-spot {
 
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait){
     background-size: cover;
     background:url("../images/blog/mobile_portrait/corporate-blind.jpg") no-repeat;
+  }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/blog/tablet_landscape/corporate-blind.jpg") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){
@@ -157,10 +172,16 @@
 
 #blog-corporate-acceleration {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait) {
     background-size: cover;
     background:url("../images/blog/mobile_portrait/corporate-acceleration.jpg") no-repeat;
   }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/blog/tablet_landscape/corporate-acceleration.jpg") no-repeat;
+  }
+
 
   @media only screen and (min-device-width: 768px){
 
@@ -196,10 +217,16 @@
 
 #blog-customer-interviews {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait){
     background-size: cover;
     background:url("../images/blog/mobile_portrait/customer-interviews.jpg") no-repeat;
   }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/blog/tablet_landscape/customer-interviews.jpg") no-repeat;
+  }
+
 
   @media only screen and (min-device-width: 768px){
 
@@ -234,10 +261,16 @@
 
 #blog-being-lean {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait){
     background-size: cover;
     background:url("../images/blog/mobile_portrait/being-lean.jpg") no-repeat;
   }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/blog/tablet_landscape/being-lean.jpg") no-repeat;
+  }
+
 
   @media only screen and (min-device-width: 768px){
 
@@ -273,9 +306,14 @@
 
 #blog-landing-page-validation {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait) {
     background-size: cover;
     background:url("../images/blog/mobile_portrait/landing-page-validation.jpg") no-repeat;
+  }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/blog/tablet_landscape/landing-page-validation.jpg") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){
@@ -311,9 +349,14 @@
 
 #blog-business-sprint {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait) {
     background-size: cover;
     background:url("../images/blog/mobile_portrait/business-sprint.jpg") no-repeat;
+  }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/blog/tablet_landscape/business-sprint.jpg") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){
@@ -349,9 +392,14 @@
 
 #blog-innovation-model {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait){
     background-size: cover;
     background:url("../images/blog/mobile_portrait/innovation-model.jpg") no-repeat;
+  }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape) {
+    background-size: cover;
+    background:url("../images/blog/tablet_landscape/innovation-model.jpg") no-repeat;
   }
 
   @media only screen and (min-device-width: 768px){
@@ -388,10 +436,16 @@
 
 #blog-corporates-startups {
 
-  @media only screen and (max-device-width: 767px) {
+  @media only screen and (max-device-width: 767px) and (orientation:portrait) {
     background-size: cover;
     background:url("../images/blog/mobile_portrait/corporates-startups.jpg") no-repeat;
   }
+
+  @media only screen and (max-device-width: 767px) and (orientation:landscape){
+    background-size: cover;
+    background:url("../images/blog/tablet_landscape/corporates-startups.jpg") no-repeat;
+  }
+
 
   @media only screen and (min-device-width: 768px){
 
