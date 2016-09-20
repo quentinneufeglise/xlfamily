@@ -169,7 +169,7 @@ $(document).ready(function() {
     });
 
     $('#blog8').click(function(e) {
-        window.location = ("blog/why-landing-pages-are-an-effective-tool-for-idea-validation.html");
+        window.location = ("/blog/why-landing-pages-are-an-effective-tool-for-idea-validation.html");
     });
 
     $('#blog9').click(function(e) {
