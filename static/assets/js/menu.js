@@ -53,13 +53,8 @@ $(document).ready(function () {
     $(".menu-cross").click(function () {
         $(".menu-wrapper").removeClass('menu-open');
     });
-});
 
-
-$(document).ready(function () {
-
-
-// Close menu on  click outside of body
+    // Close menu on  click outside of body
 
     $("body").on("click", function (event) {
         var target = event.target;
@@ -77,7 +72,7 @@ $(document).ready(function () {
     });
 
 
-    $(".get-in-touch2").click(function () {
+    $(".get-in-touch2").on('touchstart click', function() {
         $(".contact-menu-wrapper").addClass("menu-open");
         initContactForm();
         $(".contact-open").addClass("hamburger-open");
@@ -94,20 +89,18 @@ $(document).ready(function () {
     $(".menu-cross").click(function () {
         $(".menu-wrapper").removeClass('menu-open');
     });
-});
-
-$(".menu-cross2").click(function () {
-    $(".contact-menu-wrapper").removeClass('menu-open');
-});
 
 
-$(".menu-cross3").click(function () {
-    $(".subscribe-menu-wrapper").removeClass('menu-open');
+    $(".menu-cross2").click(function () {
+        $(".contact-menu-wrapper").removeClass('menu-open');
+    });
 
-});
 
+    $(".menu-cross3").click(function () {
+        $(".subscribe-menu-wrapper").removeClass('menu-open');
 
-$(document).ready(function () {
+    });
+
     $(".approach-link").on("click", function () {
 
         $(".menu-items").hide();
@@ -115,9 +108,6 @@ $(document).ready(function () {
 
     });
 
-});
-
-$(document).ready(function () {
     $(".arrow-back").on("click", function () {
 
         $(".menu-items2").hide();
@@ -125,9 +115,6 @@ $(document).ready(function () {
 
     });
 
-});
-
-$(document).ready(function () {
     $(".adventures-link").on("click", function () {
 
         $(".menu-items").hide();
@@ -135,9 +122,6 @@ $(document).ready(function () {
 
     });
 
-});
-
-$(document).ready(function () {
     $(".arrow-back").on("click", function () {
 
         $(".menu-items3").hide();
@@ -145,13 +129,7 @@ $(document).ready(function () {
 
     });
 
-});
-
-
-$(document).ready(function () {
-
-
-// Close menu on  click outside of body
+    // Close menu on  click outside of body
 
     $("body").on("click", function (event) {
         var target = event.target;
@@ -175,16 +153,11 @@ $(document).ready(function () {
         $(".update-link").addClass("hamburger-open");
         initNewsForm();
     });
+
+
+
 });
 
 
 
-// Hide the forms on filling in and pressing on Submit
 
-//$(document).ready(function () {
-
-  //  $(".send-button").click(function () {
-    //            $(".form-group").hide(1000);
-   // });
-
-//});
