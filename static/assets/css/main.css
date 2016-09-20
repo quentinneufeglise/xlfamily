@@ -18212,11 +18212,18 @@ ul {
   text-align: center;
   margin-top: -8rem;
 }
-@media only screen and (max-device-width: 767px) {
+@media only screen and (max-device-width: 767px) and (orientation: portrait) {
   /* line 4, ../scss/pages/_about.scss */
   #about {
     background-size: cover;
     background: url("../images/about/mobile_portrait/about.jpg") no-repeat;
+  }
+}
+@media only screen and (max-device-width: 767px) and (orientation: landscape) {
+  /* line 4, ../scss/pages/_about.scss */
+  #about {
+    background-size: cover;
+    background: url("../images/about/tablet_landscape/about.jpg") no-repeat;
   }
 }
 @media only screen and (min-device-width: 768px) {
@@ -18256,13 +18263,13 @@ ul {
 /*==== AUTHOR ====*/
 /* Uses the same structure as the Blog Headers*/
 @media only screen and (max-device-width: 767px) {
-  /* line 50, ../scss/pages/_about.scss */
+  /* line 54, ../scss/pages/_about.scss */
   .article-aboutus-marc {
     display: none;
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 50, ../scss/pages/_about.scss */
+  /* line 54, ../scss/pages/_about.scss */
   .article-aboutus-marc {
     margin-right: 1rem;
     width: 5.525rem;
@@ -18280,7 +18287,7 @@ ul {
 }
 
 @media only screen and (max-device-width: 767px) {
-  /* line 75, ../scss/pages/_about.scss */
+  /* line 79, ../scss/pages/_about.scss */
   .article-aboutus-marc-mb {
     width: 5.525rem;
     position: relative;
@@ -18297,7 +18304,7 @@ ul {
   }
 }
 @media only screen and (min-device-width: 768px) {
-  /* line 75, ../scss/pages/_about.scss */
+  /* line 79, ../scss/pages/_about.scss */
   .article-aboutus-marc-mb {
     display: none;
   }
