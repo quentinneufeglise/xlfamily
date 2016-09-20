@@ -1876,6 +1876,9 @@ display: none;
   font-size: $font-block-text;
   font-weight: 900;
   margin-top: 2px;
+  a {
+    color: whitesmoke;
+  }
 }
 
 .experiments-text {
@@ -3439,6 +3442,9 @@ ul {
 }
 
 .contact-fat {
+  a {
+    color: $primary-color_white;
+  }
   @media only screen and (min-device-width: 768px) {
 
     font-family: $raleway;
@@ -3486,6 +3492,9 @@ ul {
 
 
 .contact-number {
+  a {
+    color: $primary-color_white;
+  }
   @media only screen and (min-device-width: 768px) {
     color: white;
     font-family: $raleway;
