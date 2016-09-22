@@ -161,7 +161,7 @@ $(document).ready(function() {
     });
 
     $('#blog6').click(function(e) {
-        window.location = ("get-inspired-by-everyday-life-the-art-of-copycatting.html");
+        window.location = ("blog/get-inspired-by-everyday-life-the-art-of-copycatting.html");
     });
 
     $('#blog7').click(function(e) {
@@ -169,7 +169,7 @@ $(document).ready(function() {
     });
 
     $('#blog8').click(function(e) {
-        window.location = ("/blog/why-landing-pages-are-an-effective-tool-for-idea-validation.html");
+        window.location = ("blog/why-landing-pages-are-an-effective-tool-for-idea-validation.html");
     });
 
     $('#blog9').click(function(e) {
@@ -221,44 +221,44 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     $('#article-block-corporate-acceleration').click(function(e) {
-        window.location = ("successful-in-corporate-acceleration-start-innovating-with-a-purpose.html");
+        window.location = ("blog/successful-in-corporate-acceleration-start-innovating-with-a-purpose.html");
     });
 
 
     $('#article-block-corporate-blind').click(function(e) {
-        window.location = ("corporate-blind-spot.html");
+        window.location = ("blog/corporate-blind-spot.html");
     });
 
     $('#article-block-business-sprint').click(function(e) {
-        window.location = ("sprint-how-to-scaleup-corporate-innovation.html");
+        window.location = ("blog/sprint-how-to-scaleup-corporate-innovation.html");
     });
 
     $('#article-block-innovation-model').click(function(e) {
-        window.location = ("choosing-the-right-innovation-model.html");
+        window.location = ("blog/choosing-the-right-innovation-model.html");
     });
 
     $('#article-block-being-lean').click(function(e) {
-        window.location = ("what-corporations-dont-get-about-being-lean.html");
+        window.location = ("blog/what-corporations-dont-get-about-being-lean.html");
     });
 
     $('#article-block-copycatting').click(function(e) {
-        window.location = ("get-inspired-by-everyday-life-the-art-of-copycatting.html");
+        window.location = ("blog/get-inspired-by-everyday-life-the-art-of-copycatting.html");
     });
 
     $('#article-block-corporates-startups').click(function(e) {
-        window.location = ("how-corporates-and-startups-can-collaborate.html");
+        window.location = ("blog/how-corporates-and-startups-can-collaborate.html");
     });
 
     $('#article-block-landing-page-validation').click(function(e) {
-        window.location = ("why-landing-pages-are-an-effective-tool-for-idea-validation.html");
+        window.location = ("blog/why-landing-pages-are-an-effective-tool-for-idea-validation.html");
     });
 
     $('#article-block-sci-fi').click(function(e) {
-        window.location = ("sci-fi-storytelling-or-fortunetelling.html");
+        window.location = ("blog/sci-fi-storytelling-or-fortunetelling.html");
     });
 
     $('#article-block-customer-interviews').click(function(e) {
-        window.location = ("customer-interviews-dont-let-people-lie-to-you.html");
+        window.location = ("blog/customer-interviews-dont-let-people-lie-to-you.html");
     });
 
 
