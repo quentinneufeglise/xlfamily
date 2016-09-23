@@ -14910,7 +14910,6 @@ video.loop-video {
   font-size: 15px;
   text-decoration: underline;
   color: #ff0066;
-  font-weight: 600;
 }
 
 @media only screen and (max-device-width: 767px) {
